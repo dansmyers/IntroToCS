@@ -65,7 +65,85 @@ We will also use Mimir as an online development and automatic grading platform. 
 
 ### Planned Schedule of Topics
 
+| Day | Topic  |  Assignments |
+|------|---------|-------------|
 
+|January 10|    Hello, World! | |
+|January 12|    Variables | |
+|January 13|    Lab 1: Doing things on Mimir | |
+|January 14|    Calculation problems | |
+
+|January 17|    MLK, Jr. Day (no class) | |
+|January 19|    Reading user input | Assignment 1 due |
+|January 20|    Lab 2: Practice problems | |
+|January 21|    Relational operators, the `if` statement | |
+
+|January 24|    `if`-`elif`-`else` | |
+|January 26|    Making random choices | Assignment 2 due |
+|January 27|    Lab 3: Human-Computer Interaction and Fitts' Law | Required lab |
+|January 28|    Dr. Myers out of town (no class) | |
+
+|January 31|    Writing simple text games | |
+|February 2|    Text games continued | |
+|February 3|    Lab 4: RPS + Intro to Functions | |
+|February 4|    Functions that return values | |
+
+|February 7|    Pratice writing functions | |
+|February 9|    Stepwise refinement | Assignment 3 due |
+|February 10|    Lab 5: Choose Your Own Adventure| |
+|February 11|    Local variables and scope | |
+
+|February 14|    Intro to lists | |
+|February 16|    The `for` loop | |
+|February 17|    Lab 6: Network Performance Measurement | Required lab|
+|February 18|    Functions that use lists| |
+
+|February 21|    The `range` function | |
+|February 23|    More practice with  `range` and loops | Assignment 4 due |
+|February 24|    Lab 7: Wordplay + Files | |
+|February 25|    The `while` loop  | |
+
+|February 28|    Interactive games with `while` | |
+|March 2|    Numbers and data representation | |
+|March 3|    Lab 8: Precision and Number Formats | Required lab |
+|March 4|    Dictionaries | |
+
+|March 7|     Letter frequencies and code cracking | |
+|March 9|     Topic|  |
+|March 10|    Lab 9:  Extra day off (no class)| |
+|March 11|    Extra office hours (no class) | Assignment 5 due |
+
+|March 14|    SPRING BREAK | |
+|March 16|    SPRING BREAK | |
+|March 17|    SPRING BREAK | |
+|March 18|    SPRING BREAK | |
+
+|March 21|    Intro to classes and objects | |
+|March 23|    Writing classes | |
+|March 24|    Lab 10: Monte Carlo Word Estimation | Required lab|
+|March 25|    Classes that have data | |
+
+|March 28|    Classes that have methods | |
+|March 30|    Deck of cards example | Assignment 6 due |
+|March 31|    Lab 11: Intro to Pandas | Required lab |
+|April 1|    The Web + HTML/CSS | |
+
+|April 4|    Creating web pages | |
+|April 6|    Fancier web pages | |
+|April 7|    Lab 12: My Heart Will Go On + Classification | Required lab|
+|April 8|      | |
+
+|April 11|     | |
+|April 13|     | Assignment 7 due |
+|April 14|    Lab 13: ????? | |
+|April 15|    | |
+
+|April 18|     | |
+|April 20|     | |
+|April 21|    Lab 14: Work on projects or problems | |
+|April 22|     | |
+
+|April 25|    Last day of class (flex for Fox Day)| Remaining assignments are due |
 
 ### Other Important Dates
 
