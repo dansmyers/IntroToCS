@@ -91,7 +91,7 @@ You must be registered for a section of CMS 120L. You'll receive the **same grad
 ### Assignments
 We'll have five kinds of assignments in this class:
 
-1. Autograded reading questions from the ZyBook. These are easy to answer if you complete the required reading.
+1. **Autograded reading questions** from the ZyBook. These are easy to answer if you complete the required reading.
 
 2. A set of **seven autograded programming assignments**. These will be done on the Mimir platform, and you'll have one due approximately every two weeks. Each assignment consists of questions that will require you to write short Python programs, accompanied by tests that automatically evaluate your code.
 
