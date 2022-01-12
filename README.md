@@ -70,7 +70,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 |January 10|    Hello, World! | |
 |January 12|    Variables | |
 |January 13|    Lab 1: Doing things on Mimir | |
-|January 14|    Calculation problems | |
+|January 14|    Types and more calculations | |
 |January 17|    MLK, Jr. Day (no class) | |
 |January 19|    Reading user input | Assignment 1 due |
 |January 20|    Lab 2: Practice problems | |
