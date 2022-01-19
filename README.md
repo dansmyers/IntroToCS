@@ -78,12 +78,12 @@ We will also use Mimir as an online development and automatic grading platform. 
 |January 24|    `if`-`elif`-`else` | |
 |January 26|    Making random choices | Assignment 2 due |
 |January 27|    Lab 3: Human-Computer Interaction and Fitts' Law | Required lab |
-|January 28|    Dr. Myers out of town (no class) | |
+|January 28|    ~~Dr. Myers out of town (no class)~~  Regular class | |
 |January 31|    Writing simple text games | |
 |February 2|    Text games continued | |
 |February 3|    Lab 4: RPS + Intro to Functions | |
 |February 4|    Functions that return values | |
-|February 7|    Pratice writing functions | |
+|February 7|    Practice writing functions | |
 |February 9|    Stepwise refinement | Assignment 3 due |
 |February 10|    Lab 5: Choose Your Own Adventure| |
 |February 11|    Local variables and scope | |
@@ -100,7 +100,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 |March 3|    Lab 8: Precision and Number Formats | Required lab |
 |March 4|    Dictionaries | |
 |March 7|     Letter frequencies and code cracking | |
-|March 9|     Topic|  |
+|March 9|     ~~Topic~~ No class (transferred from January 28) |  |
 |March 10|    Lab 9:  Extra day off (no class)| |
 |March 11|    Extra office hours (no class) | Assignment 5 due |
 |March 14|    SPRING BREAK | |
