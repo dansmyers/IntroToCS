@@ -331,4 +331,26 @@ value = float(input('Enter a number of grams of protein: '))
 grams_of_protein_to_crickets(value)
 ```
 
-### 
+### You Will Find True Love on Flag Day
+Take a look at the following flag design:
+
+```
++--+--+--+--+--+
++**+  +**+  +**+
++**+  +**+  +**+
++--+--+--+--+--+
++  +**+  +**+  +
++  +**+  +**+  +
++--+--+--+--+--+
++**+  +**+  +**+
++**+  +**+  +**+
++--+--+--+--+--+
+```
+
+Can you write a program with two functions that will print this flag? Each function should contain a print statement that produces one line. The main section should call the functions in the correct order to produce the flag output.
+
+### Would Everyone Please Rise for the Presentation of Our National Colors
+
+Now design your own **sweet** text flag and write a program that uses methods to print it. Again, try to minimize the number of individual `print` statements in your code and try to break things down to the finest level of detail possible.
+
+You may also be interested in my [proposal to update the Rollins Alma Mater](https://www.youtube.com/watch?v=fiyL-bKwL4U).
