@@ -276,7 +276,7 @@ pounds_to_willigrams(value)
 
 <img src="https://external-preview.redd.it/3_iVT6i7dReTdMXS-bNiIS0U9p2QTsfq6BUDC57b8tc.jpg?auto=webp&s=5943d7cf04be56a4de8cf045667e41631c02a90e" width="35%" />
 
-Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .071987 USD per DOGE.
+Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .14 USD per DOGE.
 
 Write a program that reads a number of dollars as input, then uses a function to calculate and print the corresponding amount of DOGE. Your function should be called
 `usd_to_doge` and take one input parameter called `usd`.
