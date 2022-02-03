@@ -347,7 +347,7 @@ Take a look at the following flag design:
 +--+--+--+--+--+
 ```
 
-Can you write a program with two functions that will print this flag? Each function should contain a print statement that produces one line. The main section should call the functions in the correct order to produce the flag output.
+Can you write a program with three functions that will print this flag? Each function should contain a print statement that produces one line. The main section should call the functions in the correct order to produce the flag output.
 
 ### Would Everyone Please Rise for the Presentation of Our National Colors
 
