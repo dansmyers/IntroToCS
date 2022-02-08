@@ -6,14 +6,14 @@
 
 ## Introduction
 
-Personality quizzes. Is there a better way to learn about yourself than answering nonsensical questions written by randos on the Internet? I think not!
+Personality quizzes. Is there a better way to learn about yourself than answering nonsensical questions written by randos on the Internet? I think not! I've taken a bunch of these over the years and I've learned all kinds of things.
 
-- Which Hogwarts house are you in? (Slytherin, but I'd pretend to be Hufflepuff).
-- Which Disney heroine are you? (Maid Marian from *Robin Hood*).
+- Hogwarts house? (Slytherin, but I'd pretend to be Hufflepuff).
+- Disney heroine? (Maid Marian from *Robin Hood*).
 - [Myers-Briggs personality type](https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/the-16-mbti-types.htm)? (INTP).
 - [Enneagram type](https://www.narrativeenneagram.org/tour-the-nine-types/)? (3, and far more useful than Myers-Briggs, in my opinion).
-- [What Pokémon type are you](https://www.buzzfeed.com/sarahtooley5/what-pokamon-type-are-you-248el1snke)? (Poison).
-- [Which minor villain from "Jojo's Bizarre Adventure" are you](https://www.buzzfeed.com/puppetmaster64/which-minor-jojo-villain-are-you-42nxcnqrfi)? (Steely Dan, and I didn't even have to make that up).
+- [Pokémon type](https://www.buzzfeed.com/sarahtooley5/what-pokamon-type-are-you-248el1snke)? (Poison).
+- [Minor villain from "Jojo's Bizarre Adventure"](https://www.buzzfeed.com/puppetmaster64/which-minor-jojo-villain-are-you-42nxcnqrfi)? (Steely Dan, and I didn't even have to make that up).
 
 Buzzfeed is still the leading purveyor of these online quizzes, offering insight into, for example, how [your controversial anime opinions will reveal your true Hogwarts house](https://www.buzzfeed.com/shualien/tell-us-some-of-your-unpopular-anime-opinions-and-aailsw3wr0).
 
