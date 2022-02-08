@@ -23,11 +23,9 @@ In this project, you're going to use your knowledge of culture, relationships, a
 
 <img src="https://ahseeit.com//king-include/uploads/2021/05/43915181_326611507924503_5421316365027478799_n-7515047846.jpg" width="30%" />
 
-There are a number of ways to implement online quizzes. We're going to use the approach described in [this article](https://www.buzzfeed.com/annakopsky/everything-you-need-to-know-to-make-a-buzzfeed-personality).
+There are a number of ways to implement online quizzes. We're going to use the approach described in [this article](https://www.buzzfeed.com/annakopsky/everything-you-need-to-know-to-make-a-buzzfeed-personality). First, determine the title and "hook" for your quiz. What's it going to be about? Then decide on 3-6 outcomes that will be the results the user sees at the end.
 
-First, determine the title and "hook" for your quiz. What's it going to be about? Then decide on 3-6 outcomes that will be the results the user sees at the end.
-
-Each possible question answer in your quiz will correspond to one of your 3-6 final outcomes. Each time the user answers a question, assign a point to the associated outcome. At the end of the quiz, pick the final outcome with the most total points.
+Each possible answer in your quiz will correspond to one of your 3-6 final outcomes. Each time the user answers a question, assign a point to the associated outcome. At the end of the quiz, pick the final outcome with the most total points.
 
 ## Example
 
