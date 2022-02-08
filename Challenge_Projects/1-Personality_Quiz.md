@@ -1,6 +1,6 @@
 # Challenge Project: Personality Quiz
 
-<img src="https://i.pinimg.com/originals/c8/67/d7/c867d7bed74dcd85220972edfc1a7cc7.jpg" width="40%" />
+<img src="https://i.pinimg.com/originals/c8/67/d7/c867d7bed74dcd85220972edfc1a7cc7.jpg" width="30%" />
 
 ## Due 
 
@@ -21,7 +21,7 @@ In this project, you're going to use your knowledge of culture, relationships, a
 
 ## Quiz Design
 
-<img src="https://ahseeit.com//king-include/uploads/2021/05/43915181_326611507924503_5421316365027478799_n-7515047846.jpg" width="40%" />
+<img src="https://ahseeit.com//king-include/uploads/2021/05/43915181_326611507924503_5421316365027478799_n-7515047846.jpg" width="30%" />
 
 There are a number of ways to implement online quizzes. We're going to use the approach described in [this article](https://www.buzzfeed.com/annakopsky/everything-you-need-to-know-to-make-a-buzzfeed-personality).
 
@@ -31,7 +31,7 @@ Each possible question answer in your quiz will correspond to one of your 3-6 fi
 
 ## Example
 
-<img src="https://critter.science/wp-content/uploads/2019/03/ts1b-1180x520.jpg" width="40%" />
+<img src="https://critter.science/wp-content/uploads/2019/03/ts1b-1180x520.jpg" width="30%" />
 
 *G'day, mate.*
 
@@ -131,7 +131,7 @@ else:
 # a result message
 ```
 
-## Deliverables
+## More Guidelines
 
 Put your entire quiz into one script named `quiz.py` and then upload it to Canvas at the assignment I'll create for you.
 
