@@ -13,7 +13,7 @@ Personality quizzes. Is there a better way to learn about yourself than answerin
 - [Myers-Briggs personality type](https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/the-16-mbti-types.htm)? (INTP).
 - [Enneagram type](https://www.narrativeenneagram.org/tour-the-nine-types/)? (3, and far more useful than Myers-Briggs, in my opinion).
 - [Pokémon type](https://www.buzzfeed.com/sarahtooley5/what-pokamon-type-are-you-248el1snke)? (Poison).
-- [Minor villain from "Jojo's Bizarre Adventure"](https://www.buzzfeed.com/puppetmaster64/which-minor-jojo-villain-are-you-42nxcnqrfi)? (Steely Dan, and I didn't even have to make that up).
+- [Minor villain from *Jojo's Bizarre Adventure*](https://www.buzzfeed.com/puppetmaster64/which-minor-jojo-villain-are-you-42nxcnqrfi)? (Steely Dan, and I didn't even have to make that up).
 
 Buzzfeed is still the leading purveyor of these online quizzes, offering insight into, for example, [what kitchen appliance you are based on your food preferences](https://www.buzzfeed.com/catmjohnston/which-kitchen-appliance-are-you-based-on-your-food-8arc2wkfy8). (Microwave, apparently).
 
