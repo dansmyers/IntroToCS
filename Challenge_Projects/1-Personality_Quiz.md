@@ -15,7 +15,7 @@ Personality quizzes. Is there a better way to learn about yourself than answerin
 - [Pokémon type](https://www.buzzfeed.com/sarahtooley5/what-pokamon-type-are-you-248el1snke)? (Poison).
 - [Minor villain from "Jojo's Bizarre Adventure"](https://www.buzzfeed.com/puppetmaster64/which-minor-jojo-villain-are-you-42nxcnqrfi)? (Steely Dan, and I didn't even have to make that up).
 
-Buzzfeed is still the leading purveyor of these online quizzes, offering insight into, for example, how [your controversial anime opinions will reveal your true Hogwarts house](https://www.buzzfeed.com/shualien/tell-us-some-of-your-unpopular-anime-opinions-and-aailsw3wr0).
+Buzzfeed is still the leading purveyor of these online quizzes, offering insight into, for example, [what kitchen appliance you are based on your food preferences](https://www.buzzfeed.com/catmjohnston/which-kitchen-appliance-are-you-based-on-your-food-8arc2wkfy8).
 
 In this project, you're going to use your knowledge of culture, relationships, and Python to write a program that implements a Buzzfeed-style personality quiz. Your quiz can be about anything that you want. This program will let you practice writing a completely self-designed program that's a bit larger than anything we've done so far.
 
