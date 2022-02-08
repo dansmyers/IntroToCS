@@ -12,6 +12,6 @@ Personality quizzes. Is there a better way to learn about yourself than answerin
 - [Enneagram type](https://www.narrativeenneagram.org/tour-the-nine-types/)? (3, and far more useful than Myers-Briggs, in my opinion).
 - [What Pokémon type are you](https://www.buzzfeed.com/sarahtooley5/what-pokamon-type-are-you-248el1snke)? (Poison).
 
-Buzzfeed is still the leading purveyor of these online quizzes, offering, for example, insight into how "[Your controversial anime opinions will reveal your true Hogwarts house](https://www.buzzfeed.com/shualien/tell-us-some-of-your-unpopular-anime-opinions-and-aailsw3wr0)" (*MHA* is overrated).
+Buzzfeed is still the leading purveyor of these online quizzes, offering, for example, insight into how "[Your controversial anime opinions will reveal your true Hogwarts house](https://www.buzzfeed.com/shualien/tell-us-some-of-your-unpopular-anime-opinions-and-aailsw3wr0)".
 
 ## Code Details
