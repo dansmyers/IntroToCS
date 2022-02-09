@@ -241,3 +241,16 @@ die1 = die_roll()
 # Print the outcome based on the value of the count variable
 
 ```
+
+
+## One-Armed Bandit
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Antique_one-armed_bandit%2C_Ventnor%2C_Isle_of_Wight%2C_UK.jpg" width="30%" />
+
+Write a slot machine program.
+
+- Generate three random numbers in the range 0 to 9.
+- If all three numbers are the same, print `Jackpot!`.
+- If two of the three are the same, print `Winner!`.
+
+Design your own functions for this program. Look at the chuck-a-luck game as a template. You don't need to prompt the user for any input.
