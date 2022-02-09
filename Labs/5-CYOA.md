@@ -53,6 +53,13 @@ How about four pirates: B, C, D, and E? What does B propose?
 
 What about five pirates: A, B, C, D, E? What does A propose?
 
+### More Pirates than Coins
+
+Suppose there are only three gold coins, but **seven** pirates. Make an argument that the first pirate (the one making the first proposal) can survive, but only if he doesn't take any gold for himself.
+
+What if there are three coins but **nine** pirates? Make an argument that the first pirate is guaranteed to die in this situation.
+
+What about **ten** pirates? Can the first pirate survive? Tip: think carefully about the rational incentives for the second pirate. What happens to him if the first pirate dies?
 
 
 ## Choose Your Own Adventure
