@@ -1,6 +1,5 @@
 
-# Interactive Fiction
-
+# Creative Writing
 
 ## Warm-Up: Perfectly Rational Pirates
 
