@@ -250,6 +250,7 @@ die1 = die_roll()
 Write a slot machine program.
 
 - Generate three random numbers in the range 0 to 9.
+- Print the three numbers.
 - If all three numbers are the same, print `Jackpot!`.
 - If two of the three are the same, print `Winner!`.
 
