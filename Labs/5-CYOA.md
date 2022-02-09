@@ -16,7 +16,7 @@ governed by the Pirates' Code, which has strict rules:
 proposed distribution.
     
 3. If the vote succeeds, the treasure is divided and the process
-   ends. Ties are broken *** in favor *** of the proposer.
+   ends. Ties are broken ***in favor*** of the proposer.
        
 4. If the vote fails, the proposer is thrown overboard and the
    next pirate makes a proposal. The proposal order is 
