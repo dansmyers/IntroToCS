@@ -25,17 +25,15 @@ proposed distribution.
 5. This process continues until the treasure is divided.
     
 Pirates want to survive, but are also very greedy and want as much
-gold as possible.
-
-Pirates are also bloodthirsty, so a pirate would prefer to vote to
+gold as possible. Pirates are also bloodthirsty, so a pirate would prefer to vote to
 throw a proposer overboard if it doesn't make any difference in the
 amount of gold he receives.
 
-All pirates are perfectly rational in matters of treasure.
+All pirates are ***perfectly rational*** in matters of treasure.
 
 Pirates honor the Code absolutely, which also forbids reprisals.
 Being pirates, they do not care about their reputations: the only
-things they care about are gold and throwing each other overboard.
+things they care about are survival, gold, and throwing each other overboard.
 
 ### Two Pirates
 Suppose there are two pirates, D and E.
@@ -46,6 +44,10 @@ favor of the proposer, so E is forced to accept this distribution.
 ### More Pirates
 
 What if there are three pirates: C, D, and E? What should C propose?
+
+- Think about D's goals. If C's proposal fails, D will then become the proposer and can take all 100 gold pieces, by the two pirates argument above. Therefore, D has no incentive to accept any offer of C's. It's more rational (and fun) to throw C overboard and then take all 100 pieces.
+
+- What about E's situation? If C's proposal fails, then D can take all 100 pieces for himself, so E should rationally support C. But how much gold is necessary to buy E's support?
 
 How about four pirates: B, C, D, and E? What does B propose?
 
