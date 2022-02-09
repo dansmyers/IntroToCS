@@ -238,6 +238,6 @@ die1 = die_roll()
 # Count up the number of dice that match the user's bet
 # Tip: create a count variable and test each die with an if statement
 
-# Print the outcome
+# Print the outcome based on the value of the count variable
 
 ```
