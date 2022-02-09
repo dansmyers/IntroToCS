@@ -1,5 +1,7 @@
-Perfectly Rational Pirates
-==========================
+
+# Choose Your Own Adventure
+
+## Warm-Up: Perfectly Rational Pirates
 
 A group of pirates has discovered a buried treasure of 100 gold
 pieces and they need to divide it. Such matters are, of course,
@@ -32,15 +34,14 @@ Pirates honor the Code absolutely, which also forbids reprisals.
 Being pirates, they do not care about their reputations: the only
 things they care about are gold and throwing each other overboard.
 
-Two Pirates
------------
+### Two Pirates
 Suppose there are two pirates, D and E.
 
 D can propose to take all 100 coins for himself. Ties are broken in
 favor of the proposer, so E is forced to accept this distribution.
 
-More Pirates
-------------
+### More Pirates
+
 What if there are three pirates: C, D, and E? What should C propose?
 
 How about four pirates: B, C, D, and E? What does B propose?
@@ -48,9 +49,6 @@ How about four pirates: B, C, D, and E? What does B propose?
 What about five pirates: A, B, C, D, E? What does A propose?
 
 
-
-
-# Choose Your Own Adventure
 
 ## Description
 
