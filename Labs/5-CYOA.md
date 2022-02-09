@@ -1,6 +1,9 @@
 
 # Choose Your Own Adventure
 
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg" width="25%" />
+
+
 ## Warm-Up: Perfectly Rational Pirates
 
 A group of pirates has discovered a buried treasure of 100 gold
@@ -52,7 +55,6 @@ What about five pirates: A, B, C, D, E? What does A propose?
 
 ## Description
 
-<img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg" width="25%" />
 
 If you had been a kid in the 80's, your elementary school library would have been stuffed with *Choose Your Own Adventure* books, for the downtime you had when you weren't playing [*Oregon Trail*](https://en.wikipedia.org/wiki/The_Oregon_Trail_(1985_video_game)) on your school's Apple II computers.
 
