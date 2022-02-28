@@ -116,4 +116,4 @@ Tips:
 largest palindrome value you find.
 
 - You probably want an `is_palindrome(n)` function to test if a number `n` is palindromic. Maybe you could use the `str` function to turn `n` into a string
-to make the palindrome test easier?
+to make the palindrome test easier? Do some research and look for an easy way to reverse a string.
