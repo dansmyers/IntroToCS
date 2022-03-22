@@ -1,6 +1,6 @@
 # Challenge Project: It's a Secret to Everybody
 
-## Due Wednesday, March 31
+## Due Tuesday, April 5
 
 ## Submit your code to the assignment I'll create on Canvas
 
