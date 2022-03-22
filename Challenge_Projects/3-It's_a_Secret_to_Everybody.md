@@ -74,6 +74,18 @@ print(str)  # prints 'hello, world.'
 
 Spaces and punctuation are not enciphered, so you don't need to analyze them.
 
+In your deciphering program, manually create a dictionary that stores the letter decryptions you derived from the first step.
+
+```
+decodings = {}
+
+decodings['a'] =      # Put the decrypted letter for lowercase 'a' here
+decodings['A'] =      # Capital letters have the same mappings as lowercase
+
+# Complete the rest of the dictionary for all letter decodings
+```
+
+Write a loop that reads each line of the cipher file, then loops through the letters on each line. As you read each letter, look it up in the `decodings` dictionary and output its corresponding unencrypted letter.
 
 # Submission
 
