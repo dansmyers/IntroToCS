@@ -275,7 +275,11 @@ The diagonals of the matrix correspond to correct classifications. The other cel
 
 ## Random Forests
 
-Decision trees are a good model, but not every kind of model is appropriate for every problem. Let's try a different model and see if we can obtain better results. Change `DecisionTreeClassifer` to `RandomForestClassifier`.
+Decision trees are a good model, but not every kind of model is appropriate for every problem. Let's try a different model and see if we can obtain better results. Change `DecisionTreeClassifer` to `RandomForestClassifier`. Change the import statement to
+
+```
+from sklearn.ensemble import RandomForestClassifier
+```
 
 A random forest, as the name implies, is a classificaiton model bulit from a **collection** of decision trees (because a forest is a group of trees, get it?). The random forest algorithm builds a large number of small decision trees using a randomized process so that each tree is forced to use different features. Given an input, its classification is determined by the **overall consensus** of the set of decision trees. Usually, the classification is determined by simple majority vote, but more complex weighting schemes are possible. Combining multiple simpler classifers to build a more complex predictor is called an **ensemble model**.
 
