@@ -10,23 +10,10 @@ Our data set will be `Titanic.csv` file we worked with last time. We're going to
 
 ## Get the Data
 
-Create a new directory for this lab, then copy `Titanic.csv` from last week's lab.
+Create a new workspace on REPLit using Python. Upload your `Titanic.csv` file from last week to the workspace.
 
-```
-mkdir Lab_12
+Make a new file called `model.py` and put the following code inside it:
 
-cd Lab_12
-
-cp ../Lab_11/Titanic.csv .
-```
-
-Make a new file and put the following code inside it:
-
-```
-touch model.py
-
-open model.py
-```
 
 ```
 import pandas as pd
