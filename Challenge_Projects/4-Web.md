@@ -8,7 +8,7 @@ This project has two parts. You need to complete both to get credit. Use an HTML
 
 ## DOM
 
-<img src="https://images.saucey.com/large/dom-perignon.jpg" with="20%" />
+<img src="https://images.saucey.com/large/dom-perignon.jpg" width="35%" />
 
 Start by taking a look at the `Hello_DOM` file in the `Examples` directory to review the techniques we talked about in class. Those notes introduce a new term: the *Document Object Model* (DOM), which is the browser's in-memory representation of all the elements on the page. When you interact with page elements in JavaScript code (for example, by reading a `value` property or setting `innerHTML`), you're really interacting with the browser's underlying DOM representation of those elements.
 
