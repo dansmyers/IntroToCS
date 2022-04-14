@@ -81,12 +81,12 @@ running = True
 while running:
 
     # Draw the colored rectangle -- switch color every frame
-    if screen_color == 1:
+    if screen_state == 1:
         screen.fill(blue, (100, 50, 150, 75))
-        screen_color = 0
+        screen_state = 0
     else:
         screen.fill(red, (100, 50, 150, 75))
-        screen_color = 1
+        screen_state = 1
         
     # Event-handling loop
     for event in pygame.event.get():
