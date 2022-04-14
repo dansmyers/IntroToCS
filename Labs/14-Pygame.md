@@ -181,6 +181,20 @@ Animation is simply implemented by changing the positions of elements so that th
 
 ## Object-Oriented Ball
 
+Consider this: how many variables are required to describe a single ball in motion? At least five (x, y, radius, dx, and dy), and maybe more if we wanted to incorporate color as a variable. What would you do it you wanted to add multiple balls to the program above, or combine a moving ball with other on-screen elements.
+
+Also, consider how code that changes the state of the ball (moving, reflecting, etc.) is mixed in with the main loop's code.
+
+Object-oriented programming can provide a solution to these problems: grouping related variables together as a unit and separating code that draws and controls each on-screen element from other code.
+
+Here's an object-oriented version of the ball program. The `Ball` class at the top defines three methods:
+
+- A `__init__` constructor that sets the position, size, and velocity of the ball
+- `draw`, which uses pygame methods to put the `Ball` on the screen
+- `move`, which updates the Ball's position in an appropriate way.
+
+The main loop now contains only calls to `ball.draw()` and `ball.move()`.
+
 ```
 import pygame
 pygame.init()
@@ -241,6 +255,14 @@ while running:
   fps_clock.tick(20)
 
 ```
+
+After you implement the first version, try adding multiple `Ball` objects. Construct a new `Ball`:
+
+```
+ball2 = Ball(FILL IN STARTING PARAMETERS HERE)
+```
+
+Then call `ball2.draw()` and `ball2.move()` in the main loop.
 
 
 ## Secret Collect.
