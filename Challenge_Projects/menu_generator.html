@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Boostrap stylesheets -->
+      
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    
+        <!-- Custom CSS styling -->
+        <style>
+        
+            body {
+              font-family: Lucida, serif;
+              font-size: 14pt;
+            }
+          
+            h1 {
+              text-align: center;
+              font-variant: small-caps;
+              font-size: 36pt;
+              font-family: Georgia, serif;
+              margin-bottom: 8rem;
+            }
+            
+            h2 {
+              font-variant: small-caps;
+              font-size: 22pt;
+              margin-bottom: 2rem;
+              font-family: Georgia, serif;
+            }
+            
+            .section {
+              margin-bottom: 3rem;
+            }
+            
+            .name {
+              float: left;
+            }
+            
+            .price {
+              float: right;
+            }
+
+            .clear {
+              clear: both;
+            }
+            
+        </style>
+    </head>
+    
+    
+    
+    <body>
+      
+        <!-- Recall: all Bootstrap content must be enclosed in a container div -->
+        <div class="container">
+    
+            <!-- Container is made of a series of rows -->
+            <!-- Each row is conceptually divided into 12 units -->
+            
+            <!-- Columns can span any subset of those 12 units -->
+
+            <div class="row">
+                  
+                <!-- Empty 3-unit column on the left side of the page -->
+                <div class="col-md-3"> </div>
+        
+                <!-- col-md-6 makes a column that spans all 6 units -->
+                <!-- Covers the middle half of the page -->
+                <div class="col-md-6">
+                    <h1 id="restaurant_name">The Yellow Sign</h1>
+                    
+                    <h2>Appetizers</h2>
+                    <div class="section" id="appetizers"></div>
+                    <div style="clear: both;"></div>
+                    
+                    <h2>Main Courses</h2>
+                    <div class="section" id="main_courses"></div>
+                    <div style="clear: both;"></div>
+
+                    <h2>Desserts</h2>
+                    <div class="section" id="desserts"></div>
+                    <div style="clear: both;"></div>
+                                      
+                </div>   <!-- /col-md-12 -->  
+            
+                <!-- Empty 3-unit column on the right side of the page -->
+                <div class="col-md-3"> </div>
+        
+            </div> <!-- /row -->
+    
+        </div> <!-- /container -->
+    
+        <!-- For Bootstrap -->
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        
+        <!-- Script that generates randomized menu items -->
+        <script>
+        
+          // Declare lists of menu components
+          let appIngredients = ['sea scallop', 'reindeer', 'chicken bone', 'haricots vertes',
+                                  'langoustine', 'ham', 'cuttlefish', 'kale', 'pommes',
+                                  'aubergine', 'bone marrow', 'rocket'];
+                                 
+          let appPreparations = ['globules', 'cubes', 'granules', 'pasta', 'risotto',
+                                   'sashimi', 'crunchwrap', 'snowcone', 'tacos', 
+                                   'mist', 'hash', 'wellington', 'mush', 'graupel'];
+                                  
+          let appAdjectives = ['eldritch', 'frightened', 'farm-to-table', 'sea-salt',
+                                 'ominous', 'non-euclidean', 'carbonized', 'spectral',
+                                 'argyle', 'korean bbq', 'cilantro-lime', 'oblique',
+                                 'ketchuped', 'curried', 'inverted', 'digitized'];
+                          
+          const MAX_APP_PRICE = 20;
+                       
+          function choose(arr) {
+              
+            // Choose a random element from the input array
+            let index = Math.floor(Math.random() * arr.length);
+            let choice = arr[index];
+                
+            // Splice out the random choice so it doesn't get
+            // picked again
+            //
+            // splice takes an array position and the number of
+            // elements to cut out beginning at that position
+            arr.splice(index, 1);
+                
+            return choice;
+          }
+            
+          function generateAppetizer() {
+            let result = choose(appAdjectives) + ' ';
+            result += choose(appIngredients) + ' ';
+            result += choose(appPreparations);
+                
+            return result;
+          }
+            
+          function generateAppetizers() {
+            for (let i = 0; i < 3; i++) {
+              
+              // Generate a random item and price
+              let result = generateAppetizer();
+              let price = Math.floor(Math.random() * (MAX_APP_PRICE - 1)) + 1;
+                  
+              // Insert the new item into the appetizers div
+              //
+              // Basic strategy: use DOM functions to make a new
+              // node representing the new menu item, then add it
+              // into the existing DOM at the correct position
+                    
+              // Get a reference to the appetizers div
+              let section = document.getElementById('appetizers');
+                    
+              // Create a new <p> node
+              let para = document.createElement('p');
+                    
+              // Set the internal contents of the new <p> node
+              // to hold the randomized menu item
+              //
+              // The name and price go in <span> tags with classes that
+              // will style them to be aligned left and right respectively
+              para.innerHTML = '<span class="name">' + result + '</span>';
+              para.innerHTML += '<span class="price">' + price + '</span>';
+              
+              // The last piece of HTML makes an empty div with a
+              // special clear setting that undoes the left and right
+              // floating on the previous line
+              //
+              // This is required to position the next line properly
+              para.innerHTML += '<div class="clear"></div>'
+    
+              // Append the new <p> node to the list of appetizers
+              section.appendChild(para);
+            }
+          }
+            
+          function main() {
+            generateAppetizers();
+          }
+            
+          // The onload property sets a function that will run once
+          // the page has finished loading
+          document.onload = main();
+                
+        </script>
+        
+    </body>
+
+</html>
