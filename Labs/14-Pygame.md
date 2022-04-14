@@ -188,6 +188,8 @@ pygame.init()
 class Ball:
   """
   A class representing a ball
+  
+  Key idea: the Ball contains variables representing all of its properties
   """
   
   def __init__(self, x, y, r, dx, dy):
@@ -211,17 +213,19 @@ class Ball:
       self.dy = -self.dy
 
 
+# Standard setup
 fps_clock = pygame.time.Clock()
 
 black = pygame.Color('black')
 white = pygame.Color('white')
 
 size = 320, 240
-
 screen = pygame.display.set_mode(size)
 
+# Construct a Ball object
 ball = Ball(100, 100, 10, 1, 1)
 
+# Main loop
 running = True
 while running:
   screen.fill(white)
