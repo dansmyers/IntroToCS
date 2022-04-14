@@ -8,6 +8,8 @@ This is it, the final project.
 
 **Make anything you want**, as long as it's awesome and uses the Python features that we've learned over the course of the semester. Most of you will probably want to make some sort of game, but note that isn't required. I have some ideas for you at the end of the document.
 
+Remember, this project is not required. You only need to complete this if you have already done (or are planning to do) at least four of the challenge projects and want to earn an A as your final grade.
+
 ## Groups
 
 **If you choose**, you may work in a group of up to three people to complete your project. If you do choose to work with others,
