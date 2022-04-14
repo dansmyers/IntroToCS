@@ -4,6 +4,8 @@
 
 ## Setup
 
+Pygame is a framework for doing graphics and game programming in Python. It includes features to automate many important graphic elements
+
 Create a new Replit workspace using the **Pygame** environment (not the regular Python environment). It may be helpful to use the search bar at the top of the workspace creation window to find the Pygame environment more easily.
 
 ## First Program
