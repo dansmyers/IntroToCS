@@ -461,3 +461,169 @@ while running:
 pygame.quit()
 ```
 
+# PONG
+
+<img src="https://www.gamasutra.com/db_area/images/feature/3900/0401.png" width="30%"/>
+
+The grandaddy of them all.
+
+```
+"""
+PONG
+"""
+
+import pygame
+from pygame.locals import *
+
+class Paddle:
+  """
+  A paddle controlled by the user
+
+  Attributes:
+    x, y = the upper left corner of the paddle
+    width, height = the extent of the paddle
+  """
+
+  def __init__(self, x, y, width, height):
+    self.x = x
+    self.y = y
+    self.width = width
+    self.height = height
+
+  def draw(self):
+    screen.fill(black, (self.x, self.y, self.width, self.height))
+
+    
+
+class Ball:
+  """
+  The Pong ball
+
+  Attributes:
+    x, y = ball center
+    dx, dy = ball velocity
+    r = ball radius
+  """
+
+  def __init__(self, x, y, r, dx, dy):
+    self.x = x
+    self.y = y
+    self.r = r
+    self.dx = dx
+    self.dy = dy
+
+  def draw(self):
+    pygame.draw.circle(screen, black, (self.x, self.y), self.r)
+
+  def move(self):
+    """
+    Move this ball, reflecting off the top or bottom edge if necessary
+    """
+    self.x += self.dx
+    self.y += self.dy
+
+    # The ball can only reflect off of the top or bottom edge
+    if self.y + self.r >= screen.get_height() or self.y - self.r < 0:
+      self.dy = -self.dy
+
+  def test_paddle_reflection(self, p):
+    """
+    Test if this ball intersects with a paddle
+
+    Input:
+      p = the paddle
+
+    Returns:
+      Nothing
+    """
+    
+    # A rectangle that encloses the ball
+    self_rect = Rect(self.x - self.r, self.y - self.r, 2 * self.r, 2 * self.r)
+
+    # A rectangle that encloses the paddle
+    paddle_rect = Rect(p.x, p.y, p.width, p.height)
+
+    # If the ball intersects the paddle, reflect the ball in the x direction
+    if self_rect.colliderect(paddle_rect):
+      self.dx = -self.dx
+
+  def at_edge(self):
+    """
+    Return True if this Ball has reached the left or right edge of the screen
+    """
+    return self.x - self.r < 0 or self.x + self.r >= screen.get_width()
+
+    
+#--- Setup
+    
+# Initialize pygame
+pygame.init()
+
+# Clock object
+fps_clock = pygame.time.Clock()
+
+# Colors
+black = pygame.Color('black')
+white = pygame.Color('white')
+
+# Screen
+size = 320, 240
+screen = pygame.display.set_mode(size)
+
+# Key repeats
+pygame.key.set_repeat(10, 10)
+
+STEP = 2
+
+# Create paddles and ball
+left_paddle = Paddle(0, 100, 10, 40)
+right_paddle = Paddle(310, 100, 10, 40)
+ball = Ball(100, 100, 5, 2, 2)
+
+#--- Main loop
+running = True
+while running:
+
+  # Clear the screen
+  screen.fill(white)
+
+  # Call draw methods
+  left_paddle.draw()
+  right_paddle.draw()
+  ball.draw()
+
+  # Move the ball, checking reflections
+  ball.move()
+  ball.test_paddle_reflection(left_paddle)
+  ball.test_paddle_reflection(right_paddle)
+
+  # Test for ending condition
+  if ball.at_edge():
+    running = False
+
+  # Check events
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      running = False
+
+    elif event.type == pygame.KEYDOWN:
+
+      # Up and down keys move right paddle
+      if event.key == K_UP:
+        right_paddle.y -= STEP
+      if event.key == K_DOWN:
+        right_paddle.y += STEP
+
+      # w and s keys move the left paddle
+      if event.key == K_w:
+        left_paddle.y -= STEP
+      if event.key == K_s:
+        left_paddle.y += STEP
+
+  # Update display
+  pygame.display.update()
+  fps_clock.tick(20)
+
+pygame.quit()
+```
+
