@@ -267,8 +267,197 @@ Then call `ball2.draw()` and `ball2.move()` in the main loop.
 
 ## Secret Collect.
 
+<img src="http://www.hrwiki.org/w/images/1/18/secretcollectbox.PNG" width="30%" />
+
+A re-implementation of an early game by Videlectrix, makers of classic games like *Awexome Cross*, *Thy Dungeonman*, *RhinoFeeder*, and the *Snake Boxer* series. You are a square that's trying to collect another square. This program will illustrate how to do keyboard input and hit detection.
+
+```
+import pygame
+pygame.init()
+
+fps_clock = pygame.time.Clock()
+
+black = pygame.Color('black')
+white = pygame.Color('white')
+blue = pygame.Color('blue')
+red = pygame.Color('red')
+
+size = 640, 480
+
+screen = pygame.display.set_mode(size)
+
+# Set keyboard to accept repeats
+#
+# This allows multiple keypress signals to be sent
+# when the user holds down a keyboard key
+#
+# Parameters control the rate of key events
+pygame.key.set_repeat(10, 10)
+
+player_x = 100
+player_y = 100
+goal_x = 150
+goal_y = 150
+square_size = 10
+step = 2
+
+running = True
+while running:
+  screen.fill(white)
+  screen.fill(blue, (player_x, player_y, square_size, square_size))
+  screen.fill(red, (goal_x, goal_y, square_size, square_size))
+
+  # Create two Rect objects for the player and goal positions
+  player_rect = pygame.Rect(player_x, player_y, square_size, square_size)
+  goal_rect = pygame.Rect(goal_x, goal_y, square_size, square_size)
+
+  # pygame.Rect.colliderect() returns True if the two Rects overlap
+  #
+  # If the collision test succeeds the loop ends
+  if pygame.Rect.colliderect(player_rect, goal_rect):
+    running = False
+
+  # Check for events
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      running = False
+
+    # Key presses are signified by a KEYDOWN event
+    #
+    # The pressed key is stored in event.key
+    # Eack key is mapped to a constant
+    #
+    # Pressing a key adjusts the player square's position
+    elif event.type == pygame.KEYDOWN:
+      if event.key == pygame.K_UP:
+        player_y -= step
+      elif event.key == pygame.K_DOWN:
+        player_y += step
+      elif event.key == pygame.K_LEFT:
+        player_x -= step
+      elif event.key == pygame.K_RIGHT:
+        player_x += step
+
+  # Update display
+  pygame.display.update()
+  fps_clock.tick(20)
+
+pygame.quit()
+```
+
+Most of the elements are similar to what you've seen before. One new piece is the hit detection code:
+
+```
+  # Create two Rect objects for the player and goal positions
+  player_rect = pygame.Rect(player_x, player_y, square_size, square_size)
+  goal_rect = pygame.Rect(goal_x, goal_y, square_size, square_size)
+
+  # pygame.Rect.colliderect() returns True if the two Rects overlap
+  #
+  # If the collision test succeeds the loop ends
+  if pygame.Rect.colliderect(player_rect, goal_rect):
+    running = False
+```
+
+The first lines create two `Rect` objects, one for each square. The `colliderect` method then tests if the two `Rect` objects overlap with each
+other (that is, if they are in collision). When the player collides with the goal square, the game ends.
+
+The second new piece is keyboard input:
+
+```
+    elif event.type == pygame.KEYDOWN:
+      if event.key == pygame.K_UP:
+        player_y -= step
+      elif event.key == pygame.K_DOWN:
+        player_y += step
+      elif event.key == pygame.K_LEFT:
+        player_x -= step
+      elif event.key == pygame.K_RIGHT:
+        player_x += step
+```
+
+Triggering a `KEYDOWN` event checks for what key was pressed and then adjusts the player's position accordingly.
 
 
+## Objectify It
 
+Here is an object-oriented version of the Secret Collect program. As before, the drawing and moving code has been moved into class methods. We've also moved the code to check for collisions into the class. The `check_collision` method takes another square as input and checks if the two overlap using `colliderect`.
 
+```
+import pygame
+pygame.init()
+
+class Square:
+  """
+  A class that represents a square on the screen
+  """
+
+  def __init__(self, x, y, size, color):
+    self.x = x
+    self.y = y
+    self.size = size
+    self.color = color
+
+  def draw(self):
+      screen.fill(self.color, (self.x, self.y, self.size, self.size))    
+
+  def check_collision(self, other_square):
+    self_rect = pygame.Rect(self.x, self.y, self.size, self.size)
+    other_rect = pygame.Rect(other_square.x, other_square.y, other_square.size, other_square.size)    
+
+    return pygame.Rect.colliderect(self_rect, other_rect)
+
+  def move(self, key):
+    if key == pygame.K_UP:
+      self.y -= STEP
+    if key == pygame.K_DOWN:
+      self.y += STEP
+    if key == pygame.K_LEFT:
+      self.x -= STEP
+    if key == pygame.K_RIGHT:
+      self.x += STEP
+      
+# Standard setup
+fps_clock = pygame.time.Clock()
+
+black = pygame.Color('black')
+white = pygame.Color('white')
+blue = pygame.Color('blue')
+red = pygame.Color('red')
+
+size = 640, 480
+screen = pygame.display.set_mode(size)
+pygame.key.set_repeat(10, 10)
+
+STEP = 2
+
+# Create two Square objects, one for the player and one for the goal
+player = Square(100, 100, 10, blue)
+goal = Square(150, 150, 10, red)
+
+# Main loop
+running = True
+while running:
+  screen.fill(white)
+
+  player.draw()
+  goal.draw()
+
+  # Check ending condition -- Rect test is now moved to a class method
+  if player.check_collision(goal):
+    running = False
+
+  # Check for events
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      running = False
+    elif event.type == pygame.KEYDOWN:
+      player.move(event.key)
+
+  # Update display
+  pygame.display.update()
+  fps_clock.tick(20)
+
+pygame.quit()
+```
 
