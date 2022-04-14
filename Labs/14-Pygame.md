@@ -1,6 +1,10 @@
 # Graphical Programming with Pygame
 
+<img src="https://camo.githubusercontent.com/1971c0a4f776fb5351c765c37e59630c83cabd52/68747470733a2f2f7777772e707967616d652e6f72672f696d616765732f6c6f676f2e706e67" width="30%" />
+
 ## Setup
+
+Create a new Replit workspace using the **Pygame** environment (not the regular Python environment). It may be helpful to use the search bar at the top of the workspace creation window to find the Pygame environment more easily.
 
 ## First Program
 
