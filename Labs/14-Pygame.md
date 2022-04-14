@@ -45,7 +45,7 @@ while running:
   #
   # The tuple (100, 50, 150, 25) means a rectangle with its
   # upper-left corner at position (100, 50), a width of 150
-  # and a height of 50
+  # and a height of 25
   #
   # UNEXPECTED: Position (0,0) is in the UPPER-LEFT CORNER!
   screen.fill(blue, (100, 50, 150, 25))
