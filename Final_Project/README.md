@@ -1,6 +1,6 @@
 # Final Project
 
-## Due Friday, April 30 (the day of our scheduled final exam)
+## Due Tuesday, May 3 (last day of final exams)
 
 ## Description
 
