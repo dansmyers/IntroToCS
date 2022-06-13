@@ -118,15 +118,15 @@ We will also use Mimir as an online development and automatic grading platform. 
 |April 4|    Creating web pages | |
 |April 6|    Fancier web pages | |
 |April 7|    Lab 12: My Heart Will Go On + Classification | Required lab|
-|April 8|      | |
-|April 11|     | |
-|April 13|     | Assignment 7 due |
+|April 8|    Intro to object-oriented programming  | |
+|April 11|   Writing classes  | |
+|April 13|   Classes that have data  | Assignment 7 due |
 |April 14|    Lab 13: ????? | |
-|April 15|    | |
-|April 18|     | |
-|April 20|     | |
-|April 21|    Lab 14: Work on projects or problems | |
-|April 22|     | |
+|April 15|   Classes that have methods | |
+|April 18|   Class writing practice  | |
+|April 20|   Topic | |
+|April 21|   Lab 14: Work on projects or problems | |
+|April 22|   Topic  | |
 |April 25|    Last day of class (flex for Fox Day)| Remaining assignments are due |
 
 ### Other Important Dates
