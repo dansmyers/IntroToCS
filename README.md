@@ -11,7 +11,7 @@ dmyers@rollins.edu
 
 ## Office Hours
 - Mondays and Wednesdays from 10:00 to 11:00
-- Tuesdays from 2:00 to 3:00
+- Tuesdays from 2:00 to 2:30
 
 ## WebEx Room
 
@@ -127,16 +127,16 @@ We will also use Mimir as an online development and automatic grading platform. 
 |April 20|   Topic | |
 |April 21|   Lab 14: Work on projects or problems | |
 |April 22|   Topic  | |
-|April 25|    Last day of class (flex for Fox Day)| Remaining assignments are due |
+|April 25|    Last day of class | Remaining assignments are due |
 
 ### Other Important Dates
 
-- First day of class: January 10
-- Last day of class: April 25
-- Spring break: March 14 to March 20
-- Last day to drop the class: January 24
-- Last day to withdraw without penalty: March 25
-- Fox Day will probably be in the first part of April. Everything in April is designed to be flexible, so we can take a day off and adjust the schedule if we need to.
+- First day of class: August 22
+- Last day of class: December 2
+- Labor Day: September 5
+- Fall break: October 8 to October 11
+- Last day to drop the class: September 2
+- Last day to withdraw without penalty: November 4
 
 ## The All-Important Grading Section
 
@@ -155,11 +155,11 @@ We'll have five kinds of assignments in this class:
 
 1. **Autograded reading questions** from the ZyBook. These are easy to answer if you complete the required reading.
 
-2. A set of **seven autograded programming assignments**. These will be done on the Mimir platform, and you'll have one due approximately every two weeks. Each assignment consists of questions that will require you to write short Python programs, accompanied by tests that automatically evaluate your code.
+2. A set of **six programming assignments**. These will be done on the Replit platform, and you'll have one due approximately every two weeks. Each assignment consists of questions that will require you to write short Python programs, usually accompanied by tests that automatically evaluate your code.
 
 3. A set of **six required labs** that will be done in class on the days specified on the calendar. These labs emphasize data collection and scientific reasoning and are required for this class to count for the RFLA Science requirement. The other lab periods will be used for extra practice and working on the problem sets.
 
-4. **Challenge problems**, roughly one per assignment, which are somewhat more complex than the regular homework questions and require you to stretch a little bit.
+4. **Challenge problems**, three or four during the semester, which are somewhat more complex than the regular homework questions and require you to stretch a little bit.
 
 5. A **final project**, which will be your chance to choose and implement any program that you want using the features we've studied in the course.
 
@@ -173,32 +173,32 @@ I will grade most of the items you turn in on a two-level scale: your work will 
 2. Shows real understanding and application of the course material.
 3. Completed on time in the required format.
 
-### The Grading Contract
+For programming assignments, you must make a fair attempt on every problem. For reading assignments, you must complete 90% of the autograded problems in order to receive credit.
 
-Each possible letter grade you can earn in this class is mapped to a set of required work. Satisfactory completion of the work for a given grade level will earn you that grade. Therefore, the most important component in determining your grade is the effort you are willing to put forth. Higher grades require more complex work, which demonstrates greater mastery of the course concepts.
+### Letter Grades
 
-To earn a D and pass the class:
+**To earn a B**, you must meet the following criteria:
 
-- Complete 90% of the assigned reading questions in the online ZyBook.
-- Complete the six required lab activities.
+1. Earn satisfactory credit on at least 90% of the programming and reading assignments during the entire semester. For example, if there are ten total assignments, you must earn satisfactory credit on at least nine of them in order to receive a B. In practice, this means that **you're allowed one unsatisfactory or missed assignment during the semester**. 
+2. Satisfactory completion of six written lab reports.
+3. Complete a satisfactory final project. I will provide guidelines for the project in the final month of the semester.
 
-To earn a C:
+**If you fail to complete the requirements for a B**, your grade will be adjusted downwards according to the following table:
 
-- Complete the requirements for a D.
-- Pass at least 90% of the autograded tests on six of the seven programming assignments.
-- Make a reasonable attempt on every programming assignment (you cannot ignore any assignment).
+| Performance             | Your grade will be adjusted downwards by |
+|------------------------------------------------|------------------------------------------|
+| Completing less than 90% of assignments | Fraction of a letter grade for each unsatisfactory or missed assignment (e.g. B to B-)       |
+| Failing to complete all six lab reports | Fraction of a letter grade for each one |
+| More than one missed assignment           | One full letter grade (e.g., B to C) |
+| Unsatisfactory final project            | One full letter grade   |
 
-To earn a B:
+These penalties are cumulative. For example, if you failed to satisfactorily complete two major projects, your base grade would be lowered by 1.5 letters, from B to C-.
 
-- Complete the requirements for a C.
-- Complete 4 additional challenge problems during the course of the semester.
-
-To earn an A:
-
-- Complete the requirements for a B.
-- Complete an original final programming project, which can be anything you want as long as it meets certain guidelines I will give you.
-
-**Plus and minus grades** are awarded for work that falls between two of the contract levels. For example, if you do more than the required work for a C, but not quite enough to earn a full B, you could receive either a C+ or B- depending on how close you are to the full B standard.
+**To earn a higher grade**, you can complete additional work that shows deeper engagement with the course goals. Each challenge project
+that you complete will **boost your grade by one part of a letter** (e.g., B to B+). To earn an A, complete all the requirements for a B plus three additional challenge projects.
+         
+If your grade drops, you can still complete extra work to boost it up. For example, you could struggle with one project, but
+complete a challenge project. The two would cancel each other out and your grade would remain a B.
 
 ### Why Are You Doing This To Us?
 
