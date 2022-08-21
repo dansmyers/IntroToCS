@@ -65,7 +65,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 
 ### Planned Schedule of Topics
 
-| Day | Topic  |  Assignments |
+| Day | Topic  |  Notes |
 |------|---------|-------------|
 |8/22| Hello, World!||
 |8/24| Printing and calculations||
