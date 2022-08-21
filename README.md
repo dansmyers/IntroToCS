@@ -112,6 +112,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 |11/28| Topic||
 |11/30| Topic||
 |12/1 |Final lab: FINISH PROJECTS||
+|12/2|Last day of classes |All challenge projects due|
 
 ### Other Important Dates
 
