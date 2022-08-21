@@ -67,67 +67,51 @@ We will also use Mimir as an online development and automatic grading platform. 
 
 | Day | Topic  |  Assignments |
 |------|---------|-------------|
-|January 10|    Hello, World! | |
-|January 12|    Variables | |
-|January 13|    Lab 1: Doing things on Mimir | |
-|January 14|    Types and more calculations | |
-|January 17|    MLK, Jr. Day (no class) | |
-|January 19|    Reading user input | Assignment 1 due |
-|January 20|    Lab 2: Practice problems | |
-|January 21|    Relational operators, the `if` statement | |
-|January 24|    `if`-`elif`-`else` | |
-|January 26|    Making random choices | Assignment 2 due |
-|January 27|    Lab 3: Human-Computer Interaction and Fitts' Law | Required lab |
-|January 28|    ~~Dr. Myers out of town (no class)~~  Regular class | |
-|January 31|    Writing simple text games | |
-|February 2|    Text games continued | |
-|February 3|    Lab 4: RPS + Intro to Functions | |
-|February 4|    Functions that return values | |
-|February 7|    Practice writing functions | |
-|February 9|    Stepwise refinement | Assignment 3 due |
-|February 10|    Lab 5: Choose Your Own Adventure| |
-|February 11|    Local variables and scope | |
-|February 14|    Intro to lists | |
-|February 16|    The `for` loop | |
-|February 17|    Lab 6: Network Performance Measurement | Required lab|
-|February 18|    Functions that use lists| |
-|February 21|    The `range` function | |
-|February 23|    More practice with  `range` and loops | Assignment 4 due |
-|February 24|    Lab 7: Wordplay + Files | |
-|February 25|    The `while` loop  | |
-|February 28|    Interactive games with `while` | |
-|March 2|    Numbers and data representation | |
-|March 3|    Lab 8: Precision and Number Formats | Required lab |
-|March 4|    Dictionaries | |
-|March 7|     Letter frequencies and code cracking | |
-|March 9|     ~~Topic~~ No class (transferred from January 28) |  |
-|March 10|    Lab 9:  Extra day off (no class)| |
-|March 11|    Extra office hours (no class) | Assignment 5 due |
-|March 14|    SPRING BREAK | |
-|March 16|    SPRING BREAK | |
-|March 17|    SPRING BREAK | |
-|March 18|    SPRING BREAK | |
-|March 21|    Intro to classes and objects | |
-|March 23|    Writing classes | |
-|March 24|    Lab 10: Monte Carlo Word Estimation | Required lab|
-|March 25|    Classes that have data | |
-|March 28|    Classes that have methods | |
-|March 30|    Deck of cards example | Assignment 6 due |
-|March 31|    Lab 11: Intro to Pandas | Required lab |
-|April 1|    The Web + HTML/CSS | |
-|April 4|    Creating web pages | |
-|April 6|    Fancier web pages | |
-|April 7|    Lab 12: My Heart Will Go On + Classification | Required lab|
-|April 8|    Intro to object-oriented programming  | |
-|April 11|   Writing classes  | |
-|April 13|   Classes that have data  | Assignment 7 due |
-|April 14|    Lab 13: ????? | |
-|April 15|   Classes that have methods | |
-|April 18|   Class writing practice  | |
-|April 20|   Topic | |
-|April 21|   Lab 14: Work on projects or problems | |
-|April 22|   Topic  | |
-|April 25|    Last day of class | Remaining assignments are due |
+|8/22| Hello, World!||
+|8/24| Printing and calculations||
+|8/25|  Lab 1: Doing things on Repl.it||
+|8/29|  Variables||
+|8/31| User input||
+|9/1|  Lab 2: Practice variables||
+|9/5|  LABOR DAY||
+|9/7|  Relational operators and the `if` statement||
+|9/8|  Lab 3: Human-Computer Interaction and Fitts' Law| Required lab|
+|9/12| `if`-`elif`-`else`||
+|9/14| Making randomized choices, text games||
+|9/15| Lab 4: RPS and intro to functions||
+|9/19| More functions||
+|9/21| Functions that return values||
+|9/22| Lab 6: Choose Your Own Adventure||
+|9/26| Local variables and scope||
+|9/28| Intro to lists||
+|9/29| Lab 7: Network performance measurement|Required lab|
+|10/3| The `for` loop||
+|10/5| The `range` function||
+|10/6| EXTRA DAY OFF (no lab)||
+|10/10| FALL BREAK||
+|10/12| The `while` loop||
+|10/13| Lab 8: Wordplay + files||
+|10/17| Midpoint review||
+|10/19| Numbers and data representation||
+|10/20| Lab 9: Precision and number formats| Required lab|
+|10/26| Dictionaries||
+|10/28| Letter frequencies and code cracking||
+|10/29| Lab 10: Monte Carlo word estimation|Required lab|
+|10/31| The Web + HTML||
+|11/2 |Creating web pages||
+|11/3 |Lab 11: Intro to Pandas| Required lab|
+|11/7 |Fancier web pages||
+|11/9 |Interactive pages||
+|11/10| Lab 12: My Heart Will Go On| Required lab|
+|11/14| Writing web applications I||
+|11/16| Writing web applications II||
+|11/17| Lab 13: Start working on projects||
+|11/21|  NO CLASS (Dr. Myers out of town)||
+|11/23|  THANKSGIVING||
+|11/24|  THANKSGIVING||
+|11/28| Topic||
+|11/30| Topic||
+|12/1 |Final lab: FINISH PROJECTS||
 
 ### Other Important Dates
 
