@@ -126,3 +126,56 @@ Tip: If you want to put a calculation into a print statement, you have to turn i
 ```
 print(str(2035 / 5.5833) + ' plus or minus one ear')
 ```
+
+### Warhols
+
+<img src="https://www.moma.org/d/assets/W1siZiIsIjIwMTUvMTAvMjEvOTY0aWFsdm96Yl9zb3VwY2FuLmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ/soupcan.jpg?sha=9a38fb887eb28928" width="25%" />
+
+*Andy Warhol really like soup.*
+
+The pop artist Andy Warhol said, "In the future, everyone will be world-famous for 15 minutes." Therefore, define one Warhol to be the unit for 15 minutes of world-fame.
+
+Queen Elizabeth II of the United Kingdom is a very famous person. Let's suppose she became world-famous in 1936, when her father George VI ascended the throne, following the abdication of his older brother Edward VIII, who gave up being king to marry the divorced American socialite Wallis Simpson. If Queen Elizabeth has been famous for exactly 83 years (assuming each year has 365 days), how many Warhols of fame has she enjoyed?
+
+Tip: the output test expects an integer, so don't use division. There are four Warhols per hour.
+
+### [in Just-]
+
+Another useful special character is `\n`, which makes the printed output move to the next line. Use `\t` to insert a tab character into a line. For example, the statement:
+
+```
+print('This is\n\ta test.');
+```
+
+will print
+
+```
+This is
+        a test
+```
+
+Notice that you don't need to put spaces around the special characters. The spacing of the tab may be different on different platforms.
+
+Use multiple print statements and both `\n` and `\t` to print this excerpt from E.E. Cummings' poem [in Just-]:
+
+```
+it's
+spring
+and
+
+        the
+
+                  goat-footed
+
+balloonMan        whistles
+far
+and
+wee
+```
+
+Tips:
+
+- Use one `print` per line. Don't try to cram the entire poem into one statement.
+- You need to match the formatting exactly to pass the test. The script will point out the first place where your output differs from the expected output.
+- There are no spaces. Use only the `\t` character to insert horizontal white space.
+- There are two tabs before `the` and four before `goat-footed`. There are two between `balloonMan` and `whistles`.
