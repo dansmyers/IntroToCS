@@ -6,6 +6,10 @@
 
 ### Our Princess is in Another Castle
 
+<img src="https://cdn.mobilesyrup.com/wp-content/uploads/2020/11/super-nintendo-world-scaled.jpg" width="40%" />
+
+*Super Nintendo World Japan. Coming to Universal Orlando in a few years.*
+
 At the end of each level of the original Super Mario Bros., Mario jumps up a staircase like the following:
 
 ```
@@ -40,12 +44,15 @@ Tips:
 
 ### Beards
 
-The beard-second is an incredibly scientific unit of length defined as the distance an average beard grows in 1 second. Google defines the beard-second as 5 nanometers and will perform conversions between beard-seconds and other lengths (try typing “1 foot in beard-seconds” into Google).
-
-
-Using this definition, it would take an average beard 58.8 days to grow 1 inch.
+The beard-second is an incredibly scientific unit of length defined as the distance an average beard grows in 1 second. Google defines the beard-second as 5 nanometers and will perform conversions between beard-seconds and other lengths (try typing “1 foot in beard-seconds” into Google). Using this definition, it would take an average beard 58.8 days to grow 1 inch.
 
 
 The longest beard in the world is 17 feet long and is housed in the Smithsonian institution. In life, it belonged to Hans Langseth, who immigrated to the U.S. from Norway in 1864; he died in North Dakota in 1927. He would wrap his beard around a corncob and carry it in his pocket.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hans_Langseth.jpg" width="40%" />
+
+Under the (completely unrealistic) assumption that Hans Langseth grew his entire beard at the average rate of 1 inch every 58.8 days, how many days would it have taken to him to get 17 feet of facial hair? Write a Python program that **calculates and prints** the answer.
+
+
 
 
