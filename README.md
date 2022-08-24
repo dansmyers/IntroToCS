@@ -71,8 +71,8 @@ We will also use Mimir as an online development and automatic grading platform. 
 |8/24| Printing and calculations||
 |8/25|  Lab 1: Doing things on Repl.it|Assignment 1 out|
 |8/29|  Variables||
-|8/31| User input|Assignment 1 due|
-|9/1|  Lab 2: Practice variables||
+|8/31| User input||
+|9/1|  Lab 2: Practice variables|Assignment 1 due|
 |9/5|  LABOR DAY||
 |9/7|  Relational operators and the `if` statement||
 |9/8|  Lab 3: Human-Computer Interaction and Fitts' Law| Required lab|
