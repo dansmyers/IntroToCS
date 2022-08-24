@@ -14,7 +14,7 @@ General tips:
 
 - **Start early! Don't wait until the last minute!**
 
-- Succeeding in this class is about **consistency and effort**, not some kind of innate brilliance. If your program doesn't work the first time, that's normal and expected. Just look carefully at the output, make some changes, and try again.
+- Succeeding in this class is about **consistency and effort**. If your program doesn't work the first time, that's normal and expected. Just look carefully at the output, make some changes, and try again.
 
 - **You can run the test script as many times as you need to**. There are no limits. Get in the habit of testing early and often.
  
