@@ -6,7 +6,7 @@
 
 ### Our Princess is in Another Castle
 
-<img src="https://cdn.mobilesyrup.com/wp-content/uploads/2020/11/super-nintendo-world-scaled.jpg" width="40%" />
+<img src="https://cdn.mobilesyrup.com/wp-content/uploads/2020/11/super-nintendo-world-scaled.jpg" width="50%" />
 
 *Super Nintendo World Japan. Coming to Universal Orlando in a few years.*
 
@@ -26,7 +26,7 @@ Write a program that uses six print statements to print this staircase.
 
 ### Haiku
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Kobayashi_Issa-Portrait.jpg" width="40%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Kobayashi_Issa-Portrait.jpg" width="25%" />
 
 Write a program to print the following haiku by the poet Kobayashi Issa, famous for his works focusing on insects and other small creatures.
 
@@ -51,7 +51,7 @@ The beard-second is an incredibly scientific unit of length defined as the dis
 
 The longest beard in the world is 17 feet long and is housed in the Smithsonian institution. In life, it belonged to Hans Langseth, who immigrated to the U.S. from Norway in 1864; he died in North Dakota in 1927. He would wrap his beard around a corncob and carry it in his pocket.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hans_Langseth.jpg" width="40%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hans_Langseth.jpg" width="25%" />
 
 Under the (completely unrealistic) assumption that Hans Langseth grew his entire beard at the average rate of 1 inch every 58.8 days, how many days would it have taken to him to get 17 feet of facial hair? Write a Python program that **calculates and prints** the answer.
 
@@ -71,8 +71,9 @@ If Barnum’s alleged saying is true, how many suckers have been born during Jon
 
 ### That's So Raven
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Paul_Gustave_Dore_Raven14.jpg" width="40%" />
-*Illustration by Gustave Doré (1884)* 
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Paul_Gustave_Dore_Raven14.jpg" width="25%" />
+
+*Illustration by Gustave Doré (1884)*
 
 Python quotes can be delimited using either double quotes, `" "`, or single quotes, `' '`. What if you want to put a literal quote inside a string? There are two ways.
 
@@ -108,7 +109,7 @@ And the bird always says "Nevermore"
 
 ### More Smoots
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Burj_Khalifa.jpg/800px-Burj_Khalifa.jpg" width="40%" />
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Burj_Khalifa.jpg/800px-Burj_Khalifa.jpg" width="25%" />
 
 Recall the story of Oliver R. Smoot. The Harvard Bridge (2035 feet in length) was measured to be 364.4 Smoots, "plus or minus one ear". One Smoot is about 5.5833 feet.
 
