@@ -1,5 +1,7 @@
 # Assignment 1: Up and Running
 
+## Due Thursday, September 1
+
 ## Overview
 
 This assignment will give you the chance to practice writing Python programs that use basic printing and calculations. It's not intended to be difficult; the primary goal is to get you warmed up and comfortable completing projects in the online coding environment.
