@@ -24,7 +24,9 @@ General tips:
 
 ## Reading
 
-Read Chapter 1 of the ZyBook and complete the **participation questions**. The book also includes "challenge questions"--you do not need to complete those.
+Read Chapter 1 of the ZyBook and complete the **participation questions**. The book also includes "challenge questions" that you don't need to complete.
+
+Note: the ZyBook "challenge questions" are not the same as my challenge problems that count towards your grade. You will never need to do a so-called challenge question from the ZyBook (they aren't actually that challenging). I will start assigning the real challenge problems later in the semester.
 
 ## Problems
 
