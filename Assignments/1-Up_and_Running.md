@@ -67,8 +67,6 @@ Use three print statements, one for each line.
 Tips:
 
 - Your output must match the format of the poem exactly to pass the test.
-- Remember to start the program with a docstring.
-
 
 ### Beards
 
