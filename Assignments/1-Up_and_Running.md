@@ -175,7 +175,7 @@ will print
 
 ```
 This is
-        a test
+    a test
 ```
 
 Notice that you don't need to put spaces around the special characters. The spacing of the tab may be different on different platforms.
