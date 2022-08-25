@@ -267,7 +267,7 @@ Tip: one Smoot is about 5.5833 feet and there are 5280 feet in a mile.
 
 
 ## One More Thing...
-[https://telehack.com/]
+https://telehack.com/
 
 ```
 > starwars
