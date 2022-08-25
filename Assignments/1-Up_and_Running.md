@@ -155,7 +155,7 @@ print(str(2035 / 5.5833) + ' plus or minus one ear')
 
 <img src="https://www.moma.org/d/assets/W1siZiIsIjIwMTUvMTAvMjEvOTY0aWFsdm96Yl9zb3VwY2FuLmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ/soupcan.jpg?sha=9a38fb887eb28928" width="25%" />
 
-*Andy Warhol really like soup.*
+*Andy Warhol really liked soup.*
 
 The pop artist Andy Warhol said, "In the future, everyone will be world-famous for 15 minutes." Therefore, define one Warhol to be the unit for 15 minutes of world-fame.
 
