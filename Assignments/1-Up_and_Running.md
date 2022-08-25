@@ -104,7 +104,7 @@ Python quotes can be delimited using either double quotes, `" "`, or single quot
 First, you can use single quotes to mark the outside of the string, and use double quotes inside it, or vice-versa, depending on what kind of quote you need. For example,
 
 ```
-print('Quoth the Raven "Nevermore"')
+print('Quoth the Raven "Nevermore."')
 ```
 
 A second approach is to use a special character sequence, `\"`. When Python encounters the `\"` sequence in a string, it will replace it with the regular double quote, `"`.
