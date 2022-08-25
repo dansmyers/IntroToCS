@@ -180,7 +180,7 @@ This is
 
 Notice that you don't need to put spaces around the special characters. The spacing of the tab may be different on different platforms.
 
-Use multiple print statements and both `\n` and `\t` to print this excerpt from E.E. Cummings' poem [in Just-]:
+Use multiple print statements and both `\n` and `\t` to print this excerpt from e.e. cummings' poem [in Just-]:
 
 ```
 it's
