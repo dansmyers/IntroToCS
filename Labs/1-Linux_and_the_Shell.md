@@ -266,6 +266,18 @@ What is the length of the Lake Pontchartrain Causeway in Smoots?
 Tip: one Smoot is about 5.5833 feet and there are 5280 feet in a mile.
 
 
+### Cricket Protein Powder
+
+<img src="https://cdn.shopify.com/s/files/1/0904/3248/products/chocolate_front_1408x1408.jpg?v=1566244530" width="35%" />
+
+As a deep thinker and observer of modern society, I truly believe that entomophagy is the wave of the future. Crickets are a naturally renewable (albeit noisy) resource and contain proportionally more protein than chicken or beef.
+
+Through a totally unscientific research process, I have learned that the average cricket weighs .50 grams and consists of about 60% protein.
+
+Consider an iron-slinging bodybuilder who wants to consume 200 grams of protein per day in order to get huge. How many crickets are required to produce that amount?
+
+
+
 ## One More Thing...
 https://telehack.com/
 
