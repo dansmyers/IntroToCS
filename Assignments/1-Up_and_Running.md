@@ -22,6 +22,10 @@ General tips:
  
 - If you are not passing a test, think carefully about your output and the expected output. **Do not make random changes to your program!**
 
+## Reading
+
+Read Chapter 1 of the ZyBook and complete the **participation questions**. The book also includes "challenge questions"--you do not need to complete those.
+
 ## Problems
 
 ### Our Princess is in Another Castle
