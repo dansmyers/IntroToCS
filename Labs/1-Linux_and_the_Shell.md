@@ -172,11 +172,7 @@ The easiest way to create a file is to `touch` it. Suppose we want to create a n
 > touch hello.py
 ```
 
-You can then **open** the file for editing using the `open` command:
-
-```
-> open hello.py
-```
+You can then **open** the file for editing by clicking on it in the left-hand file browsing pane.
 
 The command will bring up a blank window, which represents the brand-new `hello.py` file. Type some print statements into the file:
 
