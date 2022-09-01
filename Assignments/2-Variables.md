@@ -4,7 +4,7 @@
 
 ## Overview
 
-This assignment will give you the chance to practice writing Python programs that use variables, user input, and formatted printing.  primary goal is to get you warmed up and comfortable completing projects in the online coding environment.
+This assignment will give you the chance to practice writing Python programs that use variables, user input, and formatted printing.
 
 Complete the assignment on Replit, in the CMS 120 workspace. When you load the project, you'll see multiple files in the workspace. There is one `.py` file for each problem and `main.py`, which contains the autograded tests that will evaluate your solutions.
 
@@ -24,8 +24,48 @@ General tips:
 
 ## Reading
 
-Read Chapter 1 of the ZyBook and complete the **participation questions**. The book also includes "challenge questions" that you don't need to complete.
+Read **Chapter 2** of the ZyBook and complete the **participation questions**. The book also includes "challenge questions" that you don't need to complete.
 
 Note: the ZyBook "challenge questions" are not the same as my challenge problems that count towards your grade. You will never need to do a so-called challenge question from the ZyBook (they aren't actually that challenging). I will start assigning the real challenge problems later in the semester.
 
 ## Problems
+
+### McChocolate Potatoes
+
+The Japanese yen currently trades for about $.0091.
+
+I'm a sucker for regional fast food items. It turns out that you can get chocolate fries at McDonald's in Japan (they are officially known as "McChocolate Potatoes"). Are they any good? Maybe not, but they cost only 330 yen as a side item.
+
+What is the cost of a side of chocolate fries in dollars? Print your result to two decimal places.
+
+Tip: you don't need to take user input for this problem. Just print the result to two decimal places.
+
+
+### Temperature Conversion
+
+A classic example.
+
+To convert a temperature of *F* degrees Fahrenheit into Celsius, use
+
+```
+C = (F - 32) * (5 / 9)
+```
+
+Write a program that can read an **integer** number of degrees Fahrenheit from the terminal and report the corresponding number of degrees Celcius.
+Output your results to **one decimal place**.
+
+### Furlongs
+
+
+A furlong is an archaic unit of length defined to be one-eigth of a mile (660 feet).
+
+Write a program that can read a length in feet and convert it to units of fulongs. Print your results to one decimal place.
+
+You may assume that the user will enter a valid length.
+
+Tip:
+
+Assume that the input may be fractional. To read fractional input, use
+
+user_input = input()
+feet = float(user_input)
