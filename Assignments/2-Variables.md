@@ -28,9 +28,32 @@ Read **Chapter 2** of the ZyBook and complete the **participation questions**. T
 
 Note: the ZyBook "challenge questions" are not the same as my challenge problems that count towards your grade. You will never need to do a so-called challenge question from the ZyBook (they aren't actually that challenging). I will start assigning the real challenge problems later in the semester.
 
+## General Tips
+
+For all of these problems other than the McChocolate Potates one, read your inputs and print your outputs without printing any text for the user.
+
+For example, instead of writing something like:
+```
+deg_f = int(input('Enter a temperature in degrees Fahrenheit: '))
+```
+
+You can just read the input directly:
+```
+def_f = int(input())
+```
+
+Similarly for the output, just print the final result to the appropriate number of decimal places. For example,
+```
+print('%.1f', deg_c)
+```
+
+These formats are easier for the automated tests to evaluate, since they don't have to parse numbers out of a string of text messages and you won't have to worry about matching any particular format for the input or output messages.
+
 ## Problems
 
 ### McChocolate Potatoes
+
+<img src="http://del.h-cdn.co/assets/16/03/480x360/sd-aspect-1453239737-chocopotato-main-01.jpg" width="35%" />
 
 The Japanese yen currently trades for about $.0091.
 
@@ -111,3 +134,41 @@ shillings = int(input())
 pennies = int(input())
 ```
 
+### Binet's Formula
+
+Recall the famous Fibonacci sequence, where each term is the sum of the previous two terms.
+
+```
+0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+```
+
+Suppose you would like to calculate the Nth Fibonacci number. How could you do that? One way is to start at the base case and grind your way up through the sequence until you've calculated N total terms. 
+
+It turns out there is a single formula that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form.
+
+The result is know as Binet's formula and it says that the Nth Fibonacci number `F_n` is
+
+<img src="https://latex.artofproblemsolving.com/8/6/d/86d486c560727727342090b432e23ba85ac098b1.png" width="30%"/>
+
+Gnarly.
+
+The number `(1 + sqrt(5)) / 2` is the famous golden ratio, the most aesthetically pleasing of all proportions. It's sometimes denoted by the Greek letter φ (phi) after the ancient architect and sculptor Phidias, who used it in planning the design of the Parthenon.
+
+<img src="https://lp-cms-production.imgix.net/2019-09/ab57ac3775d90a72da514d158401bd47-parthenon.jpg" width="35%" />
+
+*much columns  such proportions*
+
+Write a program that reads an integer `n` from the user and prints the corresponding term in the Fibonacci sequence.
+
+Tips:
+
+You'll need the ability to take square roots and calculate powers. Use the built-in `**` operator to calculate powers. There is a built-in square root function that you can import into your program by adding the following line to the top of your code:
+
+```
+from math import sqrt
+
+You can then call the functions like so
+
+phi = (1 + sqrt(5)) / 2  # sqrt(5) calculates the square root of 5
+phi_to_the_n = phi ** n  # Calculate phi to the power n
+```
