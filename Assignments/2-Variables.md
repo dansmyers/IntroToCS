@@ -71,3 +71,35 @@ Assume that the input may be fractional. To read fractional input, use
 user_input = input()
 feet = float(user_input)
 ```
+
+### £sd
+
+The main unit of currency is Great Britain is the **pound sterling**, represented by the £ symbol. Similar to the U.S. dollar, each pound is divided into 100 pence. However, this straightforward system only went into effect in 1971. Prior to that date, the British used a different system descended from the ancient Romans.
+
+The £sd system, as it was known, had three basic coins:
+- The pound, which was the main unit, just as it is today.
+- The shilling, with 20 shillings to a pound.
+- The penny, with 12 pennies to the shilling. There were therefore 240 pennies in a pound.
+
+
+The symbols for the three coins come from ancient Roman terms.
+- £ stands for *libra*, the Roman word for balance and their equivalent of our one pound weight. This is also the origin of our abbreviation lb. for weights measured in pounds.
+- d stands for *denarius*, a basic silver coin, 240 of which were traditionally struck from a pound of silver.
+- s stands for *solidus*, a gold coin held to be the equivalent of 12 denarii.
+
+The system owed its continuing popularity in Western Europe to Charlemagne in the 700s, who mandated that the silver penny would be the basic unit of currency in his realm and regulated its purity.
+
+£sd coins are no longer legal tender, but can still be exchanged for their face value.
+
+Write a program that can take in an integer number of shillings and pennies and return the number of modern pounds. For reference, each shilling is worth .05 pounds and each old penny is worth .0041667 pounds.
+
+You can assume that the user will only enter positive integer values. Report your answers to two decimal places.
+
+
+Tip: Use the `int` function to convert input to integer values
+
+```
+shillings = int(input())
+pennies = int(input())
+```
+
