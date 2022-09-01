@@ -2,36 +2,29 @@
 
 ## Setup
 
-Start your Mimir workspace. Change to your `CMS_120` directory and make a new directory called `Lab_2`.
+Start your regular in-class `CMS120` workspace. Make a new directory called `Lab_2` and `cd` into it:
 
 ```
-cd CMS_120
-
 mkdir Lab_2
 
 cd Lab_2
 ```
 
-To create each file use `touch`, then use `open` to open it in the editor.
+You can create new files by using the file browser in the left pane or use the `touch` command in the shell:
 
 ```
 touch magic_computers.py
-
-open magic_computers.py
 ```
 
 ## The Magic Computers
 
 <img src="https://miro.medium.com/max/2100/1*8M2JfaTacGjI8YQlO9qF5A.jpeg" width="50%" />
 
-Mad Libs are a word completion game originally invented in 1953 by two New Yorkers, Leonard Stern and Roger Price, who went on to publish a series of best-selling books based on
-the concept.
+Mad Libs are a word completion game originally invented in 1953 by two New Yorkers, Leonard Stern and Roger Price, who went on to publish a series of best-selling books based on the concept.
 
-Each Mad Lib is an incomplete short story, where some of the words have been replaced by blanks, each labeled with a part of speech. One player asks the others for words
-to fill in the blanks, then reads the complete story. Hilarity ensues.
+Each Mad Lib is an incomplete short story, where some of the words have been replaced by blanks, each labeled with a part of speech. One player asks the others for words to fill in the blanks, then reads the complete story. Hilarity ensues.
 
-Write a program to implement the "Magic Computers" Mad Lib given above. Use the input function to prompt the user to enter words of each type, then combine all of the
-answers together to print the finished story. Here's a little bit to help you get started:
+Write a program to implement the "Magic Computers" Mad Lib given above. Use the input function to prompt the user to enter words of each type, then combine all of the answers together to print the finished story. Here's a little bit to help you get started:
 
 ```
 
@@ -48,6 +41,7 @@ plural_noun1 = input('Enter a plural noun: ')
 # Print out the story with the user's words mixed in
 # %s is the format specifier for a string variable
 # This is an easy way to mix string variables in with other output
+
 print('Today, every student has a computer small enough to fit into his %s.' % noun1)
 print('He can solve any math problem by simply pushing the computer\'s little %s.' % plural_noun1)
 
