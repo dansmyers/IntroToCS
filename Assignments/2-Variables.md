@@ -1,6 +1,6 @@
 # Assignment 2: How to Variables
 
-## Due Thursday, September 1
+## Due Thursday, September 8
 
 ## Overview
 
