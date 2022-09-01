@@ -67,5 +67,7 @@ Tip:
 
 Assume that the input may be fractional. To read fractional input, use
 
+```
 user_input = input()
 feet = float(user_input)
+```
