@@ -54,6 +54,14 @@ C = (F - 32) * (5 / 9)
 Write a program that can read an **integer** number of degrees Fahrenheit from the terminal and report the corresponding number of degrees Celcius.
 Output your results to **one decimal place**.
 
+Tip:
+
+Read your input without printing a prompt. For example,
+
+```
+deg_f = int(input())
+```
+
 ### Furlongs
 
 
