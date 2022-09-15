@@ -424,5 +424,7 @@ print_card(second_card)
 
 ## RPSLS
 
+<img src="http://www.samkass.com/theories/RPSSL.gif" width="40%" />
+
 If you have time remaining, you can modify your RPS program to play [Rock-Paper-Scissors-Lizard-Spock](http://www.samkass.com/theories/RPSSL.html).
 
