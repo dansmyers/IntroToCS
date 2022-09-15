@@ -360,7 +360,7 @@ from random import randint
 first_card = randint(1, 13)
 
 # Print the first card
-print('The first card is $d.' % first_card)
+print('The first card is %d.' % first_card)
 
 # Print the menu of choices for the user
 
