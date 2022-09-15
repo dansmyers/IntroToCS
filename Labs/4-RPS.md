@@ -39,15 +39,11 @@ MY FAILURE...DOES NOT COMPUTE...
 ### Setup
 
 ```
-cd CMS_120
-
 mkdir Lab_4
 
 cd Lab_4
 
 touch rps.py
-
-open rps.py
 ```
 
 ### Starting Code
@@ -217,6 +213,7 @@ print_area_of_circle(100)
 # How about printing the area of a circle with radius 1 million?
 ```
 
+
 ### `print_area_of_rectangle`
 
 Complete the following program with a function that takes an input length and width, then prints the area of the corresponding rectangle. This example shows how to write a
@@ -330,3 +327,102 @@ value = float(input('Enter a number of grams of protein: '))
 # Call the function to perform the conversion and print the result
 grams_of_protein_to_crickets(value)
 ```
+
+## Hi-Lo
+
+Let's create another simple randomized game.
+
+- The computer generates one randomized playing card and shows it to the player.
+- The player guesses whether the next card will be **higher** in rank or **lower** in rank.
+- The computer generates a second card, shows it to the player, and announces whether the guess was correct.
+
+Recall that the `randint` function can be used to generate random integers from a range. There are 13 ranks in a standard deck of playing cards:
+ace, two, three, ..., nine, ten, jack, queen, king. Therefore, we can simulate creating a playing card with:
+
+```
+first_card = randint(1, 13)
+```
+
+The first version of the program asks you to just print the number 1 to 13 as the value of the card. We'll then add some code to improve the printing for aces and face cards.
+
+### Setup
+
+Use the following starter code.
+
+```
+"""
+Hi-Lo card game
+"""
+
+from random import randint
+
+# Generate the first card
+first_card = randint(1, 13)
+
+# Print the first card
+print('The first card is $d.' % first_card)
+
+# Print the menu of choices for the user
+
+# Read the user's input
+
+# Generate and print the second card
+
+# Print a winning or losing message based on the user's choice and result
+
+```
+
+Complete the first version of the program.
+
+### Better printing
+
+We'd like to map the generated random number 1 to 13 to the rank of the playing card. Add an `if`-`elif`-`else` block to choose an appropriate print statement for each card value.
+
+```
+if first_card == 1:
+  print('Ace')
+elif first_card == 11:
+  print('Jack')
+
+# Add more elif cases for Queen and King
+
+else:
+  print(first_card)
+```
+The default `else` choice catches any number card and prints its number.
+
+You'll need two copies of the block, one to print the first card and the other to print the second card.
+
+### Printing with a function
+
+Consider this: does it make sense to have two almost-identical blocks of code to handle the printing of the two cards? The answer, of course, is no. In general, we'd prefer to avoid writing nearly identical code blocks. A better choice is to **pull common code into a function** so it exists in only one place within the program.
+
+Let's write a function to handle printing the card. Put the new function at the **top** of the program, after the **import** statement but before any of the other lines.
+
+```
+def print_card(card):
+
+  if card == 1:
+    print('Ace')
+  elif card == 11:
+    print('Jack')
+    
+  # Add other cases to finish the method
+```
+
+You can then remove the `if`-`elif`-`else` blocks from the main part of the program and call the print function using
+
+```
+print_card(first_card)
+```
+
+and 
+
+```
+print_card(second_card)
+```
+
+## RPSLS
+
+If you have time remaining, you can modify your RPS program to play [Rock-Paper-Scissors-Lizard-Spock](http://www.samkass.com/theories/RPSSL.html).
+
