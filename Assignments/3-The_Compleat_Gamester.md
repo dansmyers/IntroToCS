@@ -197,5 +197,55 @@ die1 == die2 and die2 == die3 and die1 == die3
 ```
 
 
+### Small Roulette
+
+Implement a roulette game played on a small wheel with numbers 0-12. There are four possible bets:
+
+- Even
+- Odd
+- Number in 1-6. including both
+- Number in 7-12 including both
+
+Your method should read the number of the user's bet, then generate a random spin in 0 to 12 (using the `randint` function). If the outcome of the spin matches the player's bet, the player wins.
+
+Here is an example of the output:
+
+Welcome to Roulette.
+1. Even
+2. Odd
+3. 1-6
+4. 7-12
+Select a bet: 1
+The spin is 4.
+You win.
+
+As before, use `sys.exit()` to end the program immediately if the user inputs a bad value. Print the message
+
+```
+You must enter 1, 2, 3, or 4.
+```
+
+before exiting.
+
+Tips:
+
+This program is similar to the others but has more conditions to check. The easiest way to determine the correct output is to use an `if`-`elif`-`else` block with one test for each winning condition and a default else block for all losses:
+
+```
+if bet == 1 and spin % 2 == 0:
+    print("You win."
+elif bet == 2 and spin % 2 != 0:
+    print("You win.")
+
+# Add more elif cases for the other win conditions
+
+else:
+    print("You lose.")
+```
+
+You can compress this code more to eliminate the multiple print statements, but this approach is easy to read and code.
+
+There is a seed value at the beginning of the program. Don't modify it or you can't pass the tests.
+
 
 
