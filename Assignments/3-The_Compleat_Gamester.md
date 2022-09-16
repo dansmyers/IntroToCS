@@ -1,5 +1,9 @@
 # Assignment 3: The Compleat Gamester
 
+## Due Monday, 9/26
+
+## Overview
+
 This problem set will let you practice writing some simple text-based games that are based around random events like rolling dice. Along the way you'll get to practice
 
 -Using the built-in `random` module
