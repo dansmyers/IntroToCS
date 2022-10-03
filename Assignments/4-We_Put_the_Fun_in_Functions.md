@@ -74,7 +74,7 @@ Don't use Python's built-in `min` function. Think about how to solve this using 
 
 where s is the "semi-perimeter":
 
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/08ed8a6e351198e0c4ca8d71fa2e2bc4171e9439" width="20%" />
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/08ed8a6e351198e0c4ca8d71fa2e2bc4171e9439" width="10%" />
 
 Write a function called `heron` that takes three inputs `a`, `b`, and `c` and returns the area calculated by Heron's formula.
 
