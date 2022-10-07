@@ -17,7 +17,9 @@ Personality quizzes. Is there a better way to learn about yourself than answerin
 
 Buzzfeed is still the leading purveyor of these online quizzes, offering insight into, for example, [what kitchen appliance you are based on your food preferences](https://www.buzzfeed.com/catmjohnston/which-kitchen-appliance-are-you-based-on-your-food-8arc2wkfy8). (Microwave, apparently).
 
-In this project, you're going to use your knowledge of culture, relationships, and Python to write a program that implements a Buzzfeed-style personality quiz. Your quiz can be about anything that you want. This program will let you practice writing a completely self-designed program that's a bit larger than anything we've done so far.
+In this project, you're going to use your knowledge of culture, relationships, and Python to write a program that implements a Buzzfeed-style personality quiz. Your quiz can be about anything that you want, as long as it's your own original implementation.
+
+This program will let you practice writing a completely self-designed program that's a bit larger than anything we've done so far.
 
 ## Quiz Design
 
