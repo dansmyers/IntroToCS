@@ -19,7 +19,7 @@ Buzzfeed is still the leading purveyor of these online quizzes, offering insight
 
 In this project, you're going to use your knowledge of culture, relationships, and Python to write a program that implements a Buzzfeed-style personality quiz. Your quiz can be about anything that you want, as long as it's your own original implementation.
 
-This program will let you practice writing a completely self-designed program that's a bit larger than anything we've done so far.
+The goal of this program is to write a completely self-designed program that is larger than anything we've done so far.
 
 ## Quiz Design
 
