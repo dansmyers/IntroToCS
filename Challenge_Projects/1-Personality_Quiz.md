@@ -21,6 +21,16 @@ In this project, you're going to use your knowledge of culture, relationships, a
 
 The goal of this program is to write a completely self-designed program that is larger than anything we've done so far.
 
+## Submission and Grading
+
+Complete your program in the "Challenge Project 1" workspace on repl.it. Put your program into the file named `quiz.py`.
+
+There are no tests for this project. I'll run your code, answer your questions, then look at your program to see how it's structured. 
+
+This project is **optional**. If you choose to complete it, you final grade will be increased by **one part of a letter**, e.g. from B to B+. **Make sure that you officially submit your project when you finish so that I can see that it needs to be graded**.
+
+There will be two more challenge project released later in the semester. You need to complete all three (in addition to the regular problem sets and reading) to earn an A for the course.
+
 ## Quiz Design
 
 <img src="https://ahseeit.com//king-include/uploads/2021/05/43915181_326611507924503_5421316365027478799_n-7515047846.jpg" width="30%" />
@@ -132,8 +142,6 @@ else:
 ```
 
 ## More Guidelines
-
-Complete your program in the "Challenge Project 1" workspace on repl.it. Put your program into the file named `quiz.py`.
 
 - Choose your own topic with 3-6 possible outcomes.
 - Write at least four questions.
