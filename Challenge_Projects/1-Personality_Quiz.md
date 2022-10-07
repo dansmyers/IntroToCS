@@ -139,4 +139,4 @@ Complete your program in the "Challenge Project 1" workspace on repl.it. Put you
 - Write at least four questions.
 - Use functions to wrap up the print statements for your questions and final output messages. Putting big chunks of text behind a function call keeps the main part of the program from getting overloaded with print statements (and also lets you practice writing your own functions).
 
-You'll need to decide how to determine the answer with the most points, including how to break ties.
+You'll need to decide how to determine the answer with the most points, including how to break ties. Write a function called `print_result` that takes all of your score variables as input, chooses the winner, and prints an appropriate message as the conclusion of your quiz.
