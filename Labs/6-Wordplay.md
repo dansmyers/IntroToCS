@@ -7,7 +7,7 @@ Begin by downloading the `words.txt` file posted to Canvas.
 Create a new `Lab_6` directory in your repl.it workspace, then upload `words.txt` to it. You can then `cd` to the lab directory and use the `ls` command to verify that `words.txt` is there.
 
 ```
-cd Lab_7
+cd Lab_6
 
 ls
 ```
