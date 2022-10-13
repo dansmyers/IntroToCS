@@ -4,31 +4,10 @@
 
 Begin by downloading the `words.txt` file posted to Canvas.
 
-Open your Mimir IDE, then use `File ---> Upload` to copy `words.txt` up to your Mimir workspace. You can verify that the upload completed by typing the listing command
+Create a new `Lab_6` directory in your repl.it workspace, then upload `words.txt` to it. You can then `cd` to the lab directory and use the `ls` command to verify that `words.txt` is there.
 
 ```
-ls
-```
-
-and observing the `words.txt` is now in your home directory along with the `CMS_120` directory.
-
-Make a new directory to hold this lab's programs:
-
-```
-mkdir CMS_120/Lab_7
-```
-
-Now, **move** the words file into the lab directory. The move command is `mv`, which can also be used to rename files. **Double-check the spelling of your destination
-directory before you run the command**. If you type the wrong thing, your file might end up in a different location.
-
-```
-mv words.txt CMS_120/Lab_7
-```
-
-You cam then `cd` to the lab directory and verify that `words.txt` is there.
-
-```
-cd CMS_120/Lab_7
+cd Lab_7
 
 ls
 ```
