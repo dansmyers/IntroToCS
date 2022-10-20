@@ -119,4 +119,43 @@ If you complete the loop and never return `False`, then `n` is prime and you can
 Note: `int(n ** .5)` calculates the square root of n and then truncates it to an integer. `range` won't accept a decimal value as a parameter.
 
 
-### 
+### Day of the year
+
+Write a function called `day_of_the_year` that takes a `month` and `day` as input and returns the associated day of the year. Let the month by a number from 1 (representing January) to 12 (representing December). For example,
+
+```
+day_of_the_year(1, 1) = 1
+day_of_the_year(2, 1) = 32
+day_of_the_year(3, 1) = 60
+```
+
+You can ignbore Leap Years and assume that February has 28 days.
+
+Tip:
+
+Make a list with the number of days in each month:
+
+```
+days_per_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+```
+
+Use a loop to add up the full number of days for all months before the one you're interested in, then add in the remaining days. For example, to find the day of the year for March 5, add up the first two entries in `days_per_month` to get the total number of days in January and February, then add in 5 more days.
+
+
+### The Doomsday Algorithm
+
+The Doomsday algorithm, developed by John Conway, is a technique for computing the day of the week of any given date.
+
+The method relies on the fact that certain dates in each year are all guaranteed to fall on the same day of the week, which Conway calls the "Doomsday" for that year.  The most important dates that fall on the Doomsday are 4/4, 6/6, 8/8, 10/10, 12/12, and the last day of February.  Monday is the Doomsday for 2022. January 3 falls on the Doomsday in non-leap years.
+
+To find the day of the week associated with a given date, start by finding the Doomsday for the year. Next, determine the number of days separating the date in question from one of the days which is guaranteed to fall on the Doomsday.  The distance in days modulo 7 gives the number of days of the week separating the final answer from the Doomsday.
+
+For example, 4/14 is ten days from 4/4, one of the dates guaranteed to fall on the Doomsday.  Therefore the day of the week of 4/14 is three days from the Doomsday.  The Doomsday for 2013 is Thursday, so 4/14 falls three days after Thursday, which is a Sunday.
+
+Write a function called `doomsday` that takes a `month` and `day` as input and returns the associated day of the week.
+
+- Use the `day_of_the_year` function from the previous problem to convert `month` and `day` into an integer; you can do the same thing with one of the days that are known to be on the Doomsday.
+
+- Take the difference in days modulo 7 and use that to return the correct day.
+
+
