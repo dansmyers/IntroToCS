@@ -30,7 +30,9 @@ Tip
 
 Remember that you can use string multiplication to concatenate multiple copies of a string together. For example, to print a pound character n times on one line, you could use
 
+```
 print("#" * n)
+```
 
 
 ## Look On My Works, Ye Mighty, and Despair!
