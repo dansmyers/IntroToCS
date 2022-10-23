@@ -2,13 +2,17 @@
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/515BFnlnNML._AC_UL900_SR615,900_.jpg" width="30%" />
 
-## Due
+## Due Wednesday, November 2
 
 
-## Overview
+## Reading
+
+Complete the **participation questions** for Chapters 4 and 5 in the ZyBook.
 
 
 ## Grading
+
+Like Assignment 4, this project uses unit tests to grade the functions in `main.py`. Remember that each function takes input through its parameters and **returns** a value for the test to check. Don't use the `input` function or `print` the final answer.
 
 
 ## Problems
@@ -26,6 +30,21 @@ Write a method called `list_range` that takes a list of numbers as input and ret
 
 Tips: You need to find the largest and smallest elements in the list. Don't use the built-in `max` or `min` functions.
 
+
+### All Vowels
+
+I'm thinking of the longest word that consists of only vowels. Write a function called `has_only_vowels` that takes a string named `s` as input and returns `True` if the string contains only vowels letters and `False` if it contains any non-vowel letters. You can assume that `s` contains only lowercase letters.
+
+Tip: you can check if a letter `c` is not in the set of vowels using
+
+```
+if c not in `aeiou`:
+  # Do something if c is not a vowel
+```
+
+By the way, the longest all-vowel word is *euouae*: a mnemonic which was used in medieval music to denote the sequence of tones in the ending of the Gloria Patri, which ends with the phrase *In saecula saeculorum, Amen*. In Latin psalters and plainchant books, the melodic formula to be sung at the end of every chanted line (called the *differentia*), would be written over the letters EUOUAE, representing the vowels of *saeculorum Amen*.
+
+https://www.grammarly.com/blog/14-of-the-longest-words-in-english
 
 ### Rotate a list
 
@@ -69,33 +88,6 @@ What about empty lists? Empty lists automatically evaluate to False, so you can 
 if not a:
     return a
 ```
-
-### Modified limited Fibonacci sequence
-
-Recall the famous Fibonacci sequence, where every term is the sum of the two previous terms:
-
-```
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
-```
-
-Write a function called `largest_fib_num` that takes a number `n` as input and returns the largest Fibonacci number greater than or equal to `n`. For example,
-```
-largest_fib_num(10) = 8
-largest_fib_num(50) = 34
-largest_fib_num(1) = 1
-```
-You can assume that `n` is greater than or equal to 1.
-
-Tip:
-
-Use a `while` loop and two variables, one to keep track of the current Fibonacci number and one for the previous number. At the beginning of the program, set
-
-```
-current = 1
-prev = 0
-```
-
-then loop as long as `current <= n`. The body of the loop should update the values of `current` and `prev` to advance to the next number in th sequence.
 
 ### Primes
 
@@ -157,5 +149,7 @@ Write a function called `doomsday` that takes a `month` and `day` as input and r
 - Use the `day_of_the_year` function from the previous problem to convert `month` and `day` into an integer; you can do the same thing with one of the days that are known to be on the Doomsday.
 
 - Take the difference in days modulo 7 and use that to return the correct day.
+
+- You might want to create a list containing the days of the week starting with Monday. Use the difference computed in the previous step as an index inot the list to get the correct day.
 
 
