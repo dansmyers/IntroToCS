@@ -1,8 +1,6 @@
 # Challenge Project: It's a Secret to Everybody
 
-## Due Tuesday, April 5
-
-## Submit your code to the assignment I'll create on Canvas
+## Due Monday, November 14
 
 ## Description
 
@@ -34,17 +32,9 @@ Therefore, given a large body of text that’s been encoded using a substitution
 
 In this project, your mission is to use frequency analysis to decipher a message that I’ve encoded using a substitution cipher. Use frequency analysis to determine the letter frequencies in the enciphered text. Then, using a table of standard English letter frequencies, decrypt the ciphertext to produce the plaintext output.
 
-## Getting the Input File
+## Input File
 
-The enciphered message is in the file `cipher.txt` posted to Canvas. It contains the opening text of a famous work of literature. The punctuation, spaces, and capitalization of the text have been left intact and both capital and lowercase letters have been encrypted using the same substitutions.
-
-Download the file from Canvas, then import it into your Mimir workspace by going to `File --> Upload`. Once you've uploaded the file, it will appear in your Mimir top-level home directory. You can move it to your `CMS_195/Dictionaries` project directory using
-
-```
-mv ~/cipher.txt ~/CMS_120/Dictionaries
-```
-
-Here, the `~` (tilde) symbol is a shortcut that represents your home directory and `mv` is the file move command.
+The enciphered message is in the file `cipher.txt`. It contains the opening text of a famous work of literature. The punctuation, spaces, and capitalization of the text have been left intact and both capital and lowercase letters have been encrypted using the same substitutions.
 
 
 ## Tips
@@ -57,12 +47,9 @@ Write two programs:
 
 - `decode.py` to translate the ciphered text file and print the deciphered version. Use a dictionary to store the mapping for each ciphertext letter to its plaintext counterpart (you'll need to code the mappings in this dictionary **by hand** as part of the program).
 
-Note that the letter frequencies you obtain in step 1 may not perfectly map to the frequencies of letters in ideal English language text. You may need to do a little bit of
-experimentation to find the right mappings and perform the decryption; this is part of the process. **You do not need to (and probably can't) determine the correct mappings
-automatically**. This project is as much of a puzzle as it is a programming task.
+Note that the letter frequencies you obtain in step 1 may not perfectly map to the frequencies of letters in ideal English language text. You may need to do a little bit of experimentation to find the right mappings and perform the decryption; this is part of the process. **You do not need to (and probably can't) determine the correct mappings automatically**. This project is as much of a puzzle as it is a programming task.
 
-The ciphertext contains both uppercase and lowercase letters. I recommend converting each line of text to lowercase before you perform frequency analysis,
-so that you obtain complete counts for every letter. You can use the string's `.lower()` method to convert a line to all lowercase letters:
+**Uppercase and lowercase letters**. The ciphertext contains both uppercase and lowercase letters. I recommend converting each line of text to lowercase before you perform frequency analysis, so that you obtain complete counts for every letter. You can use the string's `.lower()` method to convert a line to all lowercase letters:
 
 ```
 # Example of converting text to lower case
@@ -74,7 +61,7 @@ print(str)  # prints 'hello, world.'
 
 Spaces and punctuation are not enciphered, so you don't need to analyze them.
 
-In your deciphering program, manually create a dictionary that stores the letter decryptions you derived from the first step.
+**Deciphering the code**. In your deciphering program, manually create a dictionary that stores the letter decryptions you derived from the first step.
 
 ```
 decodings = {}
@@ -87,16 +74,7 @@ decodings['A'] =      # Capital letters have the same mappings as lowercase
 
 Write a loop that reads each line of the cipher file, then loops through the letters on each line. As you read each letter, look it up in the `decodings` dictionary and output its corresponding unencrypted letter.
 
-# Submission
-
-Put your two Python files and `cipher.txt` into a zip archive. The `zip` command compresses files:
-
-```
-zip Assignment_6_YOUR_NAME.zip cipher.txt frequency_analysis.py decode.py 
-```
-
-Download the zip file from Mimir by navigating to it in your right-hand file browser panel, right-clicking (CTRL + click on Mac), and choosing the "Download File" option. Submit 
-your zip file to the assignment that I'll create on Canvas.
+# Completion
 
 There are **no automated tests** for this project. To receive full credit, make sure your programs can do the following:
 
