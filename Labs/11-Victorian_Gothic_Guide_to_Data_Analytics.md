@@ -23,29 +23,14 @@ At the end of this lab, you'll submit **three Python programs and three PDF plot
 The three labs we're going to complete were originally designed by my wife Chelsea for her book,
 [*Project-Based R Companion to Introductory Statistics*](https://www.taylorfrancis.com/books/mono/10.1201/9780429292002/project-based-companion-introductory-statistics-chelsea-myers?context=ubx&refId=262ee6fc-50b7-4b79-a116-d508a2270467). She has &ndash; let's call it &ndash; a *fascination* with weird and morbid 19th Century data sets, which is one of her many excellent qualities.
 
+## Create a new workspace
+
+From your repl.it homepage, create a new workspace. Choose the ``Python Data Science'' template (not regular Python). Name your new workspace `CMS120-Pandas`.
+
 ## Get the Data
 
-The three CSV files are posted to Canvas. Download them all, then upload them to your Mimir workspace using the `File ---> Upload` menu.
+The three CSV files are posted to Canvas. Download them all, then upload them to your workspace by dragging and dropping into the file browser or by using the "Upload" option.
 
-The three files will upload to your top-level workspace directory. Start by making a subdirectory for this lab and moving the files to it.
-
-```
-mkdir CMS_120/Lab_11
-
-cd CMS_120/Lab_11
-
-mv ../../Titanic.csv .
-
-mv ../../Lister.csv .
-
-mv ../../Ohio.csv .
-```
-
-The `mv` command moves a file. Here, `..` refers to the parent directory, so the path `../../Titanic.csv` refers to a file named `Titanic.csv` that is two levels up in the
-directory hierarchy. The second `.` refers to the current working directory, which will be `CMS_120/Lab_11` in this example. In words, the command takes the file `Titanic.csv`
-from two levels up and moves it to the current working directory.
-
-Type `ls` and verify that the three files have appeared in your current directory.
 
 ## The *Titanic* Dataset
 
@@ -77,7 +62,7 @@ print(df.head())
 
 Here is a breakdown of each step:
 
-- The first two lines import the `pandas` module as the alias `pd` and the `numpy` module as `np`. Both of these packages are installed by default on Mimir.
+- The first two lines import the `pandas` module as the alias `pd` and the `numpy` module as `np`.
 
 - `numpy` is the "Numerical Python" library and supports working with vectors, matrices, and linear algebra. It's often used together with Pandas.
 
@@ -301,14 +286,13 @@ Yes                   15.000000  85.000000
 
 ### Plot
 
-One final part for this section: Let's visualize the results as a bar plot. Pandas includes a built-in plottin library and there are also several frameworks that can be used to create plots in Python.
+One final part for this section: Let's visualize the results as a bar plot. Pandas includes a built-in plotting library and there are also several frameworks that can be used to create plots in Python.
 
-Pandas' built-in plotting features are implemented on top of a lower-level library called matplotlib. The first thing that we need to do is get access to matplotlib.
-Go back up to the **top** of your script and add the following code below the two `import` statements.
+Pandas' built-in plotting features are implemented on top of a lower-level library called matplotlib. The first thing that we need to do is get access to matplotlib. Go back up to the **top** of your script and add the following code below the two `import` statements.
 
 ```
 import matplotlib
-matplotlib.use('Agg') # <--- Required for plotting on Mimir
+matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 ```
 
@@ -324,7 +308,7 @@ plt.close()
 
 Here are the details:
 
-- `tab.plot` creates a plot from the data frame created by `crosstab`. Because we are working on Mimir, we can't directly visualize the plot immediately; instead, we have to save it as a PDF and then download the PDF from Mimir to view the result.
+- `tab.plot` creates a plot from the data frame created by `crosstab`.
 
 - The next two lines set properties (y-axis label and y-axis range) for the plot.
 
@@ -332,7 +316,6 @@ Here are the details:
 
 - `plt.close()` closes the plot in memory, which allows the script to proceed and complete.
 
-To see the plot, use your left-hand file browser pane to find your CMS_120/Lab_11 directory. Right-click (or CTRL + click on Mac) on the file and select "Dowload". You can then view the PDF by opening it in your computer's Downloads folder.
 
 ## The Civil War
 
@@ -356,7 +339,7 @@ import numpy as np
 import seaborn as sns
 
 import matplotlib
-matplotlib.use('Agg') # <--- Required for plotting on Mimir
+matplotlib.use('Agg')
 from matplotlib import pyplot as plt
 
 
@@ -365,10 +348,10 @@ df = pd.read_csv('Ohio.csv')
 print(df.head())
 ```
 
-This script will illustrate the use of Seaborn, a second plotting library that is also built on top of matplotlib. Seaborn includes built-in functions for creating common plots with intelligent default styles. Use the following terminal command to install Seaborn:
+This script will illustrate the use of **Seaborn**, a second plotting library that is also built on top of matplotlib. Seaborn includes built-in functions for creating common plots with intelligent default styles. Use the following terminal command to install Seaborn:
 
 ```
-sudo pip install seaborn
+pip install seaborn
 ```
 
 Here is the output of `head()`:
