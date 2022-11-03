@@ -348,7 +348,7 @@ df = pd.read_csv('Ohio.csv')
 print(df.head())
 ```
 
-This script will illustrate the use of **Seaborn**, a second plotting library that is also built on top of matplotlib. Seaborn includes built-in functions for creating common plots with intelligent default styles. Use the following terminal command to install Seaborn:
+This script will illustrate the use of **Seaborn**, a second plotting library that is also built on top of matplotlib. Seaborn includes built-in functions for creating common plots with intelligent default styles. Use the following **shell command** to install Seaborn:
 
 ```
 pip install seaborn
