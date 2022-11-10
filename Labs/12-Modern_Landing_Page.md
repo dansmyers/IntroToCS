@@ -10,6 +10,7 @@ In this lab, you're going to work through a tutorial to build a modern-style lan
 - [Harry's](https://www.harrys.com/en/us) (direct-to-consumer razors)
 - [Warby Parker](https://www.warbyparker.com/) (glasses, the OG direct-to-consumer example brand)
 - [FTX cryptocurrency exchange](https://ftx.us/?fromIntl=true) (lol)
+- [visvim](https://www.visvim.tv/) (more minimalist, but the basic elements are still there)
 
 All of those sites feature custom elements, images, and other features that go beyond what's included in the tutorial, but you'll have a good understanding of how a modern site is put together.
 
@@ -35,6 +36,7 @@ The basic site is generic. It uses "[Lorem ipsum](https://en.wikipedia.org/wiki/
 
 - Update the page title, flavor text, and descriptions for the icons and portfolio cards.
 - Upload new images fitting your page theme to the `img` folder and change the code to link to those images instead of the default ones.
+- If you want to be ambitious, you can look at adding another section to the page. Do some research on the [Carousel](https://getbootstrap.com/docs/4.0/components/carousel/) component, which can let you cycle through a series of image or slides.
 
-You can choose the topic of your page.
+You can choose the topic of your page. Have fun!
 
