@@ -1,0 +1,12 @@
+# Challenge Project 3: Building a web-based game with 24a2
+
+<img src="https://github.com/jamesroutley/24a2/raw/master/website/static/img/banner.png" width="50%" />
+
+## Due 12/2 (the last day of classes)
+
+## Description
+
+[24a2](https://24a2.routley.io/) is a simple engine for web-based games developed by James Routley. All 24a2 games are written in JavaScript and played in the web browser using a grid of 24x24 dots.
+
+## Tips
+
