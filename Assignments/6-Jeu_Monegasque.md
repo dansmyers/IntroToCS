@@ -1,6 +1,6 @@
 # Assignment 6: Jeu Monégasque
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Monaco_Monte_Carlo_1.jpg/2560px-Monaco_Monte_Carlo_1.jpg" width="100%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Monaco_Monte_Carlo_1.jpg/2560px-Monaco_Monte_Carlo_1.jpg" width="50%" />
 
 *Monte Carlo is a district of the small European principality of Monaco. It's the home of a famous casino and entertainment complex that has been in operation since the 1800s.*
 
@@ -19,7 +19,7 @@ This assignment introduces a new kind of program: **Monte Carlo simulation**, wh
 ## Problems
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Casino_de_Monaco_%2850158785856%29.jpg/2880px-Casino_de_Monaco_%2850158785856%29.jpg" width="100%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Casino_de_Monaco_%2850158785856%29.jpg/2880px-Casino_de_Monaco_%2850158785856%29.jpg" width="50%" />
 
 *The Place du Casino.*
 
