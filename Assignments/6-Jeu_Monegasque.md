@@ -111,10 +111,10 @@ seed(0)  # DON'T MODIFY THIS LINE
 
 The most popular dice game in American casinos, craps allows players to make an extensive array of bets. The most common is called the "pass" bet, and it works as follows:
 
--A player (the "shooter") rolls two six-sided dice.
+- A player (the "shooter") rolls two six-sided dice.
 
 - If their sum is 7 or 11, the bet immediately wins. If the sum is 2 ("snake eyes"), 3, or 12 ("boxcars" or "midnight"), the bet immediately loses.
-- 
+
 - If the sum is any other number, that number becomes the **point** and the bet enters a second phase.
 
 - During the second phase, the shooter continues rolling the dice with the goal of rolling the point value again before rolling a 7. If the point comes up first, the bet wins; if a 7 comes up first, the bet loses. The shooter will re-roll as many times as required until either the point or 7 comes up.
