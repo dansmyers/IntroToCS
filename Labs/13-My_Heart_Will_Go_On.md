@@ -44,7 +44,7 @@ print(df.head())
 You may need to install the `sklearn` module. Type the following command **in the shell**.
 
 ```
-pip install sciki-learn
+pip install scikit-learn
 ```
 
 Save and run `model.py` and verify that you can print the head of the data set.
