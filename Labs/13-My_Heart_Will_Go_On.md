@@ -8,9 +8,12 @@ The first in-class part of today's lab focused on understanding the basics of ma
 
 Our data set will be `Titanic.csv` file we worked with last time. We're going to create a model that will allow us to understand the characteristics that contributed to passengers suriving the sinking of the *Titanic*. Along the way, we'll learn some more about building and evaluating predctive models.
 
-## Get the Data
+## Submission
 
-Create a new workspace on REPLit using Python. Upload your `Titanic.csv` file from last week to the workspace.
+This lab contains questions that you'll need to answer as you go. Create a Word document and put your answers to each question in it. When you finish, submit your document and the PDF outputs that you create during the lab to Canvas.
+
+## Get the Data
+Reopen your `CMS120-Pandas` workspace from the last lab. It should already contain the `Titanic.csv` file.
 
 Make a new file called `model.py` and put the following code inside it:
 
