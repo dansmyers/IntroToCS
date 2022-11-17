@@ -12,6 +12,8 @@ All of these problems will give you additional practice using combinations of `w
 
 This assignment introduces a new kind of program: **Monte Carlo simulation**, which is all about using randomized programs to answer questions that would be hard to answer with exact calculations. We'll use the Monte Carlo technique to simulate some games and estimate their winning probabilities.
 
+Put your solutions in the workspace on repl.it. There are no automated tests for this project: each problem has only one answer, which you should simply print at the end of each simulation.
+
 ## Reading
 
 Complete the **participation questions** for Chapter 7 on lists and dictionaries.
