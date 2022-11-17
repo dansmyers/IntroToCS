@@ -34,8 +34,6 @@ Fill in code for the program below and put your solution in `dice.py`. Use a for
 ```
 """
 Simulate the average of rolling two dice
-
-CMS 195 Spring 2020
 """
 
 from random import seed, randint
