@@ -152,7 +152,7 @@ Try writing three different simulate methods, one that simulates the first propo
 
 Notice that the problem is phrased as **at least** not **exactly**.
 
-Python's lists have a built-in method called `coun`t that can check the number of occurrences of an item in the list. Suppose you want to generate a list of 6 die rolls and then count the number of 6's that occur.
+Python's lists have a built-in method called `count` that can check the number of occurrences of an item in the list. Suppose you want to generate a list of 6 die rolls and then count the number of 6's that occur.
 
 ```
 rolls = []
