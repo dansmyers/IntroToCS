@@ -4,7 +4,7 @@
 
 *Monte Carlo is a district of the small European principality of Monaco. It's the home of a famous casino and entertainment complex that has been in operation since the 1800s.*
 
-## Due 
+## Due Friday 12/2 (the last day of class)
 
 ## Overview
 
@@ -12,9 +12,9 @@ All of these problems will give you additional practice using combinations of `w
 
 This assignment introduces a new kind of program: **Monte Carlo simulation**, which is all about using randomized programs to answer questions that would be hard to answer with exact calculations. We'll use the Monte Carlo technique to simulate some games and estimate their winning probabilities.
 
+## Reading
 
-## Submission
-
+Complete the **participation questions** for Chapter 7 on lists and dictionaries.
 
 ## Problems
 
