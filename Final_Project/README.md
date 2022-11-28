@@ -18,8 +18,8 @@ This is it, the final project.
 ## Requirements
 
 1. Awesomeness.
-2. 
-3. Uses basic features of Python: variables, loops, conditional statements, and functions. Almost any reasonably complex program is going to satisfy these requirements. If your program doesn't include most of these features then it might be too simple. **You must include at least one instance of each of these features**.
+
+2. Uses basic features of Python: variables, loops, conditional statements, and functions. Almost any reasonably complex program is going to satisfy these requirements. If your program doesn't include most of these features then it might be too simple. **You must include at least one instance of each of these features**.
    
 3. Uses at least one advanced data organization feature: a list, a class, or a dictionary. I'm not requiring any particular number of these, because the best choice depends on the nature of your program.
    
