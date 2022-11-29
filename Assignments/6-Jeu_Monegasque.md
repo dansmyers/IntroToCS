@@ -33,6 +33,8 @@ One way to solve this problem is to reason about set of possible outcomes obtain
 
 Fill in code for the program below and put your solution in `dice.py`. Use a for loop to call simulate 1000 times and add up the results of all the simulated die rolls. At the end of the program, calculate the average over all 1000 trials.
 
+Your answer should be close to 7.
+
 ```
 """
 Simulate the average of rolling two dice
@@ -75,6 +77,8 @@ Recall the passe-dix game:
 - The player wins if the sum is **greater** than 10 and loses if the sum is **less than or equal** to 10 (we'll ignore the case of pushing if the sum is exactly 10 for this problem).
 
 Use a Monte Carlo simulation program to estimate the odds of winning at passe-dix. Use the same strategy as the previous program, with a main loop that calls a `simulate` method 1000 times. In this case, the `simulate` method will return `True` if the player wins a round or `False` if the player did not win. The final output is the fraction of calls that resulted in a win for the player.
+
+Your answer should be about 49%.
 
 ```
 """
@@ -146,7 +150,7 @@ corresponded with Isaac Newton regarding a wager:
 >- Twelve fair dice are tossed independently and at least two sixes appear.
 >- Eighteen fair dice are tossed independently and at least three sixes appear.
 
-What is the answer to Pepys' question? Write a simulation program to find the answer.
+What is the answer to Pepys' question? Write a simulation program to find the answer. Check the [Wikipedia page](https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem) for the solution and calculations for each case. The first proposition is the most likely to occur.
 
 Tips:
 
