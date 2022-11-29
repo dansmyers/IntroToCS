@@ -172,9 +172,9 @@ For programming assignments, you must make a fair attempt on every problem. For 
 
 | Performance             | Your grade will be adjusted downwards by |
 |------------------------------------------------|------------------------------------------|
-| Completing less than 90% of assignments | Fraction of a letter grade for each unsatisfactory or missed assignment (e.g. B to B-)       |
-| Failing to complete all six lab reports | Fraction of a letter grade for each one |
-| More than one missed assignment           | One full letter grade (e.g., B to C) |
+| Completing less than 90% of assignments | Fraction of a letter grade for the first unsatisfactory or missed assignment (e.g. B to B-)       |
+| Failing to complete all six lab reports | Fraction of a letter grade for the first missed one |
+| More than one missed assignment or lab          | One full letter grade (e.g., B to C) |
 | Unsatisfactory final project            | One full letter grade   |
 
 These penalties are cumulative. For example, if you failed to satisfactorily complete two major projects, your base grade would be lowered by 1.5 letters, from B to C-.
