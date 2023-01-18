@@ -56,7 +56,7 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 
 We will use an online ZyBook covering Python programming fundamentals. The text includes built-in problems that you will complete along with the assigned homework projects. In most cases, the questions for each book chapter will be due at the same time as a programming project.
 
-To access the text create an account on the ZyBooks site, https://learn.zybooks.com. Enter the ZyBook code: ROLLINSCMS120MyersWinter2023. The subscription lasts until after the end of the semester.
+To access the text create an account on the ZyBooks site, https://learn.zybooks.com. Enter the ZyBook code: ROLLINSCMS120MyersSpring2023. The subscription lasts until after the end of the semester.
 
 
 ## Schedule
