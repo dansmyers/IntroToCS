@@ -70,10 +70,10 @@ We will also use Mimir as an online development and automatic grading platform. 
 1/18  | Hello, World! |
 1/19  | Lab 1: Doing things with Repl.it | Assignment 1 out |
 1/23  | Printing and calculations  |
-1/25 | Variables |
-1/26 | Lab 2: Practice variables |
+1/25 | Variables | Assignment 1 due | 
+1/26 | Lab 2: Practice variables | Assignment 2 out |
 1/30 | User input |
-2/1 | Relational operators and the `if` statement |
+2/1 | Relational operators and the `if` statement |  Assignment 2 due |
 2/2 | Lab 3: Human-Computer Interaction and Fitts' Law| Required lab|
 2/6 | `if`-`elif`-`else`||
 2/8 | Making randomized choices, text games ||
