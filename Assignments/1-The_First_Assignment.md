@@ -36,7 +36,7 @@ Note: the ZyBook "challenge questions" are not the same as my challenge problems
 
 *Super Nintendo World Japan. Coming to Universal Orlando in a few years.*
 
-At the end of each level of the original Super Mario Bros., Mario jumps up a staircase like the following:
+At the end of each level of the original *Super Mario Bros.*, Mario jumps up a staircase like the following:
 
 ```
      ##
