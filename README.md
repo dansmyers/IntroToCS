@@ -74,7 +74,7 @@ We will also use Mimir as an online development and automatic grading platform. 
 1/26 | Lab 2: Practice variables | Assignment 2 out |
 1/30 | User input |
 2/1 | Relational operators and the `if` statement |  Assignment 2 due |
-2/2 | Lab 3: Human-Computer Interaction and Fitts' Law| Required lab|
+2/2 | Lab 3: Human-computer interaction and Fitts' Law| Required lab|
 2/6 | `if`-`elif`-`else`||
 2/8 | Making randomized choices, text games ||
 2/9 | Lab 4: RPS and intro to functions ||
