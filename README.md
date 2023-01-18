@@ -67,52 +67,51 @@ We will also use Mimir as an online development and automatic grading platform. 
 
 | Day | Topic  |  Notes |
 |------|---------|-------------|
-|8/22| Hello, World!||
-|8/24| Printing and calculations||
-|8/25|  Lab 1: Doing things on Repl.it|Assignment 1 out|
-|8/29|  Variables||
-|8/31| User input||
-|9/1|  Lab 2: Practice variables|Assignment 1 due|
-|9/5|  LABOR DAY||
-|9/7|  Relational operators and the `if` statement||
-|9/8|  Lab 3: Human-Computer Interaction and Fitts' Law| Required lab|
-|9/12| `if`-`elif`-`else`||
-|9/14| Making randomized choices, text games||
-|9/15| Lab 4: RPS and intro to functions||
-|9/19| More functions||
-|9/21| Functions that return values||
-|9/22| Lab 6: Choose Your Own Adventure||
-|9/26| Local variables and scope||
-|9/28| Intro to lists||
-|9/29| Lab 7: Network performance measurement|Required lab|
-|10/3| The `for` loop||
-|10/5| The `range` function||
-|10/6| EXTRA DAY OFF (no lab)||
-|10/10| FALL BREAK||
-|10/12| The `while` loop||
-|10/13| Lab 8: Wordplay + files||
-|10/17| Midpoint review||
-|10/19| Numbers and data representation||
-|10/20| Lab 9: Precision and number formats| Required lab|
-|10/26| Dictionaries||
-|10/28| Letter frequencies and code cracking||
-|10/29| Lab 10: Monte Carlo word estimation|Required lab|
-|10/31| The Web + HTML||
-|11/2 |Creating web pages||
-|11/3 |Lab 11: Intro to Pandas| Required lab|
-|11/7 |Fancier web pages||
-|11/9 |Interactive pages||
-|11/10| Lab 12: My Heart Will Go On| Required lab|
-|11/14| Writing web applications I||
-|11/16| Writing web applications II||
-|11/17| Lab 13: Start working on projects||
-|11/21|  NO CLASS (Dr. Myers out of town)||
-|11/23|  THANKSGIVING||
-|11/24|  THANKSGIVING||
-|11/28| Topic||
-|11/30| Topic||
-|12/1 |Final lab: FINISH PROJECTS||
-|12/2|Last day of classes |All challenge projects due|
+1/18  | Hello, World! |
+1/19  | Lab 1: Doing things with Repl.it | Assignment 1 out |
+1/23  | Printing and calculations  |
+1/25 | Variables |
+1/26 | Lab 2: Practice variables |
+1/30 | User input |
+2/1 | Relational operators and the `if` statement |
+2/2 | Lab 3: Human-Computer Interaction and Fitts' Law| Required lab|
+2/6 | `if`-`elif`-`else`||
+2/8 | Making randomized choices, text games ||
+2/9 | Lab 4: RPS and intro to functions ||
+2/13 | More functions||
+2/15 | Functions that return values ||
+2/16 | Lab 5: Choose Your Own Adventure ||
+2/20 | Local variables and scope||
+2/22 | Intro to lists ||
+2/23 | Lab 6: Network performance measurement | Required lab |
+2/27 | The `for` loop||
+3/1 | The `range` function ||
+3/2 | Lab 7: Wordplay and working with files ||
+3/6 | Numbers and data representation ||
+3/8 | Character formats and midpoint review ||
+3/9  | EXTRA DAY OFF: no lab ||
+3/13 | SPRING BREAK | |
+3/15 | SPRING BREAK | |
+3/16 | SPRING BREAK | |
+3/20 | Dictionaries | |
+3/22 | Letter frequencies and code cracking | |
+3/23 | Lab 8: Precision | Required lab |
+3/27 | The Web and HTML | |
+3/29 | Creating web pages | |
+3/30 | Lab 9: Monte Carlo word estimation | Required lab |
+4/3 | Fancier web pages | |
+4/5 | Interactive web pages | |
+4/6 | Lab 10: Victorian gothic guide to data analytics | Required lab |
+4/10 | Intro to object-oriented programming | | 
+4/12 | Objects and classes | |
+4/13 | Lab 11: My heart will go on | Required lab |
+4/17 | No class (Dr. Myers out of town) ||
+4/19 | Classes that have data | |
+4/20 | Lab 12: Writing even more classes | |
+4/24 | TOPIC | |
+4/26 | TOPIC | |
+4/27 | Final lab: Work on projects | |
+5/1 | Last day of classes | All challenge projects due |
 
 ### Other Important Dates
 
