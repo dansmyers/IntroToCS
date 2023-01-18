@@ -1,6 +1,6 @@
 # Assignment 1: The First Assignment
 
-## Due Thursday, January 26
+## Due Wednesday, January 25
 
 ## Overview
 
