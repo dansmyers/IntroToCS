@@ -56,9 +56,7 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 
 We will use an online ZyBook covering Python programming fundamentals. The text includes built-in problems that you will complete along with the assigned homework projects. In most cases, the questions for each book chapter will be due at the same time as a programming project.
 
-To access the text create an account on the ZyBooks site, https://learn.zybooks.com. Enter the ZyBook code: ROLLINSCMS120MyersFall2022. The subscription is $88 and lasts until after the end of the semester.
-
-We will also use Mimir as an online development and automatic grading platform. It's free for the 2021-22 academic year. Please plan to sign up for Mimir by the start of the first lab. I'll send out the details of how to connect your Mimir account to the class by e-mail.
+To access the text create an account on the ZyBooks site, https://learn.zybooks.com. Enter the ZyBook code: ROLLINSCMS120MyersWinter2023. The subscription lasts until after the end of the semester.
 
 
 ## Schedule
