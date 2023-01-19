@@ -213,8 +213,7 @@ Note:
 - Create a new file named `fries.py` to hold your program.
 
 ```
-> touch fries.py
-> open fries.py
+touch fries.py
 ```
 
 - You only need to write one line that uses a `print` statement to display the result of the calculation.
