@@ -203,4 +203,4 @@ Tips:
 - You need to match the formatting exactly to pass the test. The script will point out the first place where your output differs from the expected output.
 - There are no spaces. Use only the `\t` character to insert horizontal white space.
 - There are two tabs before `the` and four before `goat-footed`. There are two tabs between `balloonMan` and `whistles`.
-- You can print a blank line using and empty print statement: `print()`
+- You can print a blank line using an empty print statement: `print()`
