@@ -137,7 +137,7 @@ You can then check your present working directory with `pwd` and see that it has
 
 ### Cowsay?
 
-Let's install a new program. **Type this command in the terminal window of your Mimir IDE**.
+Let's install a new program. **Type this command in the shell window of Repl.it.**
 ```
 pip install cowsay
 ```
