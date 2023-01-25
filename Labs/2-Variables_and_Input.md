@@ -37,6 +37,14 @@ print('He can solve any math problem by simply pushing the computer\'s little %s
 # Add more print statements for the rest of the story...
 ```
 
+Tip: The last sentence has multiple blanks. You can print multiple variables in a single statement as follows:
+
+```
+print('Others have a/an %s screen that shows all kinds of %s and %s figures.' % (adj1, plural_noun2, adj2))
+```
+
+Python puts the first variable (`adj1`) in place of the first `%s`, the second variable (`plural_noun2`) in place of the second `%s`, and so forth.
+
 
 ## The Weight
 
