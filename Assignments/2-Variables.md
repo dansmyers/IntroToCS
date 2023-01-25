@@ -127,7 +127,7 @@ Write a program that can take in an integer number of shillings and pennies and 
 You can assume that the user will only enter positive integer values. Report your answers to two decimal places.
 
 
-Tip: Use the `int` function to convert input to integer values
+Tip: Use the `int` function to convert input to integer values. Don't use a prompt for the `input` functions.
 
 ```
 shillings = int(input())
@@ -146,7 +146,7 @@ Suppose you would like to calculate the Nth Fibonacci number. How could you do t
 
 It turns out there is a single formula that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form.
 
-The result is know as Binet's formula and it says that the Nth Fibonacci number `F_n` is
+The result is known as Binet's formula and it says that the Nth Fibonacci number `F_n` is
 
 <img src="https://latex.artofproblemsolving.com/8/6/d/86d486c560727727342090b432e23ba85ac098b1.png" width="30%"/>
 
@@ -166,9 +166,11 @@ You'll need the ability to take square roots and calculate powers. Use the built
 
 ```
 from math import sqrt
+```
 
 You can then call the functions like so
 
+```
 phi = (1 + sqrt(5)) / 2  # sqrt(5) calculates the square root of 5
 phi_to_the_n = phi ** n  # Calculate phi to the power n
 ```
