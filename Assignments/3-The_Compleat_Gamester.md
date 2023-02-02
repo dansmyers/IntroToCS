@@ -115,7 +115,7 @@ Select a bet: -1
 You must enter 1 or 2.
 ```
 
-Use `sys.exit()` to end the program immediately if the user gives you bad input.
+Use `quit()` to end the program immediately if the user gives you bad input.
 
 
 #### Tips
