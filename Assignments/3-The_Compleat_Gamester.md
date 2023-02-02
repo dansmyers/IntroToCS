@@ -214,6 +214,7 @@ Your method should read the number of the user's bet, then generate a random spi
 
 Here is an example of the output:
 
+```
 Welcome to Roulette.
 1. Even
 2. Odd
@@ -222,6 +223,7 @@ Welcome to Roulette.
 Select a bet: 1
 The spin is 4.
 You win.
+```
 
 As before, use `sys.exit()` to end the program immediately if the user inputs a bad value. Print the message
 
