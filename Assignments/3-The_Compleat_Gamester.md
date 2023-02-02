@@ -225,7 +225,7 @@ The spin is 4.
 You win.
 ```
 
-As before, use `sys.exit()` to end the program immediately if the user inputs a bad value. Print the message
+As before, use `quit()` to end the program immediately if the user inputs a bad value. Print the message
 
 ```
 You must enter 1, 2, 3, or 4.
