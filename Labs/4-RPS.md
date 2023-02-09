@@ -38,13 +38,7 @@ MY FAILURE...DOES NOT COMPUTE...
 
 ### Setup
 
-```
-mkdir Lab_4
-
-cd Lab_4
-
-touch rps.py
-```
+Use the Lab 4 workspace on Repl.it. Create a new file named `rps.py`.
 
 ### Starting Code
 
@@ -216,8 +210,7 @@ print_area_of_circle(100)
 
 ### `print_area_of_rectangle`
 
-Complete the following program with a function that takes an input length and width, then prints the area of the corresponding rectangle. This example shows how to write a
-function that takes multiple parameters.
+Complete the following program with a function that takes an input length and width, then prints the area of the corresponding rectangle. This example shows how to write a function that takes multiple parameters.
 
 ```
 """
@@ -247,8 +240,7 @@ print_area_of_rectangle(3, 11)
 
 ### Willigrams
 
-After Scott invented the Scottometer, Will needed his own unit of measurement so he created the **Willigram**. The actual magnitude of the Willigram is a bit uncertain (the
-definition has varied over time), but is currently set at 10000 pounds per Willigram (no, this does not make any sense; just go with it).
+After Scott invented the Scottometer, Will needed his own unit of measurement so he created the **Willigram**. The actual magnitude of the Willigram is a bit uncertain (the definition has varied over time), but is currently set at 10000 pounds per Willigram (no, this does not make any sense; just go with it).
 
 Write a program that reads a number of pounds from the user and prints the corresponding number of Willigrams. Use a function called `pounds_to_willigrams` to perform the conversion and print the result. Your function should take one input called `pounds`. Make sure that your function has an appropriate docstring.
 
@@ -273,10 +265,9 @@ pounds_to_willigrams(value)
 
 <img src="https://external-preview.redd.it/3_iVT6i7dReTdMXS-bNiIS0U9p2QTsfq6BUDC57b8tc.jpg?auto=webp&s=5943d7cf04be56a4de8cf045667e41631c02a90e" width="35%" />
 
-Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .14 USD per DOGE.
+Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .086 USD per DOGE.
 
-Write a program that reads a number of dollars as input, then uses a function to calculate and print the corresponding amount of DOGE. Your function should be called
-`usd_to_doge` and take one input parameter called `usd`.
+Write a program that reads a number of dollars as input, then uses a function to calculate and print the corresponding amount of DOGE. Your function should be called `usd_to_doge` and take one input parameter called `usd`.
 
 Tip: think carefully about how to do the conversion and whether you need to multiply or divide.
 
@@ -301,13 +292,11 @@ usd_to_doge(value)
 
 <img src="https://cdn.shopify.com/s/files/1/0904/3248/products/chocolate_front_1408x1408.jpg?v=1566244530" width="35%" />
 
-As a deep thinker and observer of modern society, I truly believe that entomophagy is the wave of the future. Crickets are a naturally renewable (albeit noisy) resource and
-contain proportionally more protein than chicken or beef.
+As a deep thinker and observer of modern society, I truly believe that entomophagy is the wave of the future. Crickets are a naturally renewable (albeit noisy) resource and contain proportionally more protein than chicken or beef.
 
 Through a totally unscientific research process, I have learned that the average cricket weighs .50 grams and consists of about 60% protein, for an average of .30 grams of protein per cricket.
 
-Write a program to read in a number of grams of protein as input, then use a function to calculate and print the corresponding number of crickets needed to produce that 
-amount of protein. Your function should be called `grams_of_protein_to_crickets` and take one input parameter named `grams`.
+Write a program to read in a number of grams of protein as input, then use a function to calculate and print the corresponding number of crickets needed to produce that  amount of protein. Your function should be called `grams_of_protein_to_crickets` and take one input parameter named `grams`.
 
 How many crickets are required to make 1 kilogram of protein?
 
