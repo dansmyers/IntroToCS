@@ -106,7 +106,7 @@ While I'm certainly **not** a connossieur of the form, many of these games are g
 
 ## *Adventure*
 
-*Adventure* is the granddaddy of all text adventure games. The first version was written in the 1970's by a programmer named Will Crowther and based on his experiences exploring the Mammoth Cave system in Kentucky. Many locations in the game correspond to real locations in Mammoth Cave.
+*Adventure* is the trope codifier for old-school text-based adventure games. The first version was written in the 1970's by a programmer named Will Crowther and based on his experiences exploring the Mammoth Cave system in Kentucky. Many locations in the game correspond to real locations in Mammoth Cave.
 
 Spend a few minutes playing around with an online version here:
 
