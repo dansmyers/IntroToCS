@@ -117,17 +117,7 @@ Spend a few minutes playing around with an online version here:
 
 ### Setup
 
-Make a new directory called `Lab_5` in your repl.it workspace. Create a file called `cyoa.py` in that directory. You can `cd` to the directory in your shell
-
-```
-cd Lab_5
-```
-
-To run your program as you're developing it use
-
-```
-python3 cyoa.py
-```
+Create a new file named `cyoa.py` in the `Lab_5` repl.it workspace.
 
 ### Some Starter Code
 
