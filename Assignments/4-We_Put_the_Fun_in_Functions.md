@@ -1,5 +1,7 @@
 # We Put the Fun in Functions!
 
+## Due Wednesday, March 1
+
 ## Overview
 
 This assignment will allow you to practice writing Python functions. All of the problems require you to write code that takes inputs and **returns** results.
@@ -11,6 +13,10 @@ The testing for this assignment is slightly different. We're using a new feature
 To test your code, click on the check mark in the left side menu. It's labeled "Tests" if you hover over it. You'll see a list of all the unit tests. Click the "Run Tests" button and the testing framework will automatically run your functions and report the number of tests that you passed. If you fail a test, look at the output message, which will show the inputs and expected return value.
 
 In order to pass the tests you must **return** a result from every function. **Do not print anything in your functions** and do not use the `input` command to read values.
+
+## Reading
+
+Complete the participation questions for Chapter 4 in the online ZyBook.
 
 ## Problems
 
