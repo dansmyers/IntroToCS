@@ -1,6 +1,6 @@
 # Challenge Project: It's a Secret to Everybody
 
-## Due Monday, November 14
+## Due Thursday, April 6
 
 ## Description
 
