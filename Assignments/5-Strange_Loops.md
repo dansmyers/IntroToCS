@@ -138,7 +138,7 @@ Use a loop to add up the full number of days for all months before the one you'r
 
 The Doomsday algorithm, developed by John Conway, is a technique for computing the day of the week of any given date.
 
-The method relies on the fact that certain dates in each year are all guaranteed to fall on the same day of the week, which Conway calls the "Doomsday" for that year.  The most important dates that fall on the Doomsday are 4/4, 6/6, 8/8, 10/10, 12/12, and the last day of February.  Monday is the Doomsday for 2022. January 3 falls on the Doomsday in non-leap years.
+The method relies on the fact that certain dates in each year are all guaranteed to fall on the same day of the week, which Conway calls the "Doomsday" for that year.  The most important dates that fall on the Doomsday are 4/4, 6/6, 8/8, 10/10, 12/12, and the last day of February.  Tuesday is the Doomsday for 2023. January 3 falls on the Doomsday in non-leap years.
 
 To find the day of the week associated with a given date, start by finding the Doomsday for the year. Next, determine the number of days separating the date in question from one of the days which is guaranteed to fall on the Doomsday.  The distance in days modulo 7 gives the number of days of the week separating the final answer from the Doomsday.
 
