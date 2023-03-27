@@ -91,7 +91,7 @@ if not a:
 
 ### Primes
 
-Write a function called is_prime that takes an integer `n` as input and returns `True` if the number is prime and `False` otherwise.
+Write a function called `is_prime` that takes an integer `n` as input and returns `True` if the number is prime and `False` otherwise.
 
 Tip
 
@@ -113,7 +113,7 @@ Note: `int(n ** .5)` calculates the square root of n and then truncates it to an
 
 ### Day of the year
 
-Write a function called `day_of_the_year` that takes a `month` and `day` as input and returns the associated day of the year. Let the month by a number from 1 (representing January) to 12 (representing December). For example,
+Write a function called `day_of_the_year` that takes a `month` and `day` as input and returns the associated day of the year. Let the month be a number from 1 (representing January) to 12 (representing December). For example,
 
 ```
 day_of_the_year(1, 1) = 1
@@ -121,7 +121,7 @@ day_of_the_year(2, 1) = 32
 day_of_the_year(3, 1) = 60
 ```
 
-You can ignbore Leap Years and assume that February has 28 days.
+You can ignore Leap Years and assume that February has 28 days.
 
 Tip:
 
