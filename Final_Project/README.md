@@ -44,7 +44,17 @@ It is acceptable to use the Internet to get ideas and figure out how to implemen
 
 **It is acceptable** to research solutions to programming problems and incorporate them into your code. For example, if you need to convert a string to a list, you could look up how to to do that and then use the solution you find. That's an acceptable use of documentation. You **don't** need to provide citations for basic language features or solutions like these.
 
-**You may use ChatGPT or another AI model as a resource**. However, you must use it as a **source** that aids your own development, not as a substitute for your own design and thinking. It is not acceptable to prompt ChatGPT to create an entire program, then copy that and present it as your own submission. If you 
+**You may use ChatGPT or another AI model as a resource**. However, you must use it as a **source** that aids your own development, not as a substitute for your own design and thinking. It is not acceptable to prompt ChatGPT to create an entire program, then copy that and present it as your own submission. If you're working on a project that can be trivially solved with ChatGPT, then your project is too easy and you should pick something more ambitious.
+
+If you use an AI model, **you must upload an additional AI statement** explaining how you used the model, what prompts you ran, and how the output was incorporated into your final program.
+
+## Invalid Projects
+
+Please don't choose any of the following ideas. They're either too easy, too generic, or trivial to implement with AI tools.
+
+- Hangman, or any similar word guessing game. Wordle, however, is more interesting and acceptable.
+- Other simple pen and paper games are acceptable a long as they're worthy of effort. If ChatGPT can do it automatically, I don't want to grade it.
+- Text-based quizzes in Python like Challenge Project 1. If you want to do a quiz, make it a web project.
 
 ## Tips
 
@@ -57,11 +67,17 @@ what it's supposed to do than an ambitious but incomplete idea. Develop incremen
 
 ## Ideas
 
+A good project is one that lets you combine the techniques you've already learned with something new that you need to research.
+
 ### Web-Based Quiz
 
-Prompt the user to answer a few question (look at the radio buttons from the meme generator), then trigger some JS code that gets the answers and produces an output message.
+Prompt the user to answer a few question (look up examples for using radio buttons), then trigger some JS code that gets the answers and produces an output message.
 
 This requires a little bit of front-end work to put the page together, but it can all be done by copying and modifying our earlier examples.
+
+### Cryptography
+
+Do some research on classical cryptoraphic techniques. Pick two or three and implement them. Examples include the Polybius square, the Russian Nihilist cipher, and the double transposition cipher.
 
 ### Digits of π
 
@@ -75,27 +91,6 @@ Look up some ancient techniques for things like multiplication, division, square
 
 If you would prefer to answer a data question, you can find a data set, load it into Pandas, and produce a graph answering your question. Take a look at [this challenge project from the DTA class](https://github.com/dansmyers/DataScienceAndAnalytics/blob/master/Challenge-Projects/1-Make_a_Graph.md) for some tips. If you take this approach, you don't have to write a "report," but do provide a summary of the question, your data source, and an interpretation of the plot that answers the question.
 
-### 24.a2 Game
+### Once More with Feeling
 
-If you completed the third challenge project, you might want to try making another game using the 24.a2 framework.
-
-### Hangman
-
-Classic word game. There are lots of different ways to implement it. Make sure that you're choosing the word from a random pool.
-
-There are many versions of this and other traditional pen and paper games floating around on the Internet. **Do not submit someone else's code as you own**. Trust me: I will know. **I always know**.
-
-### Pig
-
-A classic game played with one die. The object is to be the first player to accumulate 100 total points. On your turn, roll the die.
-
-- If you roll a 1, your turn ends immediately and you earn no points.
-
-- If you roll any other number, add it to your points for this turn.
-
-- You can then choose to either end your turn and add your accumulated points to your total score, or roll again to try and accumulate
-more points for the turn.
-
-- You can keep rolling as many times as you want to accumulate points before ending your turn, but if you roll a 1 your turn ends
-immediately and you score no points for this turn. The strategy of Pig is trading off the risk of rolling a 1 vs. the benefit
-of rolling repeatedly to get as many points as possible.
+Pick some problems from the earlier homeworks and rewrite them in JavaScript. You'll have to look up the relevant syntax for things like functions and loops. Note that user input in JS is much harder than in Python, since it's meant to run in the browser, so don't attempt any programs that require user interaction unless you want a real challenge.
