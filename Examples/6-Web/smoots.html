@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+  </head>
+
+  <body>
+
+    <input type="text" id="text-input" />
+
+    <select id="select-box">
+      <option value="feet-to-smoots">Feet to Smoots</option>
+      <option value="smoots-to-feet">Smoots to Feet</option>
+    </select>
+
+    <button id="button" onclick="convert()">Convert</button>
+
+    <div id="output-div"></div>
+
+    <script>
+      function convert() {
+        var textBox = document.getElementById("text-input");
+        var input = textBox.value;
+        input = Number(input);
+
+        var selectBox = document.getElementById("select-box");
+        var choice = selectBox.value;
+
+        if (choice == 'feet-to-smoots') {
+          var answer = input / 5.5833;
+        } else {
+          var answer = input * 5.5833;
+        }
+
+        var outputDiv = document.getElementById('output-div');
+        outputDiv.innerHTML = answer;
+      }
+    </script>
+  </body>
+</html>
