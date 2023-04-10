@@ -167,7 +167,7 @@ Spanning all twelve units fills the entire row:
 
 ### Practice
 
-Go back to your example on Mimir and edit the columns to create some different combinations.
+Go back to your example and edit the column widths to create some different combinations.
 
 Once you have tried two columns, and a third `<div>` (make sure it's within the row) and experiment with three-column layouts.
 
