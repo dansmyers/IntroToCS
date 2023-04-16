@@ -9,7 +9,6 @@ In this lab, you're going to work through a tutorial to build a modern-style lan
 - [Clare](https://www.clare.com/) (buying paint online, good example of how site design enhances a fundamentally boring product)
 - [Harry's](https://www.harrys.com/en/us) (direct-to-consumer razors)
 - [Warby Parker](https://www.warbyparker.com/) (glasses, the OG direct-to-consumer example brand)
-- [FTX cryptocurrency exchange](https://ftx.us/?fromIntl=true) (lol)
 - [visvim](https://www.visvim.tv/) (more minimalist, but the basic elements are still there)
 
 All of those sites feature custom elements, images, and other features that go beyond what's included in the tutorial, but you'll have a good understanding of how a modern site is put together.
