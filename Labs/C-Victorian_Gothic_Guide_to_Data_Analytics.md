@@ -18,7 +18,7 @@ By the end of this lab, you will be familiar with:
 - Creating histograms from a dataframe.
 - Calculating the mean and five number summary of a dataframe.
 
-At the end of this lab, you'll submit **three Python programs and three PDF plots** to the assignment on Canvas.
+At the end of this lab, you'll submit **three Python programs and four PDF plots** to the assignment on Canvas.
 
 The three labs we're going to complete were originally designed by my wife Chelsea for her book,
 [*Project-Based R Companion to Introductory Statistics*](https://www.taylorfrancis.com/books/mono/10.1201/9780429292002/project-based-companion-introductory-statistics-chelsea-myers?context=ubx&refId=262ee6fc-50b7-4b79-a116-d508a2270467). She has &ndash; let's call it &ndash; a *fascination* with weird and morbid 19th Century data sets, which is one of her many excellent qualities.
