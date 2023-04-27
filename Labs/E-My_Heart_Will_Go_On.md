@@ -104,11 +104,7 @@ tree.export_graphviz(clf, out_file='tree.dot', feature_names=['Pclass', 'Age', '
 ```
 
 
-Re-run the script, then print the contents of `tree.dot`:
-
-```
-cat tree.dot
-```
+Re-run the script, then open `tree.dot` by clicking on it in your file browser window.
 
 Highlight and copy the output (**make sure to include the final terminating `}` that closes the code block**).  Go to the link below, remove any existing code, then paste your code into the window to view the model.
 
