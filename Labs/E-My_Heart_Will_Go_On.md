@@ -279,7 +279,7 @@ The numbers along the diagonal correspond to correct classifications. For exampl
 really fours and were also correctly classified as fours by the model. 
 
 Entries off the main diagonal correspond to misclassifications. For example, the entry in row 5, column 9 corresponds to the digits that were
-really fours, but were misclassified as nines by the model.
+really fives, but were misclassified as nines by the model.
 
 **Question**: What are the two most-frequently misclassified digit pairs?
 
