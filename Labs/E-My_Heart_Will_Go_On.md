@@ -227,7 +227,7 @@ from matplotlib import pyplot as plt
 
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, plot_confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.datasets import load_digits
@@ -267,13 +267,19 @@ Accuracy, of course, is a single measurement, but the MNIST problem has **ten cl
 Add the following code to generate a **confusion matrix**. Download and open the matrix, then **copy it into your lab document**.
 
 ```
-plot_confusion_matrix(clf, X_test, y_test)
+cm = confusion_matrix(y_test, predicted, labels=clf.classes_)
 
-plt.savefig('confusion.pdf', bbox_inches='tight')
-plt.close()
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=clf.classes_)
+disp.plot()
+plt.savefig('matrix.png', bbox_inches='tight')
 ```
 
-The diagonals of the matrix correspond to correct classifications. The other cells correspond to misclassified pairs. Each cell shows the **count** of items that fell into each category.
+The confusion matrix is a ten-by-ten grid that compares the correct value of each handwritten digit to the value chosen by the model.
+The numbers along the diagonal correspond to correct classifications. For example, the entry (4, 4) gives the number of test digits that were
+really fours and were also correctly classified as fours by the model. 
+
+Entries off the main diagonal correspond to misclassifications. For example, the entry in row 5, column 9 corresponds to the digits that were
+really fours, but were misclassified as nines by the model.
 
 **Question**: What are the two most-frequently misclassified digit pairs?
 
@@ -289,7 +295,6 @@ from sklearn.ensemble import RandomForestClassifier
 A random forest, as the name implies, is a classificaiton model bulit from a **collection** of decision trees (because a forest is a group of trees, get it?). The random forest algorithm builds a large number of small decision trees using a randomized process so that each tree is forced to use different features. Given an input, its classification is determined by the **overall consensus** of the set of decision trees. Usually, the classification is determined by simple majority vote, but more complex weighting schemes are possible. Combining multiple simpler classifers to build a more complex predictor is called an **ensemble model**.
 
 **Question**: What is the impact of random forest classifier on prediction accuracy? Does it lead to any significant changes in the misclassified pairs in the confusion matrix?
-
 
 ## Neural Networks
 
