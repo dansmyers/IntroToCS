@@ -100,12 +100,12 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 11/18 | Code cracking | |
 11/20 | Language models  | Lab 13: My heart will go on |
 11/22 |  Language models II | |
-11/25 | Language models III / Flex for hurricane | Project 4 due, Project 5 out |
+11/25 | Language models III | Project 4 due, Project 5 out |
 11/27 | THANKSGIVING BREAK | |
 11/29 | THANKSGIVING BREAK | |
 12/2 | Dr. Myers' choice | |
 12/4 | Dr. Myers' choice | |
-12/6 | Last day of classes | Project 5 due |
+12/6 | Last day of classes / Flex for hurricane | Project 5 due |
 
 ### Other Important Dates
 
