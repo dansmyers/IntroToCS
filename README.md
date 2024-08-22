@@ -2,6 +2,8 @@
 
 ## Fall 2024 Syllabus
 
+<img src="https://media.pitchfork.com/photos/5c37770817eefc510f1b3565/16:9/w_1280,c_limit/David-Bowie.jpg" width="400px">
+
 ## Who? Where?
 
 Dan S. Myers (Dr. Myers)  
