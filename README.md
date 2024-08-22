@@ -73,14 +73,14 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 9/16 | Making randomized choices | |
 9/18 | Simple games | Lab 4: Fitts' Law |
 9/20 | Overview of AI and LLMs  | Project 1 out |
-9/23 |  | |
+9/23 | RPS | |
 9/25 | Intro to functions | Lab 5: Compleat Gamester |
 9/27 | Functions II: Functions that take parameters | Project 1 due |
 9/30 | Functions III: Functions that return values |  |
 10/2 | Functions IV: Functions + conditionals | Lab 6: Function writing practice |
 10/4 | Local variables and scope | |
-10/7 |  |  |
-10/9 |  | Lab 7: Choose Your Own Adventure + AI |
+10/7 |  Unit testing |  |
+10/9 | Testing II | Lab 7: Choose Your Own Adventure + AI |
 10/11 | Intro to Project 2 | Project 2 out |
 10/14 | FALL BREAK  ||
 10/16  | Review for midterm  | Lab 8: Experiment |
