@@ -1,5 +1,7 @@
 # Writing Programs
 
+<img src="https://media.pitchfork.com/photos/5c37770817eefc510f1b3565/16:9/w_1280,c_limit/David-Bowie.jpg" width="300px" />
+
 ## Overview
 
 This lab will let you practice using the Replit environment.
@@ -8,6 +10,10 @@ The lab has two parts:
 
 - Working with files and directories in the Linux terminal
 - Writing some practice programs that use printing and calculations in Python
+
+## Grading
+
+Complete the activities below. When you've finished, let me know and I'll take a look at your solutions, then give you credit. Remember: Don't hestitate to ask questions if you get stuck!
 
 ## The Terminal and the Shell
 
