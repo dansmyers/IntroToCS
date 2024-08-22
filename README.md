@@ -1,6 +1,6 @@
 # CMS 120 Introduction to Computer Science
 
-## Spring 2023 Syllabus
+## Fall 2024 Syllabus
 
 ## Who? Where?
 
@@ -10,8 +10,8 @@ dmyers@rollins.edu
 407-646-2151
 
 ## Office Hours
-- Mondays and Wednesdays from 10:00 to 11:00
-- Tuesdays from 2:00 to 2:30
+- Fridays from 1:00 to 2:00
+- Tuesdays and Thursdays from 10:00-11:00
 
 ## WebEx Room
 
@@ -29,24 +29,22 @@ At the end of this course, you will
 
 2. Write programs using Python's built-in list and dictionary data structures.
 
-3. Be familiar with the principles of object-oriented programming and the use of classes in organizing programs.
+3. Be able to write programs that conform to a written specification and are evaluated using automated testing.
 
-4. Be able to write programs that conform to a written specification and are evaluated using automated testing.
-
-5. Understand and use methods of sound program design, such as abstraction and stepwise refinement, to design solutions to open-ended
+4. Understand and use methods of sound program design, such as abstraction and stepwise refinement, to design solutions to open-ended
 programming problems.
 
-6. Read and comprehend program source code.
+5. Read and comprehend program source code.
 
-7. Be familiar with common terminology from computer science and programming.
+6. Be familiar with common terminology from computer science and programming and the fundamentals of computer organization, systems, and data representation.
 
-8. Be familiar with the fundamentals of computer organization, systems, and data representation.
+7. Use artificial intelligence tools in a collaborative way to support programming
 
 ## Labs
 
 This class has a co-requisite of CMS 120L Introduction to Computer Science Lab.
 
-We'll complete a total of **six** hypothesis-based lab activities during the semester; the other lab periods are available to practice programming and work on assignments. 
+We'll complete a total of **six** hypothesis-based lab activities during the semester. Other lab sessions will focus on building your core programming skills by completing practice problems and activities.
 
 Together, CMS 120 and 120L may substitute for the required **rFLA 200-level Science class**, which reduces the number of 200-level classes you need to complete to satisfy your rFLA requirements. I'll talk about how to do this later in the semester.
 
@@ -54,9 +52,7 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 
 ## Textbook
 
-We will use an online ZyBook covering Python programming fundamentals. The text includes built-in problems that you will complete along with the assigned homework projects. In most cases, the questions for each book chapter will be due at the same time as a programming project.
 
-To access the text create an account on the ZyBooks site, https://learn.zybooks.com. Enter the ZyBook code: ROLLINSCMS120MyersSpring2023. The subscription lasts until after the end of the semester.
 
 
 ## Schedule
@@ -65,51 +61,51 @@ To access the text create an account on the ZyBooks site, https://learn.zybooks.
 
 | Day | Topic  |  Notes |
 |------|---------|-------------|
-1/18  | Hello, World! |
-1/19  | Lab 1: Doing things with Repl.it | Assignment 1 out |
-1/23  | Printing and calculations  |
-1/25 | Variables | Assignment 1 due | 
-1/26 | Lab 2: Practice variables | Assignment 2 out |
-1/30 | User input |
-2/1 | Relational operators and the `if` statement |  Assignment 2 due |
-2/2 | Lab 3: Human-computer interaction and Fitts' Law| Required lab|
-2/6 | `if`-`elif`-`else`||
-2/8 | Making randomized choices, text games ||
-2/9 | Lab 4: RPS and intro to functions ||
-2/13 | More functions||
-2/15 | Functions that return values ||
-2/16 | Lab 5: Choose Your Own Adventure ||
-2/20 | Local variables and scope||
-2/22 | Intro to lists ||
-2/23 | Lab 6: Network performance measurement | Required lab |
-2/27 | The `for` loop||
-3/1 | The `range` function ||
-3/2 | Lab 7: Wordplay and working with files ||
-3/6 | Numbers and data representation ||
-3/8 | Character formats and midpoint review ||
-3/9  | EXTRA DAY OFF: no lab ||
-3/13 | SPRING BREAK | |
-3/15 | SPRING BREAK | |
-3/16 | SPRING BREAK | |
-3/20 | Dictionaries | |
-3/22 | Letter frequencies and code cracking | |
-3/23 | Lab 8: Precision | Required lab |
-3/27 | The Web and HTML | |
-3/29 | Creating web pages | |
-3/30 | Lab 9: Monte Carlo word estimation | Required lab |
-4/3 | Fancier web pages | |
-4/5 | Interactive web pages | |
-4/6 | Lab 10: Victorian gothic guide to data analytics | Required lab |
-4/10 | Intro to object-oriented programming | | 
-4/12 | Objects and classes | |
-4/13 | Lab 11: My heart will go on | Required lab |
-4/17 | No class (Dr. Myers out of town) ||
-4/19 | Classes that have data | |
-4/20 | Lab 12: Writing even more classes | |
-4/24 | TOPIC | |
-4/26 | TOPIC | |
-4/27 | Final lab: Work on projects | |
-5/1 | Last day of classes | All challenge projects due |
+8/26  | Hello, World! |
+8/28  | Printing and arithmetic | Lab 1: Writing and running programs |
+8/30  | Intro to variables |
+9/2 | LABOR DAY |
+9/4 | More variables | Lab 2: Conversions |
+9/6 | User input |  |
+9/9 | Practice with input |   |
+9/11 | Relational operators and the `if` statement | Lab 3: Variables, input, and output |
+9/13 | `if`-`elif`-`else` |  |
+9/16 | Making randomized choices | |
+9/18 | Simple games | Lab 4: Fitts' Law |
+9/20 | Overview of AI and LLMs  | Project 1 out |
+9/23 |  | |
+9/25 | Intro to functions | Lab 5: Compleat Gamester |
+9/27 | Functions II: Functions that take parameters | Project 1 due |
+9/30 | Functions III: Functions that return values |  |
+10/2 | Functions IV: Functions + conditionals | Lab 6: Function writing practice |
+10/4 | Local variables and scope | |
+10/7 |  |  |
+10/9 |  | Lab 7: Choose Your Own Adventure + AI |
+10/11 | Intro to Project 2 | Project 2 out |
+10/14 | FALL BREAK  ||
+10/16  | Review for midterm  | Lab 8: Experiment |
+10/18 | MIDTERM EXAM (in class) | |
+10/21 | Intro to lists and sequences | |
+10/23 | The `for` loop | Lab 9: Jeu Monégasque |
+10/25 | Strings as sequences | Project 2 due |
+10/28 | More `for` loops | |
+10/30 | Looping over strings | Lab 10: Wordplay |
+11/1 | Intro to Project 3 | Project 3 out |
+11/4 | The `while` loop  | |
+11/6 | Binary numbers | Lab 11: Precision  |
+11/8 | Character encodings| |
+11/11 | Dictionaries | |
+11/13 | Letter frequencies | Lab 12: Pandas and Benford's Law |
+11/15 | Intro to Project 4 | Project 3 due, Project 4 out | 
+11/18 | Code cracking | |
+11/20 | Language models  | Lab 13: My heart will go on |
+11/22 |  Language models II | |
+11/25 | Language models III / Flex for hurricane | Project 4 due, Project 5 out |
+11/27 | THANKSGIVING BREAK | |
+11/29 | THANKSGIVING BREAK | |
+12/2 | Dr. Myers' choice | |
+12/4 | Dr. Myers' choice | |
+12/6 | Last day of classes | Project 5 due |
 
 ### Other Important Dates
 
