@@ -127,17 +127,13 @@ You must be registered for a section of CMS 120L. You'll receive the **same grad
 ### Assignments
 We'll have five kinds of assignments in this class:
 
-1. **Autograded reading questions** from the ZyBook. These are easy to answer if you complete the required reading.
+1. **Autograded reading questions** from the Runestone text. These are easy to answer if you complete the required reading.
 
-2. A set of **six programming assignments**. These will be done on the Replit platform, and you'll have one due approximately every two weeks. Each assignment consists of questions that will require you to write short Python programs, usually accompanied by tests that automatically evaluate your code.
+2. A set of **five out-of-class programming assignments**. These involve writing larger, more substantial programs that combine multiple techniques. They also require you to practice program development skills.
 
-3. A set of **six required labs** that will be done in class on the days specified on the calendar. These labs emphasize data collection and scientific reasoning and are required for this class to count for the RFLA Science requirement. The other lab periods will be used for extra practice and working on the problem sets.
+3. The **CMS120L lab meetings**. Each lab consists of practice programs or activities to reinforce the topics we're covering that week. Six of the labs also incorporate hypothesis-based data collection that allows this course to account for the RFLA Science requirement. The labs will be graded on **completion** and I'll be there with you during each session to help you and check your work-in-progress.
 
-4. **Challenge problems**, three or four during the semester, which are somewhat more complex than the regular homework questions and require you to stretch a little bit.
-
-5. A **final project**, which will be your chance to choose and implement any program that you want using the features we've studied in the course.
-
-There are **no exams or quizzes** in this class. Your grade is based purely on your ability to complete the required programming assignments.
+4. Written midterm and final exams. The midterm will be given in-class on the day specified on the calendar and the final will be given at the time scheduled by the college. The final is not cumulative, but unavoidably builds upon the techniques that we cover in the first part of the class. The focus of both exams will be **reading and understanding program code**.
 
 ### Satisfactory Credit
 
@@ -147,32 +143,27 @@ I will grade most of the items you turn in on a two-level scale: your work will 
 2. Shows real understanding and application of the course material.
 3. Completed on time in the required format.
 
-For programming assignments, you must make a fair attempt on every problem. For reading assignments, you must complete 90% of the autograded problems in order to receive credit.
+For programming assignments, you must make a fair attempt on every problem. For reading, you must complete 90% of the assigned problems in order to receive credit.
 
 ### Letter Grades
 
-**To earn a B**, you must meet the following criteria:
+**To earn an A**, you must meet the following criteria:
 
-1. Earn satisfactory credit on at least 90% of the programming and reading assignments during the entire semester. For example, if there are ten total assignments, you must earn satisfactory credit on at least nine of them in order to receive a B. In practice, this means that **you're allowed one unsatisfactory or missed assignment during the semester**. 
-2. Satisfactory completion of six written lab reports.
-3. Complete a satisfactory final project. I will provide guidelines for the project in the final month of the semester.
+1. Satisfactory completion of the five major programming assignments.
+2. Satisfactory completion of 12 of the 13 labs. You can miss one lab without it affecting your grade.
+3. Earn a score of at least 80% on both the midterm and final exams.
 
-**If you fail to complete the requirements for a B**, your grade will be adjusted downwards according to the following table:
+**If you fail to complete the requirements for an A**, your grade will be adjusted downwards according to the following table:
 
 | Performance             | Your grade will be adjusted downwards by |
 |------------------------------------------------|------------------------------------------|
-| Completing less than 90% of assignments | Fraction of a letter grade for the first unsatisfactory or missed assignment (e.g. B to B-)       |
-| Failing to complete all six lab reports | Fraction of a letter grade for the first missed one |
-| More than one missed assignment or lab          | One full letter grade (e.g., B to C) |
-| Unsatisfactory final project            | One full letter grade   |
+| Unsatisfactory major programming assignemnt | One full letter grade (e.g., A to B)     |
+| Missing more than the one allowed lab | Fraction of a letter grade for the first missed lab (e.g., A to A-) |
+| Additional missed labs       | One full letter grade for each |
+| Score between 60% and 80% on an exam         | Fraction of a letter grade   |
+| Score of less than 60% on an exam       | One full letter grade  |
 
-These penalties are cumulative. For example, if you failed to satisfactorily complete two major projects, your base grade would be lowered by 1.5 letters, from B to C-.
-
-**To earn a higher grade**, you can complete additional work that shows deeper engagement with the course goals. Each challenge project
-that you complete will **boost your grade by one part of a letter** (e.g., B to B+). To earn an A, complete all the requirements for a B plus three additional challenge projects.
-         
-If your grade drops, you can still complete extra work to boost it up. For example, you could struggle with one project, but
-complete a challenge project. The two would cancel each other out and your grade would remain a B.
+These penalties are cumulative. For example, if you failed to satisfactorily complete two major projects, your base grade would be lowered by 2 letters, from A to C.
 
 ### Why Are You Doing This To Us?
 
@@ -194,16 +185,11 @@ Here are a few things to keep in mind:
 
 1. **You don't have to be perfect**. The "substantially complete and correct" standard allows for imperfections in your answers and you only need 90% for the reading and most assignments, so you don't have to correctly answer, or even attempt, every problem, so long as your cumulative work meets the required standard.
 
-2. **You do need to be consistent**. The system rewards you for putting forward good, consistent effort. Working diligently and carefully will allow you to meet the specs for a B.
+2. **You do need to be consistent**. The system rewards you for putting forward good, consistent effort.
 
-3. **You will get lots of feedback**. The autograded tests will tell you, unambiguously, whether your answers for a programming question are correct or not. The standards for the final project and the lab reports will likewise be transparent.
+3. **Attend the labs**. The lab sessions are your main place to practice programming skills. Make sure you attend every lab session.
 
-4. **Some work will be done in class**. Completing the six required labs is easy if you attend class during the lab periods.
-
-
-## COVID Policies
-
-The College's COVID-19 prevention policies will apply to all of our class meetings. We'll wear masks and sit in assigned seats for the duration of the semester.
+4. **You will get lots of feedback**. I will be there with you in lab to check on your work. The major projects will have clear standards describing what's required to receive full credit.
 
 ## Other Course Policies
 
@@ -224,6 +210,21 @@ The College's COVID-19 prevention policies will apply to all of our class meetin
 ## Necessary and Proper Clause
 
 As your course facilitator, I will make every effort to adhere to the topics and schedule described in this syllabus. However, I reserve the right to make changes for the good of the course.
+
+## AI Policy
+
+Large-language artificial intelligence models are changing how professional software developers design and write code. Therefore, it's appropriate for us to practice programming with AI.
+
+However, simply typing prompts into an AI tool and copying its output is not a good use of your time:
+- You still need to understand the fundamentals of programming to use AI code generators effectively.
+- Anyone can copy and paste; if that's your only skill, then you're adding no value and you are easily replaceable.
+
+In this course, I will **teach you how to use AI collaboratively**. I'll show you techniques for working with AI as a "co-intelligence" that can help you write better code and learn faster.
+
+To achieve this goal, we're going to abide by the following policies:
+- Labs are for practicing fundamental skills in-person, so you can't use AI for them unless it's specifically part of the lab activity.
+- The out-of-class assignments **are designed to be done with AI**. Each assignment will give you specific suggestions on how to use AI as part of your development process.
+- The in-class midterm uses no written or electronic resources.
 
 
 ## Honor Code
