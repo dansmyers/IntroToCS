@@ -52,7 +52,9 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 
 ## Textbook
 
+We'll be using the free interactive online text called *Python for Everybody* published by Runestone. The book has chapters with interactive questions that you'll complete as part of each reading assignment.
 
+Go to [runestone.academy] and create an account. During the account creation process, one of the fields will ask for the class you want to join. Enter `rollins_cms120_fa24`, which is the code for our class, then finish creating your account.
 
 
 ## Schedule
@@ -109,12 +111,12 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 
 ### Other Important Dates
 
-- First day of class: August 22
-- Last day of class: December 2
-- Labor Day: September 5
-- Fall break: October 8 to October 11
-- Last day to drop the class: September 2
-- Last day to withdraw without penalty: November 4
+- First day of class: August 26
+- Last day of class: December 6
+- Labor Day: September 2
+- Fall break: October 12 to October 15
+- Last day to drop the class: September 6
+- Last day to withdraw without penalty: November 8
 
 ## The All-Important Grading Section
 
