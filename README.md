@@ -224,6 +224,7 @@ In this course, I will **teach you how to use AI collaboratively**. I'll show yo
 To achieve this goal, we're going to abide by the following policies:
 - Labs are for practicing fundamental skills in-person, so you can't use AI for them unless it's specifically part of the lab activity.
 - The out-of-class assignments **are designed to be done with AI**. Each assignment will give you specific suggestions on how to use AI as part of your development process.
+- You should complete the reading questions without using AI.
 - The in-class midterm uses no written or electronic resources.
 
 
