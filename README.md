@@ -2,8 +2,6 @@
 
 ## Fall 2024 Syllabus
 
-<img src="https://media.pitchfork.com/photos/5c37770817eefc510f1b3565/16:9/w_1280,c_limit/David-Bowie.jpg" width="400px">
-
 ## Who? Where?
 
 Dan S. Myers (Dr. Myers)  
@@ -14,10 +12,6 @@ dmyers@rollins.edu
 ## Office Hours
 - Fridays from 1:00 to 2:00
 - Tuesdays and Thursdays from 10:00-11:00
-
-## WebEx Room
-
-rollins.webex.com/meet/dmyers
 
 ## Official Course Description
 
@@ -44,13 +38,11 @@ programming problems.
 
 ## Labs
 
-This class has a co-requisite of CMS 120L Introduction to Computer Science Lab.
-
-We'll complete a total of **six** hypothesis-based lab activities during the semester. Other lab sessions will focus on building your core programming skills by completing practice problems and activities.
+This class has a co-requisite of CMS 120L Introduction to Computer Science Lab. We'll complete a total of **six** hypothesis-based lab activities during the semester. Other lab sessions will focus on building your core programming skills by completing practice problems and activities.
 
 Together, CMS 120 and 120L may substitute for the required **rFLA 200-level Science class**, which reduces the number of 200-level classes you need to complete to satisfy your rFLA requirements. I'll talk about how to do this later in the semester.
 
-CMS 120 and the lab are listed as separate sections but you'll receive the **same grade** for both. Completing the six required labs is one component of your final grade, discussed below.
+CMS 120 and the lab are listed as separate sections but you'll receive the **same grade** for both. Completing the labs is one component of your final grade, discussed below.
 
 ## Textbook
 
