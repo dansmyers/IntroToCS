@@ -62,11 +62,11 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 8/30  | Intro to variables |
 9/2 | LABOR DAY |
 9/4 | More variables | Lab 2: Conversions |
-9/6 | User input |  |
-9/9 | Practice input and debugging | Project 1 out   |
+9/6 | User input | Project 1 out |
+9/9 | Practice input and debugging |  |
 9/11 | Relational operators and the `if` statement | Lab 3: Variables, input, and output |
-9/13 | `if`-`elif`-`else` |  |
-9/16 | Making randomized choices | Project 1 due |
+9/13 | `if`-`elif`-`else` | Project 1 due  |
+9/16 | Making randomized choices |  |
 9/18 | Simple games | Lab 4: Fitts' Law |
 9/20 | Overview of AI and LLMs  | Project 2 out |
 9/23 | RPS | |
