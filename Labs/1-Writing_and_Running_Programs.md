@@ -17,6 +17,9 @@ The lab has two parts:
 
 Complete the activities below. When you've finished, let me know and I'll take a look at your solutions, then give you credit. Remember: Don't hestitate to ask questions if you get stuck!
 
+- Put each program in its own file. The first questions will show you how to create and name new files. Choose names that make it clear which problem goes with each file.
+- Start each program with a descriptive comment.
+
 ## The Terminal and the Shell
 
 If all of your previous experience has been on Windows or Mac OS, a Linux system may feel odd at first.
@@ -39,7 +42,7 @@ The shell program prints a prompt for your commands, which typically identifies 
 ```
 The commands you type will appear to the right of the `$`.
 
-## Paths and Directories
+### Paths and directories
 
 The shell program recognizes one *working directory* at any given time. This is the directory that you are currently "in" and all of 
 your commands will be executed with respect to it.
@@ -95,7 +98,7 @@ few more directories at each level to illustrate the tree structure:
 The top-level directories right beneath `/` are fairly standard across systems.
 
 
-## Creating Directories
+### Creating directories
 
 Let's make a new directory to hold the files for this lab. The `mkdir` command creates a new folder.
 
@@ -116,7 +119,7 @@ ls
 
 Take a look at the output of `ls` and verify that you now have a `Lab_1` directory. You should also see `Lab_1` appear in your file browsing pane on the left side of your workspace.
 
-## Change Directories
+### Changing directories
 
 Suppose that we want to work on a file for this lab. The first thing to do is **change the working directory** to the `Lab_1` folder we just created.
 Use the `cd` command to change directories:
@@ -133,7 +136,7 @@ The output should show that you are now working out of the `Lab_1` directory:
 /home/runner/CMS120/Lab_1
 ```
 
-## Moving Between Directories
+### Moving between directories
 
 Sometimes you need to move around the directory hierarchy. You shouldn't really need to do that for a while in this class, but sometimes you can accidentally `cd` to a directory you don't want to be in.
 
