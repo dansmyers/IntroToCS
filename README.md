@@ -48,7 +48,7 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 
 We'll be using the free interactive online text called *Python for Everybody* published by Runestone. The book has chapters with interactive questions that you'll complete as part of each reading assignment.
 
-Go to [runestone.academy] and create an account. During the account creation process, one of the fields will ask for the class you want to join. Enter `rollins_cms120_fa24`, which is the code for our class, then finish creating your account.
+Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", then click the "Sign Up" button at the top of the page to create an account. During the account creation process, one of the fields will ask for the class you want to join. Enter `rollins_cms120_fa24`, which is the code for our class, then finish creating your account.
 
 
 ## Schedule
