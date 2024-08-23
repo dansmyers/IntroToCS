@@ -83,7 +83,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 10/18 | MIDTERM EXAM (in class) | |
 10/21 | Intro to lists and sequences | |
 10/23 | The `for` loop | Lab 9: Jeu Monégasque |
-10/25 | Strings as sequences | Project 3 due |
+10/25 | Counting loops | Project 3 due |
 10/28 | More `for` loops | |
 10/30 | Looping over strings | Lab 10: Wordplay |
 11/1 | Intro to Project 4 | Project 4 out |
