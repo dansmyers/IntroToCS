@@ -63,45 +63,45 @@ Go to [runestone.academy] and create an account. During the account creation pro
 9/2 | LABOR DAY |
 9/4 | More variables | Lab 2: Conversions |
 9/6 | User input |  |
-9/9 | Practice with input |   |
+9/9 | Practice input and debugging | Project 1 out   |
 9/11 | Relational operators and the `if` statement | Lab 3: Variables, input, and output |
 9/13 | `if`-`elif`-`else` |  |
-9/16 | Making randomized choices | |
+9/16 | Making randomized choices | Project 1 due |
 9/18 | Simple games | Lab 4: Fitts' Law |
-9/20 | Overview of AI and LLMs  | Project 1 out |
+9/20 | Overview of AI and LLMs  | Project 2 out |
 9/23 | RPS | |
 9/25 | Intro to functions | Lab 5: Compleat Gamester |
-9/27 | Functions II: Functions that take parameters | Project 1 due |
+9/27 | Functions II: Functions that take parameters | Project 2 due |
 9/30 | Functions III: Functions that return values |  |
 10/2 | Functions IV: Functions + conditionals | Lab 6: Function writing practice |
 10/4 | Local variables and scope | |
 10/7 |  Unit testing |  |
 10/9 | Testing II | Lab 7: Choose Your Own Adventure + AI |
-10/11 | Intro to Project 2 | Project 2 out |
+10/11 | Intro to Project 3 | Project 3 out |
 10/14 | FALL BREAK  ||
 10/16  | Review for midterm  | Lab 8: Experiment |
 10/18 | MIDTERM EXAM (in class) | |
 10/21 | Intro to lists and sequences | |
 10/23 | The `for` loop | Lab 9: Jeu Monégasque |
-10/25 | Strings as sequences | Project 2 due |
+10/25 | Strings as sequences | Project 3 due |
 10/28 | More `for` loops | |
 10/30 | Looping over strings | Lab 10: Wordplay |
-11/1 | Intro to Project 3 | Project 3 out |
+11/1 | Intro to Project 4 | Project 4 out |
 11/4 | The `while` loop  | |
 11/6 | Binary numbers | Lab 11: Precision  |
 11/8 | Character encodings| |
 11/11 | Dictionaries | |
 11/13 | Letter frequencies | Lab 12: Pandas and Benford's Law |
-11/15 | Intro to Project 4 | Project 3 due, Project 4 out | 
+11/15 | Intro to Project 5 | Project 4 due, Project 5 out | 
 11/18 | Code cracking | |
 11/20 | Language models  | Lab 13: My heart will go on |
 11/22 |  Language models II | |
-11/25 | Language models III | Project 4 due, Project 5 out |
+11/25 | Language models III | Project 5 due, Project 6 out |
 11/27 | THANKSGIVING BREAK | |
 11/29 | THANKSGIVING BREAK | |
 12/2 | Dr. Myers' choice | |
 12/4 | Dr. Myers' choice | |
-12/6 | Last day of classes / Flex for hurricane | Project 5 due |
+12/6 | Last day of classes / Flex for hurricane | Project 6 due |
 
 ### Other Important Dates
 
