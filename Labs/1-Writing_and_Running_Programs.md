@@ -133,6 +133,23 @@ The output should show that you are now working out of the `Lab_1` directory:
 /home/runner/CMS120/Lab_1
 ```
 
+## Moving Between Directories
+
+Sometimes you need to move around the directory hierarchy. You shouldn't really need to do that for a while in this class, but sometimes you can accidentally `cd` to a directory you don't want to be in.
+
+Use `..` (two dots) to refer to the parent directory; that is, one level up in the hierarchy. You can move up to the parent directory using
+```
+cd ..
+```
+
+Try using `cd` to move up to the parent directory, then use `cd Lab_1` to move back to the `Lab_1` directory.
+
+Another useful shortcut is
+```
+cd ~
+```
+which will move you automatically back to your home directory. This is useful if you don't know where you are in the directory hierarchy and need to return back to a known place.
+
 ## Problems
 
 
