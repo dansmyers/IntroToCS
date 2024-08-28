@@ -338,6 +338,17 @@ And a whole lot of questions
 And the bird always says "Nevermore"
 ```
 
+### String addition
+
+Python supports the `+` and `*` operators for strings. Experiment and see what they do. For example,
+```
+# Adding two strings
+print('hello' + 'world')
+
+# String multiplication
+print('hello' * 5)
+```
+
 ### More Smoots
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Burj_Khalifa.jpg/800px-Burj_Khalifa.jpg" width="300px" />
@@ -352,11 +363,14 @@ X plus or minus one ear
 
 where `X` is the calculated answer value.
 
-Tip: If you want to put a calculation into a print statement, you have to turn it in to a string using the str function. For example, the Harvard Bridge calculation could look like the following:
+You can use the `+` operator to combine a calculation with a string, but you have to first turn the numeric result to a string using the `str` function. For example, the Harvard Bridge calculation could look like the following:
 
 ```
+# Print the length of the Harvard Bridge in Smoots, plus the additional string
 print(str(2035 / 5.5833) + ' plus or minus one ear')
 ```
+
+Modify this example to print the height of the Burj Khalifa in Smoots.
 
 ### Warhols
 
@@ -406,7 +420,7 @@ wee
 Tips:
 
 - Use one `print` per line. Don't try to cram the entire poem into one statement.
-- You need to match the formatting exactly to pass the test. The script will point out the first place where your output differs from the expected output.
+- Look at the formatting carefully and match it exactly.
 - There are no spaces. Use only the `\t` character to insert horizontal white space.
 - There are two tabs before `the` and four before `goat-footed`. There are two tabs between `balloonMan` and `whistles`.
 - You can print a blank line using an empty print statement: `print()`
