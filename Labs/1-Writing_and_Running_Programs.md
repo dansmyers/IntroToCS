@@ -264,8 +264,10 @@ The Lake Pontchartrain Causeway, which connects Metairie, a suburb of New Orlean
 
 What is the length of the Lake Pontchartrain Causeway in Smoots?
 
-Tip: one Smoot is about 5.5833 feet and there are 5280 feet in a mile.
+Tips:
 
+- One Smoot is about 5.5833 feet and there are 5280 feet in a mile.
+- Put your answer in a file named `smoots.py`. Keep making new files for each of the remaining problems.
 
 ### Cricket Protein Powder
 
