@@ -402,7 +402,7 @@ This is
 
 Notice that you don't need to put spaces around the special characters.
 
-Use multiple print statements and both `\n` and `\t` to print this excerpt from e.e. cummings' poem [in Just-]:
+Use multiple print statements and `\t` to print this excerpt from e.e. cummings' poem [in Just-]:
 
 ```
 it's
@@ -421,8 +421,9 @@ wee
 
 Tips:
 
-- Use one `print` per line. Don't try to cram the entire poem into one statement.
-- Look at the formatting carefully and match it exactly.
-- There are no spaces. Use only the `\t` character to insert horizontal white space.
-- There are two tabs before `the` and four before `goat-footed`. There are two tabs between `balloonMan` and `whistles`.
+- Use one `print` per line.
+- Start by printing the first three lines, testing, then adding a little more. Develop incrementally!
 - You can print a blank line using an empty print statement: `print()`
+- The line with `the` has two tabs. Use `print('\t\tthe')`
+- There are two tabs before `the` and four before `goat-footed`. There are two tabs between `balloonMan` and `whistles`.
+
