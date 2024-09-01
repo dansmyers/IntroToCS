@@ -190,9 +190,11 @@ The number `(1 + sqrt(5)) / 2` is the famous golden ratio, the most aestheticall
 
 *much columns  such proportions*
 
-Write a program that reads an integer `n` from the user and prints the corresponding term in the Fibonacci sequence.
+Write a program that reads an integer `n` from the user and prints the corresponding term in the Fibonacci sequence. Test your program by inputting values of `n` from 0 up to 10 and verifying that you get the correct Fibonacci numbers.
 
 Tips:
+
+**Use variables to break up the calculation**. Don't try to do everything in one line! I recommend making one variable for each term and calculated value.
 
 You'll need the ability to take square roots and calculate powers. Use the built-in `**` operator to calculate powers. There is a built-in square root function that you can import into your program by adding the following line to the top of your code:
 
