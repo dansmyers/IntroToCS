@@ -49,6 +49,27 @@ C = (F - 32) * (5 / 9)
 Write a program that can read an **integer** number of degrees Fahrenheit from the terminal and report the corresponding number of degrees Celcius.
 Output your results to **one decimal place**.
 
+Tip:
+
+Here's a template to help you get started. Use this as a model for the rest of the programs.
+
+```
+"""
+Convert temperature from degrees Fahrenheit to degrees Celsius
+"""
+
+# Read a temp in degrees Fahrenheit using input()
+
+
+# Convert the input string to a float
+
+
+# Perform the calculation
+
+
+# Print the output
+```
+
 
 ### Furlongs
 
