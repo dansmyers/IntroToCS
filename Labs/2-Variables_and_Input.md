@@ -38,9 +38,7 @@ value = int(user_input)
 
 ### Temperature Conversion
 
-A classic example.
-
-To convert a temperature of *F* degrees Fahrenheit into Celsius, use
+A classic example. To convert a temperature of *F* degrees Fahrenheit into Celsius, use
 
 ```
 C = (F - 32) * (5 / 9)
@@ -61,7 +59,7 @@ Convert temperature from degrees Fahrenheit to degrees Celsius
 # Read a temp in degrees Fahrenheit using input()
 
 
-# Convert the input string to a float
+# Convert the input string to an int using int()
 
 
 # Perform the calculation
