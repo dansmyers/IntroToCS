@@ -41,7 +41,7 @@ value = int(user_input)
 A classic example. To convert a temperature of *F* degrees Fahrenheit into Celsius, use
 
 ```
-C = (F - 32) * (5 / 9)
+temp_in_c = (temp_in_f - 32) * (5 / 9)
 ```
 
 Write a program that can read an **integer** number of degrees Fahrenheit from the terminal and report the corresponding number of degrees Celcius.
