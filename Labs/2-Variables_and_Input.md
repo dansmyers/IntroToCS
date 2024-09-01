@@ -20,9 +20,9 @@ touch temp.py
 
 ### Guidelines
 
-- Put every problem into its own `.py` file
+- Put every problem into its own `.py` file.
 
-- Start every program with a comment describing what it's supposed to do
+- Start every program with a comment describing what it's supposed to do. Use comments in your code to explain what each line or small group of lines is doing.
 
 - Use `input` to read values from the teminal. Remember that the value returned by `input` is **a string**. You can convert an input value into integer using
 ```
