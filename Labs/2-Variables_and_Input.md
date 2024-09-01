@@ -2,6 +2,9 @@
 
 <img src="https://preview.redd.it/remote-login-is-a-lot-like-astral-projection-v0-qhyr8o9bgq191.png?width=1080&crop=smart&auto=webp&s=2b4aa5c4a9236864f3450ec31d338f45b2322294" width="400px" />
 
+*The Internet Guide for New Users*, Daniel P. Dern (1994)
+
+
 ## Setup
 
 Open your GitHub Codespace. Look at your path and verify that your shell is in the normal starting home directory, then create a new `Lab_2` directory using
