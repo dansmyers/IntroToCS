@@ -15,10 +15,8 @@ Create a blank Word document named `style.doc`. In your document, analyze this p
 
 **After you have done that** (not before), go to ChatGPT. Ask it to provide commentary on the program using the following prompt:
 
-*Take a look at the following Python program, which implements a unit converter using input, variables, and printing.*
-
-*[PASTE PROGRAM HERE]*
-
+*Take a look at the following Python program, which implements a unit converter using input, variables, and printing.*<br/>
+*[PASTE PROGRAM HERE]* <br/>
 *Act as a code reviewer and identify ways to improve its style. Don't rewrite the program or suggest any changes to its behavior, just give me a list of suggested style improvements.*
 
 Read ChatGPT's output and copy it into your `style.doc` file.
