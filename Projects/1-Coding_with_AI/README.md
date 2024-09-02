@@ -14,9 +14,10 @@ Start with the file `smoots.py` in this directory. It uses all of the techniques
 Create a blank Word document named `style.doc`. In your document, analyze this program. Explain what style elements in should have, but doesn't. How would you improve it? You don't need to rewrite the entire program, but provide a list of corrections that should be made.
 
 **After you have done that** (not before), go to ChatGPT. Ask it to provide commentary on the program using the following prompt:
-> Take a look at the following Python program, which implements a unit converter using input, variables, and printing. 
-> [PASTE PROGRAM HERE]
-> Act as a code reviewer and identify ways to improve it style. Don't rewrite the program, just give me a list of suggested improvements.
+
+*Take a look at the following Python program, which implements a unit converter using input, variables, and printing.*
+*[PASTE PROGRAM HERE]*
+*Act as a code reviewer and identify ways to improve it style. Don't rewrite the program, just give me a list of suggested improvements.*
 
 Read ChatGPT's output and copy it into your `style.doc` file.
 
