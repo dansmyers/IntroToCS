@@ -180,6 +180,25 @@ It is run between the cities of Durban and Pietermaritzburg in South Africa, a d
 Use your program to calculate the length of the Comrades marathon in miles.
 
 
+### Heron's Formula
+
+
+**Heron's formula** (named after the Greek mathematician and inventor Hero of Alexandria) is a method of calculating the area of a triangle given the lengths of its three sides. If the three side lengths are *a*, *b*, and *c*, the formula is:
+
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d138044bb9ed870dd9dc5c7c8a3c07ab1db1705d" width="20%" />
+
+where *s* is the "semi-perimeter":
+
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/08ed8a6e351198e0c4ca8d71fa2e2bc4171e9439" width="10%" />
+
+Write a program named `heron.py` that prompts for three float inputs. Save the three inputs to variables named `a`, `b`, and `c`, then calculate and print the area determined by Heron's formula.
+
+The `math` package has a `sqrt` function. Import it at the top of your program (right after the initial docstring comment) using
+```
+from math import sqrt
+```
+
+
 ### Binet's Formula
 
 <img src="https://lp-cms-production.imgix.net/2019-09/ab57ac3775d90a72da514d158401bd47-parthenon.jpg" width="35%" />
@@ -206,7 +225,6 @@ Tips:
 **Use variables to break up the calculation**. Don't try to do everything in one line! I recommend making one variable for each term and calculated value.
 
 You'll need the ability to take square roots and calculate powers. Use the built-in `**` operator to calculate powers. There is a built-in square root function that you can import into your program by adding the following line to the top of your code:
-
 ```
 from math import sqrt
 ```
