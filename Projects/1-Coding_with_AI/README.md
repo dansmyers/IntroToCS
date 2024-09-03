@@ -46,7 +46,7 @@ Prompt ChatGPT to find and fix the error:
 *I'm writing the following Python program*<br/>
 *[PASTE PROGRAM HERE]*<br/>
 *I received the following error message when I ran the program:*<br/>
-*[PASTE ERROR MESSAGE HERE]*
+*[PASTE ERROR MESSAGE HERE]*<br/>
 *Explain the error and suggest corrected lines of code to fix it. Don't rewrite the complete program for me, just give me the statements that need to be fixed.*
 
 Copy ChatGPT's output to your document, then check its fix. Does it fix the problem?
