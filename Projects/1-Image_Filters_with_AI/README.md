@@ -36,6 +36,9 @@ You can use any of these to complete this assignment. They all offer reasonable 
 - You can use Copilot through your Rollins login as part of our Office 365 subscription.
 - Gemini currently has less mindshare than the other major models, but that might change as Google rolls our more features.
 
+I recommend starting with Claude and then switching to ChatGPT-4o if you need to.
+
+
 ## Warm-up Questions
 
 ### Setup
