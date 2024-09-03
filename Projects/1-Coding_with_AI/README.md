@@ -96,6 +96,8 @@ Paste the AI's feedback into your log, then give your own assessment of its alte
 
 ## Image Filtering
 
+<img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2022/10/shutterstock_create_tranquil_filter_1936050886.jpg" width="400px"/>
+
 ### Overview
 
 In the second part of the project, you're going to experiment with some image processing using a Python library called **Pillow**. The Pillow library is an interface to PIL, the *Python Image Library*, and supports a large number of standard image manipulation algorithms.
