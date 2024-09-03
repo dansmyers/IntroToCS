@@ -20,6 +20,21 @@ For both parts, you'll maintain a **logbook** to record your interactions with A
 
 At the end of this project, you should feel more comfortable using AI to get suggestions on your work and get unstuck.
 
+## Choosing an AI
+
+There are currently four high-end foundation models:
+
+- ChatGPT-4o
+- Anthropic's Claude
+- Google's Gemini
+- Microsoft's Copilot
+
+You can use any of these to complete this assignment. They all offer reasonable free plans.
+
+- Claude is generally the best for programming and writing, but it has relatively tight limits on the free plan. This may not be a problem if you don't need to use it continuously.
+- ChatGPT is strong all around and has supports more features for images and voice. Old versions of the free plan limited you to the GPT-3.5 model, but that has now been upgraded to the GPT-4o model. ChatGPT is a good option if you find Claude too restrictive.
+- You can use Copilot through your Rollins login as part of our Office 365 subscription.
+- Gemini currently has less mindshare than the other major models, but that might change as Google rolls our more features.
 
 ## Warm-up Questions
 
