@@ -1,6 +1,6 @@
 # Project 1: Image Filters with AI
 
-<img src="https://dansmyers.github.io/cute_yarn_robot.jpeg" width="400px" />
+<img src="https://dansmyers.github.io/cute_yarn_robot.jpeg" width="300px" />
 
 *Cute yarn robot, made by my son using DALL-E 3*
 
