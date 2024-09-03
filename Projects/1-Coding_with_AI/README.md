@@ -96,8 +96,7 @@ Paste the AI's feedback into your log, then give your own assessment of its alte
 
 ## Image Filtering
 
-<img src="https://taplink.st/p/0/8/f/c/44061182.jpg?0?0" width="400px" />
-<img src="https://taplink.st/p/5/0/e/f/44061419.jpg?0?0" width="400px" />
+<img src="https://taplink.st/p/5/0/e/f/44061419.jpg?0?0" width="300px" />
 
 *An example of Instagram's Juno filter, which adds a warming effect by increasing reds and yellows and also increases contrast. [Go here](https://taplink.at/en/blog/how_to_use_instagram_filters_and_where_to_find_them.html) for more side-by-side examples of popular Instagram filters.*
 
