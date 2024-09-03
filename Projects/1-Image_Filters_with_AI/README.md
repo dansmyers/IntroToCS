@@ -131,6 +131,10 @@ Add comments to your log about this explanation. Do you have follow-up questions
 
 ### Color images
 
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*vL8arP3J2ivmZluhHVv6bQ.png" width="400px" />
+
+*RGB color channels in a Van Gogh painting. [From this Medium article](https://medium.com/@ConnectCode/extract-rgb-channels-with-cicolormatrix-vfx-programming-e6425fec06bb)*
+
 An image is, fundamentally, a rectangular grid of pixels, where pixel is a number representing the intensity of light measured at that position.
 
 Color images are composed of three **channels**, representing the intensities of red, green, and blue light that make up each pixel. The blend of RGB values for a given pixel determines its specific color and qualities.
