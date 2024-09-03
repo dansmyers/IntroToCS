@@ -8,7 +8,7 @@
 
 ## Overview
 
-## Practice
+## Warm-up Questions
 
 ### Setup
 
@@ -146,7 +146,7 @@ Log the conversation that you have with the AI along with your assessment of eac
 
 Upload the following files to the Project 1 assignment on Canvas:
 
-- `questions.doc`
+- `warmup.doc`
 - `filters.doc`
 - `cool_filter.py`
 - `vintage_filter.py`
