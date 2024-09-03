@@ -96,9 +96,9 @@ Paste the AI's feedback into your log, then give your own assessment of its alte
 
 ## Image Filtering
 
-<img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2022/10/shutterstock_create_tranquil_filter_1936050886.jpg" width="400px"/>
+<img src="https://taplink.st/p/5/0/e/f/44061419.jpg?0?0" width="400px" />
 
-*An example of Shutterstock's "Tranquil" filter, which applies a warm vintage effect inspired by old Polaroid cameras. [Go here](https://www.shutterstock.com/blog/photo-filter-ideas) to experiment with more examples*.
+*An example of Instagram's Juno filter, which adds a warming effect by increasing reds and yellows and also increases contrast. [Go here](https://taplink.at/en/blog/how_to_use_instagram_filters_and_where_to_find_them.html) for more side-by-side examples of popular Instagram filters.*
 
 ### Overview
 
