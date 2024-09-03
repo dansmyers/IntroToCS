@@ -1,4 +1,4 @@
-# Project 1: Coding with AI
+# Project 1: Image Filters with AI
 
 <img src="https://dansmyers.github.io/cute_yarn_robot.jpeg" width="400px" />
 
