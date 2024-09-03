@@ -1,5 +1,9 @@
 # Project 1: Coding with AI
 
+<img src="https://dansmyers.github.io/cute_yarn_robot.jpeg" width="400px" />
+
+*Cute yarn robot, made by my son using DALL-E 3*
+
 ## Due
 
 ## Overview
