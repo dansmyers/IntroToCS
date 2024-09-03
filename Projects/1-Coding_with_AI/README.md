@@ -98,7 +98,7 @@ Paste the AI's feedback into your log, then give your own assessment of its alte
 
 <img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2022/10/shutterstock_create_tranquil_filter_1936050886.jpg" width="400px"/>
 
-*An example of Shutterstock's "Tranquil" filter. [Go here](https://www.shutterstock.com/blog/photo-filter-ideas) to play with more examples and see how an image looks before and after being filtered.*
+*An example of Shutterstock's "Tranquil" filter, which applies a warm vintage effect inspired by old Polaroid cameras. [Go here](https://www.shutterstock.com/blog/photo-filter-ideas) to experiment with more examples*.
 
 ### Overview
 
