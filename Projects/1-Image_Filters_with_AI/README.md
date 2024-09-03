@@ -20,7 +20,7 @@ For both parts, you'll maintain a **logbook** to record your interactions with A
 
 At the end of this project, you should feel more comfortable using AI to get suggestions on your work and get unstuck.
 
-## Choosing an AI
+## AI Options
 
 There are currently four high-end foundation models:
 
