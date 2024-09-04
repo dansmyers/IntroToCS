@@ -228,3 +228,8 @@ You can then call the functions like so
 phi = (1 + sqrt(5)) / 2  # sqrt(5) calculates the square root of 5
 phi_to_the_n = phi ** n  # Calculate phi to the power n
 ```
+
+### Personal Mad Lib
+
+Repeat the Mad Lib program, but write our own story. It can be as long as you want, but make it at least four sentences. Make at least once sentence that includes multiple variables, as in the last sentence of "The Magic Computers".
+
