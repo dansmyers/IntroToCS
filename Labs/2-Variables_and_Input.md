@@ -29,10 +29,10 @@ touch temp.py
 
 - Start every program with a docstring comment in triple quotes describing what it's supposed to do. Use regular single-line comments in your code to explain what each line or small group of lines is doing.
 
-- Use `input` to read values from the teminal. Remember that the value returned by `input` is **a string**. You can convert an input value into integer using
+- Use `input` to read values from the teminal. Remember that the value returned by `input` is **a string**. You can convert an input value into a float using
 ```
 user_input = input('Enter a number: ')
-value = int(user_input)
+value = float(user_input)
 ```
 
 
