@@ -88,6 +88,36 @@ Display the result to one decimal place.
 The current all-time world record for weight lifted overhead in the clean and jerk is 267 kg (589 pounds), held by the vending-machine-sized (6' 6" and 403 pounds) Georgian superheavy weightlifter Lasha Talakhadze. Use your program to calculate the weight of Talakhadze's record lift  in pounds.
 
 
+### Fake Internet Meme Money
+
+<img src="https://external-preview.redd.it/3_iVT6i7dReTdMXS-bNiIS0U9p2QTsfq6BUDC57b8tc.jpg?auto=webp&s=5943d7cf04be56a4de8cf045667e41631c02a90e" width="35%" />
+
+Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .099 USD per DOGE.
+
+Write a program that reads a number of DOGE as input, then prints the corresponding amount of USD to two decimal places. Think about the conversion and whether you need to multiple or divide.
+
+Tip:
+
+When working with constants such as a conversion factor, it's common to write the name in `ALL_CAPS`, to indicate that the variable is a constant that shouldn't be reassigned later in the program.
+
+```
+"""
+Convert DOGE to USD
+"""
+
+# Define conversion factor as a constant
+USD_PER_DOGE = .099
+
+# Read input number of DOGE
+
+# Convert input string to a number
+
+# Calculate USD using conversion factor constant
+
+# Print to two decimal places
+
+```
+
 
 ### The Magic Computers
 
@@ -165,7 +195,11 @@ When you're done, use `CTRL + d` to exit the Python prompt and return back to th
 <img src="https://ultra-x.co/wp-content/uploads/2020/01/comrades-marathon-africa-ultra-x.jpg" width="50%" />
 
 Write a program that can read in a number of kilometers as input and print the corresponding number of miles. There are
-1.60934 kilometers in one mile.
+1.60934 kilometers in one mile. Use a constant conversion factor named `KM_PER_MILE`:
+```
+# Constant conversion factor of kilometers per mile
+KM_PER_MILE = 1.60934
+```
 
 The Comrades Marathon in South Africa is the world's oldest and largest ultramrathon race, established in 1921. 
 It is run between the cities of Durban and Pietermaritzburg in South Africa, a distance of about 87 km. The race typically attracts more than 25000 partcipants. The direction alternates every year, with the course beginning in Durban being mostly uphill and the other direction being mostly downhill, so there are actually two records for the course.
