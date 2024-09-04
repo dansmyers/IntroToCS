@@ -44,7 +44,7 @@ A classic example. To convert a temperature of *F* degrees Fahrenheit into Celsi
 temp_in_c = (temp_in_f - 32) * (5 / 9)
 ```
 
-Write a program that can read an **integer** number of degrees Fahrenheit from the terminal and report the corresponding number of degrees Celcius.
+Write a program that can read a decimal number of degrees Fahrenheit from the terminal and report the corresponding number of degrees Celcius.
 Output your results to **one decimal place**.
 
 Tip:
@@ -59,29 +59,36 @@ Convert temperature from degrees Fahrenheit to degrees Celsius
 # Read a temp in degrees Fahrenheit using input()
 
 
-# Convert the input string to an int using int()
+# Convert the input string to a float using float()
 
 
 # Perform the calculation
 
 
-# Print the output
+# Print the output using %.1f as the format
 ```
 
 
 ### Furlongs
 
 
-A furlong is an archaic unit of length defined to be one-eigth of a mile (660 feet). Write a program that can read a length in feet and convert it to units of fulongs. Print your results to one decimal place. You may assume that the user will enter a valid length.
+A furlong is an archaic unit of length defined to be one-eigth of a mile (660 feet), still sometimes used for horse racing. Write a program that can read a length in feet and convert it to units of fulongs. Print your results to one decimal place. You may assume that the user will enter a valid length.
 
-Tip:
+Tip: Use the same basic approach as the previous problem.
 
-Assume that the input may be fractional. To read fractional input, use
 
-```
-user_input = input()
-feet = float(user_input)
-```
+
+### The Weight
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Weightlifting_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_%2B109_kg_%2810%29.jpg/620px-Weightlifting_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_%2B109_kg_%2810%29.jpg" width="300px" />
+
+Write a program to read in a weight in kilograms and convert it to pounds. There are about 2.20462 pounds in one kilogram.
+Display the result to one decimal place.
+
+The current all-time world record for weight lifted overhead in the clean and jerk is 267 kg (589 pounds), held by the vending-machine-sized Georgian superheavy
+weightlifter Lasha Talakhadze. Use your program to calculate the weight of Rezazadeh's record lift 
+in pounds.
+
 
 
 ### The Magic Computers
@@ -118,18 +125,6 @@ Tip: The last sentence has multiple blanks. You can print multiple variables in 
 print('Others have a/an %s screen that shows all kinds of %s and %s figures.' % (adj1, plural_noun2, adj2))
 ```
 Python puts the first variable (`adj1`) in place of the first `%s`, the second variable (`plural_noun2`) in place of the second `%s`, and so forth.
-
-
-### The Weight
-
-<img src="https://staticg.sportskeeda.com/wp-content/uploads/2016/08/1-1470306645-800.jpg" width="50%" />
-
-Write a program to read in a weight in kilograms and convert it to pounds. There are about 2.20462 pounds in one kilogram.
-Display the result to one decimal place.
-
-The current world record for weight lifted overhead in the clean and jerk is 263.5 kg, held by the vending-machine-sized Iranian superheavy
-weightlifter [Hossein Rezazadeh](https://www.youtube.com/watch?v=FOE-PZJq2sk). Use your program to calculate the weight of Rezazadeh's record lift 
-in pounds.
 
 
 ### Mystery Operator
@@ -191,7 +186,7 @@ where *s* is the "semi-perimeter":
 
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/08ed8a6e351198e0c4ca8d71fa2e2bc4171e9439" width="10%" />
 
-Write a program named `heron.py` that prompts for three float inputs. Save the three inputs to variables named `a`, `b`, and `c`, then calculate and print the area determined by Heron's formula.
+Write a program named `heron.py` that prompts for three float inputs. Save the three inputs to variables named `a`, `b`, and `c`, then calculate and print the area determined by Heron's formula. Simple math formulas are one case where single-letter variable names are appropriate.
 
 The `math` package has a `sqrt` function. Import it at the top of your program (right after the initial docstring comment) using
 ```
