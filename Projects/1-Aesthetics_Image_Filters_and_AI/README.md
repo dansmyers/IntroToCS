@@ -2,7 +2,7 @@
 
 <img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F33056294-356b-4366-a5b0-9be7a7118205_1024x768.jpeg" width="500px" />
 
-*Solarpunk city by the Japanese anime artist Imperial Boy. [More images here](https://www.iamag.co/the-art-of-imperial-boy/).*
+*Solarpunk city by the Japanese anime artist Imperial Boy. One of the best aesthetics. [More images here](https://www.iamag.co/the-art-of-imperial-boy/).*
 
 ## Due Friday, 9/13
 
