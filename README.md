@@ -129,7 +129,7 @@ We'll have five kinds of assignments in this class:
 
 1. **Autograded reading questions** from the Runestone text. These are easy to answer if you complete the required reading.
 
-2. A set of **five out-of-class programming assignments**. These involve writing larger, more substantial programs that combine multiple techniques. They also require you to practice program development skills.
+2. A set of **six out-of-class programming assignments**. These involve writing larger, more substantial programs that combine multiple techniques. They also require you to practice program development skills.
 
 3. The **CMS120L lab meetings**. Each lab consists of practice programs or activities to reinforce the topics we're covering that week. Six of the labs also incorporate hypothesis-based data collection that allows this course to account for the RFLA Science requirement. The labs will be graded on **completion** and I'll be there with you during each session to help you and check your work-in-progress.
 
@@ -149,7 +149,7 @@ For programming assignments, you must make a fair attempt on every problem. For 
 
 **To earn an A**, you must meet the following criteria:
 
-1. Satisfactory completion of the five major programming assignments.
+1. Satisfactory completion of the six major programming assignments.
 2. Satisfactory completion of 12 of the 13 labs. You can miss one lab without it affecting your grade.
 3. Earn a score of at least 80% on both the midterm and final exams.
 
@@ -160,6 +160,7 @@ For programming assignments, you must make a fair attempt on every problem. For 
 | Unsatisfactory major programming assignemnt | One full letter grade (e.g., A to B)     |
 | Missing more than the one allowed lab | Fraction of a letter grade for the first missed lab (e.g., A to A-) |
 | Additional missed labs       | One full letter grade for each |
+| Incomplete reading assignment | Fraction of a letter grade for each |
 | Score between 60% and 80% on an exam         | Fraction of a letter grade   |
 | Score of less than 60% on an exam       | One full letter grade  |
 
