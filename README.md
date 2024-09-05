@@ -152,6 +152,7 @@ For programming assignments, you must make a fair attempt on every problem. For 
 1. Satisfactory completion of the six major programming assignments.
 2. Satisfactory completion of 12 of the 13 labs. You can miss one lab without it affecting your grade.
 3. Earn a score of at least 80% on both the midterm and final exams.
+4. Complete the autograded questions in the assigned reading. To allow some flexibility, the threshold for receiving credit is 90% of the assigned questions.
 
 **If you fail to complete the requirements for an A**, your grade will be adjusted downwards according to the following table:
 
