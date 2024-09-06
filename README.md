@@ -61,10 +61,10 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 8/28  | Printing and arithmetic | Lab 1: Writing and running programs |
 8/30  | Intro to variables |
 9/2 | LABOR DAY |
-9/4 | More variables and formatted printing | Lab 2: Conversions |
-9/6 | User input | Project 1 out |
-9/9 | Practice input and debugging |  |
-9/11 | Relational operators and the `if` statement | Lab 3: Variables, input, and output |
+9/4 | Variables, formatted printing, and input| Lab 2: Conversions |
+9/6 | Practice input | Project 1 out |
+9/9 | Relational operators |  |
+9/11 | The `if` statement | Lab 3: Variables, input, and output |
 9/13 | `if`-`elif`-`else` | Project 1 due  |
 9/16 | Making randomized choices |  |
 9/18 | Simple games | Lab 4: Fitts' Law |
