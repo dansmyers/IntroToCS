@@ -63,7 +63,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/2 | LABOR DAY |
 9/4 | Variables, formatted printing, and input| Lab 2: Conversions |
 9/6 | Practice input | Project 1 out |
-9/9 | Relational operators |  |
+9/9 | Variables wrap-up, relational operators |  |
 9/11 | The `if` statement | Lab 3: Variables, input, and output |
 9/13 | `if`-`elif`-`else` | Project 1 due  |
 9/16 | Making randomized choices |  |
