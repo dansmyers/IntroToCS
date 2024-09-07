@@ -66,7 +66,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/9 | Variables wrap-up, relational operators |  |
 9/11 | The `if` statement | Lab 3: Making choices |
 9/13 | `if`-`elif`-`else` | Project 1 due  |
-9/16 | Making randomized choices |  |
+9/16 | Logical operators, making randomized choices |  |
 9/18 | Simple games | Lab 4: Fitts' Law |
 9/20 | Overview of AI and LLMs  | Project 2 out |
 9/23 | RPS | |
