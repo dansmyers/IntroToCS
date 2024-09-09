@@ -207,3 +207,59 @@ Roll two six-sided dice
 
 ### Shoe sizing
 
+You'd think that shoe sizes would be based on the size of the foot in units of patriotic American inches. And you'd be right...sort of.
+
+Standard U.S. shoe sizing is actually based on units of **barleycorns**, where each barleycorn is one-third of an inch. This standard comes from ye medieval dayes, when, in about the year 1300, the English Parliament passed the *Composition of Yards and Perches*, which defined an inch as equal to three grains of dry barley laid end-to-end.
+
+(A **perch** is a unit equal to five and a half yards, sixteen and a half feet.)
+
+American shoe sizes are determined as follows:
+
+- Measure the length of the foot in inches
+- Multiply by 3 to obtain the length in barleycorns
+- Subtract a constant, which is 22 barleycorns for men's sizes and 21 for women's
+
+This actually gets even more complicated 
+
+Write a program that can read a foot length in inches and calculate the corresponding show size. For this problem, don't worry about rounding up to the nearest half size; just print the exact size after doing the conversion.
+
+This problem illustrates a new technique: using a numbered menu to select from among a fixed set of options. Use the following code as a starting point. Fill in the statements associated with each comment.
+```
+"""
+Calculate shoe size given foot length in inches
+"""
+
+# Define offset constants
+OFFSET_MEN = 22
+OFFSET_WOMEN = 21
+
+
+# Read the foot length in inches
+
+
+# Verify that the length is non-negative
+
+
+# Print a menu of choices
+print('Convert to:')
+print('1. Men's size')
+print('2. Women's size')
+
+
+# Read the user's choice as an int
+
+
+# Choose the offset value based on the user's choice
+if choice == 1:
+    constant = OFFSET_MEN
+else:
+    constant = OFFSET_WOMEN
+
+# Calculate the shoe size using constant
+
+# Print the resulting size to two decimal places
+
+```
+
+
+
