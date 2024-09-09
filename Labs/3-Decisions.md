@@ -67,7 +67,7 @@ Here's a side point: What is `sudo` doing in the install command?
 
 Linux systems have the notion of privilege levels and access control. The top level account on any system is the **superuser** or **root** account, which has the ability to make any change to anything. Regular user accounts always run with privileges below that of root. A major goal of a malicious hacker is to perform *privilege escalation* by starting with a regular account and then using exploits to gain root access.
 
-`sudo` is `substitute user do`&mdash;it's a way to run individual commands with superuser-level privileges without actually logging in as the root account.
+`sudo` stands for `substitute user do`. It allows you to run individual commands with superuser-level privileges without actually logging in as the root account.
 
 `apt-get` is a standard command for managing packages and installing programs on many Linux distros. It has to be run as root to make
 system changes, so it's prefixed by `sudo`.
