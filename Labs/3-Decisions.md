@@ -72,7 +72,7 @@ Linux systems have the notion of privilege levels and access control. The top le
 `apt-get` is a standard command for managing packages and installing programs on many Linux distros. It has to be run as root to make
 system changes, so it's prefixed by `sudo`.
 
-![xkcd #149](https://imgs.xkcd.com/comics/sandwich.png)
+<img src="https://imgs.xkcd.com/comics/sandwich.png" width="300px" />
 
 
 ### `cowsay`
