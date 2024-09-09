@@ -1,5 +1,5 @@
 """
-Example of checking user input
+Checking user input
 """
 
 INCHES_PER_FOOT = 12
