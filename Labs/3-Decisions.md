@@ -42,6 +42,45 @@ Write a program that reads an integer from the terminal and prints `Even` if the
 
 ### Input validation
 
+How many liters are in a gallon? No one knows.
+
+But it turns out it's 3.78541. Write a program that reads in a non-negative number of liters and converts it to the equivalent number of gallons:
+
+- Use a constant to define the conversion factor
+- Use an `if` statement to check that the input is non-negative
+- If the input is negative, print an error message and call `quit()` to end the program
+- Use a f-string for formatted printing
+```
+print(f'{liters} liters is equal to {gallons: .2f} gallons.')
+```
+
+
+### Guessing game
+
+Write a number guessing game. This version will have one **pre-set** number that the user is trying to guess. When the program runs, prompt the user to enter a guess.
+
+- If the guess is correct, print `Correct!`
+- If the guess is too high, print `Too high...`
+- If the guess is too low, print `Too low...`
+
+The user can run the program multiple times and adjust the guess each time. Later, we'll see how to do a program like this with a loop.
+
+```
+"""
+Guessing a pre-set number
+"""
+
+# The target number
+TARGET = 777
+
+
+# Prompt the user for a guess in the range 1 to 1000
+
+
+# Use an if-elif-else statement to compare the user's input against TARGET
+# There are three options: correct, too high, or too low
+
+```
 
 ### `fortune`
 
@@ -104,4 +143,67 @@ Linux allows you to "pipe" programs together, so that the output of one becomes 
 ```
 /usr/games/fortune | /usr/games/cowsay
 ```
+
+### Fortuna has spun me down
+
+<img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000010066/529133f9f52ff1874e16c0dbe0ef5ce377d6114cad7ac2e876ff6ac28040b508" width="400px" />
+
+Let's write our own version of `fortune`, which will generate a **random number** and use it to pick a saying as output.
+
+Python has a `random` package that includes functions for generating random numbers. One is `randint`, which generates a random integer within a given range. For example, to generate a random number drawn from 1 to 6 (including both), use
+```
+r = randint(1, 6)
+```
+Every time you run the program, `randint` will execute and generate a new random value drawn from the integers 1 to 6 that is assigned to the variable `r`. Note that you might get the same value multiple times in a row, which is more likely if the range is small.
+
+Here's a starting program that generates a random number and uses it to choose a random message.
+
+- Fill in your own print statements for the three messages.
+- Run the program multiple times and verify that it works. Note that you might get the same result multiple times in a row.
+- Modify the program to use **seven** messages
+
+```
+"""
+Output random messages
+"""
+
+# Import the random function
+from random import randint
+
+# Generate a random number from the given range
+#
+# The value assigned to r is randomly generated every time the program runs
+r = randint(1, 3)
+
+# Use the random r value to choose a message
+if r == 1:
+  # Print the first option
+elif r == 2:
+  # Print the second option
+else:
+  # Print the third option
+```
+
+### 2d6
+
+Write a program that simulates the roll of two six-sided dice, adds their sum, and prints the two dice and the sum.
+
+Tip: You have to make two calls to `randint`. You can't make one roll and then multiply it by 2. Try using f-strings for the printing.
+
+```
+"""
+Roll two six-sided dice
+"""
+
+# Import randint
+
+# Roll two dice using two variables
+
+# Add their sum
+
+# Print the two dice and then the sum
+
+```
+
+### Shoe sizing
 
