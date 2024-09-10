@@ -82,7 +82,8 @@ TARGET = 777
 
 
 # Use an if-elif-else statement to compare the user's input against TARGET
-# There are three options: correct, too high, or too low
+#
+# There are three branches, corresponding to equal to, greater than, and less than
 
 ```
 
