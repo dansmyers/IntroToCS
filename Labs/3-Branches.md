@@ -229,7 +229,7 @@ American shoe sizes are determined as follows:
 - Multiply by 3 to obtain the length in barleycorns
 - Subtract a constant, which is 22 barleycorns for men's sizes and 21 for women's
 
-UK shoe sizes use the same approach, but the constant is 23 barleycorns for both men and women. European sizes are given in *Paris points*, where each point is 2/3 of a centimeter. This can get even more complicated, since many manufactured shoes are sized based on the *last* &mdash the block that's used to shape the leather into the shoe's upper part.
+UK shoe sizes use the same approach, but the constant is 23 barleycorns for both men and women. European sizes are given in *Paris points*, where each point is 2/3 of a centimeter. This can get even more complicated, since many manufactured shoes are sized based on the *last*, the block that's used to shape the leather into the shoe's upper part.
 
 Write a program that can read a foot length in inches and calculate the corresponding American shoe size. For this problem, don't worry about rounding up to the nearest half size; just print the exact size after doing the conversion.
 
