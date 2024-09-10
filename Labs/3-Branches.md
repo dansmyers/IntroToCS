@@ -1,8 +1,12 @@
-# Decisions
+# Branches
+
+<img src="https://shop.anseladams.com/cdn/shop/files/1701138108_Web_1080x.jpg?v=1718068936" width="400px" />
+
+Ansel Adams, *Oak Tree, Snow Storm* (1948)
 
 ## Overview
 
-This lab will allow you to practice writing programs that use `if` statements to implement branching.
+This lab will allow you to practice writing programs that use `if` statements to implement branching, generating random values, and testing user input.
 
 
 ## Setup
