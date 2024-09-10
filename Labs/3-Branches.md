@@ -213,7 +213,11 @@ Roll two six-sided dice
 
 ### Shoe sizing
 
-You'd think that shoe sizes would be based on the size of the foot in units of patriotic American inches. And you'd be right...sort of.
+<img src="https://www.putthison.com/wp-content/uploads/2015/03/tumblr_nlbbd72Xuf1qa2j8co1_1280.jpg" width="300px" />
+
+*Tracing of Karl Marx's foot from a pair of bespoke shoes ordered while he was living in London ca. 1850. From [Put This On](https://www.putthison.com/karl-marxs-shoes-heres-a-surprise-apparently/).*
+
+You'd think that U.S. shoe sizes would be based on the size of the foot in units of patriotic American inches. And you'd be right...sort of.
 
 Standard U.S. shoe sizing is actually based on units of **barleycorns**, where each barleycorn is one-third of an inch. This standard comes from ye medieval dayes, when, in about the year 1300, the English Parliament passed the *Composition of Yards and Perches*, which defined an inch as equal to three grains of dry barley laid end-to-end.
 
@@ -225,9 +229,9 @@ American shoe sizes are determined as follows:
 - Multiply by 3 to obtain the length in barleycorns
 - Subtract a constant, which is 22 barleycorns for men's sizes and 21 for women's
 
-This actually gets even more complicated 
+UK shoe sizes use the same approach, but the constant is 23 barleycorns for both men and women. European sizes are given in *Paris points*, where each point is 2/3 of a centimeter. This can get even more complicated, since many manufactured shoes are sized based on the *last* &mdash the block that's used to shape the leather into the shoe's upper part.
 
-Write a program that can read a foot length in inches and calculate the corresponding show size. For this problem, don't worry about rounding up to the nearest half size; just print the exact size after doing the conversion.
+Write a program that can read a foot length in inches and calculate the corresponding American shoe size. For this problem, don't worry about rounding up to the nearest half size; just print the exact size after doing the conversion.
 
 This problem illustrates a new technique: using a numbered menu to select from among a fixed set of options. Use the following code as a starting point. Fill in the statements associated with each comment.
 ```
