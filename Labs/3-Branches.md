@@ -91,7 +91,7 @@ TARGET = 777
 
 There's a classic UNIX program called `fortune` that prints random messages when you run it. Let's use it as an example for installing new packages in Linux.
 
-First, you need to update the package install, which is called `apt-get`. Run the following command **in your terminal** (not in a Python script):
+First, you need to update the package installer, which is called `apt-get`. Run the following command **in your terminal** (not in a Python script):
 ```
 sudo apt-get update
 ```
