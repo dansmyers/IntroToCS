@@ -53,7 +53,7 @@ But it turns out it's 3.78541. Write a program that reads in a non-negative numb
 - Use a constant to define the conversion factor
 - Use an `if` statement to check that the input is non-negative
 - If the input is negative, print an error message and call `quit()` to end the program
-- Use a f-string for formatted printing
+- Use an f-string for formatted printing
 ```
 print(f'{liters} liters is equal to {gallons: .2f} gallons.')
 ```
