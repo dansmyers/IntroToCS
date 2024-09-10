@@ -184,6 +184,7 @@ else:
   # Print the third option
 ```
 
+
 ### 2d6
 
 Write a program that simulates the roll of two six-sided dice, adds their sum, and prints the two dice and the sum.
