@@ -337,7 +337,7 @@ elif r == 2:
 
 # Generate a second random number
 
-# Use that number to choose the value of the second die
+# Use that number to choose the value of die2
 
 # Print the two dice and their sum
 ```
