@@ -283,8 +283,8 @@ OFFSET_WOMEN = 21
 
 # Print a menu of choices
 print('Convert to:')
-print('1. Men's size')
-print('2. Women's size')
+print('1. Men\'s size')
+print('2. Women\'s size')
 
 
 # Read the user's choice as an int
