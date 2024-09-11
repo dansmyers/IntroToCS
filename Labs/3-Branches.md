@@ -271,5 +271,50 @@ else:
 
 ```
 
+### Doubles
+
+Write a program that rolls two 5-sided dice and tests if are the same or different.
+
+### Sicherman dice
+
+<img src="https://trick-dice.com/wp-content/uploads/2019/02/sicherman-pic.png" width="300px" />
+
+*Not normal. From trick-dice.com.*
+
+**Sicherman dice** are a pair of dice that have six sides, but non-standard numbers on the faces. One die has faces 1, 2, 2, 3, 3, 4 and the other has faces 1, 3, 4, 5, 6, 8. The dice are interesting because sum obtained by rolling the pair has the same distribution as a normal pair of six-sided dice.
+
+Write a program to simulate rolling the two Sicherman dice.
+
+- Generate a number 1 to 6, then use an `if`-`elif`-`else` block to choose the value of the first die
+- Repeat with a second random number 1 to 6, then a second block to choose the value of the second die
+- Print the individual values of the two dice and their sum
+
+```
+"""
+Simulate the Sicherman dice
+"""
+
+from random import randint
+
+# Generate a random number 1 to 6
+r = randint(1, 6)
+
+# Use r to choose the value of the first Sicherman die
+if r == 1:
+  die1 = 1
+elif r == 2:
+  die1 = 2
+# Add more cases for the other four faces
+
+# Generate a second random number
+
+# Use that number to choose the value of the second die
+
+# Print the two dice and their sum
+```
+
+
+
+
 
 
