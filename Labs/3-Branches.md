@@ -189,6 +189,32 @@ else:
   # Print the third option
 ```
 
+### Menu of options
+
+A useful technique is letting the user choose from a numbered menu of options. Let's write a program that asks the user for their mood and then offers an appropriate affirming statement. Finish the program below, then add **three more options** for the user to select.
+
+```
+"""
+Emotional support program
+"""
+
+# Print the menu of options
+print('How is your mood today?')
+print('1. Happy')
+print('2. Sad')
+print('3. Angry')
+print('4. Confused')
+
+# Prompt the user to choose one numbered option
+choice = int(input('Select one option: '))
+
+# Use an if-elif-else block with one branch per choice
+if choice == 1:
+  # Print a message for a happy user
+
+# Add more options for the other cases
+```
+
 
 ### 2d6
 
@@ -210,6 +236,11 @@ Roll two six-sided dice
 # Print the two dice and then the sum
 
 ```
+
+### Doubles
+
+Write a program that rolls two 5-sided dice and tests if are the same or different.
+
 
 ### Shoe sizing
 
@@ -271,9 +302,7 @@ else:
 
 ```
 
-### Doubles
 
-Write a program that rolls two 5-sided dice and tests if are the same or different.
 
 ### Sicherman dice
 
