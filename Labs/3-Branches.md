@@ -264,7 +264,7 @@ UK shoe sizes use the same approach, but the constant is 23 barleycorns for both
 
 Write a program that can read a foot length in inches and calculate the corresponding American shoe size. For this problem, don't worry about rounding up to the nearest half size; just print the exact size after doing the conversion.
 
-This problem illustrates a new technique: using a numbered menu to select from among a fixed set of options. Use the following code as a starting point. Fill in the statements associated with each comment.
+This problem uses a numbered menu to choose between men's and women's sizes. Use the following code as a starting point. Fill in the statements associated with each comment.
 ```
 """
 Calculate shoe size given foot length in inches
