@@ -87,11 +87,9 @@ Sic bo ("precious dice") is a dice game of Chinese origin, now available in many
 - The big bet wins if the sum of the three dice is 11 to 17 (including both), but not three-of-a-kind
 - The little bet wins if the sum of the three dice is 4 to 10 (including both), but not three-of-a-kind
 
-Write a program for sic bo using the big and little bets. Again, to make things interesting, we're going to allow the user to input the seed value at the start of the program.
-
+Write a program for sic bo using the big and little bets. For example,
 ```
 Welcome to Sic Bo.
-Enter a seed value: 0
 1. Big
 2. Little
 Choose a bet: 2
@@ -99,12 +97,19 @@ The three dice are 3, 5, and 1.
 The sum is 9.
 You win.
 ```
+Use the code for cho-han as a guide, but adapt it to roll three dice and use the winning and losing conditions for sic bo.
 
 Tip:
 
-Both bets lose if the result is a triple, so you can test for that first, then move on to the test the sum if the result is not a triple. To test for a triple, you need the logical and of three comparisons
+Both bets lose if the result is a triple, so you can check for that condition first. To test for a triple, you need the logical `and` of three comparisons
+```
+if die1 == die2 and die2 == die3 and die1 == die3:
+    print('Triple! You have lost.')
+```
+There are two winning cases:
 
-```
-die1 == die2 and die2 == die3 and die1 == die3
-```
+- The player enter 1 and the result is in the big range
+- The player entered 2 and the result is in the little range
+
+Think about how to write conditions for those. Every other outcome is a loss.
 
