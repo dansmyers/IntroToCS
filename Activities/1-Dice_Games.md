@@ -17,8 +17,6 @@ Your program should use `randint` three times to generate the three die rolls. A
 
 ## Cho-Han
 
-
-
 Cho-han is a traditional Japanese dice game. The rules are simple:
 
 - The player bets if the sum of two six-sided dice will be odd or even.
@@ -82,7 +80,7 @@ CHO-HAN
 
 ## Sic Bo
 
-Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: Players roll three dice and bet on the outcome. There are a wide variety of possible bets, but the two most common wagers in sic bo are "big" and "little".
+Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: Players roll three dice and bet on the outcome. There are a variety of possible bets, but the two most common wagers in sic bo are "big" and "little".
 
 - The big bet wins if the sum of the three dice is 11 to 17 (including both), but not three-of-a-kind
 - The little bet wins if the sum of the three dice is 4 to 10 (including both), but not three-of-a-kind
