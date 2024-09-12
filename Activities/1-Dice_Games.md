@@ -13,3 +13,98 @@ You lose.
 ```
 
 Your program should use `randint` three times to generate the three die rolls. Assign each roll to its own variable. Calculate the sum, then use an `if`-`elif`-`else` block to test for the three conditions.
+
+
+## Cho-han
+
+
+
+Cho-han is a traditional Japanese dice game. The rules are simple:
+
+- The player bets if the sum of two six-sided dice will be odd or even.
+- If the player's guess is correct, he wins. If not, he loses.
+
+The game appears in Japanese movies set in historical periods, where it's played by Yakuza gangsters and wandering samurai.
+
+Write a program for cho-han. Your program should prompt the user to choose an even or odd bet, then simulate the roll of two dice and announce if the player was correct. Here's example output:
+
+```
+Welcome to Cho-Han.
+1. Even
+2. Odd
+Select a bet: 1
+The dice are 1 and 5.
+The sum is 6.
+You win.
+```
+
+Check the user's input to make sure that it's either 1 or 2:
+```
+Welcome to Cho-Han.
+1. Even
+2. Odd
+Select a bet: -1
+You must enter 1 or 2.
+```
+Use `quit()` to end the program immediately if the user gives you bad input.
+
+The code below shows the general flow of the program. Use it to help you get started. Fill in the code associated with each comment.
+```
+"""
+CHO-HAN
+"""
+
+# Import the randint method
+
+
+# Print the welcome message and the two bets
+
+
+# Read the number 1 or 2 from the user
+
+
+# Check if the user's input is 1 or 2; if not, print an error and quit
+
+
+# Roll two six-sided dice and add their sum
+
+
+# Use a conditional block to print the output
+#
+# There are two ways to win:
+#     If the player entered 1 and the sum is even
+#     If the player entered 2 and the sum is odd
+# Every other outcome is a loss
+#
+# Think about how to turn that into an if-elif-else block
+
+```
+
+## Sic bo
+
+Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: Players roll three dice and bet on the outcome. There are a wide variety of possible bets, but the two most common wagers in sic bo are "big" and "little".
+
+- The big bet wins if the sum of the three dice is 11 to 17 (including both), but not three-of-a-kind
+- The little bet wins if the sum of the three dice is 4 to 10 (including both), but not three-of-a-kind
+
+Write a program for sic bo using the big and little bets. Again, to make things interesting, we're going to allow the user to input the seed value at the start of the program.
+
+```
+Welcome to Sic Bo.
+Enter a seed value: 0
+1. Big
+2. Little
+Choose a bet: 2
+The three dice are 3, 5, and 1.
+The sum is 9.
+You win.
+```
+
+Tip:
+
+Both bets lose if the result is a triple, so you can test for that first, then move on to the test the sum if the result is not a triple. To test for a triple, you need the logical and of three comparisons
+
+```
+die1 == die2 and die2 == die3 and die1 == die3
+```
+
