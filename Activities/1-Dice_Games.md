@@ -106,7 +106,7 @@ if die1 == die2 and die2 == die3 and die1 == die3:
 ```
 There are two winning cases:
 
-- The player enter 1 and the result is in the big range
+- The player entered 1 and the result is in the big range
 - The player entered 2 and the result is in the little range
 
 Think about how to write conditions for those. Every other outcome is a loss.
