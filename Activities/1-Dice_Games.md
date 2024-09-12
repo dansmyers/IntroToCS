@@ -99,9 +99,9 @@ Use the code for cho-han as a guide, but adapt it to roll three dice and use the
 
 Tip:
 
-Both bets lose if the result is a triple, so you can check for that condition first. To test for a triple, you need the logical `and` of three comparisons
+Both bets lose if the result is a triple, so you can check for that condition first. Use logical `and`:
 ```
-if die1 == die2 and die2 == die3 and die1 == die3:
+if die1 == die2 and die2 == die3:
     print('Triple! You have lost.')
 ```
 There are two winning cases:
@@ -109,5 +109,5 @@ There are two winning cases:
 - The player entered 1 and the result is in the big range
 - The player entered 2 and the result is in the little range
 
-Think about how to write conditions for those. Every other outcome is a loss.
+Think about how to write conditions for those cases. Every other outcome is a loss.
 
