@@ -15,7 +15,7 @@ You lose.
 Your program should use `randint` three times to generate the three die rolls. Assign each roll to its own variable. Calculate the sum, then use an `if`-`elif`-`else` block to test for the three conditions.
 
 
-## Cho-han
+## Cho-Han
 
 
 
@@ -80,7 +80,7 @@ CHO-HAN
 
 ```
 
-## Sic bo
+## Sic Bo
 
 Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: Players roll three dice and bet on the outcome. There are a wide variety of possible bets, but the two most common wagers in sic bo are "big" and "little".
 
