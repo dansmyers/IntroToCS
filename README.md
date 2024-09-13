@@ -63,13 +63,13 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/2 | LABOR DAY |
 9/4 | Variables, formatted printing, and input| Lab 2: Conversions |
 9/6 | Practice input, intro Project 1 | Project 1 out |
-9/9 | Variables wrap-up, relational operators |  |
-9/11 | The `if` statement | Lab 3: Making choices |
-9/13 | `if`-`elif`-`else` | Project 1 due  |
-9/16 | Logical operators, making randomized choices |  |
-9/18 | Simple games | Lab 4: Fitts' Law |
+9/9 | Relational operators, the `if` statement |  |
+9/11 | `if`-`elif`-`else`  | Lab 3: Making choices |
+9/13 | Making randomized choices| Project 1 due  |
+9/16 | Logical operators |  |
+9/18 | RPS | Lab 4: Fitts' Law |
 9/20 | Overview of AI and LLMs  | Project 2 out |
-9/23 | RPS | |
+9/23 | More text-based games | |
 9/25 | Intro to functions | Lab 5: Compleat Gamester |
 9/27 | Functions II: Functions that take parameters | Project 2 due |
 9/30 | Functions III: Functions that return values |  |
