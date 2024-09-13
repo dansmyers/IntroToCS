@@ -76,7 +76,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 10/2 | Functions IV: Functions + conditionals | Lab 6: Function writing practice |
 10/4 | Local variables and scope | |
 10/7 |  Unit testing |  |
-10/9 | Testing II | Lab 7: Choose Your Own Adventure + AI |
+10/9 | Testing II | Lab 7: Choose Your Own Adventure |
 10/11 | Intro to Project 3 | Project 3 out |
 10/14 | FALL BREAK  ||
 10/16  | Review for midterm  | Lab 8: Experiment |
