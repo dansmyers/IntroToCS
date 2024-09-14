@@ -69,7 +69,9 @@ Use a similar approach for the sentences. Decide in advance on a format for the 
 
 ## Automate
 
-**After you've finished your version of the program** (not before), prompt an AI to generate a complete implementation of the program, with no restrictions on the structure. Record your prompt and the AI output in your log document.
+**After you've finished your version of the program** (not before), prompt an AI to generate a complete implementation of the Love Letter Algorithm, with no restrictions on the structure. Record your prompt and the AI output in your log document.
+
+Verify that the AI's program works. If it doesn't, fix any errors manually, or prompt it to revise. Prompt it to make any changes that you want in the output.
 
 Then consider the AI's output. How does it compare to yours? Give your thoughts on what the AI program is doing. If there are parts you don't understand yet, that's okay, just note that and try to think about them based on the context given by the rest of the code.
 
