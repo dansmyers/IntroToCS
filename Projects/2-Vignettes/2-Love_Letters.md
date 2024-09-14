@@ -39,7 +39,7 @@ You can use AI freely to help you write this program.
 
 ## Making Choices
 
-Use `randint` and `if-elif-else` statements to make your random choices. For example, to pick your salutation, you might do the following:
+Use `randint` and `if-elif-else` statements to make your random choices. For example, to pick your salutation, you might do the following (with your own choices in place of mine):
 
 ```
 ### Construct the salutation
