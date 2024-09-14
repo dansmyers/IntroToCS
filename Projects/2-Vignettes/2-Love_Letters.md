@@ -67,7 +67,7 @@ Use a similar approach for the sentences. Decide in advance on a format for the 
 
 ## Thoughts to Think
 
-Once you've finished, think about the structure of this program. It's kind of repetitive, isn't it? Also, the `if`-`elif`-`else` structure, while convenient, doesn't really scale; it's hard to work with more about five branches at a time. We're going to address these problems gradually:
+Once you've finished, think about the structure of this program. It's kind of repetitive, isn't it? Also, the `if`-`elif`-`else` structure, while convenient, doesn't really scale; it's hard to work with more than about five branches at a time. We're going to address these problems gradually:
 
 - Functions and loops will allow us to avoid repeating nearly-identical blocks of code over and over again
 
