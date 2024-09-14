@@ -67,6 +67,12 @@ print()  # blank line
 
 Use a similar approach for the sentences. Decide in advance on a format for the first sentence, with blanks that you'll fill in with randomly chosen words. You can pick your own choices. Repeat for at least three total sentences, each with its own format and at least three randomized words.
 
+## Automated Love
+
+**After you've finished your version of the program** (not before), prompt an AI to generate a complete implementation of the program, with no restrictions on the structure. Record your prompt and the AI output in your log document.
+
+Then consider the AI's output. How does it compare to yours? Give your thoughts on what the AI program is doing. If there are parts you don't understand yet, that's okay, just note that and try to think about them based on the context given by the rest of the code.
+
 ## Thoughts to Think
 
 Once you've finished, think about the structure of this program. It's kind of repetitive, isn't it? Also, the `if`-`elif`-`else` structure, while convenient, doesn't really scale; it's hard to work with more than about five branches at a time. We're going to address these problems gradually:
