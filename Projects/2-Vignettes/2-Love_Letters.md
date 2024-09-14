@@ -25,6 +25,8 @@ Write a program that can produce randomized love letters with the following form
 - A paragraph of least three sentences. Decide on the general format of each sentence, then choose random adjectives, nouns, and other words to fill in the structure.
 - A closing, again generated randomly.
 
+It's not required, but I think it's more fun if your letters have a theme and some personality, rather than using generic romance words.
+
 ## AI Use
 
 You can use AI freely to help you write this program.
@@ -45,7 +47,7 @@ Use `randint` and `if-elif-else` statements to make your random choices. For exa
 # Choose an adjective
 r = randint(1, 3)
 if r == 1:
-  opening_adj = 'Darling'
+  opening_adj = 'Incomprehensible'
 elif r == 2:
   opening_adj = 'Whimsical'
 else:
