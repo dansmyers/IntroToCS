@@ -42,8 +42,6 @@ You can use AI freely to help you with this question. Experiment with making you
 
 ### Quiz design
 
-<img src="https://ahseeit.com//king-include/uploads/2021/05/43915181_326611507924503_5421316365027478799_n-7515047846.jpg" width="30%" />
-
 There are a number of ways to implement online quizzes. We're going to use the approach described in [this article](https://www.buzzfeed.com/annakopsky/everything-you-need-to-know-to-make-a-buzzfeed-personality). First, determine the title and "hook" for your quiz. What's it going to be about? Then decide on 3-6 outcomes that will be the results the user sees at the end.
 
 Each possible answer in your quiz will correspond to one of your 3-6 final outcomes. Each time the user answers a question, assign a point to the associated outcome. At the end of the quiz, pick the final outcome with the most total points.
@@ -53,7 +51,7 @@ Each possible answer in your quiz will correspond to one of your 3-6 final outco
 
 Use the program below as a starting point. Create your own theme, choose 3-6 possible outcomes, then write **at least five** questions.
 
-The final step is to determine which variable has the max score and use it to print an output message. Think about how you want to handle ties: You could break them arbitrarily by just selecting one outcome, or you could let a tie represent a distinct output.
+The final step determines the most popular choice and prints the associated output. Think about how you want to handle ties: You could break them arbitrarily by just selecting one outcome, or you could let a tie represent a distinct output.
 
 ```
 """
@@ -79,8 +77,7 @@ What X are you?
 
 ```
 
-
-### Questions and answers
+### Answer scoring
 
 My son Scott likes snakes, so let's make a *Which deadly Australian snake are you?* quiz. There will be four outcomes, [sourced from Wikipedia](https://en.wikipedia.org/wiki/Snakes_of_Australia):
 
@@ -121,6 +118,7 @@ elif choice == 4:
     tiger_snake_score += 1
 else:
     print('That\'s not an option.')
+    # Don't quit; continue without scoring a point
 ```
 Notice that `+= 1` is a standard shortcut to add one to a variable. It's equivalent to writing
 ```
@@ -130,6 +128,5 @@ The `else` block prints an error, but the program then continues without quittin
 
 
 
-
-
+## 
 
