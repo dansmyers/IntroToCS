@@ -10,7 +10,7 @@ Christopher Strachey was an early British computer programmer. Born in 1916, he 
 
 Strachey began programming in the 1950s. He wrote a program to play checkers that may have been the first video game. He also created the first computer music program (it played "God Save the Queen"). He went on to do pioneering work in a number of areas of computer science, including developing the concept of time-sharing in operating systems, which turned out to be a big deal.
 
-The Love Letter Algorithm dates from 1952. It was a program that could automatically compose love letters, for certain definitions of "love" and "letters". [Wikipedia records the following example](https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm),
+The Love Letter Algorithm dates from 1952. It was a program that could automatically compose love letters, for certain definitions of "love" and "letters", and perhaps the earliest example of computer-generated literature. [Wikipedia records the following example](https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm),
 > Darling Sweetheart,
 >
 >You are my avid fellow feeling. My affection curiously clings to your passionate wish. My liking yearns for your heart. You are my wistful sympathy: my tender liking.
@@ -29,7 +29,7 @@ Write a program that can produce randomized love letters with the following form
 
 You can use AI freely to help you write this program.
 
-- As in the last program, think about the complexity of the AI's code. There are many ways to make this program more complicated and the AI will probably try to do them unless you carefully prompt it. Don't turn in a solution that uses feature we haven't talked about yet.
+- As in the last program, think about the complexity of the AI's code. There are many ways to make this program more complicated and the AI will probably try to do them unless you carefully exclude them. Don't turn in a solution that uses feature we haven't talked about yet.
 
 - You get to make a lot of choices for this program, so make them! Don't outsource your creativity to the AI!
 
