@@ -63,7 +63,7 @@ print(f'{opening_adj} {opening_noun},')
 print()  # blank line 
 ```
 
-Use a similar approach for the sentences. Decide in advance on a format for the first sentence, with blanks that you'll fill in with randomly chosen words. You can pick your own choices. Repeat for at least three total sentences, each with its own format and at least three randomized choices.
+Use a similar approach for the sentences. Decide in advance on a format for the first sentence, with blanks that you'll fill in with randomly chosen words. You can pick your own choices. Repeat for at least three total sentences, each with its own format and at least three randomized words.
 
 ## Thoughts to Think
 
