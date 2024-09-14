@@ -1,5 +1,9 @@
 # Strachey's Love Letter Algorithm
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/The_Love_Letter_E10722.jpg/1090px-The_Love_Letter_E10722.jpg" width="400px" />
+
+*The Love Letter*, François Boucher (1750)
+
 ## Overview
 
 Christopher Strachey was an early British computer programmer. Born in 1916, he attended Cambridge at the same time as Alan Turing, the father of computer science. Strachey did not do well in his studies and took an industry position after graduation where he became interested in emerging computing technologies.
