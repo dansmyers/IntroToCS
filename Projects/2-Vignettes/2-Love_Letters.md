@@ -31,7 +31,7 @@ It's not required, but I think it's more fun if your letters have a theme and so
 
 You can use AI freely to help you write this program.
 
-- As in the last program, think about the complexity of the AI's code. There are many ways to make this program more complicated and the AI will probably try to do them unless you carefully exclude them. Don't turn in a solution that uses feature we haven't talked about yet.
+- As in the last program, think about the complexity of the AI's code. There are many ways to make this program more complicated, which the AI will probably try unless you carefully exclude them. Don't turn in a solution that uses feature we haven't talked about yet.
 
 - You get to make a lot of choices for this program, so make them! Don't outsource your creativity to the AI!
 
