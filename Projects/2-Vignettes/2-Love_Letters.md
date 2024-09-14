@@ -10,7 +10,7 @@ Christopher Strachey was an early British computer programmer. Born in 1916, he 
 
 Strachey began programming in the 1950s. He wrote a program to play checkers that may have been the first video game. He also created the first computer music program (it played "God Save the Queen"). He went on to pioneering work in a number of areas of computer science, including developing the concept of time-sharing in operating systems, which turned out to be a big deal.
 
-The "Love Letter Algorithm" dates from abut 1952. It was a program that could automatically compose love letters, for certain definitions of "love" and "letters". [Wikipedia records the following example](https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm),
+The Love Letter Algorithm dates from 1952. It was a program that could automatically compose love letters, for certain definitions of "love" and "letters". [Wikipedia records the following example](https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm),
 > Darling Sweetheart,
 >
 >You are my avid fellow feeling. My affection curiously clings to your passionate wish. My liking yearns for your heart. You are my wistful sympathy: my tender liking.
@@ -21,9 +21,9 @@ The "Love Letter Algorithm" dates from abut 1952. It was a program that could au
 
 Write a program that can produce randomized love letters with the following format:
 
-- An opening, chosen randomly.
-- At least three sentences. Decide on the general format of each sentence, then choose random adjectives, nouns, and other words to fill in the structure.
-- A closing, again chosen randomly.
+- An opening, generated randomly.
+- A paragraph of least three sentences. Decide on the general format of each sentence, then choose random adjectives, nouns, and other words to fill in the structure.
+- A closing, again generated randomly.
 
 ## AI Use
 
