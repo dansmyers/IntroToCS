@@ -8,7 +8,7 @@
 
 Christopher Strachey was an early British computer programmer. Born in 1916, he attended Cambridge at the same time as Alan Turing, the father of computer science. Strachey did not do well in his studies and took an industry position after graduation where he became interested in emerging computing technologies.
 
-Strachey began programming in the 1950s. He wrote a program to play checkers that may have been the first video game. He also created the first computer music program (it played "God Save the Queen"). He went on to do pioneering work in a number of areas of computer science, including developing the concept of time-sharing in operating systems, which turned out to be a big deal.
+Strachey began programming in the 1950s. He wrote a program to play checkers that may have been the first video game. He also created the first computer music program (it played "God Save the Queen"). He went on to do pioneering work in a number of areas of computer science, including developing the concept of [time-sharing in operating systems](https://en.wikipedia.org/wiki/Time-sharing), which turned out to be a big deal.
 
 The Love Letter Algorithm dates from 1952. It was a program that could automatically compose love letters, for certain definitions of "love" and "letters", and perhaps the earliest example of computer-generated literature. [Wikipedia records the following example](https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm),
 > Darling Sweetheart,
