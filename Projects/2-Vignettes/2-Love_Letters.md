@@ -67,7 +67,7 @@ print()  # blank line
 
 Use a similar approach for the sentences. Decide in advance on a format for the first sentence, with blanks that you'll fill in with randomly chosen words. You can pick your own choices. Repeat for at least three total sentences, each with its own format and at least three randomized words.
 
-## Automated Love
+## Automate
 
 **After you've finished your version of the program** (not before), prompt an AI to generate a complete implementation of the program, with no restrictions on the structure. Record your prompt and the AI output in your log document.
 
