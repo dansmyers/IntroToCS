@@ -13,11 +13,9 @@
 Our version will use the following rules:
 
 - Roll three six-sided dice and add their sum
-
 - If the sum is equal to 15, the player wins immediately
 - If the sum is greater than 15, the player loses immediately
 - If the sum is less than 15 the player may choose to roll one more die and add it to the score
-
 - Announce the player's score
 - Print a message depending on whether the score was less than, equal to, or greater than 15
 
