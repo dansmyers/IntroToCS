@@ -2,7 +2,7 @@
 
 <img src="https://preview.redd.it/gustave-dor%C3%A9-the-night-mare-life-in-death-plays-dice-with-v0-mjuyk0eqiwkb1.jpg?auto=webp&s=3f727b48c0a49bff7cd70a01cb41160a5ccbfc4a" width="400px" />
 
-*The Night-Mare Life-in-Death Plays Dice with Death for the Souls of the Crew*, woodcut by Gustave Doré for *Rime of the Ancient Mariner* (1875)
+*The Night-Mare Life-in-Death Plays Dice with Death for the Souls of the Crew*, woodcut by Gustave Doré for an edition of Samuel Taylor Coleridge's *Rime of the Ancient Mariner* (1875)
 
 ## Overview
 
