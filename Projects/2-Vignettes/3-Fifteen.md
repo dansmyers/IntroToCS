@@ -4,6 +4,8 @@
 
 *The Night-Mare Life-in-Death Plays Dice with Death for the Souls of the Crew*, woodcut by Gustave Doré for an edition of Samuel Taylor Coleridge's *Rime of the Ancient Mariner* (1875)
 
+[Linked from r/museum](https://www.reddit.com/r/museum/comments/163va3r/gustave_dor%C3%A9_the_nightmare_lifeindeath_plays_dice/)
+
 ## Overview
 
 **Fifteen** is a basic dice game, one of a family of accumulating games that involve rolling dice to get as close as possible to a target without going over.
