@@ -1,5 +1,9 @@
 # Rock-Paper-Scissors
 
+<img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/02/Rohan-vs-ken-janken.jpg?q=50&fit=crop&w=750&dpr=1.5" width="400px" />
+
+*[The Rise of Rock, Paper, Scissors in Anime](https://www.cbr.com/anime-rock-paper-scissors-origins/)
+
 ## Overview
 This activity will lead you guide you through the implementation of an RPS game. This program will tie together pretty much everything that we've done so far in the class:
 
