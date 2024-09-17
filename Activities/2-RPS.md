@@ -1,8 +1,10 @@
 # Rock-Paper-Scissors
 
-<img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/02/Rohan-vs-ken-janken.jpg?q=50&fit=crop&w=750&dpr=1.5" width="400px" />
+<img src="https://content.instructables.com/FIU/AIWE/I7Q0TCUT/FIUAIWEI7Q0TCUT.jpg?auto=webp&fit=bounds&frame=1" width="350px" />
 
-*[The Rise of Rock, Paper, Scissors in Anime](https://www.cbr.com/anime-rock-paper-scissors-origins/)*
+*Rock, Paper, Scissors, Lizard, Spock - from [Instructables](https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/)*
+
+
 
 ## Overview
 This activity will lead you guide you through the implementation of an RPS game. This program will tie together pretty much everything that we've done so far in the class:
@@ -164,9 +166,5 @@ Continue until you've covered all combinations of `player_move` and `cpu_move`.
 
 
 ## Extension
-<img src="https://content.instructables.com/FIU/AIWE/I7Q0TCUT/FIUAIWEI7Q0TCUT.jpg?auto=webp&fit=bounds&frame=1" width="350px" />
-
-*From [Instructables](https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/)*
-
 
 Once you finish the basic game, you can work on extending it to play [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
