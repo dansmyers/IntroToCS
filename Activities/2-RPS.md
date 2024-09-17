@@ -162,4 +162,7 @@ Continue until you've covered all combinations of `player_move` and `cpu_move`.
 ## Extension
 <img src="https://content.instructables.com/FIU/AIWE/I7Q0TCUT/FIUAIWEI7Q0TCUT.jpg?auto=webp&fit=bounds&frame=1" width="350px" />
 
+*From [Instructables](https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/)*
+
+
 Once you finish the basic game, you can work on extending it to play [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
