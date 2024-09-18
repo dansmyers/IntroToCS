@@ -66,16 +66,16 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/9 | Relational operators, the `if` statement |  |
 9/11 | `if`-`elif`-`else`  | Lab 3: Making choices |
 9/13 | Making randomized choices| Project 1 due  |
-9/16 | Logical operators |  |
+9/16 | Logical operators | Chapter 3 and 4 reading |
 9/18 | RPS | Lab 4: Fitts' Law |
 9/20 | Overview of AI and LLMs  | Project 2 out |
-9/23 | More text-based games | |
+9/23 | More text-based games | Chapter 3 and 4 reading due|
 9/25 | Intro to functions | Lab 5: Compleat Gamester |
 9/27 | Functions II: Functions that take parameters | Project 2 due |
-9/30 | Functions III: Functions that return values |  |
+9/30 | Functions III: Functions that return values | Chapter 5 reading  |
 10/2 | Functions IV: Functions + conditionals | Lab 6: Function writing practice |
 10/4 | Local variables and scope | |
-10/7 |  Unit testing |  |
+10/7 |  Unit testing | Chapter 5 reading due |
 10/9 | Testing II | Lab 7: Choose Your Own Adventure |
 10/11 | Intro to Project 3 | Project 3 out |
 10/14 | FALL BREAK  ||
@@ -84,23 +84,23 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 10/21 | Intro to lists and sequences | |
 10/23 | The `for` loop | Lab 9: Jeu Monégasque |
 10/25 | Counting loops | Project 3 due |
-10/28 | More `for` loops | |
+10/28 | More `for` loops | Chapter 6 reading |
 10/30 | Looping over strings | Lab 10: Wordplay |
 11/1 | Intro to Project 4 | Project 4 out |
-11/4 | The `while` loop  | |
+11/4 | The `while` loop  | Chapter 6 reading due |
 11/6 | Binary numbers | Lab 11: Precision  |
 11/8 | Character encodings| |
 11/11 | Dictionaries | |
 11/13 | Letter frequencies | Lab 12: Pandas and Benford's Law |
 11/15 | Intro to Project 5 | Project 4 due, Project 5 out | 
-11/18 | Code cracking | |
+11/18 | Code cracking | Chapter 9 and 10 reading |
 11/20 | Language models  | Lab 13: My heart will go on |
 11/22 |  Language models II | |
 11/25 | Language models III | Project 5 due, Project 6 out |
 11/27 | THANKSGIVING BREAK | |
 11/29 | THANKSGIVING BREAK | |
 12/2 | Dr. Myers' choice | |
-12/4 | Dr. Myers' choice | |
+12/4 | Dr. Myers' choice | Chapter 9 and 10 reading due |
 12/6 | Last day of classes / Flex for hurricane | Project 6 due |
 
 ### Other Important Dates
