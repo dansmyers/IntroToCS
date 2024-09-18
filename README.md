@@ -59,13 +59,13 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 |------|---------|-------------|
 8/26  | Hello, World! |
 8/28  | Printing and arithmetic | Lab 1: Writing and running programs |
-8/30  | Intro to variables |
+8/30  | Intro to variables | Chapter 1 reading  |
 9/2 | LABOR DAY |
 9/4 | Variables, formatted printing, and input| Lab 2: Conversions |
-9/6 | Practice input, intro Project 1 | Project 1 out |
+9/6 | Practice input, intro Project 1 | Project 1 out, Chapter 2 reading, Chapter 1 reading due |
 9/9 | Relational operators, the `if` statement |  |
 9/11 | `if`-`elif`-`else`  | Lab 3: Making choices |
-9/13 | Making randomized choices| Project 1 due  |
+9/13 | Making randomized choices| Project 1 due, Chapter 2 reading due  |
 9/16 | Logical operators | Chapter 3 and 4 reading |
 9/18 | RPS | Lab 4: Fitts' Law |
 9/20 | Overview of AI and LLMs  | Project 2 out |
