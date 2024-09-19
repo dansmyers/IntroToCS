@@ -48,9 +48,9 @@ As with the other problems, you can use AI freely to help you. Remember:
 For this problem you need to add one more step. Prompt the AI to help you develop a plan for testing your program:
 
 >*I've written the following Python program that implements a small dice game.*
-
+>
 >*(PASTE PROGRAM HERE)*
-
+>
 >*Give me suggestions for testing it so I can be sure that it works correctly. Don't write any test code for me. Give me a plan I can follow to test the program myself. Explain your reasoning.*
 
 Log prompt and response in your log. Carry out the testing plan and log the results.
