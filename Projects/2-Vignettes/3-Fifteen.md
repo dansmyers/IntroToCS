@@ -53,6 +53,6 @@ For this problem you need to add one more step. Prompt the AI to help you develo
 >
 >*Give me suggestions for testing it so I can be sure that it works correctly. Don't write any test code for me. Give me a plan I can follow to test the program myself. Explain your reasoning.*
 
-Log prompt and response in your log. Carry out the testing plan and log the results.
+Log the prompt and response in your log, then carry out the testing plan and log the results. Verify that your program works correctly for all cases.
 
-How does the number of test cases relate to the number of conditional choices in the program?
+Here's one last question to answer: How does the number of test cases relate to the number of conditional choices in the program?
