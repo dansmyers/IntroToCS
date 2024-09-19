@@ -18,6 +18,7 @@ The Love Letter Algorithm dates from 1952. It was a program that could automatic
 >Yours beautifully
 >
 >M. U. C.
+
 More details are in [this article](https://www.newyorker.com/tech/annals-of-technology/christopher-stracheys-nineteen-fifties-love-machine) by Siobhan Roberts. "M.U.C." stands for "Manchester University Computer", as in *the* computer, because the university only had one.
 
 Write a program that can produce randomized love letters with the following format:
