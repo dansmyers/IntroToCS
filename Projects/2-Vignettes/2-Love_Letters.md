@@ -6,11 +6,11 @@
 
 ## Overview
 
-Christopher Strachey was an early British computer programmer. Born in 1916, he attended Cambridge at the same time as Alan Turing, the father of computer science. Strachey did not do well in his studies and took an industry position after graduation where he became interested in emerging computing technologies.
+Christopher Strachey was an early British computer programmer. Born in 1916, he attended Cambridge at the same time as Alan Turing, the father of computer science. Strachey did not initially excel in his studies and took an industry position after graduation where he then became interested in emerging computing technologies.
 
-Strachey began programming in the 1950s. He wrote a program to play checkers that may have been the first video game. He also created the first computer music program (it played "God Save the Queen"). He went on to do pioneering work in a number of areas of computer science, including developing the concept of [time-sharing in operating systems](https://en.wikipedia.org/wiki/Time-sharing), which turned out to be a big deal.
+Strachey began programming in the 1950s. He wrote a program to play checkers that may have been the first video game and also created one of the first computer music programs (it played "God Save the Queen"). He went on to do pioneering work in a number of areas of computer science, including developing the concept of [time-sharing in operating systems](https://en.wikipedia.org/wiki/Time-sharing), which turned out to be a big deal. He finished his career as a professor at Oxford.
 
-The Love Letter Algorithm dates from 1952. It was a program that could automatically compose love letters, for certain definitions of "love" and "letters", and perhaps the earliest example of computer-generated literature. [Wikipedia records the following example](https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm),
+The Love Letter Algorithm dates from 1952. It was a program that could automatically compose love letters (for certain definitions of "love" and "letters") and perhaps the earliest example of computer-generated literature. [Wikipedia records the following example](https://en.wikipedia.org/wiki/Strachey_love_letter_algorithm),
 > Darling Sweetheart,
 >
 >You are my avid fellow feeling. My affection curiously clings to your passionate wish. My liking yearns for your heart. You are my wistful sympathy: my tender liking.
@@ -18,11 +18,11 @@ The Love Letter Algorithm dates from 1952. It was a program that could automatic
 >Yours beautifully
 >
 >M. U. C.
-More details in [this article](https://www.newyorker.com/tech/annals-of-technology/christopher-stracheys-nineteen-fifties-love-machine) by Siobhan Roberts in *The New Yorker*. "M.U.C." stands for "Manchester University Computer", as in *the* computer.
+More details are in [this article](https://www.newyorker.com/tech/annals-of-technology/christopher-stracheys-nineteen-fifties-love-machine) by Siobhan Roberts. "M.U.C." stands for "Manchester University Computer", as in *the* computer, because the university only had one.
 
 Write a program that can produce randomized love letters with the following format:
 
-- An opening, generated randomly.
+- A salutation, generated randomly.
 - A paragraph of least three sentences. Decide on the general format of each sentence, then choose random adjectives, nouns, and other words to fill in the structure.
 - A closing, again generated randomly.
 
@@ -78,7 +78,7 @@ Then consider the AI's output. How does it compare to yours? Give your thoughts 
 
 ## Thoughts to Think
 
-Once you've finished, think about the structure of this program. It's kind of repetitive, isn't it? Also, the `if`-`elif`-`else` structure, while convenient, doesn't really scale; it's hard to work with more than about five branches at a time. We're going to address these problems gradually:
+Once you've finished, think about the structure of this program. It's kind of repetitive, isn't it? Also, the `if`-`elif`-`else` structure, while convenient, doesn't really scale; it's hard to work with more than about five branches at a time. We're going to address these problems over the next few weeks:
 
 - Functions and loops will allow us to avoid repeating nearly-identical blocks of code over and over again
 
