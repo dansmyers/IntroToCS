@@ -141,9 +141,49 @@ usd_to_doge(value)
 
 ### Even-odd
 
-Write a program with a function that takes an integer `n` as input and prints `Even` if `n` is even and `Odd` if `n` is odd.
+Write a program with a function that takes an integer `n` as input and prints `Even` if `n` is even and `Odd` if `n` is odd. Use an `if-else` block inside the function that tests `n` and prints the appropriate output.
 
-Use an `if-else` block inside the function that tests `n` and prints the appropriate output.
+Use a main section that reads a number using `input` and then calls `even_odd`.
+
+```
+### Main
+number = int(input('Enter a number: '))
+even_odd(number)
+```
+
+Tip: Recall that you can use the modulus operator to test for evenness: `n % 2 == 0` is `True` if `n` is even.
+
+
+### Positive-negative-zero
+
+Repeat the previous problem, but write a function called `positive_or_negative` that takes a number `n` as input and prints either `Postive`, `Negative`, or `Zero`, depending on the value of `n`.
+
+
+### Max
+
+Write a program with a function named `max` that takes **two** inputs named `a` and `b` and prints the larger value.
+
+Tip: There is a built-in `max` function, but don't use it for this problem. Use an `if`-`else` block that compares the two input arguments.
+
+```
+"""
+Find the max of two inputs
+"""
+
+def max(a, b):
+    # Print the larger of a or b
+
+
+### Main
+
+# Read two inputs
+first_num = int(input('Enter the first number: '))
+second_num = int(input('Enter the second number: '))
+
+# Call the function to compare them
+print('The larger value is:')
+max(first_num, second_num)
+```
 
 
 ### Card printing
