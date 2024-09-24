@@ -1,5 +1,9 @@
 # Put the "Fun" in Functions
 
+<img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/9821/33434/restricted" width="400px" />
+
+*Frank Lloyd Wright's "kinder-symphony" windows designed for the Avery Coonley House outside of Chicago. From [The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search/9821).*
+
 ## Overview
 
 Let's practice writing some functions. All of the problems below will let you write functions that take inputs. General tips:
