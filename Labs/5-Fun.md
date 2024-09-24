@@ -2,6 +2,18 @@
 
 ## Overview
 
+Let's practice writing some functions. All of the problems below will let you write functions that take inputs. General tips:
+
+- Remember that function names use the same style as variable names
+  
+- Give each function a docstring that describes its purpose and inputs
+
+- Functions take **arguments** that are passed when the function is called. Don't use `input` to read the parameters of a function!
+
+- Put function definitions at the top of the program, above the "main" section that contains the executable statements
+
+For this lab, all of our functions will **print** their results. Soon we'll extend this to functions that **return** results so they can be used by other parts of the program.
+
 ## Setup
 
 Create a `Lab_5` directory and `cd` into it. Put each question into its own Python file.
@@ -93,9 +105,6 @@ grams_of_protein_to_crickets(value)
 ```
 
 
-### 
-
-
 ### Doge II: Return of Doge
 
 <img src="https://i.redd.it/bkhyosuip8g51.jpg" width="300px" />
@@ -125,6 +134,13 @@ value = float(input('Enter a number of dollars: '))
 # Call a function that converts to DOGE and prints the result
 usd_to_doge(value)
 ```
+
+### Even-odd
+
+Write a program with a function that takes an integer `n` as input and prints `Even` if `n` is even and `Odd` if `n` is odd.
+
+Use an `if-else` block inside the function that tests `n` and prints the appropriate output.
+
 
 ### Card printing
 
