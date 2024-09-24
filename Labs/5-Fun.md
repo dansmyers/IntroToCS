@@ -30,6 +30,7 @@ Notice how the main section uses an input statement to read a value from the use
 
 1 dollar is currently worth about 9.17 DOGE.
 
+```
 """
 USD to DOGE converter
 """
@@ -44,5 +45,6 @@ value = float(input('Enter a number of dollars: '))
 
 # Call a function that converts to DOGE and prints the result
 usd_to_doge(value)
+```
 
 ### Hi-Lo
