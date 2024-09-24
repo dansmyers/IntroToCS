@@ -194,19 +194,25 @@ max(first_num, second_num)
 
 Write a function called `print_card` that takes a number 1 to 13 as input and prints the corresponding playing card name.
 
-- if the input is 1, print `ACE`
-- if the input is 2 through 10, print that number
-- if the input is 11, print `JACK`, and so forth
+- if the input is 1, print `Ace`
+- if the input is 2 through 10, print the number as a word.
+- if the input is 11, print `Jack`, and likewise for the Queen and King.
 
 ```
 def print_card(card):
+    """
+    Fill in this docstring
+    """
 
-  if card == 1:
-    print('Ace')
-  elif card == 11:
-    print('Jack')
+    if card == 1:
+        print('Ace')
+    elif card == 2:
+        print('Two')
     
-  # Add other cases to finish the method
+    # Add other cases to finish the method
+
+    elif card == 13:
+        print('King')
 ```
 
 Here's a test program:
@@ -273,3 +279,28 @@ print_card(first_card)
 ```
 
 Another question: Is generating a card using `randint(1, 13)` the same as simulating drawing from a deck of 52 cards?
+
+
+### Dice vs. Card
+
+Here's a variation of the Hi-lo game that I learned from the [Wizard of Odds](https://wizardofodds.com/games/easy-over-under/), my go-to source for gambling knowledges.
+
+The player bets if the sum of two dice will be greater than or less than the value of a single card. The card is scored 1-13, as in the previous problems. Here's an example output:
+```
+Welcome to dice vs. card.
+1. The dice will be higher
+2. The card will be higher
+Select your bet: 1
+The dice are 5 and 4. The sum is 9.
+The card is...
+Jack
+The card is higher.
+You lose.
+```
+Use an approach similar to our previous chance games:
+
+- Print the two choices, then read the player's number. If the player enters anything other than 1 or 2, print an error and quit immediately.
+- Roll the two dice, calculate their sum, and print.
+- Deal the card using `randint`, then use `print_card` to output it.
+- Determine whether the dice or the card are greater.
+- Compare the result against the player's bet and announce the result.
