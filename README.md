@@ -69,14 +69,14 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/16 | Logical operators | Chapter 3 and 4 reading |
 9/18 | RPS | Lab 4: Fitts' Law |
 9/20 | Overview of AI and LLMs  | Project 2 out |
-9/23 | More text-based games | Chapter 3 and 4 reading due|
-9/25 | Intro to functions | Lab 5: Compleat Gamester |
-9/27 | Functions II: Functions that take parameters | Project 2 due |
-9/30 | Functions III: Functions that return values | Chapter 5 reading  |
-10/2 | Functions IV: Functions + conditionals | Lab 6: Function writing practice |
-10/4 | Local variables and scope | |
-10/7 |  Unit testing | Chapter 5 reading due |
-10/9 | Testing II | Lab 7: Choose Your Own Adventure |
+9/23 | Intro to functions | Chapter 3 and 4 reading due|
+9/25 | Functions II: Functions that take parameters| Lab 5: Compleat Gamester |
+9/27 | Functions III: Functions that return values | Project 2 due |
+9/30 | Functions IV: Functions + conditionals  | Chapter 5 reading  |
+10/2 | Local variables and scope| Lab 6: Function writing practice |
+10/4 | Unit testing  | |
+10/7 | Testing II | Chapter 5 reading due |
+10/9 | Topic: Internet | Lab 7: Choose Your Own Adventure |
 10/11 | Intro to Project 3 | Project 3 out |
 10/14 | FALL BREAK  ||
 10/16  | Review for midterm  | Lab 8: Experiment |
