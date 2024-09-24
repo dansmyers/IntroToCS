@@ -1,4 +1,4 @@
-# Put the "Fun" in Functions
+# Fun
 
 <img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/9821/33434/restricted" width="400px" />
 
