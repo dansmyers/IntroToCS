@@ -292,7 +292,7 @@ Welcome to dice vs. card.
 2. The card will be higher
 Select your bet: 1
 The dice are 5 and 4. The sum is 9.
-The card is...
+The card is:
 Jack
 The card is higher.
 You lose.
