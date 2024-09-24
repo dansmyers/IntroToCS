@@ -82,6 +82,10 @@ pounds_to_willigrams(value)
 
 ### Crickets
 
+<img src="https://www.liveabout.com/thmb/VL-U6f9b4pDPuedh1OFORBlM0lo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-84892625-5c76ff65c9e77c0001d19c74.jpg" width="300px" />
+
+*Buddy Holly and the Crickets*
+
 Let's return to the cricket protein powder question. Recall that one cricket contains about .3 grams of protein. Complete the program below by writing a function that takes grams of protein as input and **prints** the number of crickets required for that amount.
 
 Tip: Make sure to include a docstring at the start of your function.
