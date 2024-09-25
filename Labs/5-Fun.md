@@ -24,7 +24,7 @@ Create a `Lab_5` directory and `cd` into it. Put each question into its own Pyth
 
 ## Programs
 
-### `print_area_of_rectangle`
+### `print_area_of_triangle`
 
 Complete the following program with a function that takes an input base and height, then **prints** the area of the corresponding triangle.
 
