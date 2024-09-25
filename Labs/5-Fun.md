@@ -26,14 +26,14 @@ Create a `Lab_5` directory and `cd` into it. Put each question into its own Pyth
 
 ### `print_area_of_rectangle`
 
-Complete the following program with a function that takes an input length and width, then **prints** the area of the corresponding rectangle.
+Complete the following program with a function that takes an input base and height, then **prints** the area of the corresponding triangle.
 
 ```
 """
-Write a function that prints the area of a rectangle
+Write a function that prints the area of a triangle
 """
 
-def print_area_of_rectangle(length, width):
+def print_area_of_triangle(base, height):
     """
     Complete this function docstring
     """
@@ -45,11 +45,11 @@ def print_area_of_rectangle(length, width):
 
 ### Main
 
-print_area_of_rectangle(10, 5)
+print_area_of_triangle(10, 5)
 
-print_area_of_rectangle(3, 11)
+print_area_of_triangle(3, 11)
 
-# Add a statement to print the area of a rectangle with length 7 and width 17
+# Add a statement to print the area of a triangle with base 7 and width 17
 
 # Write a statement that calls the function with inputs that will print 99 as the output
 ```
