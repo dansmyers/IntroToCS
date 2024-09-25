@@ -310,7 +310,10 @@ Use an approach similar to our previous chance games:
 
 Modify your `max` function to take **three** inputs named `a`, `b`, and `c` and print the largest value. Again, don't use the built-in `max` function.
 
-Tip: Use an `if`-`else` inside of an `if`-`else`. If `a` is greater than `b`, then you can compare `a` and `c` to identify the largest value. Else, `b` is larger, so you can then compare `b` and `c`.
+Tip: Use an `if`-`else` inside of an `if`-`else`.
+
+- If `a` is greater than `b`, then you can compare `a` and `c` to identify the largest value
+- Else, `b` is larger, so you can then compare `b` and `c`
 
 ```
 """
