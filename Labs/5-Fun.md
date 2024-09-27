@@ -38,7 +38,7 @@ def print_area_of_triangle(base, height):
     Complete this function docstring
     """
     
-    # Calculate the area of the rectangle
+    # Calculate the area of the triangle
     
     # Print the result
     
@@ -49,7 +49,7 @@ print_area_of_triangle(10, 5)
 
 print_area_of_triangle(3, 11)
 
-# Add a statement to print the area of a triangle with base 7 and width 17
+# Add a statement to print the area of a triangle with base 7 and height 17
 
 # Write a statement that calls the function with inputs that will print 99 as the output
 ```
