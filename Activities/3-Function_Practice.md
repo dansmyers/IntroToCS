@@ -72,7 +72,7 @@ print(result)  # Verify this is the maximum
 
 ## Even-odd
 
-Write a function named `is_even` that takes an integer `n` as input and returns `True` if `n` is even and `Odd` if `n` is odd. Use an `if-else` block inside the function that tests `n`.
+Write a function named `is_even` that takes an integer `n` as input and returns `True` if `n` is even and `False` if `n` is odd. Use an `if-else` block inside the function that tests `n`.
 
 Add the test code below to your main section.
 
