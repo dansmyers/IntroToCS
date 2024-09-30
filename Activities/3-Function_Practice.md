@@ -1,7 +1,5 @@
 # Function Writing Practice
 
-# Function Writing Practice
-
 This micro-lab will let you practice writing some functions that return results.
 
 ## Setup
