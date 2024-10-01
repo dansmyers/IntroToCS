@@ -114,20 +114,24 @@ Put your code in a file named `dice_vs_card.py`. Use an approach similar to our 
 - Determine whether the dice or the card are greater.
 - Compare the result against the player's bet and announce the result.
 
-## Almost-Blackjack
+## Single-Card Blackjack
+
+[*I like to live dangerously*.](https://www.youtube.com/watch?v=s_uAjPV7qec)
 
 ### Description
 
-Let's write a variation of the classic blackjack game. This goal of this version will be to get as close as possible to **11** without going over. The player starts with a single card and can choose to **draw one (and only one) more card**.
+Let's write a variation of the classic blackjack game.
+
+The goal of this version will be to get as close as possible to **11** without going over. The player starts with a single card and can choose to **draw one (and only one) more card**.
 
 Here's a more detailed description of the game:
 
-1. Deal one card to the player
-2. If the card is an Ace, the player wins immediately
-3. The player may choose to Hit or Stand
-4. If the player hits, he takes one more card
-5. If the combined total of the player's two cards is greater than 11, he busts and loses immediately
-6. If the player did not bust, the dealer takes one card
+1. Deal one card to the player and print it
+2. Deal one card to the dealer and print it
+3. If the card is an Ace, the player wins immediately
+4. The player may choose to Hit or Stand
+5. If the player hits, he takes one more card
+6. If the combined total of the player's two cards is greater than 11, he busts and loses immediately
 7. If the dealer's card is less than 7, he hits and takes one more card
 8. If the dealer's total is greater than 11, he busts and the player wins immediately
 9. If neither busted, compare the totals of the two hands; the highest score wins
@@ -136,12 +140,12 @@ Here is example output:
 ```
 Welcome to blackjack
 Your first card is: Six
+The dealer's card is: Three
 1. Hit
 2. Stand
 Do you want to hit or stand? 1
 Your second card is: Four
 Your total is 10
-The dealer's card is: Three
 The dealer draws: Five
 The dealer's total is 8
 Your 10 beats the dealer's 8
@@ -180,6 +184,8 @@ from random import randint
 first_card = deal()
 print(f'Your first card is {card_name(first_card)}')
 
+# Deal one card to the dealer and print its name
+
 # If the first card is an Ace, the player wins immediately
 
 # Print the choices to hit or stand
@@ -200,8 +206,6 @@ player_total = value(first_card) + value(second_card)
 print(f'Your total is {player_total}')
 
 # If the total is greater than 11, the player busts and loses immediately
-
-# Deal one card to the dealer and print its value
 
 # If the value of the dealer's card is less than 7, give the dealer a second card
 # Else, the dealer's second card is 0
