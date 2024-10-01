@@ -2,7 +2,9 @@
 
 ## Overview
 
-The title of this lab comes from an early English book on gaming, *The Compleat Gamester*, published in 1674 and attributed to Charles Cotton, a writer with a penchant for compleatness. He also contributed to a book called *The Compleat Angler* ("Being a difcourfe of FISH and FISHING not unworthy of the perufal of moft Anglers.")
+The title of this lab comes from an early English book on gaming, *The Compleat Gamester*, published in 1674 and attributed to Charles Cotton.
+
+Mr. Cotton had a penchant for compleatness. He also contributed to a book called *The Compleat Angler* ("Being a difcourfe of FISH and FISHING not unworthy of the perufal of moft Anglers.")
 
 ## Setup
 
