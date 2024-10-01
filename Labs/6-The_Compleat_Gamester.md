@@ -296,7 +296,7 @@ You win $100.
 
 #### Payouts
 
-To keep the betting interesting, the payout depends on the spread between the first two cards:
+The player can bet any amount as long as it's at least 1. To keep the betting interesting, the payout depends on the spread between the first two cards:
 
 - If the spread is 1, the player wins 5 times the bet
 - If the spread is 2, the player wins 4 times the bet
