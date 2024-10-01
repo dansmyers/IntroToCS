@@ -322,7 +322,7 @@ You will need `randint` to generate the cards and the `card_name` method for pri
 ### Tip
 It's helpful to order the cards so that the first card is the lower-valued one.
 ```
-# Order the cards
+# Swap the cards if necessary so that first_card is lower
 if first_card > second_card:
     temp = first_card
     first_card = second_card
