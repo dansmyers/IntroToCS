@@ -21,6 +21,16 @@ cd Lab_6
 ```
 The questions will tell you how to create and name your Python scripts.
 
+## Mob Programming
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Forrester-Kangaroo-mob.jpg?20060125000755" width="300px" />
+
+[Mob programming](https://www.agilealliance.org/glossary/mob-programming/) is a programming strategy where the entire team works together, as a group, at one computer.
+
+Form a team of **three**. You will all work together, at the same time, on the same problem. One person will be the "driver" who actually types code onto the computer. Change drivers for each problem, so everyone gets a chance to type.
+
+At the end of the lab, download and e-mail the finished solutions to all of the team members.
+
 
 ##  Hi-Lo
 
