@@ -1,6 +1,6 @@
 # Lab 6: The Compleat Gamester
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Scenes_of_life_in_the_Dutch_factory_at_Deshima_building_detail.jpg" width="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Scenes_of_life_in_the_Dutch_factory_at_Deshima_building_detail.jpg" width="500px" />
 
 *Gaming scene from a Dutch factory in the Edo period. From Wikipedia.*
 
