@@ -151,6 +151,9 @@ You win!
 ### Starting code
 
 Make a new file called `blackjack.py`. Paste in the following starter code. It includes space for three functions that you'll write in a moment.
+
+This code is long, but don't be intimidated! Look at the structure given by the comments and compare it to the example output above.
+
 ```
 """
 BLACKJACK
