@@ -1,5 +1,9 @@
 # Lab 6: The Compleat Gamester
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Scenes_of_life_in_the_Dutch_factory_at_Deshima_building_detail.jpg" width="400px" />
+
+*Gaming scene from a Dutch factory in the Edo period. From Wikipedia.*
+
 ## Overview
 
 The title of this lab comes from an early English book on gaming, *The Compleat Gamester*, published in 1674 and attributed to Charles Cotton.
@@ -264,5 +268,72 @@ Build incrementally! Add a few lines at a time, then test to make sure your code
 Once you've finished, experiment with playing several hands.
 
 
-## 
+## Red Dog
 
+Another old card game existing in many variants. Deal two cards, then the player bets if a third card will be between the two or not.
+
+- Deal two cards and announce their values
+- Calcuate and annouce the spread
+- If the two cards are equal, the game ends immediately
+- The player enters an amount they wish to bet (minimum $1)
+- Deal the third card
+- If the third card is between the first two (inclusive of both), the player's bet wins
+- If the card is outside or equal to the first two cards, the bet loses
+
+Note that the player **wins** if the third card **equals** either of the first two.
+
+
+Here's example output:
+```
+Welcome to Red Dog.
+The cards are Jack and Seven.
+The spread is 3.
+Enter your bet: 50
+You bet $50.
+The third card is Eight.
+You win $100.
+```
+
+#### Payouts
+
+To keep the betting interesting, the payout depends on the spread between the first two cards:
+
+- If the spread is 1, the player wins 5 times the bet
+- If the spread is 2, the player wins 4 times the bet
+- If the spread is 3, the players wins 2 times the bet
+- If the spread is 4 or more, the player wins the bet amount
+
+#### Card values
+
+In our game cards are scored 1 to 13, with Ace low and King high.
+
+
+### Starter code
+
+Make a file named `red_dog.py`. Start by sketching out the solution in comment form, using the rules and output above as a guide.
+
+### Implement!
+
+Work on filling in your program one step at a time. Again, think about developing incrementally and **test as you go**.
+
+You will need `randint` to generate the cards and the `card_name` method for printing. You can add other functions if you find them helpful.
+
+
+### Tip
+It's helpful to order the cards so that the first card is the lower-valued one.
+```
+# Order the cards
+if first_card > second_card:
+    temp = first_card
+    first_card = second_card
+    second_card = temp
+```
+You can then calculate the spread:
+```
+spread = second_card - first_card
+```
+And test if the third card is in between:
+```
+if third_card >= first_card and third_card <= second_card:
+    # The bet wins
+```
