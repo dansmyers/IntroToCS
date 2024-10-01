@@ -244,6 +244,8 @@ def value(card):
         return 0
 ```
 
+Tip: You don't need to write individual cases for all the numbers 2 through 10. Think about how you can write one `elif` statement that works for any input in that range.
+
 ### Finish the game
 
 After adding the three functions, finish coding the main section. You have a few lines to add in the player section, which you can then use as a model to complete the dealer section.
