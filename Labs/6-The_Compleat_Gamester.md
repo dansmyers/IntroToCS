@@ -150,7 +150,7 @@ You win!
 
 ### Starting code
 
-Make a new file called `blackjack.py`. Paste in the following starter code. It includes space for two functions that you'll write in a moment.
+Make a new file called `blackjack.py`. Paste in the following starter code. It includes space for three functions that you'll write in a moment.
 ```
 """
 BLACKJACK
