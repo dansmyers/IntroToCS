@@ -120,7 +120,7 @@ Put your code in a file named `dice_vs_card.py`. Use an approach similar to our 
 - Determine whether the dice or the card are greater.
 - Compare the result against the player's bet and announce the result.
 
-## Single-Card Blackjack
+## Two-Card Blackjack
 
 [*I like to live dangerously*.](https://www.youtube.com/watch?v=s_uAjPV7qec)
 
