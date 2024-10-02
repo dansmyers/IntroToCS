@@ -145,12 +145,13 @@ Here's a more detailed description of the game:
 1. Deal one card to the player and print it
 2. Deal one card to the dealer and print it
 3. If the card is an Ace, the player wins immediately
-4. The player may choose to Hit or Stand
-5. If the player hits, he takes one more card
-6. If the combined total of the player's two cards is greater than 11, he busts and loses immediately
-7. If the dealer's card is less than 7, he hits and takes one more card
-8. If the dealer's total is greater than 11, he busts and the player wins immediately
-9. If neither busted, compare the totals of the two hands; the highest score wins
+4. If the dealer's card is an Ace and the player's card is not, the dealer wins immediately
+5. The player may choose to Hit or Stand
+6. If the player hits, he takes one more card
+7. If the combined total of the player's two cards is greater than 11, he busts and loses immediately
+8. If the dealer's card is less than 7, he hits and takes one more card
+9. If the dealer's total is greater than 11, he busts and the player wins immediately
+10. If neither busted, compare the totals of the two hands; the highest score wins
 
 Here is example output:
 ```
