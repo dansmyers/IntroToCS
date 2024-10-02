@@ -232,7 +232,7 @@ print(f'Your total is {player_total}')
 ```
 
 ### The `deal` function
-Write the first function, `deal`, which returns the result of called `randint(1, 13)`.
+Write the first function, `deal`, which returns the result of calling `randint(1, 13)`.
 
 
 ### The `card_name` function
@@ -247,7 +247,7 @@ This function takes a card number 1 to 13 as input and returns its blackjack val
 - Number cards 2-10 count for their face value
 - Jack, Queen, and King count for **10**
 - Aces, in this version, count for **1**
-- If the card input is 0, return a value of 0
+- If the card anything else, return a value of 0
 
 ```
 def value(card):
@@ -255,11 +255,13 @@ def value(card):
     Complete this docstring
     """
 
-    if card == 1:
+    if card == 1:  # Ace
         return 1
 
     # Add more cases to complete the method
 
+    elif card == 13:  # King
+        return 10
     else:
         return 0
 ```
@@ -272,7 +274,7 @@ After adding the three functions, finish coding the main section. You have a few
 
 Build incrementally! Add a few lines at a time, then test to make sure your code works before you add more.
 
-Once you've finished, experiment with playing several hands.
+Once you've finished, experiment with playing several hands. Make sure that your code works for every case.
 
 
 ## Red Dog
@@ -312,8 +314,7 @@ The player can bet any amount as long as it's at least 1. To keep the betting in
 
 #### Card values
 
-In our game cards are scored 1 to 13, with Ace low and King high.
-
+In our game, cards are scored 1 to 13, with Ace low and King high.
 
 ### Starter code
 
@@ -326,8 +327,9 @@ Work on filling in your program one step at a time. Again, think about developin
 You will need `randint` to generate the cards and the `card_name` method for printing. You can add other functions if you find them helpful.
 
 
-### Tip
-It's helpful to order the cards so that the first card is the lower-valued one.
+#### Tip: Card Ordering
+
+It's helpful to order the cards so that the first card is the lower-valued one. After generating the first two cards, compare and swap them if necessary:
 ```
 # Swap the cards if necessary so that first_card is lower
 if first_card > second_card:
