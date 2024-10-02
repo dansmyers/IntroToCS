@@ -6,7 +6,7 @@
 
 ## Overview
 
-This lab will let you practice writing more games of chance using functions that return results.
+This lab will let you practice writing more games of chance using functions that return results. All of these programs are moderately long and will required combining all of the techniques we've seen so far in the course.
 
 The title of this lab comes from an early English book on gaming, *The Compleat Gamester*, published in 1674 and attributed to Charles Cotton.
 
