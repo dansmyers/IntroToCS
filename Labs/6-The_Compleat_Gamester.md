@@ -306,7 +306,7 @@ Here's example output:
 ```
 Welcome to Red Dog.
 The cards are Jack and Seven.
-The spread is 3.
+The spread is 4.
 Enter your bet: 50
 You bet $50.
 The third card is Eight.
