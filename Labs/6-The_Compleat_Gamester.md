@@ -8,7 +8,9 @@
 
 This lab will let you practice writing more games of chance using functions that return results.
 
-The title of this lab comes from an early English book on gaming, *The Compleat Gamester*, published in 1674 and attributed to Charles Cotton, who also contributed to a book called *The Compleat Angler* ("Being a difcourfe of FISH and FISHING not unworthy of the perufal of moft Anglers.")
+The title of this lab comes from an early English book on gaming, *The Compleat Gamester*, published in 1674 and attributed to Charles Cotton.
+
+Mr. Cotton was a big fan of compleatness: He also contributed to a book called *The Compleat Angler* ("Being a difcourfe of FISH and FISHING not unworthy of the perufal of moft Anglers.")
 
 ## Setup
 
@@ -20,6 +22,7 @@ mkdir Lab_6
 cd Lab_6
 ```
 The questions will tell you how to create and name your Python scripts.
+
 
 ## Mob Programming
 
