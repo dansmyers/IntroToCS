@@ -284,6 +284,8 @@ Once you've finished, experiment with playing several hands. Make sure that your
 
 <img src="https://cms-tc.pbskids.org/global/_generic600Wide/905x510_Clifford_Mezzanine_V2.jpg" width="300px" />
 
+*PBS Kids*
+
 ### Description
 
 Another old card game existing in many variants. Deal two cards, then the player bets if a third card will be between the two or not.
