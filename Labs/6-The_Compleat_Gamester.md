@@ -151,17 +151,17 @@ Here's a more detailed description of the game:
 
 Here is example output:
 ```
-Welcome to blackjack
-Your first card is: Six
-The dealer's card is: Three
+Welcome to two-card blackjack.
+Your first card is: Six.
+The dealer's card is: Three.
 1. Hit
 2. Stand
 Do you want to hit or stand? 1
-Your second card is: Four
-Your total is 10
-The dealer draws: Five
-The dealer's total is 8
-Your 10 beats the dealer's 8
+Your second card is: Four.
+Your total is 10.
+The dealer draws: Five.
+The dealer's total is 8.
+Your 10 beats the dealer's 8.
 You win!
 ```
 
