@@ -38,8 +38,6 @@ At the end of the lab, download and e-mail the finished solutions to all of the 
 
 Let's start with a simple card game. We'll write the basic game without using functions, then add some more features in the next question.
 
-A simple card game.
-
 - The computer generates one randomized playing card and shows it to the player.
 - The player guesses whether the next card will be **higher** in rank or **lower** in rank.
 - The computer generates a second card, shows it to the player, and announces whether the guess was correct.
