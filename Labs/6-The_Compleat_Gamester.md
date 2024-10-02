@@ -125,8 +125,7 @@ Put your code in a file named `dice_vs_card.py`. Use an approach similar to our 
 - Print the two choices, then read the player's number. If the player enters anything other than 1 or 2, print an error and quit immediately.
 - Roll the two dice, calculate their sum, and print.
 - Deal the card using `randint`, then use `card_name` to output it.
-- Determine whether the dice or the card are greater.
-- Compare the result against the player's bet and announce the result.
+- Compare the two results against the player's bet and announce the result.
 
 ## Two-Card Blackjack
 
