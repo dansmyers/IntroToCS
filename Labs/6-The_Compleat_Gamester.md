@@ -81,7 +81,7 @@ Quick question: Is generating a card using `randint(1, 13)` the same as simulati
 Now improve the program by writing a `card_name` function that takes a number 1 to 13 as input and **returns** the corresponding playing card name as a string.
 
 - if the input is 1, return `'Ace'`
-- if the input is 2 return `'Two'` and likewise for the other number cards
+- if the input is 2, return `'Two'` and likewise for the other number cards
 - if the input is 11, return `'Jack'`, and so forth for the Queen and King.
 
 ```
