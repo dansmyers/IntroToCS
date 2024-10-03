@@ -292,7 +292,7 @@ Once you've finished, experiment with playing several hands. Make sure that your
 Another old card game existing in many variants. Deal two cards, then the player bets if a third card will be between the two or not.
 
 - Deal two cards and announce their values
-- Calcuate and annouce the spread
+- Calcuate and annouce the spread, which is the difference between the cards
 - If the two cards are equal, the game ends immediately
 - The player enters an amount they wish to bet (minimum $1)
 - Deal the third card
