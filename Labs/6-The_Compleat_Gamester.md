@@ -297,7 +297,7 @@ Another old card game existing in many variants. Deal two cards, then the player
 - The player enters an amount they wish to bet (minimum $1)
 - Deal the third card
 - If the third card is between the first two (inclusive of both), the player's bet wins
-- If the card is outside or equal to the first two cards, the bet loses
+- If the card is outside the first two cards, the bet loses
 
 Note that the player **wins** if the third card **equals** either of the first two.
 
