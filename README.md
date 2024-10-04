@@ -74,20 +74,20 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/27 | Functions III: Functions that return values | Project 2 due |
 9/30 | Functions IV: Functions + conditionals  | Chapter 5 reading  |
 10/2 | Local variables and scope| Lab 6: Write more functions |
-10/4 | Unit testing  | |
-10/7 | Testing II | Chapter 5 reading due |
-10/9 | Topic: Internet | Lab 7: Choose Your Own Adventure |
+10/4 | Structured testing  | |
+10/7 | Finish testing, Intro to lists | Chapter 5 reading due |
+10/9 | The `for` loop | Lab 7: Choose Your Own Adventure |
 10/11 | Intro to Project 3 | Project 3 out |
 10/14 | FALL BREAK  ||
 10/16  | Review for midterm  | Lab 8: Experiment |
 10/18 | MIDTERM EXAM (in class) | |
-10/21 | Intro to lists and sequences | |
-10/23 | The `for` loop | Lab 9: Jeu Monégasque |
-10/25 | Counting loops | Project 3 due |
-10/28 | More `for` loops | Chapter 6 and 7 reading |
-10/30 | Looping over strings | Lab 10: Wordplay |
+10/21 | Return to loops | |
+10/23 | Counting loops | Lab 9: Jeu Monégasque |
+10/25 | Looping over strings | Project 3 due |
+10/28 | The `while` loop | Chapter 6 and 7 reading |
+10/30 | Working with files | Lab 10: Wordplay |
 11/1 | Intro to Project 4 | Project 4 out |
-11/4 | The `while` loop  | Chapter 6 and 7 reading due |
+11/4 | More complex games  | Chapter 6 and 7 reading due |
 11/6 | Binary numbers | Lab 11: Precision  |
 11/8 | Character encodings| |
 11/11 | Dictionaries | |
