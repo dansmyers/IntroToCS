@@ -82,7 +82,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 10/16  | Review for midterm  | Lab 8: Experiment |
 10/18 | MIDTERM EXAM (in class) | |
 10/21 | Return to loops | |
-10/23 | Counting loops | Lab 9: Jeu Monégasque |
+10/23 | Counting loops with `range` | Lab 9: Jeu Monégasque |
 10/25 | Looping over strings | Project 3 due |
 10/28 | The `while` loop | Chapter 6 and 7 reading |
 10/30 | Working with files | Lab 10: Wordplay |
