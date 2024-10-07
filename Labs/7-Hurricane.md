@@ -116,12 +116,11 @@ Practice problem finding the minimum of a list
 # Example data
 data = [2, 3, 1, 7, 5, 9]
 
-# Write your code to find the minimum value of data
+# Write your code to find the minimum value of the data list
 
 # Print the minimum
 
 ```
-
 
 ## Looping Over a Range of Numbers
 
