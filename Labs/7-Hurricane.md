@@ -90,7 +90,7 @@ Then use `insert` to put new songs at the second position and fourth position an
 
 ### Practice loop
 
-Add some lines to the end of your `mixtape.py` file to print the items in `songs` one at a time. Use a loop like the one in the video. Remember that you can choose any variable name you want.
+Add some lines to the end of your `mixtape.py` file to print the items in `songs` one at a time. Use a loop like the one in the video. Remember that you can choose any loop variable name you want.
 
 
 ### 
@@ -104,4 +104,31 @@ Add some lines to the end of your `mixtape.py` file to print the items in `songs
 
 I recorded this one during the *last* hurricane, so it uses a different coding platform and I have a different haircut. It makes some references to the class schedule and coming back on Monday - those are from a previous semester so ignore them.
 
-### 
+### Minimum of a list
+
+Modify the maximum example given in the video to find the *minimum* value in a list. Put your solution in a file named `minimum.py`.
+
+```
+"""
+Practice problem finding the minimum of a list
+"""
+
+# Example data
+data = [2, 3, 1, 7, 5, 9]
+
+# Write your code to find the minimum value of data
+
+# Print the minimum
+
+```
+
+
+## Looping Over a Range of Numbers
+
+### Video
+
+
+###
+
+
+## Serious Problems
