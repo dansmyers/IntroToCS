@@ -86,10 +86,20 @@ Then use `insert` to put new songs at the second position and fourth position an
 
 ### Video
 
-[Start with this video]().
+[Start with this video](), which shows the basics of how to use the `for` loop to iterate through a list and print each item.
 
 ### Practice loop
 
 Add some lines to the end of your `mixtape.py` file to print the items in `songs` one at a time. Use a loop like the one in the video. Remember that you can choose any variable name you want.
+
+
+### 
+
+
+## Practice
+
+### Video
+
+[Watch this third video](https://www.youtube.com/watch?v=1OKThD6IPK0), which reviews the main ideas from the first two, then works through some more advanced looping examples. I recorded this one during the *last* hurricane.
 
 ### 
