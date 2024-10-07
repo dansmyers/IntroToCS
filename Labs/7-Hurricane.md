@@ -24,5 +24,44 @@ Watch and follow along with this video: VIDEO GOES HERE. Remember that you can p
 
 ### Mixtape
 
+`cd` into your `Lists_and_Loops` directory that you made during the video, then create a file named `mixtape.py`. Put the following starting code in your file:
 
+```
+"""
+Make a mixtape - inspired by a Codecademy's taylor.swift project
+"""
+
+def tape():
+    print(".------------------------.   ")
+    print("|     YACHT ROCK MIX     |   ")
+    print("|     __  ______  __     |   ")
+    print("|    /  \\|\\.....|/  \\    |")
+    print("|    \\__/|/_____|\\__/    | ")
+    print("|    ________________    |   ")
+    print("|___/_._o________o_._\\___|  ")
+
+    print()
+    
+
+### Main
+
+# Totally gratuitous ASCII art
+tape()
+
+# Create an empty list to hold the songs
+songs = []
+```
+
+Change the name of the mix to be whatever you want. Then use `append` to fill the `songs` list with entries. For example, sticking with the yacht rock theme,
+```
+songs.append('Sailing by Christopher Cross')
+songs.append('Peg by Steely Dan')
+songs.append('Africa by Toto')
+```
+Add at least five songs to your list. Print your list using
+```
+print(songs)
+```
+
+Use `pop` to remove the third item in your list, then print it again. Then use insert to put a new song at the third position and print the list one more time.
 
