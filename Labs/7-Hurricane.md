@@ -1,5 +1,7 @@
 # Hurricane Make-Up
 
+[Me every time I have to record a video for class](https://www.youtube.com/watch?v=Sv3A95yEDR4).
+
 ## Overview
 
 This is the make-up practice assignment for the week of 10/7. Each section below has a link to a video followed by practice problems. Work through the lab, completing each section in order. At the end, you'll submit your programs to an assignment on Canvas so that I have a record that everyone completed the make-up work.
@@ -16,6 +18,16 @@ That's on the honor system, but be aware that you'll need to understand how list
 
 You can always reach out to me if you have questions.
 
+## Setup
+
+Make a `Lab_7` directory and `cd` into it.
+```
+mkdir Lab_7
+```
+```
+cd Lab_7
+```
+
 ## Intro to Lists
 
 
@@ -24,7 +36,7 @@ You can always reach out to me if you have questions.
 
 ### Mixtape
 
-`cd` into your `Lists_and_Loops` directory that you made during the video, then create a file named `mixtape.py`. Put the following starting code in your file:
+Verify that you're in your `Lab_7` directory, then create a file named `mixtape.py`. Put the following starting code in your file:
 
 ```
 """
@@ -68,3 +80,16 @@ Run your program to verify that it prints the correct list of values in the orde
 Use `pop` to remove the second and fourth items in your list, then print it the list and verify that the items were correctly removed.
 
 Then use `insert` to put new songs at the second position and fourth position and print the list again to verify that the operation succeeded.
+
+
+## The `for` loop
+
+### Video
+
+[Start with this video]().
+
+### Practice loop
+
+Add some lines to the end of your `mixtape.py` file to print the items in `songs` one at a time. Use a loop like the one in the video. Remember that you can choose any variable name you want.
+
+### 
