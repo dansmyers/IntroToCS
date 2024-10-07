@@ -102,6 +102,6 @@ Add some lines to the end of your `mixtape.py` file to print the items in `songs
 
 [Watch this third video](https://www.youtube.com/watch?v=1OKThD6IPK0), which reviews the main ideas from the first two, then works through some more advanced looping examples.
 
-I recorded this one during the *last* hurricane, so it uses a different coding platform and I have a different haircut. Don't worry about any of the references to the class schedule.
+I recorded this one during the *last* hurricane, so it uses a different coding platform and I have a different haircut. It makes some references to the class schedule and coming back on Monday - those are from a previous semester so ignore them.
 
 ### 
