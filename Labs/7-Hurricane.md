@@ -52,7 +52,7 @@ tape()
 songs = []
 ```
 
-Change the name of the mix to be whatever you want. Then use `append` to fill the `songs` list with entries. For example, sticking with the yacht rock theme,
+Change the name of the mix to be whatever you want. Then use `append` to fill the `songs` list with entries. For example (sticking with the yacht rock theme):
 ```
 songs.append('Sailing by Christopher Cross')
 songs.append('Peg by Steely Dan')
@@ -62,6 +62,9 @@ Add at least five songs to your list. Print your list using
 ```
 print(songs)
 ```
+Run your program to verify that it prints the correct list of values in the order you appended them.
 
-Use `pop` to remove the third item in your list, then print it again. Then use insert to put a new song at the third position and print the list one more time.
+### Don't stop, make it pop
+Use `pop` to remove the second and fourth items in your list, then print it the list and verify that the items were correctly removed.
 
+Then use `insert` to put new songs at the second position and fourth position and print the list again to verify that the operation succeeded.
