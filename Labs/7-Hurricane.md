@@ -20,7 +20,7 @@ You can always reach out to me if you have questions.
 
 
 ### Video
-Watch and follow along with this video: https://www.youtube.com/watch?v=Gb4MUBxtmHI. Remember that you can pause or rewind if you need to.
+[Watch and follow along with this video](https://www.youtube.com/watch?v=Gb4MUBxtmHI). Remember that you can pause or rewind if you need to.
 
 ### Mixtape
 
