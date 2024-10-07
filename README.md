@@ -73,7 +73,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/25 | Functions II: Functions that take parameters| Lab 5: Fun |
 9/27 | Functions III: Functions that return values | Project 2 due |
 9/30 | Functions IV: Functions + conditionals  | Chapter 5 reading  |
-10/2 | Local variables and scope| Lab 6: Write more functions |
+10/2 | Local variables and scope| Lab 6: The Compleat Gamester |
 10/4 | Structured testing  | |
 10/7 | Finish testing, Intro to lists | Chapter 5 reading due |
 10/9 | The `for` loop | Lab 7: Choose Your Own Adventure |
