@@ -77,7 +77,7 @@ print(songs)
 Run your program to verify that it prints the correct list of values in the order you appended them.
 
 ### Don't stop, make it pop
-Use `pop` to remove the second and fourth items in your list, then print it the list and verify that the items were correctly removed.
+Use `pop` to remove the second and fourth items in your list, then print the list and verify that the items were correctly removed.
 
 Then use `insert` to put new songs at the second position and fourth position and print the list again to verify that the operation succeeded.
 
