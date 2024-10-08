@@ -234,7 +234,7 @@ print(day_of_the_year(12, 31))
 
 ### Conway's Doomsday Algorithm
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Game_of_life_animated_glider.gif" width="300px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Game_of_life_animated_glider.gif" width="150px" />
 
 *The famous glider pattern of Conway's Game of Life*
 
