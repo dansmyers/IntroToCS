@@ -126,11 +126,11 @@ data = [2, 3, 1, 7, 5, 9]
 
 ### Video
 
-[This is the last video](https://www.youtube.com/watch?v=sp1HgQTpzzQ). It covers the `range` function, which is used to loop over a range of numbers.
+[This is the last video](https://www.youtube.com/watch?v=sp1HgQTpzzQ), which is also from a previous semester. It covers the `range` function, which is used to loop over a range of numbers.
 
 ### Beep
 
-Write a program named `beep.py` that loops through the numbers 1 to 25 and prints each number, but print `BEEP` for numbers divisible by 4.
+Write a program named `beep.py` that loops through the numbers 1 to 25 and prints each number, but prints `BEEP` for numbers divisible by 4.
 
 ### Project Euler #1
 
