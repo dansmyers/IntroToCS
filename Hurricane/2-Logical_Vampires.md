@@ -1,6 +1,6 @@
 # Logical Vampires
 
-<img src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/21f74385e55a83c580e0dbd37efa15ee3639ef48592574819ee995d11375de6b_1.jpg" width="33%" />
+<img src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/21f74385e55a83c580e0dbd37efa15ee3639ef48592574819ee995d11375de6b_1.jpg" width="300px" />
 
 </br>
 
@@ -52,4 +52,4 @@ For example, if I asked a Ruritanian, "Is the sky blue?", there are four possibi
 
 ## To be continued?
 
-<img src="https://i.pinimg.com/originals/ce/7d/3a/ce7d3abe14fb5cfadc5a797b50a6a036.jpg" width="33%"/>
+<img src="https://i.pinimg.com/originals/ce/7d/3a/ce7d3abe14fb5cfadc5a797b50a6a036.jpg" width="300px"/>
