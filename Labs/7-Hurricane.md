@@ -134,13 +134,13 @@ Write a program named `beep.py` that loops through the numbers 1 to 25 and print
 
 ### Project Euler #1
 
-[Project Euler](https://projecteuler.net/problem=1) is a site with a large number of mathematical-themed programming problems. Use the `for` loop with `range` to solve problem #1:
+[Project Euler](https://projecteuler.net/problem=1) is a site with a large number of mathematical-themed programming problems. Here's problem #1:
 
 >If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6, and 9. The sum of these multiples is 23.
 >
 >Find the sum of all the multiples of 3 or 5 below 1000.
 
-Put your solution in a file named `euler.py`.
+Use the `for` loop with `range` to solve this problem. Put your solution in a file named `euler.py`.
 
 ## Serious Problems
 
@@ -182,5 +182,3 @@ def is_prime(n):
 for i in range(2, 20):
     print(i, is_prime(i))
 ```
-
-###
