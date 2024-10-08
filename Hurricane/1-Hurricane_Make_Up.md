@@ -6,26 +6,26 @@
 
 This is the make-up practice assignment for the week of 10/7. Each section below has a link to a video followed by practice problems. Work through the lab, completing each section in order. At the end, you'll submit your programs to an assignment on Canvas so that I have a record that everyone completed the make-up work.
 
-This lab has a ***soft*** deadline of Tuesday, 10/15. I realize that we don't know how things will be after the storm, so I understand if you need a little extra time.
+This lab has a target deadline of Tuesday, 10/15. I realize that we don't know how things will be after the storm, so I understand that we may need to make adjustments.
 
-My plan is to still have the midterm next week, on Friday the 18th. This content **will** be part of the midterm.
 
 ## AI Usage
 
-This is practice of fundamental content. If we were in-person, we'd do it in together in class, but we aren't. I'm asking you to do these questions **without using AI**. 
+This is practice of fundamental content. If we were in-person, we'd do it in together in class, but we aren't. I'm asking you to do these questions **without using any AI**. 
 
 That's on the honor system, but be aware that you'll need to understand how lists and loops work for the midterm. It's to your advantage to work through these questions in a way that actually helps you learn the material.
 
-You can always reach out to me if you have questions.
+Remember that you can always reach out to me if you have questions.
+
 
 ## Setup
 
-Make a `Lab_7` directory and `cd` into it.
+Make a `Hurricane` directory and `cd` into it.
 ```
-mkdir Lab_7
+mkdir Hurricane
 ```
 ```
-cd Lab_7
+cd Hurricane
 ```
 
 ## Intro to Lists
@@ -36,11 +36,11 @@ cd Lab_7
 
 ### Mixtape
 
-Verify that you're in your `Lab_7` directory, then create a file named `mixtape.py`. Put the following starting code in your file:
+Verify that you're in your `Hurricane` directory, then create a file named `mixtape.py`. Put the following starting code in your file:
 
 ```
 """
-Make a mixtape - inspired by a Codecademy's taylor.swift project
+Make a mixtape with lists - inspired by a Codecademy's taylor.swift project
 """
 
 def tape():
@@ -77,7 +77,7 @@ print(songs)
 Run your program to verify that it prints the correct list of values in the order you appended them.
 
 ### Don't stop, make it pop
-Use `pop` to remove the second and fourth items in your list, then print the list and verify that the items were correctly removed.
+Use `pop` to remove the second and fourth items in your list, then add a print statement to output the list and verify that the items were correctly removed.
 
 Then use `insert` to put new songs at the second position and fourth position and print the list again to verify that the operation succeeded.
 
@@ -90,7 +90,7 @@ Then use `insert` to put new songs at the second position and fourth position an
 
 ### Practice loop
 
-Add some lines to the end of your `mixtape.py` file to print the items in `songs` one at a time. Use a loop like the one in the video. Remember that you can choose any loop variable name you want.
+Add a loop to the end of your `mixtape.py` file to print the items in `songs` one at a time. Use a loop like the one in the video. Remember that you can choose any loop variable name you want.
 
 
 ## More Looping Examples
@@ -299,3 +299,7 @@ print(doomsday(4, 8))   # Monday
 print(doomsday(4, 9))   # Tuesday
 print(doomsday(4, 10))   # Wednesday
 ```
+
+## Submission
+
+Upload all of your `.py` files to the assignment on Canvas.
