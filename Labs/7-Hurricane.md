@@ -82,7 +82,7 @@ Use `pop` to remove the second and fourth items in your list, then print the lis
 Then use `insert` to put new songs at the second position and fourth position and print the list again to verify that the operation succeeded.
 
 
-## The `for` loop
+## The `for` Loop
 
 ### Video
 
@@ -93,7 +93,7 @@ Then use `insert` to put new songs at the second position and fourth position an
 Add some lines to the end of your `mixtape.py` file to print the items in `songs` one at a time. Use a loop like the one in the video. Remember that you can choose any loop variable name you want.
 
 
-## Practice
+## More Looping Examples
 
 ### Video
 
