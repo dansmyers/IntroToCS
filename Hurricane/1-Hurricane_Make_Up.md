@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is the make-up practice assignment for the week of 10/7. Each section below has a link to a video followed by a short practice problem, then a few more substantial problems. Work through the lab, completing each section in order. At the end, you'll submit your programs to an assignment on Canvas so that I have a record that everyone completed the make-up work.
+This is the make-up practice assignment for the week of 10/7. Each section below has a link to a video followed by a short practice problem, then a few more substantial problems. Work through the document, completing each section in order. At the end, you'll submit your programs to an assignment on Canvas so that I have a record that everyone completed the make-up work.
 
 This lab has a target deadline of Tuesday, 10/15. I realize that we don't know how things will be after the storm, so I understand that we may need to make adjustments.
 
