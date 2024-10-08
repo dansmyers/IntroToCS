@@ -8,7 +8,7 @@
 
 ## The Setting
 
-<img src="https://i1.sndcdn.com/artworks-000192087652-xnuxmw-t500x500.jpg" width="200px" />
+<img src="https://i1.sndcdn.com/artworks-000192087652-xnuxmw-t500x500.jpg" width="300px" />
 
 </br>
 
