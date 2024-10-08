@@ -148,7 +148,7 @@ Use the `for` loop with `range` to solve this problem. Put your solution in a fi
 
 Write a function called `is_prime` that takes an integer `n` as input and returns `True` if the number is prime and `False` otherwise.
 
-The easiest way to test if a number n is prime is to use a loop over the numbers from 2 to the square root of n. Here's a ***pseudocode*** example:
+The easiest way to test if `n` is prime is to loop over the numbers from 2 to `sqrt(n)`. Here's a ***pseudocode*** example:
 
 ```
 def is_prime(n):
