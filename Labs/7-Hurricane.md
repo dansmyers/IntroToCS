@@ -126,8 +126,61 @@ data = [2, 3, 1, 7, 5, 9]
 
 ### Video
 
+[This is the last video](https://www.youtube.com/watch?v=sp1HgQTpzzQ). It covers the `range` function, which is used to loop over a range of numbers.
 
-###
+### Beep
 
+Write a program named `beep.py` that loops through the numbers 1 to 25 and prints each number, but print `BEEP` for numbers divisible by 4.
+
+### Project Euler #1
+
+[Project Euler](https://projecteuler.net/problem=1) is a site with a large number of mathematical-themed programming problems. Use the `for` loop with `range` to solve problem #1:
+
+>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6, and 9. The sum of these multiples is 23.
+>
+>Find the sum of all the multiples of 3 or 5 below 1000.
+
+Put your solution in a file named `euler.py`.
 
 ## Serious Problems
+
+### Primes
+
+Write a function called `is_prime` that takes an integer `n` as input and returns `True` if the number is prime and `False` otherwise.
+
+The easiest way to test if a number n is prime is to use a loop over the numbers from 2 to the square root of n. Here's a ***pseudocode*** example:
+
+```
+def is_prime(n):
+    root = int(n ** .5)
+
+    for i in range(2, root + 1):
+        if i divides n:
+            n is not prime, return False
+
+    loop finished without returning False, so return True
+```
+
+If you complete the loop and never return `False`, then `n` is prime and you can return `True` at the end of the function. Make sure that your code works correctly for 2.
+
+Note: `int(n ** .5)` calculates the square root of n and then truncates it to an integer. `range` won't accept a decimal value as a parameter.
+
+Put the following code in a file named `primes.py`, then complete the function:
+
+```
+"""
+Testing if a number is prime
+"""
+
+def is_prime(n):
+    # Complete this function using the instructions above
+
+
+### Main
+
+# Test cases
+for i in range(2, 20):
+    print(i, is_prime(i))
+```
+
+###
