@@ -4,7 +4,7 @@
 
 </br>
 
-**This is not assigned make-up work**. It's here for your amusement if you need some during the storm. The concept and questions are adapted from Raymond Smullyan's *The Riddle of Dracula*.
+**This is not assigned make-up work**. It's here for your intellectual amusement if you need some during the storm. The concept and questions are adapted from Raymond Smullyan's *The Riddle of Dracula*.
 
 ## The Setting
 
