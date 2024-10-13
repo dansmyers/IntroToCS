@@ -75,12 +75,12 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 9/30 | Functions IV: Functions + conditionals  | Chapter 5 reading  |
 10/2 | Local variables and scope| Lab 6: The Compleat Gamester |
 10/4 | Structured testing  | |
-10/7 | Finish testing, Intro to lists | Chapter 5 reading due |
-10/9 | The `for` loop | Lab 7: Choose Your Own Adventure |
-10/11 | Intro to Project 3 | Project 3 out |
+10/7 |  ~Finish testing, Intro to lists~ **Hurricane assignment** | Chapter 5 reading due |
+10/9 | ~The `for` loop~ | ~Lab 7: Choose Your Own Adventure~ |
+10/11 | ~Intro to Project 3~ | ~Project 3 out~ |
 10/14 | FALL BREAK  ||
-10/16  | Review for midterm  | Lab 8: Experiment |
-10/18 | MIDTERM EXAM (in class) | |
+10/16  | ~Review for midterm~  **Review lists and loops** | Lab 8: Experiment |
+10/18 | ~MIDTERM EXAM (in class)~ **Intro to Project 3** | |
 10/21 | Return to lists, sequences, and loops | |
 10/23 | Counting loops with `range` | Lab 9: Jeu Monégasque |
 10/25 | Looping over strings | Project 3 due |
