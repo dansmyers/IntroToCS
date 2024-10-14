@@ -169,6 +169,12 @@ Spend a few minutes playing with this chat program. Try making some references t
 
 ### Persistence of memory
 
+<img src="https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg" width="300px"/>
+
+*Persistence of Memory*, Salvador Dali (1931)
+
+<br/>
+
 If you experiment, you'll observe that this version of the program stuggles with context, because it isn't actually keeping track of the user's requests or GPT's responses. Each interaction submits just one user input at a time, so there's no way for the model to make user of previous parts of the conversation.
 
 To get interactive behavior, we need to **keep track of the previous interactions** and include them with the prompt.
