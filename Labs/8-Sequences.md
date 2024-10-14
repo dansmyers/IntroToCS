@@ -86,11 +86,17 @@ print(completion.choices[0].message.content)
 ```
 Run the program. You should see it print out a short poem. Run it a few more times.
 
-### Details
+### User and system prompts
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Sepia_officinalis_%28aquarium%29.jpg/1920px-Sepia_officinalis_%28aquarium%29.jpg" width="300px" />
+
+*The common cuttlefish, *Sepia officinalis*, via Wikipedia*
+
+<br/>
+
 The primary routine to submit a chat request is `client.chat.completions.create`. It takes two parameters:
 
 - `model`, the name of the model the request should use. For us, this will **always** be `"gpt-4o-mini"`. The 4o-mini model is a good balance of performance and cost.
-
 - `messages`, a list of inputs that describe the prompt the chat should execute.
 
 The inputs to messages are two collections of key-value pairs enclosed in curly braces. Technically, these are Python dictionaries, which we'll discuss in more detail soon.
