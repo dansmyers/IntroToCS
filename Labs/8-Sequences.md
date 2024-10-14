@@ -36,7 +36,7 @@ To use the OpenAI service, you need to have a special, secret **API key** that a
 The key is used to manage billing for our class account, using a pool of credits that I've already set up and paid for. Practically, the risks of misuse are low (I'm the owner of the account and I have billing limits set), but let's practice some basic information security:
 
 - Do not forward the key to anyone
-- Don't store the key as text in a program or file
+- Don't store the key in clear text in any file on your GitHub codespace
 
 First, you need to put your key into your terminal as an **environment variable** so that it can be used by your programs. Type the following **in the terminal**. 
 ```
@@ -47,6 +47,8 @@ Paste the key into the specified spot, then press ENTER. You can check that the 
 printenv OPENAI_API_KEY
 ```
 You should see the key you just pasted printed back out.
+
+This way of storing the key only persists for one terminal session, so if you log out, you'll have to repeat the `export` commmand when you log back in. There are ways to store the API key in more durable ways (including as an encrypted secret), but those are more complex so we're going to avoid them for now.
 
 ### Install the `openai` module
 
