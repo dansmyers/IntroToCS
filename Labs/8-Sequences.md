@@ -190,7 +190,9 @@ chat_request(user_input)
 
 ### Loop
 
-Let's add a loop around the basic chat. The `while` loop tests a boolean condition and repeats as long as that condition evaluates to `True`. The simplest `while` loop is `while True`, which repeats the body of the loop infinitely until the program terminates or a condition triggers to break out of the loop.
+Let's add a loop around the basic chat.
+
+The `while` loop tests a boolean condition and repeats as long as that condition evaluates to `True`. The simplest `while` loop is `while True`, which repeats the body of the loop infinitely until the program terminates or a condition triggers to break out of the loop.
 ```
 while True:
     # Repeatedly execute the body of this loop forever 
@@ -213,7 +215,7 @@ while True:
     chat_request(user_input)
 ```
 
-Spend a few minutes playing with this chat program. Try making some references to previous interactions. Do they perform the way you would expect?
+Spend a few minutes playing with this chat program. Try making some references to previous prompts. Do they perform the way you would expect?
 
 
 ### Persistence of memory
@@ -226,9 +228,9 @@ Spend a few minutes playing with this chat program. Try making some references t
 
 If you experiment, you'll observe that this version of the program stuggles with context, because it isn't actually keeping track of the user's requests or GPT's responses. Each interaction submits just one user input at a time, so there's no way for the model to make use of previous parts of the conversation.
 
-To get interactive behavior, we need to **keep track of the previous interactions** and include them with the prompt.
+The first version of the program is **stateless**, because it doesn't maintain information that allows it to understand the current state of the conversation. To get interactive behavior, we need to keep track of the state of the conversation as it progresses.
 
-Here's the first version of this approach, which keeps all interactions in one big list named `history`. When it's to submit a request, we join those individual messages into huge string, which becomes the input to the chat request.
+Here's the first version of this approach, which keeps all interactions in one big list named `history`. When it's time to submit a request, we join those individual messages into one huge string, which becomes the input to the chat request.
 ```
 ### Main
 
