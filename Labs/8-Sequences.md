@@ -12,11 +12,11 @@ This is the lab for week 8. Lab 7 was replaced by the hurricane assignment.
 
 
 
-## Chat
+## Using the OpenAI API
 
 ### Description
 
-For the final part of the this lab, let's practice interacting with the **OpenAI API**.
+Let's practice interacting with the **OpenAI API**.
 
 You're familiar with using an AI model through a chat interface, like ChatGPT. It's also possible to **call the model directly from a program**. That is, rather than typing a prompt into a chat box, submitting it, and receiving the chat answer, you can incorporate calls to the GPT model directly into your Python code. This is the approach you would take if you were building an application that used LLM capabilities behind the scenes.
 
@@ -108,7 +108,10 @@ Try changing the system prompt to the following, then re-run your program and se
 Now experiment with changing the prompt, asking some different questions, and printing the responses out. You can modify the system prompt to give the bot roles or guidelines.
 
 
-## DIY ChatGPT
+## Do-It-Yourself ChatGPT
+
+
+### Basic chat
 
 Let's make our own terminal-based version of ChatGPT. The flow for version one is simple:
 
@@ -151,7 +154,13 @@ chat_request(user_input)
 
 ### Loop
 
-Let's add a loop around the basic chat. The `while` loop tests a boolean condition and repeats as long as that condition evaluates to `True`. Here's a variation of the chat program that wraps the user input step into a basic `while` loop. It ends if the user types `quit`.
+Let's add a loop around the basic chat. The `while` loop tests a boolean condition and repeats as long as that condition evaluates to `True`. The simplest `while` loop is `while True`, which repeats the body of the loop infinitely until the program terminates or a condition triggers to break out of the loop.
+```
+while True:
+    # Repeatedly execute the body of this loop forever 
+```
+
+Here's a variation of the chat program that wraps the user input step into a basic `while` loop. It ends if the user types `quit`.
 
 ```
 ### Main
