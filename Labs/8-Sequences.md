@@ -108,6 +108,33 @@ Try changing the system prompt to the following, then re-run your program and se
 Now experiment with changing the prompt, asking some different questions, and printing the responses out. You can modify the system prompt to give the bot roles or guidelines.
 
 
+### Temperature
+
+The chat call can take a few more parameters that control the model. An important one is **temperature**, which controls the amount of randomness in the model's next-token predictions.
+
+Temperature can be a value from 0 to 2.
+
+- Lower temps make responses more predictable; the model is more likely to choose the most probable next token at each step
+- Higher temperatures introduce more variability into the output, at the risk of making the next-token predictions incoherent
+
+The default temperature is .7.
+
+Experiment with adding the `temperature` value to the function call. Repeat some prompts and see how the reponses vary as you change temperature.
+```
+completion = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {
+            "role": "user",
+            "content": "Write a haiku about AI.",
+        }
+    ],
+    temperature=.7
+)
+```
+
+
 ## Do-It-Yourself ChatGPT
 
 
