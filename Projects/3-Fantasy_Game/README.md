@@ -30,6 +30,14 @@ This project will allow you to continue experimenting with the OpenAI API by usi
 
 Along the way, you'll get to practice using loops, lists, functions, and the other features we've developed so far.
 
+## AI Usage
+
+Beyond using the API, you can use AI tools to help you develop your ideas and code. As before, keep a log of your AI interactions and your reactions to the AI's responses, so you have a record of how your project developed.
+
+## Setup
+
+Make a `Project_3` directory and create a file named `game.py` inside it.
+
 ## Review the basic chatbot
 
 The starting point for this project is the basic chatbot from Lab 8. Review that code and make sure you understand how it's implemented and how to use the OpenAI API before continuing with this project.
@@ -38,4 +46,24 @@ The starting point for this project is the basic chatbot from Lab 8. Review that
 
 This project is intentionally open-ended. You can choose the setting, themes, etc. based on your interests. If you want to choose something other than a [Standard Fantasy Setting](https://tvtropes.org/pmwiki/pmwiki.php/Main/StandardFantasySetting), you can do that.
 
+Your program should use a `while` loop that repeatedly generates and displays the next scene of the story and offers the player some choices. The player selects a choice and then the game generates the next output. Keep track of the history of the conversation, like in the basic chatbot.
 
+Think about how to prompt GPT. You may need to supply some additional information, in the system prompt or as part of the request, to get it to do what you want.
+
+### Original feature
+
+I want you to add **at least one original feature** to your program that goes beyond the core chat interaction framework. Some ideas:
+
+- Pre-scripted narrative events that occur randomly
+- Combat against monsters (or other mini-games) that are triggered randomly, like in a standard computer RPG
+- Maintaining a list of items that you can find and then use
+- Stats, levels, skills, etc.
+- Changing the prompt that goes to the AI over time to change the tone/theme/setting of the game as the player advances
+
+These are just suggestions and you can choose whatever you want, but I want you to be **ambitious** and creative.
+
+## Submission
+
+Submit your `game.py` file and your log of AI interactions to Canvas.
+
+Note that I need the **actual Python script** as a .py file, not a copy of your code pasted into another document.
