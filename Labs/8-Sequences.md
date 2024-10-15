@@ -10,7 +10,97 @@ This is the lab for week 8. Lab 7 was replaced by the hurricane assignment.
 
 ## Cards Revisited
 
+### Suits and ranks
 
+Previously, we used `randint(1, 13)` to simulate dealing a playing card. This worked, but gave uniform probabilities for every card, which isn't the same as dealing out of a real deck.
+
+Let's use a list to model the actual deck of 52 cards. Represent each card as a number 0 to 51.
+
+- The first 13 cards (numbered 0 to 12) will be the clubs
+- The next 13 (numbered 13 to 25) will be the diamonds
+- And so forth for the diamonds and then the spades
+
+Given a card's number you can map it to the corresponding suit by dividing by 13:
+```
+def suit(card):
+    """
+    Convert a card id to its given suit
+    """
+
+    # List of all suits
+    SUITS = ['CLUBS', 'DIAMONDS', 'HEARTS', 'SPADES']
+
+    # Dividing by 13 gives 0 if the card is a club, 1 for diamonds, etc.
+    suit = card // 13
+
+    return SUITS[suit]
+```
+
+Put the code below in `cards.py`, then complete the `rank` function that takes a card number as input and returns its associated rank.
+```
+"""
+Simulating a deck of 52 playing cards
+"""
+
+from random import shuffle
+
+def suit(card):
+    """
+    Convert a card id to its given suit
+    """
+
+    # List of all suits
+    SUITS = ['CLUBS', 'DIAMONDS', 'HEARTS', 'SPADES']
+
+    # Dividing by 13 gives 0 if the card is a club, 1 for diamonds, etc.
+    suit = card // 13
+
+    return SUITS[suit]
+
+
+def rank(card):
+    """
+    Given a card's number, return its associated rank
+    """
+
+### Main
+
+# Create a list of numbers 0 to 51
+deck = list(range(52))
+
+# Built-in shuffle method permutes the list
+shuffle(deck)
+
+# Print the cards
+for card in deck:
+    print(rank(card) + ' of ' + suit(card))
+```
+
+### Simulating blackjack
+
+Now use your fancy new deck to simulate the probability of dealing a blackjack from the first two cards in a freshly shuffled deck.
+
+- Use a loop to run a large number of trials
+- On each trial, generate and shuffle a new deck, then check the first two cards
+- If one card is an Ace and the other is a Ten or face card, then it's a blackjack
+- Keep track of the number of trials that yield blackjacks
+
+```
+### Main
+
+blackjacks = 0
+
+# Run a large number of simulated trials
+for trial in range(1000):
+    # Generate and shuffle a new deck
+
+    # Check the first two cards and see if they're a blackjack
+
+    # If so, increment the success counter
+
+
+# Print the fraction of trials that yielded a blackjack
+```
 
 ## Using the OpenAI API
 
