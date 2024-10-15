@@ -36,7 +36,7 @@ def suit(card):
     return SUITS[suit]
 ```
 
-Put the code below in `cards.py`, then complete the `rank` function that takes a card number as input and returns its associated rank.
+Put the code below in `cards.py`, then complete the `rank` function that takes a card number as input and returns its associated rank. Tip: think about using the mod operator.
 ```
 """
 Simulating a deck of 52 playing cards
