@@ -1,4 +1,4 @@
-# Storyteller
+# Fantasy Game
 
 <img src="narrator.png" width="300px" />
 
