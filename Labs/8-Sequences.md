@@ -226,9 +226,7 @@ Spend a few minutes playing with this chat program. Try making some references t
 
 <br/>
 
-If you experiment, you'll observe that this version of the program stuggles with context, because it isn't actually keeping track of the user's requests or GPT's responses. Each interaction submits just one user input at a time, so there's no way for the model to make use of previous parts of the conversation.
-
-The first version of the program is **stateless**, because it doesn't maintain information that allows it to understand the current state of the conversation. To get interactive behavior, we need to keep track of the state of the conversation as it progresses.
+If you experiment, you'll observe that this version of the program stuggles with context, because it isn't actually keeping track of the user's requests or GPT's responses. Each interaction is **stateless** and independent of every other interaction. Therefore, we need to keep track of the state of the conversation as it progresses.
 
 Here's the first version of this approach, which keeps all interactions in one big list named `history`. When it's time to submit a request, we join those individual messages into one huge string, which becomes the input to the chat request.
 ```
@@ -263,7 +261,7 @@ while chatting:
     # Add the response to the memory
     history.append(response)
 ```
-To use this version, modify the `chat_request` function to return the response instead of printing it.
+To use this version, modify the `chat_request` function to **return** the response instead of printing it.
 
 Play with the program. Is it able to reference previous parts of the chat?
 
