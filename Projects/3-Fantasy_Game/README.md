@@ -36,7 +36,6 @@ The starting point for this project is the basic chatbot from Lab 8. Review that
 
 ## Guidelines
 
-This project is intentionally open-ended.
+This project is intentionally open-ended. You can choose the setting, themes, etc. based on your interests. If you want to choose something other than a [Standard Fantasy Setting](https://tvtropes.org/pmwiki/pmwiki.php/Main/StandardFantasySetting), you can do that.
 
 
-## 
