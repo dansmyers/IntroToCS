@@ -1,5 +1,8 @@
 # CYOA
 
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg" width="300px" />
+
+
 ## Schedule
 
 This is the lab for week 8. Lab 7 was replaced by the hurricane assignment.
@@ -26,7 +29,6 @@ cd Lab_8
 ## Choose Your Own Adventure
 
 
-<img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg" width="25%" />
 
 
 If you had been a kid in the 80's, your elementary school library would have been stuffed with *Choose Your Own Adventure* books, for the downtime you had when you weren't playing [*Oregon Trail*](https://en.wikipedia.org/wiki/The_Oregon_Trail_(1985_video_game)) on your school's Apple II computers.
