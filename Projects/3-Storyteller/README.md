@@ -2,7 +2,7 @@
 
 <img src="narrator.png" width="300px" />
 
-*Storyteller in a fantasy game*, made with DALL-E 3
+*Ancient storyteller in a fantasy game*, made with DALL-E 3
 
 <br/>
 
