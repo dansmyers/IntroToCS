@@ -44,6 +44,10 @@ The starting point for this project is the basic chatbot from Lab 8. Review that
 
 ## Guidelines
 
+<img src="https://preview.redd.it/jwckgvukmic01.jpg?width=640&crop=smart&auto=webp&s=75ccb510196940aea7b1b3eafaccd3a1f79a4742" width="300px" />
+
+<br/>
+
 This project is intentionally open-ended. You can choose the setting, themes, etc. based on your interests. If you want to choose something other than a [Standard Fantasy Setting](https://tvtropes.org/pmwiki/pmwiki.php/Main/StandardFantasySetting), you can do that.
 
 Your program should use a `while` loop that repeatedly generates and displays the next scene of the story and offers the player some choices. The player selects a choice and then the game generates the next output. Keep track of the history of the conversation, like in the basic chatbot.
