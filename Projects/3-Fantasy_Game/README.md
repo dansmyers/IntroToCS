@@ -25,8 +25,9 @@ Let's jump forward almost 40 years to 2019, when a Brigham Young University stud
 This project will allow you to continue experimenting with the OpenAI API by using it to write your own fantasy exploration game. You will:
 
 - Choose the theme and setting of your game
-- Give the player a starting scene and some initial choices
-- Prompt GPT to continue the story, generating the next scene or room and more choices for the player
+- Give the player a starting scene
+- Prompt the player to enter the action they want to take
+- Use GPT to continue the story, generating the next scene or room in response to the player's action
 
 Along the way, you'll get to practice using loops, lists, functions, and the other features we've developed so far.
 
@@ -50,7 +51,7 @@ The starting point for this project is the basic chatbot from Lab 8. Review that
 
 This project is intentionally open-ended. You can choose the setting, themes, etc. based on your interests. If you want to choose something other than a [Standard Fantasy Setting](https://tvtropes.org/pmwiki/pmwiki.php/Main/StandardFantasySetting), you can do that.
 
-Your program should use a `while` loop that repeatedly generates and displays the next scene of the story and offers the player some choices. The player selects a choice and then the game generates the next output. Keep track of the history of the conversation, like in the basic chatbot.
+Your program should use a `while` loop that repeatedly generates and displays the next scene of the story and prompts the player. The player enters an action and then the game generates the next output. Keep track of the history of the conversation, like in the basic chatbot.
 
 Think about how to prompt GPT. You may need to supply some additional information, in the system prompt or as part of the request, to get it to do what you want.
 
