@@ -1,4 +1,4 @@
-# 
+# CYOA
 
 ## Schedule
 
@@ -6,6 +6,21 @@ This is the lab for week 8. Lab 7 was replaced by the hurricane assignment.
 
 ## Overview
 
+We have a variety of projects in this lab:
+
+- Implementing a Choose Your Own Adventure Story. This doesn't introduce any new content, but will allow you to practice structuring a larger program using functions.
+- Modeling a deck of cards using a list.
+- Writing a mini-ChatGPT using the **OpenAI API**.
+
+## Setup
+
+Create a `Lab_8` directory and `cd` into it:
+```
+mkdir Lab_8
+```
+```
+cd Lab_8
+```
 
 
 ## Choose Your Own Adventure
