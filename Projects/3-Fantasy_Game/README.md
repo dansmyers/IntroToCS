@@ -6,7 +6,7 @@
 
 <br/>
 
-### Due Friday, 10/25
+## Due Friday, 10/25
 
 ## Overview
 
