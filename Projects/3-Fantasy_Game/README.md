@@ -44,7 +44,7 @@ The starting point for this project is the basic chatbot from Lab 8. Review that
 
 ## Guidelines
 
-<img src="https://preview.redd.it/jwckgvukmic01.jpg?width=640&crop=smart&auto=webp&s=75ccb510196940aea7b1b3eafaccd3a1f79a4742" width="300px" />
+<img src="https://preview.redd.it/jwckgvukmic01.jpg?width=640&crop=smart&auto=webp&s=75ccb510196940aea7b1b3eafaccd3a1f79a4742" width="200px" />
 
 <br/>
 
