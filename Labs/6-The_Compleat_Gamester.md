@@ -1,4 +1,4 @@
-# Lab 6: The Compleat Gamester
+# The Compleat Gamester
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Scenes_of_life_in_the_Dutch_factory_at_Deshima_building_detail.jpg" width="500px" />
 
