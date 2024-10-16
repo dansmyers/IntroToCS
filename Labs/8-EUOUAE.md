@@ -355,7 +355,7 @@ Let's make our own terminal-based version of ChatGPT. The flow for version one i
 - In the main part of the program, prompt the user to enter a request
 - Call the chat routine to process that request and print the response
 
-Take a look at this version. It's almost the same as what we had before, except the chat interaction is now wrapped in a function and takes the `user_message` as an input parameter.
+Take a look at this version. It's almost the same as what we had before, except the chat interaction is now wrapped in a function and takes the `user_message` as an input parameter. You can update your `chat.py` file to this version.
 ```
 """
 Example interactive chat using the OpenAI API
