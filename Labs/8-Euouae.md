@@ -33,6 +33,21 @@ cd Lab_8
 
 ## List and Loop Practice
 
+### Reverse
+
+Complete the program below to print the list in reverse order.
+
+```
+"""
+Print a list in reverse order
+"""
+
+primes = [2, 3, 5, 7, 11, 13, 17, 19]
+
+# Write a loop to print primes in reverse: 19, 17, 13, ...
+
+```
+
 ### Range of a list
 
 Write a method called `list_range` that takes a list of numbers as input and returns the difference between the largest and smallest elements.
@@ -119,7 +134,33 @@ if c not in 'aeiou':
     # Do something if c is not a vowel
 ```
 
+### Sorted
 
+Write a function called `is_sorted` that takes a numeric list as input and returns `True` if the entries in the list are in non-decreasing order and `False` otherwise.
+
+Tip: Think about looping through the *indices* of the list, so that you can compare each item to its predecessor and see if they're sorted.
+```
+for i in range(1, len(a)):
+    # Test if item at position i - 1 is greater than item at position i
+    # If so, the list is out of order
+```
+
+```
+"""
+Test if a list is sorted
+"""
+
+def is_sorted(a):
+    """
+    Return True if list a is non-decreasing, False otherwise
+    """
+    # Complete this function
+
+
+### Main
+print(is_sorted([1, 2, 3, 4]))
+print(is_sorted([1, 2, 3, 0]))
+```
 
 
 ## Cards Revisited
