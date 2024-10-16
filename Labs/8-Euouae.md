@@ -71,9 +71,9 @@ def list_range(a):
 
 ### Main
 
-print(list_range([1, 2, 3, 4, 5, 6, 7, 8])
-print(list_range([-1, -2, -3, -4, -5, -6, -7, -8])
-print(list_range([-1, 2, -3, 4, -5, 6, -7, 8])
+print(list_range([1, 2, 3, 4, 5, 6, 7, 8]))
+print(list_range([-1, -2, -3, -4, -5, -6, -7, -8]))
+print(list_range([-1, 2, -3, 4, -5, 6, -7, 8]))
 ```
 
 ### Classical Fibonacci
