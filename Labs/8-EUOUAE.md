@@ -1,8 +1,8 @@
 # EUOUAE
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Comete_Tapisserie_Bayeux.jpg" width="300px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Comete_Tapisserie_Bayeux.jpg" width="400px" />
 
-*Detail of Halley's Coment in the Bayeux Tapestry (late-11th Century)*
+*Detail of Halley's Coment in the [Bayeux Tapestry](https://en.wikipedia.org/wiki/Bayeux_Tapestry) (late-11th Century)*
 
 <br/>
 
