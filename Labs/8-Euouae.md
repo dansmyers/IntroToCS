@@ -33,20 +33,6 @@ cd Lab_8
 
 ## List and Loop Practice
 
-### Reverse
-
-Complete the program below to print the list in reverse order.
-
-```
-"""
-Print a list in reverse order
-"""
-
-primes = [2, 3, 5, 7, 11, 13, 17, 19]
-
-# Write a loop to print primes in reverse: 19, 17, 13, ...
-
-```
 
 ### Range of a list
 
@@ -99,6 +85,27 @@ for i in range(48):
     # Update fib_1 and fib_2 for the next iteration
 ```
 
+
+### Reverse
+
+Remember that you can use `range` with a third input to count backwards
+```
+for i in range(8, 0, -1):
+    # i counts from 8 down to 1
+```
+
+Complete the program below to print the list in reverse order. Think about how to start at the last index and work your way toward the front. You can do this with the normal indices or with negative indexing.
+
+```
+"""
+Print a list in reverse order
+"""
+
+primes = [2, 3, 5, 7, 11, 13, 17, 19]
+
+# Write a loop to print primes in reverse: 19, 17, 13, ...
+
+```
 ### Counting vowels
 
 The `for` loop iterates over sequences. Strings are a type of sequence in Python, so you can step through the characters of a string named `s` using:
