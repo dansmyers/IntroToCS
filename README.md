@@ -82,10 +82,10 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 10/16  | ~Review for midterm~  **Review lists and loops** | Lab 8: Euouae |
 10/18 | ~MIDTERM EXAM (in class)~ **Intro to Project 3** |  **Project 3 out** |
 10/21 | Return to lists, sequences, and loops | |
-10/23 | Counting loops with `range` | Lab 9: Jeu Monégasque |
+10/23 | Counting loops with `range` | Lab 9:  Wordplay |
 10/25 | Looping over strings | Project 3 due |
 10/28 | The `while` loop | Chapter 6 and 7 reading |
-10/30 | Working with files | Lab 10: Wordplay |
+10/30 | Working with files | Lab 10: Jeu Monégasque |
 11/1 | Intro to Project 4 | Project 4 out |
 11/4 | More complex games  | Chapter 6 and 7 reading due |
 11/6 | Binary numbers | Lab 11: Precision  |
