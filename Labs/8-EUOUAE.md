@@ -1,5 +1,10 @@
 # EUOUAE
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Comete_Tapisserie_Bayeux.jpg" width="300px" />
+
+*Detail of Halley's Coment in the Bayeux Tapestry (late-11th Century)*
+
+<br/>
 
 ## Schedule
 
