@@ -115,7 +115,7 @@ if c in 'aeiou':
 ```
 
 
-### All Vowels
+### All vowels
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/LiberUsualisEuouae.jpg" width="300px" />
 
