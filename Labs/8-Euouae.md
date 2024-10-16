@@ -160,6 +160,7 @@ def is_sorted(a):
 ### Main
 print(is_sorted([1, 2, 3, 4]))
 print(is_sorted([1, 2, 3, 0]))
+print(is_sorted([4, 4, 4, 4]))  # True because it's non-decreasing
 ```
 
 
