@@ -1,4 +1,4 @@
-# CYOA
+# EUOUAE
 
 <img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg" width="200px" />
 
@@ -7,13 +7,15 @@
 
 This is the lab for week 8. Lab 7 was replaced by the hurricane assignment.
 
+
 ## Overview
 
 We have a variety of projects in this lab:
 
-- Implementing a Choose Your Own Adventure Story. This doesn't introduce any new content, but will allow you to practice structuring a larger program using functions.
-- Modeling a deck of cards using a list.
-- Writing a mini-ChatGPT using the **OpenAI API**.
+- More practice problems using lists and loops
+- Modeling a deck of cards using a list
+- Writing a mini-ChatGPT using the **OpenAI API**
+
 
 ## Setup
 
@@ -26,167 +28,93 @@ cd Lab_8
 ```
 
 
-## Choose Your Own Adventure
+## List and Loop Practice
+
+### Range of a list
+
+Write a method called `list_range` that takes a list of numbers as input and returns the difference between the largest and smallest elements.
+
+Tips: You need to find the largest and smallest elements in the list. Don't use the built-in `max` or `min` functions. Remember that some elements in the list might be negative
+
+Put your code in a file named `range.py`.
+
+```
+"""
+Find the range of values in a list
+"""
+
+def list_range(a):
+    """
+    Return the range of values in list a
+    """
+
+    # Complete this method
 
 
+### Main
+
+print(list_range([1, 2, 3, 4, 5, 6, 7, 8])
+print(list_range([-1, -2, -3, -4, -5, -6, -7, -8])
+print(list_range([-1, 2, -3, 4, -5, 6, -7, 8])
+```
+
+### Classical Fibonacci
+
+We've previously used Binet's formula to calculate terms in the Fibonacci sequence. Write a program that uses a loop to calculate and print the first 50 Fibonacci numbers. Put your code in a file named `fib.py`.
+
+Tip: Use two variables `fib_1` and `fib_2` to keep track of the two previous numbers in the sequence. On each loop iteration, calculate the next Fibonacci number, then update the values of `fib_1` and `fib_2`.
+
+```
+# First two numbers
+fib_1 = 0
+fib_2 = 1
+
+print(fib_1)
+print(fib_2)
+
+# Calculate 48 more numbers
+for i in range(48):
+    # Use fib_1 and fib_2 to calculate the next number
+
+    # Print the next number
+
+    # Update fib_1 and fib_2 for the next iteration
+```
+
+### Counting vowels
+
+The `for` loop iterates over sequences. Strings are a type of sequence in Python, so you can step through the characters of a string using:
+```
+for c in string:
+    # Do something with character c
+```
+Write a program named `vowels.py` that prompts the user to enter a word, then counts and prints the number of vowels in the word.
+
+Tip: You can test if the character `c` is a vowel using
+```
+if c in 'aeiou':
+    # c is a vowel
+```
 
 
-If you had been a kid in the 80's, your elementary school library would have been stuffed with *Choose Your Own Adventure* books, for the downtime you had when you weren't playing [*Oregon Trail*](https://en.wikipedia.org/wiki/The_Oregon_Trail_(1985_video_game)) on your school's Apple II computers.
+### All Vowels
 
-Each book was the story of "you", the nameless protagonist, making your way through some type of fantastic adventure story. After reading for a few pages, you'd be offered a choice. For example,
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/LiberUsualisEuouae.jpg" width="300px" />
 
-- *If you choose to explore the mysterious Cave of Time, turn to page 41*.
-- *If you would rather go back to your house and make a sandwich, go to page 17*.
-
-Each choice would lead to a different path of the story and eventually you would reach an ending page, which might good, bad, or ambiguous.
-
-We're going to use Python to write our own text-based Choose Your Own Adventure story. A key idea of this program will be **using functions to organize a complex program**. Each "page" of the story will be its own function. Within each function, print a little descriptive text, then prompt the user to make a choice. 
-Each choice corresponds to another function call, which runs the code for the next page.
-
-### Interactive Fiction
-
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Zork_I_box_art.jpg" width="200px" />
-
-*The Zork series published by Infocom was an influential early computer game. It is pitch black. You are likely to be eaten by a grue.*
+*Example of medieval plainchant music showing the euouae mnemonic, from Wikipedia*
 
 <br/>
 
-The CYOA books are part of the larger gaming lineage of **interactive fiction**. Some of the earliest PC games were structured as interactive stories, where the player types commands to move around the world, gather items, and solve puzzles. These early text-based IF games later evolved into graphical adventure games.
+I'm thinking of the longest word that consists of only vowels. Write a function called `has_only_vowels` that takes a string named `s` as input and returns `True` if the string contains only vowels letters and `False` if it contains any non-vowel letters. You can assume that `s` contains only lowercase letters.
 
-IF is kind of a weird genre. It's both totally unpopular and extremely popular at the same time. There are still writers creating interesting parser-based IF in the 
-style of the early text adventure games: Modern IF in this style is often experimental or socially-conscious. Basically none of that crosses over to the commerical gaming market. On the other hand, there is huge genre of visual novel games, dating sims, and other text-and-image games that have achieved widespread popularity, even if they often get tagged as "casual" or "romance" games.
-
-While I'm certainly **not** a connossieur of the form, many of these games are gloriously weird.
-
-<img src="https://cdn.akamai.steamstatic.com/steam/apps/251990/ss_267dc852c216b2bf58d48c58f3ea31d6896e19e4.1920x1080.jpg?t=1568494485" width="300px" />
-
-*Long Live the Queen*, a dark and gritty stats-based princess simulator where you have to train skills that will allow you to survive until your coronation.
-
-<img src="https://hips.hearstapps.com/digitalspyuk.cdnds.net/14/25/gaming-hatoful-boyfriend-screenshot-2_1.jpg" width="300px" />
-
-*Hatoful Boyfriend*, the dating sim game where the guys you're trying to date just happen to be pigeons.
-
-<img src="https://i.pcmag.com/imagery/articles/03vQmmuNtMgqoVDDHYMhunN-1.1569489919.fit_lim.png" width="300px" />
-
-*I Love You, Colonel Sanders*, the KFC-themed dating simulator. Colonel *senpai*, notice me!
-
-
-### An example story
-
-Create a new file named `cyoa.py`. Copy the following code then run it a couple of times to see how it works. Once you have played through a few paths, trace the execution of the source code and verify that you understand how it works.
+Tip: you can check if a letter `c` is not in the set of vowels using
 
 ```
-"""
-A Choose Your Own Adventure Story
-"""
-
-def read_choice():
-    """
-    Read and return an integer value
-    """
-    return int(input('Make a choice: '))
-    
-
-def go_to_house():
-    
-    print()
-    print('Congratulations! You made back to your house!')
-    print('If only there was some way to get inside...')
-    print()
-    
-    # Add some more choices
-    # Each choice corresponds to a function that represents the next page in the story
-   
-   
-def read_leaflet():
-
-    print()
-    print('The leaflet turns out to be a coupon for a nearby all-you-can-eat buffet.')
-    print('Your stomach rumbles...')
-    print('But you need to head back to your house before you do anything else.')
-    print()
-    
-    # Go directly to the next page without offering a choice
-    go_to_house()
-
-    
-def open_mailbox():
-    
-    print()
-    print('Opening the mailbox reveals a small leaflet.')
-    print()
-    
-    print('1. Read the leaflet.')
-    print('2. Change your mind and go to the house.')
-    
-    choice = read_choice()
-    
-    if choice == 1:
-        read_leaflet()
-    else:
-        go_to_house()
-        
-
-def start():
-    
-    print()
-    print('You are standing in an open field west of a white house with a boarded front door.')
-    print('There is a small mailbox here.')
-    print()
-    
-    print('1. Go to the house.')
-    print('2. Open the mailbox.')
-    
-    choice = read_choice()
-    
-    if choice == 1:
-        go_to_house()
-    else:
-        open_mailbox()
-        
-        
-def print_instructions():
-    
-    print('Welcome to my Choose Your Own Adventure story!')
-    print()
-    
-    print('Every page in this book is implemented as a function.')
-    print('On each page, you\'ll make a choice, which calls the next function.')
-    print('Let\'s begin!')
-        
-        
-### Main
-print_instructions()
-start()
+if c not in `aeiou`:
+  # Do something if c is not a vowel
 ```
 
-### Structure of the Program
-
-The `main` part calls two functions: `print_instructions`, which just prints an intro message and then returns, and `start`, which is
-the first page of the story.
-
-The `start` function prints a little description of the scene and then prompts the user to choose option 1 or 2, reading the choice
-with the `input` function.
-
-Each choice corresponds to another function: `go_to_house` or `open_mailbox`. If the user makes choice 2, for example, the program calls the `open_mailbox` function, which represents another page in the story with another set of choices.
-
-Here's a key idea: within `start`, we're using functions to **describe what should happen next**. Each function represents one self-contained page with calls to the functions representing other pages. Thus, the code is nicely compartmentalized. In particular, **we could change the code for one page without having to rewrite any other page**.
-
-### Your Mission
-
-Once you're comfortable with the basic example story, take control and write your own. You can use the starter code as a model and either keep the same opening scenario and choices or write something completely different.
-Here's the basic plan:
-
-- Use the `start` function as a model for all of your functions.
-
-- Each function prints some text of the story, then prints some choices. You can do 1, 2, 3, or more choices, depending on how you want
-the story to develop.
-
-- Read the number for the user's choice with the `read_choice()` function. You can assume the user will always put in a valid number.
-
-- For each choice, call a function that decribes what you want to happen next.
-
-- Then go write those methods to create the next pages of the story.
+By the way, [the longest all-vowel word](https://www.grammarly.com/blog/14-of-the-longest-words-in-english) is *euouae*: a mnemonic which was used in medieval music to denote the sequence of tones in the ending of the Gloria Patri, which ends with the phrase *In saecula saeculorum, Amen*. In Latin psalters and plainchant books, the melodic formula to be sung at the end of every chanted line (called the *differentia*), would be written over the letters EUOUAE, representing the vowels of *saeculorum Amen*.
 
 
 ## Cards Revisited
