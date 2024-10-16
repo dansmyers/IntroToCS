@@ -590,7 +590,7 @@ while True:
     print('\nAssistant:\n\t', response)
 
     # Add the response to the memory
-    assistant_memory.append(response)
+    assistant_history.append(response)
 ```
 Implement that program, play with it, then look through the code and verify that you understand how each part works.
 
