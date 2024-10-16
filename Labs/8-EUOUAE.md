@@ -81,9 +81,9 @@ for i in range(48):
 
 ### Counting vowels
 
-The `for` loop iterates over sequences. Strings are a type of sequence in Python, so you can step through the characters of a string using:
+The `for` loop iterates over sequences. Strings are a type of sequence in Python, so you can step through the characters of a string named `s` using:
 ```
-for c in string:
+for c in s:
     # Do something with character c
 ```
 Write a program named `vowels.py` that prompts the user to enter a word, then counts and prints the number of vowels in the word.
