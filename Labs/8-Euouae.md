@@ -1,4 +1,4 @@
-# EUOUAE
+# Euouae
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Comete_Tapisserie_Bayeux.jpg" width="400px" />
 
