@@ -1,7 +1,5 @@
 # EUOUAE
 
-<img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg" width="200px" />
-
 
 ## Schedule
 
