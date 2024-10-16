@@ -110,8 +110,8 @@ Write a function called `has_only_vowels` that takes a string named `s` as input
 Tip: you can check if a letter `c` is not in the set of vowels using
 
 ```
-if c not in `aeiou`:
-  # Do something if c is not a vowel
+if c not in 'aeiou':
+    # Do something if c is not a vowel
 ```
 
 
