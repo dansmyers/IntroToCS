@@ -106,6 +106,18 @@ primes = [2, 3, 5, 7, 11, 13, 17, 19]
 # Write a loop to print primes in reverse: 19, 17, 13, ...
 
 ```
+
+Tip: Think about how you would do this if you just manually printed the list elements.
+```
+print(primes[7])
+print(primes[6])
+print(primes[5])
+
+# and so forth
+```
+Then think about how to construct a loop that visits those indices in that order. You could also experiment with negative indexing.
+
+
 ### Counting vowels
 
 The `for` loop iterates over sequences. Strings are a type of sequence in Python, so you can step through the characters of a string named `s` using:
@@ -225,6 +237,13 @@ def rank(card):
     """
     Given a card's number, return its associated rank
     """
+
+    # Make a list of the ranks
+
+    # Calculate an index into the list from the given card
+
+    # Return the rank
+
 
 ### Main
 
