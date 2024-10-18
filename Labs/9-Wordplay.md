@@ -104,9 +104,9 @@ I'm thinking of a word that starts with `he` and ends with `he`. What could it b
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Crwth_rem.jpg/800px-Crwth_rem.jpg width="200px" />
 
-*The Welsh Crwth*
+*The Welsh crwth*
 
-<img src=https://upload.wikimedia.org/wikipedia/commons/9/9f/Western_Cwm_and_Lhotse.jpg width="200px" />
+<img src=https://upload.wikimedia.org/wikipedia/commons/9/9f/Western_Cwm_and_Lhotse.jpg width="300px" />
 
 *The Western Cwm (a glaciated valley) on Mt. Everest with the Lhotse Face in the background*
 
