@@ -3,7 +3,7 @@
 ## Setup
 
 
-## Word Practice
+## Words
 
 ### Print the words
 
