@@ -187,7 +187,7 @@ Modify your previous program to reverse the stairs.
 #####
 ```
 
-Tip: Print a number of spaces, then a number of blocks. Think about how many spaces you need as a function of `n` and the loop counter `i`. If `n` is 5, then
+Tip: Print a number of spaces, then a number of blocks. Think about how many spaces and blocks you need as a function of `n` and the loop counter `i`. For example, if `n` is 5, then
 
 - Line 1 has four spaces and one block
 - Line 2 has three spaces and two blocks
@@ -197,7 +197,7 @@ and so forth.
 
 Tip-tip: `print` can take a special parameter called `end` that specifies what to put at the end of its output. Normally, this is a newline, but you can avoid moving to the next line automatically if you set `end=''`.
 ```
-# Print 5 spaces, staying on the same line, then 3 blocks
+# Example: print 5 spaces, staying on the same line, then 3 blocks
 print(' ' * 5, end='')
 print('#' * 3)
 ```
