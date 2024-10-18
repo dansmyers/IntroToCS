@@ -1,5 +1,11 @@
 # Wordplay
 
+<img src="https://www.artic.edu/iiif/2/e966799b-97ee-1cc6-bd2f-a94b4b8bb8f9/full/843,/0/default.jpg" width="400px" />
+
+*Starry Night and the Astronauts*, Alma Thomas (1972), via the [Art Institute of Chicago](https://www.artic.edu/artworks/129884/starry-night-and-the-astronauts)
+
+<br/>
+
 ## Setup
 
 
