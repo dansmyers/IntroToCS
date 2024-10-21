@@ -1,16 +1,16 @@
 # Hipster Restaurant Menu Generator
 
-*farm-to-table lamb crunchwrap $22*  
-*eldritch sea scallop fettucine $18*  
-*microwaved languostine globules $29*
-
-## Description
-
 <img src="https://travelgrrrls.files.wordpress.com/2019/05/edison-bar2.jpg" width="35%" />
 
 [*LATFH*](https://travelgrrrls.wordpress.com/2019/05/02/hipster-light/)
 
 <br/>
+
+## Description
+
+*farm-to-table lamb crunchwrap $22*  
+*eldritch sea scallop fettucine $18*  
+*microwaved languostine globules $29*
 
 I’ve decided to open a new restaurant and I need your help coming up with the menu. This place is going to be slick and hip, with all kinds of exposed ductwork, bricks, 
 and those old-timey lightbulbs, so it needs a hip menu to match. In fact, I think the menu should be **randomly generated**.
