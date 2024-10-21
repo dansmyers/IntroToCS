@@ -1,4 +1,4 @@
-# Challenge Project: Hipster Restaurant Menu Generator
+# Hipster Restaurant Menu Generator
 
 *farm-to-table lamb crunchwrap $22*  
 *eldritch sea scallop fettucine $18*  
