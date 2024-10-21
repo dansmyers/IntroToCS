@@ -4,7 +4,6 @@
 
 [*LATFH*](https://travelgrrrls.wordpress.com/2019/05/02/hipster-light/)
 
-<br/>
 
 ## Description
 
