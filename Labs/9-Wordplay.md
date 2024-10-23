@@ -6,11 +6,13 @@
 
 <br/>
 
+This activity is adapted from Allen Downey's [*Think Python*](https://greenteapress.com/thinkpython2/html/thinkpython2010.html).
+
 ## Setup
 
 Create a `Lab_9` directory and `cd` into it.
 
-Go onto Canvas and download the `words.txt` file. This is a *large* list of words collected by Grady Smith as part of the Moby lexicon project, an open-source initiative to collect large free datasets for text analysis. This activity is adapted from Allen Downey's [*Think Python*](https://greenteapress.com/thinkpython2/html/thinkpython2010.html).
+Go onto Canvas and download the `words.txt` file. This is a *large* list of words collected by Grady Smith as part of the Moby lexicon project, an open-source initiative to collect large free datasets for text analysis. Upload the file into your `Lab_9` directory.
 
 
 
