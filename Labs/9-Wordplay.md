@@ -42,6 +42,8 @@ There are four interesting pieces here:
 
 - Once the file is open, Python returns a **file handle** that we can use to interact with it. Here, variable `f` stores the handle to the underlying open file.
 
+- The `with` statement wraps the file opening operation. It ensures that the file gets closed cleanly regardless of how the inner code block terminates. If an exception or return occurs, `with` will still close the file before the program terminates.
+
 - A file is a sequence of lines, so we can iterate over them with the `for` loop. The loop in the code below steps through each line in the file one at a time. It's possible to read from files at a more granular level, like one word or one character at a time, but reading entire lines will work for this lab.
 
 - `line = line.strip()` uses the  built-in `strip` function to remove trailing whitespace from the line. This statement removes the trailing newline character that would otherwise create an extra blank line between the words.
