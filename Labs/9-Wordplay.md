@@ -261,7 +261,7 @@ print('#' * 3)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bent_Pyramid_%E6%9B%B2%E6%8A%98%E9%87%91%E5%AD%97%E5%A1%94_-_panoramio.jpg/1920px-Bent_Pyramid_%E6%9B%B2%E6%8A%98%E9%87%91%E5%AD%97%E5%A1%94_-_panoramio.jpg" width="300px" />
 
-*The "Bent Pyramid" of Sneferu. Builders reduced the slope from 54 degrees to 43 degrees partway through the construction.*
+*The "Bent Pyramid" of Sneferu. One of the early pyramids, before the art was perfected. The builders were forced to reduce the slope from 54 degrees to 43 degrees partway through the construction.*
 
 <br/>
 
