@@ -219,7 +219,7 @@ Write a program named `stairs.py` with a method that prints a descending stairca
 ####
 #####
 ```
-Tip: Let the entered height be `n`. Use a loop with `range(n)` to run for `n` total iterations. Print 1 block on the first line, two blocks on the second, and so forth.
+Tip: Let the entered height be `n`. Use a loop with `range(n)` to run for `n` total iterations. Print one block on the first line, two blocks on the second, and so forth.
 
 You can use string multiplication to copy a string multiple times. If `i` is the loop counting variable, you could use:
 ```
