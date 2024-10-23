@@ -27,15 +27,14 @@ Print the words in the list
 """
 
 # Open the file for reading
-f = open('words.txt', 'r')
+with open('words.txt', 'r') as f:
+    # Iterate through the lines
+    for line in f:
 
-# Iterate through the lines
-for line in f:
-
-    # Strip the terminating newline character
-    line = line.strip()
+        # Strip the terminating newline character
+        line = line.strip()
    
-    print(line)
+        print(line)
 ```
 There are four interesting pieces here:
 
@@ -65,15 +64,12 @@ def starts_with_q(word):
     
 
 ### Main
-f = open('words.txt', 'r')
-
-for line in f:
-
-    # Strip the terminating newline character
-    line = line.strip()
+with open('words.txt', 'r') as f:
+    for line in f:
+        line = line.strip()
     
-    if starts_with_q(line):
-        print(line)
+        if starts_with_q(line):
+            print(line)
 ```
 
 **Use this program as a template for all of the following programs**. Each one of your answers to the following questions should have a **function** that implements whatever tests are required to answer the problem.
@@ -124,6 +120,8 @@ I'm thinking of a word that starts with `he` and ends with `he`. What could it b
 <img src=https://upload.wikimedia.org/wikipedia/commons/9/9f/Western_Cwm_and_Lhotse.jpg width="300px" />
 
 *The Western Cwm (a glaciated valley) on Mt. Everest with the Lhotse Face in the background*
+
+<br/>
 
 Find all of the words that contain no vowels and no `y`.
 
