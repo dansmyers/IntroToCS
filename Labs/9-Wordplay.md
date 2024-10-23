@@ -246,7 +246,7 @@ Tip: Print a number of spaces, then a number of blocks. Think about how many spa
 
 and so forth.
 
-Tip-tip: `print` can take a special parameter called `end` that specifies what to put at the end of its output. Normally, this is a newline, but you can avoid moving to the next line automatically if you set `end=''`.
+Tip-tip: `print` can take a special parameter called `end` that specifies what to put at the end of its output. Normally this is a newline, but you can avoid moving to the next line automatically if you set `end=''`.
 ```
 # Example: print 5 spaces, staying on the same line, then 3 blocks
 print(' ' * 5, end='')
