@@ -78,7 +78,7 @@ with open('words.txt', 'r') as f:
 **Use this program as a template for all of the following programs**. Each one of your answers to the following questions should have a **function** that implements whatever tests are required to answer the problem.
 
 
-### Starts With `q` But Not `qu`
+### Starts with `q` but not `qu`
 
 <img src="https://en.numista.com/catalogue/photos/albanie/5eb334f6befca9.58828003-360.jpg" width="100px" />
 
@@ -98,7 +98,7 @@ num_chars = len(word)
 
 Print all of the words with 18 or more characters.
 
-### Ends With `x`
+### Ends with `x`
 
 Recall that there are two ways to access the last character of a word:
 
@@ -110,7 +110,7 @@ word[-1]
 
 Print all of the words that end with `x`
 
-### I'm Thinking of a Word
+### I'm thinking of a word
 
 I'm thinking of a word that starts with `he` and ends with `he`. What could it be?
 
@@ -135,7 +135,7 @@ last_two_letters = word[len(word) - 2:]
 
 Repeat the previous problem, but use slicing to isolate substrings from the beginning and end of the word, then test if both substrings are equal to `'he'`
 
-### No Vowels
+### No vowels
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Crwth_rem.jpg/800px-Crwth_rem.jpg width="200px" />
 
@@ -158,14 +158,14 @@ if letter in 'aeiouy':
 Loop over the characters in the word and test each one to see if it's a vowel. If you find a vowel or a `y`, the test method can immediately `return False`. If you make it all the way through the loop and never find a vowel or `y`, `return True`.
 
 
-### Abecedarian Words
+### Abecedarian words
 
 Let's say that a word is *abecedarian* if its letters are in alphabetical order, allowing for repeated letters. For example, *effort*, *ghosty*, and *beefily* are abecedarian words. Print all the abecedarian words in the list.
 
 Remember that you can compare characters using the standard relational operators `<` and `>`. All of the words in the list are lowercase, so you don't have to worry about any upper vs. lower case comparison issues.
 
 
-### TACOCAT is TACOCAT Backwards
+### TACOCAT is TACOCAT backwards
 
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cf45aa02-f54d-4cab-a8e8-4e43c0ed6c74/dcn8689-dc15f569-0e2e-4552-b107-12fc38995653.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NmNDVhYTAyLWY1NGQtNGNhYi1hOGU4LTRlNDNjMGVkNmM3NFwvZGNuODY4OS1kYzE1ZjU2OS0wZTJlLTQ1NTItYjEwNy0xMmZjMzg5OTU2NTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UopOXSHXupOZqB0oUtH4dPwiENGDw3zC1nxStTpzhCM" width="30%" />
 
@@ -185,11 +185,21 @@ for i in range(middle):
 ```
 The tricky part: How can you determine the index of the letter that is opposite letter `i`? Think about subtracting from `len(word)` or by using negative indexing.
 
-### Triple Double Letters
+### Triple double letters
 
 The word `balloon` has two consecutive pairs of double letters.
 
 I'm thinking of a word that has *three* **consecutive** pairs of double letters. What could it be?
+
+
+### Vowels in order
+
+The word `specious` contains all of `e`, `i`, `o`, and `u` in that order.
+
+Find a word that contains the letters `a`, `e`, `i`, `o`, and `u` *in that order*. The letters may not be consecutive.
+
+Tip: There is a built-in method called `index` that you can use to find the index position of a particular value in a sequence. Look it up and think about how you could use it to test for the presence of every vowel and how to verify that they're in order.
+
 
 
 ## Edifice Complex
