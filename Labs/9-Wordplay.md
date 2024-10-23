@@ -204,6 +204,10 @@ Tip: There is a built-in method called `index` that you can use to find the inde
 
 ## Edifice Complex
 
+<img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Iron_Maiden_-_Powerslave.jpg" width="300px" />
+
+<br/>
+
 ### Descending a Staircase
 
 Write a program named `stairs.py` with a method that prints a descending staircase like the one below. Prompt the user to enter the height of the staircase.
@@ -251,7 +255,6 @@ print('#' * 3)
 
 ### Look On My Works, Ye Mighty, and Despair!
 
-<img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Iron_Maiden_-_Powerslave.jpg" width="300px" />
 
 Write a program named `pyramid.py` that can print pyramids of stars like the following:
 ```
