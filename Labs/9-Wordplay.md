@@ -306,7 +306,7 @@ Think: Think about how many spaces you need to print on each line. You may want 
 
 ### I'm so fancy
 
-Make one more pyramid that alternates spaces and stars.
+Make one more fancy pyramid that alternates spaces and stars.
 ```
     *
    * *
