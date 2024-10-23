@@ -14,6 +14,8 @@ Create a `Lab_9` directory and `cd` into it.
 
 Go onto Canvas and download the `words.txt` file. This is a *large* list of words collected by Grady Smith as part of the Moby lexicon project, an open-source initiative to collect large free datasets for text analysis. Upload the file into your `Lab_9` directory.
 
+Put the solution to each question below into its own file. You can choose the file names.
+
 
 
 ## Words
