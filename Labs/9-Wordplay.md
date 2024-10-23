@@ -304,7 +304,7 @@ Modify your previous program to print hollow pyramids. Put your solution in a fi
 Think: Think about how many spaces you need to print on each line. You may want to treat the last line as a special case with an `if` statement.
 
 
-### Fancy pyramid
+### I'm so fancy
 
 Make one more pyramid that alternates spaces and stars.
 ```
