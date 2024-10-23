@@ -114,6 +114,27 @@ Print all of the words that end with `x`
 
 I'm thinking of a word that starts with `he` and ends with `he`. What could it be?
 
+### Slicing
+
+**Slicing** is a way to pull out a piece of a string (or list) as a substring (or sublist). To take a slice, use a colon in square brackets and specify the range of index positions you want to slice out.
+```
+# Slice out the characters from index 1, up to BUT NOT INCLUDING index 5
+subword = word[1:5]
+```
+Slicing works similar to `range`: it starts at the beginning index and goes up to, *but doesn't include* the stopping index. In the example above, if the word is `acidic`, the subword would be `cidi`, formed from the characters at positions 1 to 4.
+
+If you slice from the beginning of the string, you don't have to specify 0 as the starting index:
+```
+# Slice the first two characters
+first_two_letters = word[:2]
+```
+Similarly, you can automatically slice to the end of the string if you don't specify the ending index:
+```
+last_two_letters = word[len(word) - 2:]
+```
+
+Repeat the previous problem, but use slicing to isolate substrings from the beginning and end of the word, then test if both substrings are equal to `'he'`
+
 ### No Vowels
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Crwth_rem.jpg/800px-Crwth_rem.jpg width="200px" />
