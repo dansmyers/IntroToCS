@@ -28,6 +28,7 @@ Print the words in the list
 
 # Open the file for reading
 with open('words.txt', 'r') as f:
+
     # Iterate through the lines
     for line in f:
 
