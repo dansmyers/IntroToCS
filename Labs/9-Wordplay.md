@@ -196,15 +196,6 @@ The word `balloon` has two consecutive pairs of double letters.
 I'm thinking of a word that has *three* **consecutive** pairs of double letters. What could it be?
 
 
-### Vowels in order
-
-The word `specious` contains all of `e`, `i`, `o`, and `u` in that order.
-
-Find a word that contains the letters `a`, `e`, `i`, `o`, and `u` *in that order*. The letters may not be consecutive.
-
-Tip: There is a built-in method called `index` that you can use to find the index position of a particular value in a sequence. Look it up and think about how you could use it to test for the presence of every vowel and how to verify that they're in order.
-
-
 
 ## Edifice Complex
 
