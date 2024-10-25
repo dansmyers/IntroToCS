@@ -83,11 +83,11 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 10/18 | ~MIDTERM EXAM (in class)~ **Intro to Project 3** |  **Project 3 out** |
 10/21 | Return to lists, sequences, and loops | |
 10/23 | Working with files, looping over strings | Lab 9:  Wordplay |
-10/25 | The `while` loop, valid input | Project 3 due |
-10/28 | Dictionaries | Chapter 6 and 7 reading |
-10/30 | Letter frequencies | Lab 10: Jeu Monégasque |
+10/25 | More complex games, valid input | Project 3 due |
+10/28 | Loop wrap-up | Chapter 6 and 7 reading |
+10/30 | Dictionaries | Lab 10: Jeu Monégasque |
 11/1 | Code cracking, Intro to Project 4 | Project 4 out |
-11/4 | More complex games  | Chapter 6 and 7 reading due |
+11/4 | Text game practice  | Chapter 6 and 7 reading due |
 11/6 | Binary numbers | Lab 11: Precision  |
 11/8 | Character encodings | |
 11/11 |  | |
