@@ -17,9 +17,9 @@ Complete the written lab document posted on Canvas. Do this first before working
 
 ### Passe-Dix
 
-Recall the passe-dix dice game: the gambler wins if the sum of three six-sided dice is greater than ten. What is the probability of winning at passe-dix?
+Recall the passe-dix dice game: the gambler wins if the sum of three six-sided dice is greater than ten.
 
-We can estimate this using the Monte Carlo technique. Use a loop to play a large number of games of passe-dix, counting the number that win.
+What is the probability of winning at passe-dix? We can estimate this using the Monte Carlo technique. Use a loop to play a large number of games of passe-dix.Count the number that win, then report the winning percentage.
 ```
 """
 Simulating passe-dix
