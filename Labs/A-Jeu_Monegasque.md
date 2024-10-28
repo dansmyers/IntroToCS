@@ -69,8 +69,7 @@ for trial in range(10000):
 
 <br/>
 
-Samuel Pepys (pronounced "Peeps") was a 17th Century British naval administrator, best known for the detailed diary he kept describing his life in the 1660's. In 1693 he
-corresponded with Isaac Newton regarding a wager:
+Samuel Pepys (pronounced "Peeps") was a 17th Century British naval administrator, best known for the detailed diary he kept describing his life in the 1660's. In 1693 he corresponded with Isaac Newton regarding a wager:
 
 >Which of the following three propositions has the greatest chance of success?
 >
@@ -78,7 +77,7 @@ corresponded with Isaac Newton regarding a wager:
 >- Twelve fair dice are tossed independently and at least two sixes appear.
 >- Eighteen fair dice are tossed independently and at least three sixes appear.
 
-What is the answer to Pepys' question? Write a simulation program to find the answer. Check the [Wikipedia page](https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem) for the solution and calculations for each case. The first proposition is the most likely to occur.
+What is the answer to Pepys' question? Write a simulation program to find the answer.
 
 Tips:
 
@@ -86,8 +85,7 @@ Try writing three different simulate methods, one that simulates the first propo
 
 Notice that the problem is phrased as **at least** not **exactly**.
 
-Python's lists have a built-in method called `count` that can check the number of occurrences of an item in the list. Suppose you want to generate a list of 6 die rolls and then count the number of 6's that occur.
-
+Python's lists have a built-in method called `count` that can check the number of occurrences of an item in the list. For example, the `sim_prop_one` method can be implemented as follows:
 ```
 def sim_prop_one():
     """
@@ -103,9 +101,9 @@ def sim_prop_one():
     # If at least 1 six occurs, proposition one has succeeded
     return num_6 >= 1
 ```
-
 Call `sim_prop_one` in a loop and keep count of the number of calls that return `True`. Then write similar methods for the other two propositions.
 
+Check the [Wikipedia page](https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_problem) for the solution and calculations for each case. The first proposition is the most likely to occur.
 
 ### Craps
 
