@@ -156,7 +156,3 @@ def sim_craps():
 ```
 
 - Run 10000 trials. The answer should be about 49%.
-
-- Run 1000 trials.
-
-- The answer should be about 49%.
