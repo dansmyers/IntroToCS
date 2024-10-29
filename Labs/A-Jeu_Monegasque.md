@@ -138,7 +138,7 @@ def sim_craps():
 
     # else, enter the third phase
     else:
-        point = total  # the sum becomes the point value
+        point = total  # the first sum becomes the point value
 
         # Loop until a result is achieved
         while True:
