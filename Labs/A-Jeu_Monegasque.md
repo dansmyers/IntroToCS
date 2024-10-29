@@ -15,11 +15,6 @@ Complete the written lab document posted on Canvas. Do this first before working
 
 ## Problems
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Grace_Kelly_1955.jpg/1280px-Grace_Kelly_1955.jpg" width="300px" />
-
-*Golden-age Hollywood star Grace Kelly became the princess of Monaco in 1956 when she married Prince Rainier III.*
-
-<br/>
 
 ### Passe-Dix
 
