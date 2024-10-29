@@ -107,6 +107,12 @@ Check the [Wikipedia page](https://en.wikipedia.org/wiki/Newton%E2%80%93Pepys_pr
 
 ### Craps
 
+<img src="https://imgs.xkcd.com/comics/random_number.png" width="300px" />
+
+*[xkcd 221](https://xkcd.com/221/)*
+
+<br/>
+
 The most popular dice game in American casinos, craps allows players to make an extensive array of bets. The most common is called the "pass" bet, and it works as follows:
 
 - A player (the "shooter") rolls two six-sided dice.
