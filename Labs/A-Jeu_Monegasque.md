@@ -125,9 +125,9 @@ Tips:
 
 - Within the `simulate` method, roll two dice and check their sum. If the result is 7, 11, 2, 3, or 12, you can return the result immediately. If the result is anything else, use a `while` loop to implement the second phase of the bet.
 ```
-def sim_craps():
+def sim_pass_bet():
     """
-    Simulate one round of craps
+    Simulate one round of the pass bet in craps
     """
 
     # Roll two dice and add their sum
