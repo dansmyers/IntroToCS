@@ -136,7 +136,7 @@ def sim_craps():
 
     # elif the sum is 2, 3 or 12 return False immediately
 
-    # else, enter the third phase
+    # else, enter the second phase
     else:
         point = total  # the first sum becomes the point value
 
