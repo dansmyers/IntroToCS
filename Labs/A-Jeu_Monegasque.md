@@ -124,7 +124,6 @@ Tips:
 - Use a `simulate` method and a main loop, like in the previous problems. The simulate method should complete one round of craps and return `True` or `False` to indicate whether the pass bet won or lost on that round.
 
 - Within the `simulate` method, roll two dice and check their sum. If the result is 7, 11, 2, 3, or 12, you can return the result immediately. If the result is anything else, use a `while` loop to implement the second phase of the bet.
-- Within the `simulate` method, roll two dice and check their sum. If the result is 7, 11, 2, 3, or 12, you can return the result immediately. If the result is anything else, use a `while` loop to implement the second phase of the bet.
 ```
 def sim_craps():
     """
