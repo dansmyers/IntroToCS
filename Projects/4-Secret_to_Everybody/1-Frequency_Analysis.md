@@ -36,17 +36,20 @@ In this project, your mission is to use frequency analysis to decipher a message
 The enciphered message is in the file `cipher.txt`. It contains the opening text of a famous work of literature. The punctuation, spaces, and capitalization of the text have been left intact and both capital and lowercase letters have been encrypted using the same substitutions.
 
 
-## Tips
+## Programs
 
 Write two programs:
 
-- `frequency_analysis.py` to scan the ciphered text file and count the number of occurrences of each character. Use a dictionary to store the counts and our previous letter-counting example as a starting point. Print out the frequency of occurrence of each character.
+- `frequency_analysis.py` to scan the ciphered text file and count the number of occurrences of each character. Use a dictionary to store the counts and our previous letter-counting example as a starting point. Print out the frequency of occurrence of each character. **We already did this in class**.
 
 - `decode.py` to translate the ciphered text file and print the deciphered version. Use a dictionary to store the mapping for each ciphertext letter to its plaintext counterpart (you'll need to code the mappings in this dictionary **by hand** as part of the program).
 
-Note that the letter frequencies you obtain in step 1 may not perfectly map to the frequencies of letters in ideal English language text. You may need to do a little bit of experimentation to find the right mappings and perform the decryption; this is part of the process. **You do not need to (and probably can't) determine the correct mappings automatically**. This project is as much of a puzzle as it is a programming task.
+To implement `decode.py` you'll need to determine the mappings to reverse the substitution cipher. You don't need to (and probably can't) do this automatically. Instead, use the frequency information to start making some educated guesses and experiment to find the right mappings and perform the decryption. This project is as much of a puzzle as it is a programming task.
 
-**Uppercase and lowercase letters**. The ciphertext contains both uppercase and lowercase letters. I recommend converting each line of text to lowercase before you perform frequency analysis, so that you obtain complete counts for every letter. You can use the string's `.lower()` method to convert a line to all lowercase letters:
+## Tips
+
+### Uppercase and lowercase letters
+The ciphertext contains both uppercase and lowercase letters. I recommend converting each line of text to lowercase before you perform frequency analysis, so that you obtain complete counts for every letter. You can use the string's `.lower()` method to convert a line to all lowercase letters:
 
 ```
 # Example of converting text to lower case
@@ -58,7 +61,8 @@ print(str)  # prints 'hello, world.'
 
 Spaces and punctuation are not enciphered, so you don't need to analyze them.
 
-**Deciphering the code**. In your deciphering program, manually create a dictionary that stores the letter decryptions you derived from the first step.
+### Deciphering
+In your deciphering program, manually create a dictionary that stores the letter decryptions you derived from the first step.
 
 ```
 decodings = {}
@@ -70,3 +74,16 @@ decodings['A'] =      # Capital letters have the same mappings as lowercase
 ```
 
 Write a loop that reads each line of the cipher file, then loops through the letters on each line. As you read each letter, look it up in the `decodings` dictionary and output its corresponding unencrypted letter.
+```
+for line in f:
+    line = line.strip()
+    for ch in line:
+
+        # If the character is a letter with a decoding, print its decoded counterpart
+        if ch in decodings:
+            print(decodings[ch], end='')
+
+        # Other characters (spaces, puncutation, etc.) are printed as-is
+        else:
+            print(ch)
+```
