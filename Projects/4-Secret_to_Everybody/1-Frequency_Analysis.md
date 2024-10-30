@@ -1,6 +1,6 @@
 # Frequency Analysis
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Danc-01.jpg" width="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Danc-01.jpg" width="300px" />
 
 
 ## Description
