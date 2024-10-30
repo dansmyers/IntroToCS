@@ -7,6 +7,12 @@
 
 ## Setup
 
+Make a `Lab_10` directory and `cd` into it.
+```
+mkdir Lab_10
+cd Lab_10
+```
+
 
 ## Written lab
 
