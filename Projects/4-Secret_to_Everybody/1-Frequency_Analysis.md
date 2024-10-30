@@ -1,9 +1,9 @@
-# It's a Secret to Everybody
+# Frequency Analysis
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Danc-01.jpg" width="400px" />
 
 
 ## Description
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Danc-01.jpg" width="33%" />
 
 Sir Arthur Conan Doyle wrote "The Adventure of the Dancing Men" in 1905. In it, Sherlock Holmes receives a request for help from a man whose wife has been receiving strange messages. The notes appear to contain only drawings of dancing stick figures, but leave her inexplicably terrified.
 
@@ -37,8 +37,6 @@ The enciphered message is in the file `cipher.txt`. It contains the opening text
 
 
 ## Tips
-
-<img src="https://objects-us-east-1.dream.io/secrettoeverybody/images/secret.png" width="50%" />
 
 Write two programs:
 
