@@ -66,7 +66,7 @@ A **dictionary attack** starts with a list of candidate passwords, which might b
 
 An attacker can get more passwords for low cost by applying **mangling rules** to the passwords in the dictionary. For example, taking a short phrase and appending a number (e.g., `pumpkinspice1`) is a common heuristic, but it's easy to take each password in the dictionary and generate ten variations with a digit appended. Capitalizing the first letter of a password is an easy mangle (only one character needs to change), as are common substitutions, as shown in this famous xkcd:
 
-<img src="https://imgs.xkcd.com/comics/password_strength.png" width="300px" />
+<img src="https://imgs.xkcd.com/comics/password_strength.png" width="400px" />
 
 
 ## The Actual Project
