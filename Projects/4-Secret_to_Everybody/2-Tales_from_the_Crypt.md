@@ -27,9 +27,7 @@ The `passwd` file did have some protections: it was only readable by `root`, the
 
 Modern systems do not store users' cleartext passwords. Instead, the system stores a ***hash*** of the user's password in a special file named `/etc/shadow`, the *shadow password file*.
 
-Recall that a hash function is any operation that takes an input bit sequence (which may be of arbitrary length) and converts it to a fixed-size output. You can think of the hash function output as being a "summary" for its input data. Hashing is an important concept that occurs throughout computer science: in the implementation of hash table data structures, in verifying the integrity of file transfers, and in digital signatures, among other applications.
-
-There are many different hash functions that operate in different ways. Every Java class has a method called `hashCode` which can be used to compute a hash code from an object's data. The default `hashCode` is based on the object's memory address, but a class can also define its own `hashCode` that's appropriate for its own data ([see here](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#hashCode()) for the `String` class documentation).
+Recall that a hash function is any operation that takes an input bit sequence (which may be of arbitrary length) and converts it to a fixed-size output. You can think of the hash function output as being a "summary" for its input data. Hashing is an important concept that occurs throughout computer science: in the implementation of hash table data structures, in verifying the integrity of file transfers, and in digital signatures, among other applications. There are many different hash functions that operate in different ways. The most important class are the cryptographic hash functions, including the *Secure Hash Algorithm* (SHA) family.
 
 With a shadow file containing password hashes, the basic authentication flow works like this:
 
@@ -50,30 +48,27 @@ The simplest approach is to launch a **brute-force** attack by generating all po
 
 62<sup>10</sup> = 839299365868340224
 
-possible combinations. Therefore, long, truly random passwords are always strong.
+possible combinations. Long, truly random passwords are always strong.
 
 However, weak passwords are significantly easier to crack. For example, if we consider eight character passwords using lowercase letters, there are only
 
 26<sup>8</sup> = 208827064576
 
-That's still a lot, but it's possible to **precompute** every hash for those passwords and store them on a disk using a [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table), a special data structure used to efficiently store pre-computed password hashes.
+That's still a lot, but it's possible to **pre-compute** every hash for those passwords and store them on a disk using a [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table), a special data structure used to efficiently store password hashes. Given a large stolen list of password hashes, an attacker will likely be able to quickly find many weak passwords that are easy to decrypt.
 
 ### Dictionary attacks
 
-For the most part, though, attackers don't even need to resort to brute force attacks. Normal users rarely pick complex passwords and the same general passwords tend to show up repeatedly on different systems. The classic, of course, is simply setting your password to `password`, but smarter users still tend to choose passwords that are based on common words, short phrases, or cultural tropes.
+For the most part, though, attackers don't even need to resort to brute force attacks. Normal users rarely pick complex passwords and the same general passwords tend to show up repeatedly on different systems. The classic is simply setting your password to `password`, but smarter users still tend to choose passwords that are based on common words, short phrases, or cultural tropes.
 
-For example, you might think that a password like `2Timothy3:16` is strong, because it's relatively long with a mixture of characters, digits, and symbols, but it's actually incredibly weak. Passwords based on Bible verses, popular band names, characters, or movie quotes are easy to crack because users tend to pick from a relatively small number of choices in each category. Popular word combinations like `bluesky` or `pumpkinspice` are also likely to be chosen by many users, so they also make weak passwords.
+For example, you might think that the password `2Timothy3:16` is strong, because it's relatively long with a mixture of characters, digits, and symbols, but it's actually incredibly weak. Passwords based on Bible verses, band names, characters, or movie quotes are easy to crack because users tend to pick from a relatively small number of choices in each category. Popular word combinations like `bluesky` or `pumpkinspice` are also likely to be chosen by many users, so they also make weak passwords.
 
 A **dictionary attack** starts with a list of candidate passwords, which might be based on real passwords leaked from other systems, and then tests each one. In a large `shadow` file, it's likely that many users will have picked passwords that are already in the dictionary.
 
 An attacker can get more passwords for low cost by applying **mangling rules** to the passwords in the dictionary. For example, taking a short phrase and appending a number (e.g., `pumpkinspice1`) is a common heuristic, but it's easy to take each password in the dictionary and generate ten variations with a digit appended. Capitalizing the first letter of a password is an easy mangle (only one character needs to change), as are common substitutions, as shown in this famous xkcd:
 
-<img src="https://imgs.xkcd.com/comics/password_strength.png" width="40%" />
+<img src="https://imgs.xkcd.com/comics/password_strength.png" width="300px" />
 
 
 ## The Actual Project
 
-Write a program named `crack.c` that can perform dictionary-based password cracking. Your program will use the `words` file included in the project workspace as its dictionary and the built-in C `crypt` function to calculate hashes, which we'll discuss in more detail below. In addition, your program needs to support two mangling options:
-
-- Toggling the case of the first letter in a dictionary word
-- Appending each of the digits 0-9 to a word and testing each of the resulting passwords
+Write a program named `crack.py` that can perform dictionary-based password cracking. Use the `linuxwords.txt` file in this repository as your dictionary and crack the hashes given in the `shadow` file.
