@@ -1,4 +1,4 @@
-# Tales from the `crypt`
+# Tales from the Crypt
 
 <img src="https://www.budsartbooks.com/wp-content/uploads/2021/05/ectfc01-tales-from-the-crypt-book_2.jpg" width="400px" />
 
