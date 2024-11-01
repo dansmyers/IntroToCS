@@ -152,3 +152,11 @@ This project doesn't require that much code, but it's conceptually complex. Deve
 - **Every entry has a match**! If you can't find it, then your program is missing something.
 
 Happy cracking!
+
+## Research
+
+Once you've finished the program, do a little research to answer these questions.
+
+1. Even though SHA-256 is a popular and strong cryptographic hash function, it's actually a poor choice for real-world password hashing. Why is that? What makes a good hash function for real world password hashing?
+
+2. What is a **salt** in password hashing?
