@@ -125,17 +125,17 @@ SHA-256 is one of the most important cryptographic hash functions. It's widely u
 
 Here's an example (given to you `hash_example.py`) that loops through `linuxwords.txt` and prints every candidate password and its hash:
 ```
-with open('linuxwords.txt`, 'r') as f:
+with open('linuxwords.txt', 'r') as f:
     for line in f:
         line = line.strip()
 
-        hash = sha256(line.encode()).hexstring()
+        hash = sha256(line.encode()).hexdigest()
         print(line, hash)
 ```
 
 - The `sha256` function takes a chunk of binary data as input. `line.encode()` converts the current line to a binary format so `sha256` can operate on it.
 
-- The output of the SHA algorithm is a 256-bit hash value. The `hexstring` method converts this raw binary output into a human-readable form so you can interact with it as a string.
+- The output of the SHA algorithm is a 256-bit hash value. The `hexdigest` method converts this raw binary output into a human-readable form so you can interact with it as a string.
 
 ## Tips
 
