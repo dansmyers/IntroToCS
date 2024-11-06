@@ -38,7 +38,7 @@ Type `python3` in your terminal to run the interactive Python prompt. Then answe
 
 Put your answers in a text file named `chars.txt`.
 
-Press `CTRL + d` (or `COMMAND + d` on Mac) to leave the Python shell when you're done. 
+Press `CTRL + d` to leave the Python shell when you're done. 
 
 ## ROT13
 
