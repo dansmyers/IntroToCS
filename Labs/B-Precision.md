@@ -2,7 +2,13 @@
 
 ## Overview
 
+This lab will allow you to practice working with binary numbers. We'll also investigate the idea of *precision* in computer calculations.
+
+The second part will allow you work with character encodings and implement a variation on the Caesar cipher called **ROT13**.
+
 ## Setup
+
+Make `Lab_11` and `cd` into it.
 
 
 ## Written Lab
@@ -78,3 +84,45 @@ The statement checks if the program was run from the command line using `python3
 Why would you do this? Sometimes you want to load a script as a library rather than running it from the command line. If so, then you don't need to run the main part of the script. This setup allows you to verify that the script is actually being run as the main entry point of the program. If you `import` a script, then `__name__` will be the name of the script that did the `import` statement.
 
 One common setup is to put test code inside the main block. Then, running the script from the command line executes its internal test code; if the script is imported from somewhere else, then there's no need to run the tests.
+
+Modify your program to add an `if` block like the one above. Inside it, prompt the user to enter a string (in all caps, no spaces), call `rot13` on it, then print out the result.
+
+### Command-line arguments
+
+Let's add one more piece: reading arguments from the command line. We've already used this several times when working with the standard terminal commands. For example,
+```
+ls -l
+```
+prints the files in the directory using the "long" format that gives more information.
+
+Items typed on the command line after the program name are available through the `sys` module.
+```
+import sys
+```
+
+`sys` is initialized with a list called `argv` that contains the command line arguments. The program below uses a loop to print the arguments. Put in a file named `print_args.py`.
+```
+"""
+Print command line arguments using sys.argv
+"""
+import sys
+
+if __name__ == '__main__':
+    for arg in sys.argv:
+        print(arg)
+```
+
+If you run the program with the input
+```
+python3 print_args.py one two three
+```
+you'll see the following output:
+```
+print_args.py
+one
+two
+three
+```
+By convention, the program name is always the first item in the `argv` list.
+
+Modify `rot13.py` to take the input string from the command line as an argument, then print the rotated string.
