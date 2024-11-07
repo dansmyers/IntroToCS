@@ -1,5 +1,9 @@
 # Precision
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Morning_Mist_in_Taj_Mahal%2C_no._5%2C_Hiroshi_yoshida.jpg/1920px-Morning_Mist_in_Taj_Mahal%2C_no._5%2C_Hiroshi_yoshida.jpg" width="400px" />
+
+*Morning Mist in Taj Mahal*, Hiroyoshi Yoshida (1932)
+
 ## Overview
 
 This lab will allow you to practice working with binary numbers. We'll also investigate the idea of *precision* in computer calculations.
@@ -125,4 +129,10 @@ three
 ```
 By convention, the program name is always the first item in the `argv` list.
 
-Modify `rot13.py` to take the input string from the command line as an argument, then print the rotated string.
+Modify `rot13.py` to take the input string from the command line as an argument, then print the rotated string. For example, if you type
+```
+python3 rot13.py HELLO
+```
+Your program should print out the rotated version of `"HELLO"`.
+
+Tip: `sys.argv` is a list. The first element of the list is the program name. What is the index of the word after the program name?
