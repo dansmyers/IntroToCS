@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Morning_Mist_in_Taj_Mahal%2C_no._5%2C_Hiroshi_yoshida.jpg/1920px-Morning_Mist_in_Taj_Mahal%2C_no._5%2C_Hiroshi_yoshida.jpg" width="400px" />
 
-*Morning Mist in Taj Mahal*, Hiroyoshi Yoshida (1932)
+*Morning Mist in Taj Mahal, no. 5*, Hiroyoshi Yoshida (1932)
 
 ## Overview
 
