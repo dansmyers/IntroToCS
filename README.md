@@ -90,10 +90,10 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 11/4 | Hashing and passwords | Chapter 6 and 9 reading due |
 11/6 | Binary numbers | Lab 11: Precision  |
 11/8 | Character encodings | Project 4 due |
-11/11 | Intro to machine learning and analytics | |
-11/13 | Nearest neighbor classifier | Lab 12: Pandas and Benford's Law |
+11/11 |  | |
+11/13 |  | Lab 12: Pandas and Benford's Law |
 11/15 | Intro to Project 5 | Project 5 out | 
-11/18 | Classification II | Chapter 9 and 10 reading |
+11/18 | Machine learning and classification | Chapter 9 and 10 reading |
 11/20 | Language models  | Lab 13: My heart will go on |
 11/22 |  Language models II | |
 11/25 | Language models III | Project 5 due, Project 6 out |
@@ -101,7 +101,8 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 11/29 | THANKSGIVING BREAK | |
 12/2 | Dr. Myers' choice | |
 12/4 | Dr. Myers' choice | Chapter 9 and 10 reading due |
-12/6 | Last day of classes / Flex for hurricane | Project 6 due |
+12/6 | Dr. Myers' choice | Project 6 due |
+12/8| Hurricane make-up day | |
 
 ### Other Important Dates
 
