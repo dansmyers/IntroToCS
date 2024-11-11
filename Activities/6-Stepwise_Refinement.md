@@ -1,4 +1,4 @@
-# Tic-Tac-Toe feat. Stepwise Refinement
+# Stepwise Refinement feat. Tic-Tac-Toe
 
 ## Overview
 
