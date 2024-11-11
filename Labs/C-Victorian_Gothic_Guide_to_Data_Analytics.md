@@ -31,7 +31,7 @@ Create a `Lab_12` directory and `cd` into it. Create a new file for each of the 
 
 ## Get the Data
 
-The three CSV files are posted to Canvas. Download them all, then upload them to your workspace by dragging and dropping into the file browser or by using the "Upload" option.
+The three CSV files are posted to Canvas. Download them all, then upload them to your workspace by dragging and dropping into the file browser.
 
 
 ## The *Titanic* Dataset
