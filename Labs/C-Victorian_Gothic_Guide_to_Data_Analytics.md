@@ -23,9 +23,11 @@ At the end of this lab, you'll submit **three Python programs and four PDF plots
 The three labs we're going to complete were originally designed by my wife Chelsea for her book,
 [*Project-Based R Companion to Introductory Statistics*](https://www.taylorfrancis.com/books/mono/10.1201/9780429292002/project-based-companion-introductory-statistics-chelsea-myers?context=ubx&refId=262ee6fc-50b7-4b79-a116-d508a2270467). She has &ndash; let's call it &ndash; a *fascination* with weird and morbid 19th Century data sets, which is one of her many excellent qualities.
 
-## Create a new workspace
+## Setup
 
-From your repl.it homepage, create a new workspace. Choose the ``Python Data Science'' template (not regular Python). Name your new workspace `CMS120-Pandas`.
+Create a `Lab_12` directory and `cd` into it. Create a new file for each of the parts below.
+
+
 
 ## Get the Data
 
@@ -167,7 +169,6 @@ Run your script one more time and you'll see that `Survived_boolean` now appears
 
 ## Antibiotics
 
-<img src="https://www.listerine.com/sites/listerine_us_2/files/styles/jjbos_adaptive_images_generic-mobile/public/taco-images/listerine_moutwash_products_new_0.jpg?timestamp=1608240595" width="300px" />
 
 ### Does use of antiseptics during surgery reduce mortality?
 
@@ -320,10 +321,7 @@ Here are the details:
 ## The Civil War
 
 
-<img src="https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTU3ODc5MDgzNDc1NzQwMzgz/abraham-lincoln-at-antietam-during-civil-war.jpg" width="300px" />
-
 ### Determine the casualty rate for Union Army soldiers in companies from Ohio during the US Civil War.
-
 
 Approximately 618,000 Union and Confederate soldiers died in battle and from starvation and disease during the single bloodiest conflict in United States history: The Civil War. To put this in perspective, about 400,000 US soldiers perished during the second-most-deadly conflict, World War II. Despite the terrible conditions soldiers faced in the field, remarkably good records about these men, their backgrounds, and their fates have been preserved.  
 
@@ -348,11 +346,7 @@ df = pd.read_csv('Ohio.csv')
 print(df.head())
 ```
 
-This script will illustrate the use of **Seaborn**, a second plotting library that is also built on top of matplotlib. Seaborn includes built-in functions for creating common plots with intelligent default styles. Use the following **shell command** to install Seaborn:
-
-```
-pip install seaborn
-```
+This script will illustrate the use of **Seaborn**, a second plotting library that is also built on top of matplotlib. Seaborn includes built-in functions for creating common plots with intelligent default styles.
 
 Here is the output of `head()`:
 
