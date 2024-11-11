@@ -1,6 +1,6 @@
 # The Victorian Gothic Guide to Data Analytics and Pandas
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg/2560px-Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg" width="50%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg/2560px-Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg" width="400px" />
 
 >*The Abby in the Oakwood*, Caspar David Friedrich (1809-10)
 
@@ -34,7 +34,7 @@ The three CSV files are posted to Canvas. Download them all, then upload them to
 
 ## The *Titanic* Dataset
 
-<img src="http://4.bp.blogspot.com/-B_jEnnLjgI0/U-_r3-pZr6I/AAAAAAAA3lM/UzMzMqlDSsQ/s1600/1977114_10152475439781112_174145227163964287_n.jpg" width="50%" />
+<img src="http://4.bp.blogspot.com/-B_jEnnLjgI0/U-_r3-pZr6I/AAAAAAAA3lM/UzMzMqlDSsQ/s1600/1977114_10152475439781112_174145227163964287_n.jpg" width="300px" />
 
 In the early hours of April 15, 1912, the "unsinkable" ship *RMS Titanic* sank when it struck an iceberg, killing more than half of the passengers and crew aboard. The `Titanic.csv` dataset contains demographic information for 889 of those passengers as well as a record of whether or not each passenger survived. Our first goal is to explore the functionality of Pandas by opening and modifying the *Titanic* dataset.
 
@@ -167,7 +167,7 @@ Run your script one more time and you'll see that `Survived_boolean` now appears
 
 ## Antibiotics
 
-<img src="https://www.listerine.com/sites/listerine_us_2/files/styles/jjbos_adaptive_images_generic-mobile/public/taco-images/listerine_moutwash_products_new_0.jpg?timestamp=1608240595" width="50%" />
+<img src="https://www.listerine.com/sites/listerine_us_2/files/styles/jjbos_adaptive_images_generic-mobile/public/taco-images/listerine_moutwash_products_new_0.jpg?timestamp=1608240595" width="300px" />
 
 ### Does use of antiseptics during surgery reduce mortality?
 
@@ -320,7 +320,7 @@ Here are the details:
 ## The Civil War
 
 
-<img src="https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTU3ODc5MDgzNDc1NzQwMzgz/abraham-lincoln-at-antietam-during-civil-war.jpg" width="50%" />
+<img src="https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTU3ODc5MDgzNDc1NzQwMzgz/abraham-lincoln-at-antietam-during-civil-war.jpg" width="300px" />
 
 ### Determine the casualty rate for Union Army soldiers in companies from Ohio during the US Civil War.
 
