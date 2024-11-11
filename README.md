@@ -90,7 +90,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 11/4 | Hashing and passwords | Chapter 6 and 9 reading due |
 11/6 | Binary numbers | Lab 11: Precision  |
 11/8 | Character encodings | Project 4 due |
-11/11 |  | |
+11/11 | Stepwise refinement (feat. Tic-Tac-Toe) | |
 11/13 |  | Lab 12: Pandas and Benford's Law |
 11/15 | Intro to Project 5 | Project 5 out | 
 11/18 | Machine learning and classification | Chapter 9 and 10 reading |
