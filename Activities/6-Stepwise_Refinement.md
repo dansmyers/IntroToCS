@@ -81,7 +81,7 @@ The first step is to print the current player. Add a call to a function called `
 # 1. Print the current player
 print_player(player)
 ```
-The define the new function above `main`:
+Then define the new function ***above*** `main`. **Do not declare a function inside a function**!
 ```
 def print_player(player):
     print()  # Blank line
@@ -112,7 +112,8 @@ def print_board():
         if i % 3 == 0:
             print()
 
-            # Add code here to print horizontal lines between the rows
+            # After you finish the program, you can add code here to print horizontal lines
+            # after i == 3 and i == 6
         else:
             print(' | ', end='')
 
@@ -217,6 +218,8 @@ def check_first_row():
 The function returns `True` if the three positions in the first row have the same value and aren't `None`.
 
 **Finish the rest of the row-checking functions. Then implement `check_cols` and `check_diags` using the same strategy.** All of the functions will look similar, but you'll choose the correct positions for each test that you need.
+
+Tip: The `board[1] != None` statement is required to verify that the row is not empty. Make sure to change the index for each new function that you write!
 
 ## Play
 
