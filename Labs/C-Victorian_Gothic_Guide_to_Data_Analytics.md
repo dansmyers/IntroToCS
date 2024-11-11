@@ -442,3 +442,120 @@ plt.xlim([0, 1.0])
 plt.savefig('mortality.jpg', bbox_inches='tight')
 plt.close()
 ```
+
+## Benford's Law
+
+### Description
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rozklad_benforda.svg/1920px-Rozklad_benforda.svg.png" width="40%" />
+
+Benford's Law is one of the all-time great "I can't believe this is a thing" results. It states that, in many real-world quantitative data sets, **1 is by  far the most common leading digit**. Specifically, slightly more than 30% of the numbers in the data set should start with a leading 1.  About 17% of data values should start with 2, and about 13% start with 3. Leading 9's occur less than 5% of the time.
+
+This is surprising, because you might expect the distribution of leading digits to be uniform, with about 11% of entries starting with, another 11% with 2, and so forth.
+
+The law is named after physicist Frank Benford, who called it *The Law of Anomalous Numbers* in a 1938 paper. Benford's Law has applications to fraud detection and accounting, because it can be used to identify fake data that has an unnatural distribution.
+
+You're going to write a program to validate Benford's Law against a real-world data set: the county-level population estimates produced by the U.S. Census Bureau.
+
+### Get the data
+
+County-level population estimates are availble on the Census Bureau's web site:
+
+[https://www.census.gov/data/tables/time-series/demo/popest/2020s-counties-total.html]
+
+Scroll down to find the file `co-est2022-alldata.csv` near the bottom of the page and then upload it to your directory. If you open the file, you'll see a series of lines link the following:
+
+```
+SUMLEV,REGION,DIVISION,STATE,COUNTY,STNAME,CTYNAME,ESTIMATESBASE2020,POPESTIMATE2020,POPESTIMATE2021, POPESTIMATE2022
+040,3,6,01,000,Alabama,Alabama,5024356,5031362,5049846,5074296
+050,3,6,01,001,Alabama,Autauga County,58802,58902,59210,59759
+050,3,6,01,003,Alabama,Baldwin County,231761,233219,239361,246435
+050,3,6,01,005,Alabama,Barbour County,25224,24960,24539,24706
+050,3,6,01,007,Alabama,Bibb County,22300,22183,22370,22005
+```
+
+The first line lists the names of each field. The data is organized alphabetically by state, then by county within each state. The first line of data is the population for the entire state of Alabama, followed by the estimate for Autauga county, and so forth. The first entries on each line are some numerical encodings used by the census bureau to identify each county (notice that the entire state has a `COUNTY` code of `000`).
+
+Notice that individual fields are separated by commas with no spaces. If you've worked with Excel, you may have used this type of **comma-separated value** (CSV) file to encode spreadsheet data in text format: each line corresponds to one row in the spreadsheet and each comma-separated value to a column within the row.
+
+### Load the dataframe
+
+Create a file named `benford.py` and add some basic statements to read the CSV into a Pandas dataframe.
+```
+"""
+Benford's Law using census data
+"""
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Open
+df = pd.read_csv('co-est2023-alldata.csv')
+
+# Print the first few lines of the dataframe
+print(df.head())
+```
+Run the program. What happens?
+
+
+### Encoding
+
+You'll see an error like the following:
+```
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf1 in position 13791: invalid continuation byte
+```
+Huh?
+
+Take this error and paste into your favorite chat program and ask for an explanation.
+
+- What is UTF-8 and what is its relation to Unicode?
+- What is the likely cause of this error?
+
+### Solution
+
+It turns out that the data in the CSV file is encoded using a different standard called ISO-8859-1. Change the `read_csv` line to the following:
+```
+df = pd.read_csv('co-est2023-alldata.csv', encoding='iso-8859-1')
+```
+You should now be able to open the CSV and print its starting lines.
+
+### Get the first letter of each entry
+Take a look at the fields defined at the top of the CSV file. The one we want is `POPESTIMATE2023`. The lines below will extract the first digit from each entry in that column:
+```
+# Extract first digit from 2023 population counts
+pop2023 = df['POPESTIMATE2023'].astype(str).str[0].astype(int)
+
+# Print for checking
+print(pop2023[:10])
+```
+The command is a little wonky: it converts to a string, extracts the first digit, the converts it back to an int.
+
+The next set of lines calculate the counts of each digit
+```
+# Counts of each first digit
+digit_counts = pop2023.value_counts().sort_index()
+total_count = digit_counts.sum()
+digit_percentages = (digit_counts / total_count * 100).sort_index()
+print(digit_percentages)
+```
+Notice the use of the `value_counts` method to get the number of occurrences of each distinct digit. `sort_index` puts the digits in sorted order.
+
+### Plot
+Use `sns` to make a bar chart:
+```
+# Plot
+plt.figure()
+sns.barplot(x=digit_percentages.index, y=digit_percentages.values)
+
+# Customize the plot
+plt.title('Distribuion of First Digits in County Population Data (2023)')
+plt.xlabel('First Digit')
+plt.ylabel('Fraction of occurrence')
+plt.savefig('benford.jpg', bbox_inches='tight')
+```
+Remember: every figure should have:
+
+- A title
+- Labels for both axes, with units if appropriate
