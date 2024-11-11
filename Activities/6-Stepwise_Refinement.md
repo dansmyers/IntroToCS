@@ -49,9 +49,7 @@ if __name__ == '__main__':
 The top-level game-playing function is called `main`. It contains some lines to initialize the player symbol, which we'll use to keep track of whose turn it is, and then steps inside the main game loop. The following sections will write functions to implement each of the game steps.
 
 ## Declare the Board
-The top of the file has a place to declare the board data structure. Here's the strategy:
-
-- Let each board position be a number 1 to 9.
+The top of the file has a place to declare the board data structure. Let each board position be a number 1 to 9.
 ```
   1  |  2  |  3 
 -----------------
@@ -59,11 +57,10 @@ The top of the file has a place to declare the board data structure. Here's the 
 -----------------
   7  |  8  |  9
 ```
+We'll use a dictionary that maps each number 1 to 9 to the symbol at that position (`'X'` or `'O'`), or `None` if no symbol has been assigned yet.
 
-- `board` will be a dictionary that maps each number 1 to 9 to the symbol at that position, or `None` if no symbol has been assigned yet.
 
-
-Put the following code at the top of the file, in the place marked by the `TODO` comment.
+Put the following code at the top of the file, in the place marked by the `TODO` comment. It initializes the empty board, then sets every position to `None`.
 ```
 # Dictionary stores the symbol at each position
 #
@@ -73,6 +70,8 @@ board = {}
 for i in range(1, 10):
     board[i] = None
 ```
+
+Note: You may notice that we're using `board` as a global variable, which I kind of told you not to do earlier (I contain multitudes). In this case, it simplifies the program to avoid passing the board between functions, and the program is small enough to avoid unexpected state changes.
 
 ## Print the Player
 The stepwise refinement strategy says that we should break the top-level problem into substeps, then write functions to implement each substep. The main game loop in `main` contains comments specifiying the substeps.
