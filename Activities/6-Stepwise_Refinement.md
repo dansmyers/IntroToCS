@@ -222,5 +222,7 @@ The function returns `True` if the three positions in the first row have the sam
 
 Once you have the game finished, play and test it. Think about the cases you would need to check to verify that your program is working correctly.
 
+Here's a key takeaway: Notice how nothing in this program is that hard. It's just a combination of techniques that we've used multiple times. The challenge is in organizing those techniques to get the behavior that we want. The stepwise refinement approach is a good strategy for breaking down a program into progressively simpler steps, until they're so simple they can be easily implemented in a few lines of code.
+
 
 
