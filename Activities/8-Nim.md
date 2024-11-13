@@ -56,7 +56,7 @@ def play_nim():
         # 4. Update the number of stones in the chosen pile and the total_stones counter
 
 
-        # 5. Check for the winning condition, which is total_stones == 0
+        # 5. Check for the losing condition, which is total_stones == 0
 
 
         # 6. If the game did not end, switch to the other player
