@@ -1,6 +1,8 @@
-## Classic: Perfectly Rational Pirates
+# Classic: Perfectly Rational Pirates
 
 <img src="https://upload.wikimedia.org/wikipedia/en/0/09/Pirates_who_dont_do_anything_poster.jpg" width="200px" />
+
+## The Code
 
 A group of pirates has discovered a buried treasure of 100 gold
 pieces and they need to divide it. Such matters are, of course,
