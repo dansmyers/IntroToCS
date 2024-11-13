@@ -50,7 +50,7 @@ def play_nim():
         # 3. Prompt the player to select a number of stones to remove from the pile
         #
         # Again, the function should verify that the choice is valid
-        removed = get_removed_stones()
+        removed = get_removed_stones(pile)
 
 
         # 4. Update the number of stones in the chosen pile and the total_stones counter
