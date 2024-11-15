@@ -16,12 +16,19 @@ In this project, you will have the opportunity to conduct your own small scale r
 
 2. Find a publically available data set that you can analyze to answer your question.
 
-3. Use your data set to **make a graph** that addresses your research question.
+3. Use your data set to **make a graph in Python** that addresses your research question.
 
 4. Make a **short** PowerPoint presentation, providing your question, details on your data set, the graph, and your interpretation of the answer to your question.
 
-The goal of this project is to give you practice formulating a reearch question, conduct the research required to answer it, and then present your results in a technical write-up.
-This may serve as useful preparation if you are planning on doing a thesis project or taking other research-focused classes in the future.
+The goal of this project is to give you practice formulating a reearch question, conduct the research required to answer it, and then present your results in a technical write-up. This may serve as useful preparation if you are planning on doing a thesis project or taking other research-focused classes in the future.
+
+
+## AI Use
+
+**Use AI to help you**. Chat models are very good at working with Pandas and suggesting the appropriate functions to call to help you load your dataset and make the graph.
+
+As before, keep a log of your interactions.
+
 
 ## Details
 
@@ -84,16 +91,39 @@ Remember some key rules of good graphing:
 - Begin the vertical axis at zero unless you have a very good reason not to.
 - Use colors or line styles to distinguish between categories, if necessary.
 
-**Use AI to help you**. Chat models are very good at working with Pandas and suggesting the appropriate functions to call to get the results you want.
-
 
 ### Slides
 
 Once you have your graph, make a four-slide presentation, as follows.
 
-- Slide 1
+- Slide 1: Question
   - State the research question
   - Explain, in a few points, why it is interesting
  
-- Slide 2
-  - 
+- Slide 2: Data
+  - Summarize the data set you are using
+  - Where is it from? What does it contain?
+  - Give a citation for the source
+
+- Slide 3: **The Graph**
+  - Only the graph, nothing else
+  - The graph fills the entire slide
+  - It stands on its own and in a talk you would spend a good chunk of time explaining its structure and interpreting it
+  - Remember that the graph needs a title, labeled axes with units, and a legend if necessary
+ 
+- Slide 4: Summary
+  - State the answer to your question
+  - Explain, in a few points, how the graph allows you to make that conclusion
+ 
+Pro-tip: **Never** end on a slide that just says "Questions?" It's the end of your presentation! It's understood that there will be an opportunity to ask questions! Always end on a slide that restates the main points of your presentation, so the audience will see them and use them as the basis for any discussion.
+
+
+## Submission
+
+Submit the following:
+
+- The script that loads your dataset, analyzes it, and makes the graph
+- Your four-slide PowerPoint deck
+- Your AI log
+
+You don't need to submit the dataset itself.
