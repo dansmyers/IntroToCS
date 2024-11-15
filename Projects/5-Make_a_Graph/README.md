@@ -34,7 +34,7 @@ As before, keep a log of your interactions.
 
 ### Formulating Your Research Question
 
-<img src="https://www.edwardtufte.com/tufte/graphics/vdqi_bookcover.gif" width="25%" />
+<img src="https://www.edwardtufte.com/wp-content/uploads/2023/09/edward-tufte-visual-display-of-quantitative-information.jpg" width="200px" />
 
 There are lots of different approaches to research. Indeed, in some fields, you have to establish an entire **philosophy** of research before you can even begin to conduct a
 study. In this project, we're going to focus on formulating a research question that can be answered using the visual presentation of quantitative information. That means you
