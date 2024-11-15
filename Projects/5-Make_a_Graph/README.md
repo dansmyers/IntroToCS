@@ -34,7 +34,7 @@ As before, keep a log of your interactions.
 
 <img src="https://www.edwardtufte.com/wp-content/uploads/2023/09/edward-tufte-visual-display-of-quantitative-information.jpg" width="200px" />
 
-*Edward Tufte is a legend in the field of information visualization and design. He also hates PowerPoint.*
+*Edward Tufte is a legend in the field of information visualization and design. He also has a massive hate for PowerPoint.*
 
 </br>
 
