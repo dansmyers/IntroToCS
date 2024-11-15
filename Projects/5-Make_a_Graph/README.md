@@ -1,6 +1,6 @@
 # Make a Graph
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png" width="500px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png" width="100%" />
 
 *Charles Joseph Minard's famous map showing the advance of Napoleon's army during the 1812 invasion of Russia and the subsequent retreat following the Battle of Moscow. The thickness of the 
 line represents the size of the army*.
