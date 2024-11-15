@@ -125,7 +125,7 @@ Pro-tip: **Never** end on a slide that just says "Questions?" It's the end of yo
 
 ## Submission
 
-<img src="https://imgs.xkcd.com/comics/self_description.png" width="400px" />
+<img src="https://imgs.xkcd.com/comics/self_description.png" width="500px" />
 
 Submit the following:
 
