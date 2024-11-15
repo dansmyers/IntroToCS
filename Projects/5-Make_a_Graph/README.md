@@ -6,7 +6,7 @@
 
 *Napoleon entered Russia with an army of more than 650,000 men, the largest assembled in Europe up to that point. The survivors of the main invasion force numbered only 27,000*.
 
-## Due Friday, December 11 (one week before the end of classes)
+## Due Tuesday, 11/25 (right before Thanksgiving break)
 
 ## Overview
 
@@ -36,33 +36,29 @@ want to formulate a question that can be answered, in one way or another, by loo
 There is no specific area or topic that you're required to investigate, and your choice of question doesn't have to be related to any of your other classes or your major. In fact,
 it's usually more interesting if you're exploring your own personal interests.
 
-Let's talk about research questions. The most important rule of research questions is **to actually have one**. Many, **many** projects &ndash; particularly student thesis
-projects &ndash; suffer because they begin with a vague general sense of direction, but not a concrete question for investigation (**I have often been guilty of this in 
-my own work**). 
-Research is not a mechanical process and studies can't proceed in a straight line, but it's almost always best to spend time at the start of your project developing
-and refining a core question that will motivate your study: it makes every aspect of the research process easier.
+Let's talk about research questions. The most important rule of research questions is **to actually have one**. Many projects &ndash; particularly student thesis
+projects &ndash; suffer because they begin with a vague general sense of direction, but not a concrete question for investigation (I have often been guilty of this in 
+my own work). 
+
+Research is not a mechanical process and studies can't proceed in a straight line, but it's almost always best to spend time at the start of your project developing and refining a core question that will motivate your study: it makes every aspect of the research process easier.
 
 For this project, a good research question is **one that has a definite answer**.
 
 - A yes/no question.
 - A question about which of two things is larger or better by some measurement.
 
-There are certainly important research projects that focus on more open-ended investigations of systems, processes, or cultures, but they're beyond the scope of what
-we're trying to do here.
+There are important research projects that focus on more open-ended investigations of systems, processes, or cultures, but they're beyond the scope of what we're trying to do here.
 
 Think about formulating a question with the following qualities:
 
 - It's a question, not a statement.
 - It has a relatively small set of potential answers.
 - You don't know the answer in advance; any of the possible answers could be reasonable.
-- Questions that start with *Which*, *What*, *Who*, *How many*, or similar phrases are often good. Questions that start with *How*, or *Why* are more like process questions,
-and require different set of investigative techniques.
+- Questions that start with *Which*, *What*, *Who*, *How many*, or similar phrases are often good. Questions that start with *How*, or *Why* are more like process questions, and require different set of investigative techniques.
 
 ### Find the Data Set
 
-Once you have a research question, you need to find a publically available data set that will allow you to answer it.
-
-Here's the only guideline for this step:: **Your data set must be publically available on the Internet or in a publication**. **Don't collect your own data**.
+Once you have a research question, you need to find a publically available data set that will allow you to answer it. Here's the only guideline for this step:: **Your data set must be publically available on the Internet or in a publication**. **Don't collect your own data**.
 
 There are lots of potential sources:
 
@@ -74,6 +70,30 @@ There are lots of potential sources:
 - Many companies publish internal data in blog posts.
 - You could consult with a librarian to help you!
 
-**Your data set is not required to be from a peer-reviewed source**, so you are able to work with information from a wider range of domains without needing to conduct
-an extensive literature search. Please do consider whether your source is reasonable and likely to be reliable as part of the selection process. There's no minimum required
-size.
+**Your data set is not required to be from a peer-reviewed source**, so you are able to work with information from a wider range of domains without needing to conduct an extensive literature search. Please do consider whether your source is reasonable and likely to be reliable as part of the selection process. There's no minimum required size.
+
+
+### Make the Graph
+
+Once you have your data, you'll probably want to put it into a CSV file and load it into Pandas. From there, you can make whatever kind of graph is appropriate to help answer your question. **You have to use Python and Pandas for this project**.
+
+Remember some key rules of good graphing:
+
+- Choose the appropriate graph style. For example, don't use a line plot for discrete data: a bar chart or scatter plot usually makes more sense.
+- Label your axes and include units.
+- Begin the vertical axis at zero unless you have a very good reason not to.
+- Use colors or line styles to distinguish between categories, if necessary.
+
+**Use AI to help you**. Chat models are very good at working with Pandas and suggesting the appropriate functions to call to get the results you want.
+
+
+### Slides
+
+Once you have your graph, make a four-slide presentation, as follows.
+
+- Slide 1
+  - State the research question
+  - Explain, in a few points, why it is interesting
+ 
+- Slide 2
+  - 
