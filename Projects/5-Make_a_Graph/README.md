@@ -34,7 +34,7 @@ As before, keep a log of your interactions.
 
 <img src="https://www.edwardtufte.com/wp-content/uploads/2023/09/edward-tufte-visual-display-of-quantitative-information.jpg" width="200px" />
 
-*Edward Tufte is a legend in the field of information visualization and design. He also has a massive hate for PowerPoint.*
+*Edward Tufte is a legend in the field of information visualization and design. He's also famous for his overwhelming hatred of PowerPoint*.
 
 </br>
 
@@ -124,6 +124,8 @@ Pro-tip: **Never** end on a slide that just says "Questions?" It's the end of yo
 
 
 ## Submission
+
+<img src="https://imgs.xkcd.com/comics/self_description.png" width="300px" />
 
 Submit the following:
 
