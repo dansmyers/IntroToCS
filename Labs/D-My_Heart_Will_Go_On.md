@@ -275,20 +275,15 @@ really fives, but were misclassified as nines by the model.
 
 ## Random Forests
 
-Decision trees are a good model, but not every kind of model is appropriate for every problem. Let's try a different model and see if we can obtain better results. Change `DecisionTreeClassifer` to `RandomForestClassifier`. Change the import statement to
-
+Decision trees are a good model, but not every kind of model is appropriate for every problem. Let's try a different model and see if we can obtain better results. Find the line that defines the `DecisionTreeClassifier`:
+```
+clf = DecisionTreeClassifier()
+```
+Change the right-hand side to `RandomForestClassifier()`. Add an import to the top of the script:
 ```
 from sklearn.ensemble import RandomForestClassifier
 ```
 
-A random forest, as the name implies, is a classificaiton model bulit from a **collection** of decision trees (because a forest is a group of trees, get it?). The random forest algorithm builds a large number of small decision trees using a randomized process so that each tree is forced to use different features. Given an input, its classification is determined by the **overall consensus** of the set of decision trees. Usually, the classification is determined by simple majority vote, but more complex weighting schemes are possible. Combining multiple simpler classifers to build a more complex predictor is called an **ensemble model**.
+A random forest, as the name implies, is a classification model built from a **collection** of decision trees (because a forest is a group of trees). The random forest algorithm builds a large number of small decision trees using a randomized process so that each tree is forced to use different features. Given an input, its classification is determined by the **overall consensus** of the set of decision trees. Usually, the classification is determined by simple majority vote, but more complex weighting schemes are possible. Combining multiple simpler classifers to build a more complex predictor is called an **ensemble model**.
 
 **Question**: What is the impact of random forest classifier on prediction accuracy? Does it lead to any significant changes in the misclassified pairs in the confusion matrix?
-
-## Neural Networks
-
-For your last part, watch the first ~15 minutes of this video on the application of neural networks to the digit classification problem (you can stop watching when you get to the part with a lot of math):
-
-https://www.youtube.com/watch?v=aircAruvnKk&vl=en
-
-~**Question**: Summarize the author's argument for why a multi-layer neural network is well-suited to the digit classification problem? What is each layer in the model doing?~
