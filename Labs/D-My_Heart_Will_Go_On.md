@@ -17,7 +17,7 @@ Create new `Lab_13` directory and `cd` into it. You can then copy the `Titanic.c
 ```
 cp ../Lab_12/Titanic.csv .
 ```
-Recall that `..` in the shell refers to the parent directory and `.` refers to the current directory.
+Recall that `..` in the shell refers to the parent directory and `.` refers to the current directory, so this command is finding the `Titanic.csv` file in the sibling `Lab_12` directory and then copying it to the current `Lab_13` directory.
 
 Make a new file called `model.py` and put the following code inside it:
 ```
