@@ -93,14 +93,14 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 11/11 | Stepwise refinement (feat. Tic-Tac-Toe) | |
 11/13 | More refinement (feat. Nim) | Lab 12: Pandas and Benford's Law |
 11/15 | Tuples, anagrams, Intro to Project 5 | Project 5 out | 
-11/18 | Machine learning and classification | Chapter 9 and 10 reading |
+11/18 | Machine learning and classification |  |
 11/20 | Language models  | Lab 13: My heart will go on |
 11/22 |  Language models II | |
 11/25 | Language models III | Project 5 due, Project 6 out |
 11/27 | THANKSGIVING BREAK | |
 11/29 | THANKSGIVING BREAK | |
 12/2 | Dr. Myers' choice | |
-12/4 | Dr. Myers' choice | Chapter 9 and 10 reading due |
+12/4 | Dr. Myers' choice | |
 12/6 | Dr. Myers' choice | Project 6 due |
 12/8| Hurricane make-up day | |
 
