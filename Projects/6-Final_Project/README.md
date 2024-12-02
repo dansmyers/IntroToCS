@@ -8,12 +8,13 @@ This is it, the final project.
 
 **Make anything you want**, as long as it's awesome and uses the Python features that we've learned over the course of the semester. Most of you will probably want to make some sort of game, but note that isn't required. I have some ideas for you at the end of the document.
 
-## Groups
+## Pairs
 
-**If you choose**, you may work in a group of up to three people to complete your project. If you do choose to work with others,
+**If you choose**, you may work with one other person to complete this project.
 
-- You may write code collaboratively with other members of your group, but remember to pay attention to the guidelines below on acceptable use of resources.
-- It's not required, but if you work in a group it would be cool to undertake a more ambitious project worthy of your combined efforts.
+- You may write code collaboratively with other members of your partner, but remember to pay attention to the guidelines below on acceptable use of resources.
+
+- If you work with someone it would be cool to undertake a more ambitious project worthy of your combined efforts.
 
 ## Requirements
 
@@ -25,18 +26,17 @@ This is it, the final project.
    
 4. Demonstrates good programming style (indentation, variable names) and includes descriptive comments explaining what's happening in the program.
 
-5. You may also create a project that uses front-end web development techniques instead of Python. If you do this, you have to include a combination of HTML, CSS, and JavaScript features, with some non-trivial interactive behavior. It's not enough to build a mostly static website.
+5. You may use AI as much as you want. As in the previous projects, keep a log of your interactions. What I want to see, more than anything, is **iteration** and evidence that you're using AI as a tool to execute your own vision.
    
 ## Grading
 
-Complete your project in the workspace on repl.it. I'll run your program and look at the source code. I'll be checking:
+I'll run your program and look at the source code. I'll be checking:
 
 1. Does it work? I want to see something that could be considered a complete working program, not an incomplete fragment. It's better to turn in a complete, working program that you know could be improved than an ambitious but unfinished one.
 
 2. Does it use the features of Python that we've discussed? Follow the guidelines given above.
 
-3. Does it follow good coding style, as we've used in class and in
-  labs?
+3. Does it follow good coding style, as we've used in class and in labs?
 
 ## Acceptable Use of Resources
 
@@ -44,17 +44,15 @@ It is acceptable to use the Internet to get ideas and figure out how to implemen
 
 **It is acceptable** to research solutions to programming problems and incorporate them into your code. For example, if you need to convert a string to a list, you could look up how to to do that and then use the solution you find. That's an acceptable use of documentation. You **don't** need to provide citations for basic language features or solutions like these.
 
-**You may use ChatGPT or another AI model as a resource**. However, you must use it as a **source** that aids your own development, not as a substitute for your own design and thinking. It is not acceptable to prompt ChatGPT to create an entire program, then copy that and present it as your own submission. If you're working on a project that can be trivially solved with ChatGPT, then your project is too easy and you should pick something more ambitious.
-
-If you use an AI model, **you must upload an additional AI statement** explaining how you used the model, what prompts you ran, and how the output was incorporated into your final program.
+**You may use ChatGPT or another AI model as a resource**. However, you must use it as a **source** that aids your own development, not as a substitute for your own design and thinking. For this project, it's not acceptable to prompt AI to create an entire program, then copy that and present it as your complete submission. If you're working on a project that can be trivially solved with AI, then your project is too easy. Be ambitious and challenge yourself!
 
 ## Invalid Projects
 
 Please don't choose any of the following ideas. They're either too easy, too generic, or trivial to implement with AI tools.
 
 - Hangman, or any similar word guessing game. Wordle, however, is more interesting and acceptable.
-- Other simple pen and paper games are acceptable a long as they're worthy of effort. If ChatGPT can do it automatically, I don't want to grade it.
-- Text-based quizzes in Python like Challenge Project 1. If you want to do a quiz, make it a web project.
+- Other simple pen and paper games are acceptable a long as they require some real effort and thinking on your part. Rule of thumb: If an AI can one-shot it, I don't want to grade it.
+- Text-based quizzes in Python like Challenge Project 1.
 
 ## Tips
 
@@ -69,15 +67,27 @@ what it's supposed to do than an ambitious but incomplete idea. Develop incremen
 
 A good project is one that lets you combine the techniques you've already learned with something new that you need to research.
 
-### Web-Based Quiz
+### Getting suggestions
 
-Prompt the user to answer a few question (look up examples for using radio buttons), then trigger some JS code that gets the answers and produces an output message.
+Remember that AI is great at coming up with ideas. You could try a prompt like the following:
 
-This requires a little bit of front-end work to put the page together, but it can all be done by copying and modifying our earlier examples.
+> Suggest ideas for the final project in my Python programming class. I need to use all the basic features of Python (variables, loops, functions, etc.) and at least one advanced features (list, dictionary, or class). The project should not be a basic word game or anything else that can be generated by an AI with minimal effort on my part.
+
+Pick ideas that seem interesting and drill down into something specific. If you don't like any of the suggestions, just ask for more.
+
+### GPT or other APIs
+
+You could create another project that uses the GPT API, like we did in Project 3. There are other web-based services that you can call to get access to data or useful tools. Any project built around using a third-party tool would be excellent.
+
+If you choose to go this route, make sure that you're not just producing another implementation of Project 3.
+
+### Images
+
+You could return to the image-processing library from Project 1. What could you do with that now that you know significantly more programming?
 
 ### Cryptography
 
-Do some research on classical cryptoraphic techniques. Pick two or three and implement them. Examples include the Polybius square, the Russian Nihilist cipher, and the double transposition cipher.
+Do some research on classical cryptoraphic techniques. Pick two or three and implement them. Examples include the Polybius square, the Russian Nihilist cipher, and the double transposition cipher. Make sure that AI doesn't make this too easy.
 
 ### Digits of π
 
@@ -89,8 +99,8 @@ Look up some ancient techniques for things like multiplication, division, square
 
 ### Data Projects
 
-If you would prefer to answer a data question, you can find a data set, load it into Pandas, and produce a graph answering your question. Take a look at [this challenge project from the DTA class](https://github.com/dansmyers/DataScienceAndAnalytics/blob/master/Challenge-Projects/1-Make_a_Graph.md) for some tips. If you take this approach, you don't have to write a "report," but do provide a summary of the question, your data source, and an interpretation of the plot that answers the question.
+If you would prefer to answer a data question, you can find a data set, load it into Pandas, and produce a graph answering your question. If you take this approach, you don't have to write a "report," but do provide a summary of the question, your data source, and an interpretation of the plot that answers the question, similar to what we did in Project 5.
 
 ### Once More with Feeling
 
-Pick some problems from the earlier homeworks and rewrite them in JavaScript. You'll have to look up the relevant syntax for things like functions and loops. Note that user input in JS is much harder than in Python, since it's meant to run in the browser, so don't attempt any programs that require user interaction unless you want a real challenge.
+Pick some problems from the earlier homeworks (like Project 2) and rewrite them in a different language, like JavaScript. You'll have to look up the relevant syntax for things like functions and loops. Note that user input in JS is much harder than in Python, since it's meant to run in the browser, so don't attempt any programs that require user interaction unless you want a real challenge.
