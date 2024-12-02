@@ -85,6 +85,12 @@ If you choose to go this route, make sure that you're not just producing another
 
 You could return to the image-processing library from Project 1. What could you do with that now that you know significantly more programming?
 
+### Adventure game
+
+You could make a text-based adventure game, where the player is exploring a map of locations, finding items, solving puzzles, and so forth. This is similar to Project 3, but more structured and conventionally game-like.
+
+AI likes to suggest this as project concept and it's a good use of classes to manage information in the game. Note that you *could* combine this with the GPT API to generate some descriptions, but you don't have to and may want little or no AI randomness.
+
 ### Cryptography
 
 Do some research on classical cryptoraphic techniques. Pick two or three and implement them. Examples include the Polybius square, the Russian Nihilist cipher, and the double transposition cipher. Make sure that AI doesn't make this too easy.
