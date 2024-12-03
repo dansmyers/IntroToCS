@@ -4,7 +4,7 @@
 
 *Early Morning River Scene*, Harold Newton (ca. 1978)
 
-Newton was one of the "Florida Highwaymen", a group of mostly self-taught African-American artists active in the area around Fort Pierce in the mid-20th Century. Most of the Highwaymen paintings were made quickly on non-standard materials and sold by the side of the road. They primarily painted Florida landscapes, often with unrealistically vibrant colors.
+Newton was one of the "Florida Highwaymen", a group of mostly self-taught African-American artists active in the area around Fort Pierce in the mid-20th Century. The Highwaymen primarily painted Florida landscapes, often with unrealistically vibrant colors. Their paintings were made quickly with non-standard materials and sold by the side of the road.
 
 ## Due Saturday, 12/14 (last day of finals)
 
