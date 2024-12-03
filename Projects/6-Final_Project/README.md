@@ -1,11 +1,10 @@
 # Final Project
 
-<img src="https://ids.si.edu/ids/deliveryService?id=NMAAHC-2014_185_9_006&max_w=700" width="400px" />
+<img src="https://ids.si.edu/ids/deliveryService?id=NMAAHC-2014_185_10_005&max_w=700" width="400px" />
 
-*Orange Sky, Breaking Surf, 3 Birds*, Alfred Hair (ca. 1965).
+*Early Morning River Scene*, Harold Newton (ca. 1978)
 
-Hair was one of the "Florida Highwaymen", a group of mostly self-taught African-American artists active in the area around Fort Pierce in the mid-20th Century. Most of the Highwaymen paintings were made quickly on non-standard materials and sold by the side of the road.
-
+Newton was one of the "Florida Highwaymen", a group of mostly self-taught African-American artists active in the area around Fort Pierce in the mid-20th Century. Most of the Highwaymen paintings were made quickly on non-standard materials and sold by the side of the road. They primarily painted Florida landscapes, often with unrealistically vibrant colors.
 
 ## Due Saturday, 12/14 (last day of finals)
 
