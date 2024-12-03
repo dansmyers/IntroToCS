@@ -1,6 +1,6 @@
 # Final Project
 
-## Due
+## Due Saturday, 12/14 (last day of finals)
 
 ## Description
 
@@ -90,14 +90,6 @@ You could return to the image-processing library from Project 1. What could you 
 You could make a text-based adventure game, where the player is exploring a map of locations, finding items, solving puzzles, and so forth. This is similar to Project 3, but more structured and conventionally game-like.
 
 AI likes to suggest this as project concept and it's a good use of classes to manage information in the game. Note that you *could* combine this with the GPT API to generate some descriptions, but you don't have to and may want little or no AI randomness.
-
-### Cryptography
-
-Do some research on classical cryptoraphic techniques. Pick two or three and implement them. Examples include the Polybius square, the Russian Nihilist cipher, and the double transposition cipher. Make sure that AI doesn't make this too easy.
-
-### Digits of π
-
-Do some research to learn how to write a program that can calculate the digits of π. Write your own Python implementation.
 
 ### Ancient Algorithms
 
