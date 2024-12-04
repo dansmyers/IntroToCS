@@ -112,7 +112,7 @@ Add another method called `__lt__` that implements the less-than comparison. You
 - If the suits are different, return `True` if `self.suit.value < other.suit.value`
 - If the suits are equal, return `True` if `self.rank.value < other.rank.value`
 
-# Deck
+## Deck
 
 Make a new file called `deck.py`. This file will have a class representing a deck of 52 playing cards.
 ```
