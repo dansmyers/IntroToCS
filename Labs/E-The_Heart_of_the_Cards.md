@@ -2,7 +2,15 @@
 
 ## Overview
 
+For this final lab, let's return to one of our previous examples and implement a deck of cards using object-oriented programming.
+
+This is a classic demonstration, and it's one that makes sense for the object-based approach: a single card has suit and rank attributes, and a deck can be modeled as a collection of individual card objects. Along the way, we'll practice writing constructors and to-string methods, as well as implementing more class methods to provide useful behaviors.
+
+We'll also introduce **enumerated types** to represent the suit and rank values.
+
 ## Setup
+
+Create a `Lab_14` directory and `cd` into it.
 
 
 ## Enumerated Types
@@ -203,9 +211,91 @@ print(d)  # Prints deck with first two cards removed
 Use a chat tool to help you write the `deal` method.
 
 
-## Game
+## Games
+
+### Hi-Lo
+
+Let's return to one of our previous problems: the Hi-Lo card game. The player draws one card, then bets if the second card will be higher than or lower than the first. Here's the outline:
+```
+"""
+Hi-Lo card game
+"""
+
+# Import the Deck class from deck.py
+# Note that this brings Card, Suit, and Rank along with it
+from deck import Deck
+
+def game():
+    # Create and shuffle the new deck
+
+    # Deal and print the first card
+    
+    # Print the menu of choices for the user
+    # 1. Higher
+    # 2. Lower
+    
+    # Read the user's input
+    
+    # Deal and print the second card
+    
+    # Print a winning or losing message based on the user's choice and result    
+
+if __name__ == '__main__':
+    game()
+```
+Complete the program using the features of the `Deck` and `Card` classes.
 
 
+### More Blackjack
+
+Now implement the single-turn Blackjack game. You can review the rules and example output in [the earlier lab](https://github.com/dansmyers/IntroToCS/blob/main/Labs/6-The_Compleat_Gamester.md).
+
+```
+"""
+BLACKJACK
+"""
+
+from deck import Deck
+
+### Main
+
+# Print the welcome message
+
+# Deal the player's first card and print its name
+
+# Deal one card to the dealer and print its name
+
+# If the first card is an Ace, the player wins immediately
+
+# Print the choices to hit or stand
+print('1. Hit')
+print('2. Stand')
+
+# Read the player's choice
+choice = int(input('Do you want to hit or stand? '))
+
+# If the player chose to hit, deal and print one more card
+
+# Calculate and print the total of the player's hand
+#
+# Think about how to do this. Maybe you could use the value property of the Card's rank?
+
+# If the total is greater than 11, the player busts and loses immediately
+
+# If the value of the dealer's card is less than 7, give the dealer a second card
+# Else, the dealer's second card is 0
+
+# Calculate and print the dealer's total
+
+# If they dealer's total is greater than 11, it busts and loses immediately
+
+# Neither player has busted, compare their scores and announce the winner
+
+```
+
+### Aside
+
+I think implementing a card game could be a great final project, but expanding this version of the game to full Blackjack is too easy. Take a look at the [Wizard of Odds](https://wizardofodds.com/games/) for a comprehensive overview of games of chance that might make a good project.
 
 
 
