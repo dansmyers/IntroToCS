@@ -250,6 +250,14 @@ Complete the program using the features of the `Deck` and `Card` classes.
 
 Now implement the single-turn Blackjack game. You can review the rules and example output in [the earlier lab](https://github.com/dansmyers/IntroToCS/blob/main/Labs/6-The_Compleat_Gamester.md).
 
+Tips:
+
+- You'll need to calculate the value of a card. Remember that all face cards count for 10 in Blackjack. Maybe you could write a `card_value` method that takes a `Card` as input and returns its Blackjack value.
+
+- You could make a `hand_value` function that takes a list of `Card` objects and calculates the total Blackjack score of all the cards. You can construct this list from the player's cards after the player chooses to hit or stand.
+
+- Develop incrementally and test as you go. You can make sure that each section works before implementing the next part.
+
 ```
 """
 BLACKJACK
@@ -278,7 +286,10 @@ choice = int(input('Do you want to hit or stand? '))
 
 # Calculate and print the total of the player's hand
 #
-# Think about how to do this. Maybe you could use the value property of the Card's rank?
+# You can make a list to hold the player's cards: if the player chose to hit, that list has
+# both cards; if stand, it has only the first card
+#
+# Think about how to do this. Maybe you could write a method that takes the hand as input?
 
 # If the total is greater than 11, the player busts and loses immediately
 
