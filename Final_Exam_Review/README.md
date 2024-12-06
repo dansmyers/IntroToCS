@@ -50,7 +50,28 @@ if x % 3 > 1:
 print(x) 
 ```
 
-4. 
+4. What is the output of the following program?
+```
+a = 5
+b = 3
+c = 2
+
+z = (a + b + c) / 2 // 2
+print(z)
+```
+
+5. What is the output of the following program?
+```
+a = True
+b = False
+c = True
+
+x = a and b
+y = a and not c
+z = a and not b
+
+print(x or y or not z)
+```
 
 ### Functions
 
@@ -122,6 +143,61 @@ print(x)
 ```
 
 ### Loops
+
+
+
+1. What is the output of the following loop?
+```
+for i in range(20, 40):
+    if i % 4 == 0:
+        print(i)
+```
+
+2. What is the fifth number printed by the following pair of loops?
+```
+for a in [10, 20, 30]:
+    for b in range(2, 5):
+        print(a // b)
+```
+
+3. What will be printed by this loop that uses string multiplication?
+```
+for count in range(1, 5):
+    print("*" * count)
+```
+
+4. What is the final output of this code fragment?
+```
+total = 0
+for i in range(5):
+    if i > 0:
+        total += i * 2
+    else:
+        total += 1
+print(total)
+```
+
+5. Give the numbers printed by this loop.
+```
+for num in range(15, 30, 3):
+    if num % 2 == 0:
+        print(num)
+    else:
+        print(num - 1)
+```
+
+6. Give the sequence of values printed by this loop.
+```
+x = 3
+while x > 1:
+    print(x)
+    if x % 2 == 0:
+        x = x / 2
+    else:
+        x = 3 * x + 1
+```
+
+<img src="https://imgs.xkcd.com/comics/collatz_conjecture.png" width="400px" />
 
 
 ### Lists and dictionaries
