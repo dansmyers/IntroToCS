@@ -271,4 +271,20 @@ def has_no_a(word):
             return True
 ```
 
+7. What is printed by the following access?
+```
+student = {
+    'name': 'Alice',
+    'grades': {'math': 90, 'science': 85}
+}
+print(student['grades']['science'])
+```
+
+8. What is the output of the following loop?
+```
+scores = {'math': 95, 'english': 88, 'history': 92}
+for subject in sorted(scores.keys()):
+    print(scores[subject])
+```
+
 ### Classes and objects
