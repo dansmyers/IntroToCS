@@ -25,6 +25,72 @@ I will grade the exam by assessing the fraction of questions you answered correc
 
 ### Functions
 
+1. What is the output of the following program?
+```
+def area_of_circle(radius):
+    return radius ** 2 * 3  # Use 3 for pi for calculation (lol)
+
+print(area_of_circle(10))
+```
+
+
+2. The following function is supposed to return the minimum of the three inputs, but it's wrong. What is the output of the following program, *as written*?
+```
+def triple_min(a, b, c):
+    """
+    Return the maximum of the three inputs
+    """
+    if a < b:
+        if a < c:
+            return c
+        else:
+            return a
+    else:
+        if b < c:
+            return c
+        else:
+            return b
+
+print(triple_min(7, 3, 5))
+```
+
+
+3. What is the result produced by calling `weird(weird(11))`?
+```
+def weird(x):
+    if x % 7 <= 3:
+        return 2 * x + 1
+    else:
+        return x - 2
+```
+
+4. The following program will cause an error on the last line if you try to execute it. What is the problem?
+```
+def calculate_area(length, width):
+    area = length * width
+    return area
+
+a = calculate_area(3, 4)
+print(area)
+```
+
+5. What is printed by the following program?
+```
+def baz(x):
+    x = x * 2
+    return x    
+
+
+def foo(value):
+    x = baz(value + 1)
+    return x
+
+
+### Main
+x = 1
+x = foo(x)
+print(x)
+```
 
 ### Loops
 
