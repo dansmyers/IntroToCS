@@ -202,5 +202,73 @@ while x > 1:
 
 ### Lists and dictionaries
 
+1. What is the output of the following fragment?
+```
+a = [i for i in range(1, 12, 3)]
+print(a[-2])
+```
+
+2. What is the final list at the end of the following code fragment?
+```
+# Create an empty list
+dinosaurs = []
+
+# Add some dinos
+dinosaurs.append("T-Rex")
+dinosaurs.append("Triceratops")
+dinosaurs.append("Stegosaurus")
+dinosaurs.append("Plesiosaurus")
+dinosaurs.append("Deinonychus")
+
+# Oops! Plesiosaurus is a marine reptile, not a dinosaur!
+dinosaurs.pop(3)
+
+# Remove T-Rex from index 0 and store it
+trex = dinosaurs.pop(0)
+
+# Insert T-Rex back at index 3
+dinosaurs.insert(3, trex)
+
+# Insert Brachiosaurus at the start (index 0)
+dinosaurs.insert(0, "Brachiosaurus")
+
+# Insert Pachycephalosaurus at index 2
+dinosaurs.insert(2, "Pachycephalosaurus")
+```
+
+3. What is printed by this nested list operation?
+```
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(matrix[1][2])
+```
+
+4. What is the output of this list slicing operation?
+```
+numbers = [10, 20, 30, 40, 50, 60]
+print(numbers[1:4])
+```
+
+
+5. What is the output of the following program? Explain your answer.
+```
+a = [2, 10, 3, 9, 5, 8, 7, 7, 11]
+
+for i in range(2, len(a), 2):
+    if a[i] < a[i - 2]:
+        print('False')
+        quit()
+
+print('True')
+```
+
+6. What is the output of the following function when the input is `"elastic"`. Explain your answer.
+```
+def has_no_a(word):
+    for letter in word:
+        if letter == 'a':
+            return False
+        else:
+            return True
+```
 
 ### Classes and objects
