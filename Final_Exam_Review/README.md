@@ -17,6 +17,17 @@ I will grade the exam by assessing the fraction of questions you answered correc
 - If you score at least 60% but less than 80%, you'll receive half credit
 
 
+## Tips
+
+- Work through the questions below to practice most of the key concepts from the class. Claude is great for coming up with additional practice questions.
+
+- Remember that you can always write a short program and run it to see what it does if you're unsure.
+
+- Make notes to yourself. Trace the execution of the program step-by-step and keep track of the values of each variable.
+
+- The examples below are not 100% exhaustive of every type of question that might be on the exam.
+  
+
 ## Practice Questions
 
 ### Variables and conditionals
@@ -286,5 +297,3 @@ scores = {'math': 95, 'english': 88, 'history': 92}
 for subject in sorted(scores.keys()):
     print(scores[subject])
 ```
-
-### Classes and objects
