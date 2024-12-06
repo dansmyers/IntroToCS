@@ -197,7 +197,7 @@ while x > 1:
         x = 3 * x + 1
 ```
 
-<img src="https://imgs.xkcd.com/comics/collatz_conjecture.png" width="400px" />
+<img src="https://imgs.xkcd.com/comics/collatz_conjecture.png" width="300px" />
 
 
 ### Lists and dictionaries
