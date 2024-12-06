@@ -21,7 +21,36 @@ I will grade the exam by assessing the fraction of questions you answered correc
 
 ### Variables and conditionals
 
+1.  What is the output of the following code fragment?
+```
+x = 1.1111
+y = x * 10
+print(f'{y: .1f}')
+```
 
+2. What is the output of the following code fragment? Explain your answer.
+```
+if .1 + .2 == .3:
+    print('Equal')
+else:
+    print('Not equal!?')
+```
+
+3. What is printed by the following program when the user inputs `5`?
+```
+user_input = input('Enter a positive integer: ')
+x = int(user_input)
+
+if x % 3 > 1:
+    if (2 * x + 1) % 5 < 3:
+        x = -x
+    else:
+        x = x ** 2
+
+print(x) 
+```
+
+4. 
 
 ### Functions
 
