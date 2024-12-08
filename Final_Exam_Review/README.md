@@ -2,7 +2,7 @@
 
 <img src="https://images.squarespace-cdn.com/content/v1/5f4a21f48109a775b6cc05e2/d4735fcd-608f-45b8-b976-e585e8f62864/ADXY4868.JPEG?format=2500w" width="400px" />
 
-*Japanese Americana artist Hiroshi Nagai. His paintings were popular for album covers in the 1980s Japanese "city pop" genre (sort of Japanese soft pop/yacht rock). Via [tokyo cowboy](https://www.tokyocowboy.co/articles/uy1r8j003qdvb4ozr4qgplhd3yujyn).*
+*Japanese Americana artist Hiroshi Nagai. His paintings were popular for album covers in the 1980s Japanese "city pop" genre, which was all about relaxed jazz-influenced soft pop vibes. Via [tokyo cowboy](https://www.tokyocowboy.co/articles/uy1r8j003qdvb4ozr4qgplhd3yujyn).*
 
 ## Exam Details
 
