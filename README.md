@@ -94,15 +94,15 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 11/13 | More refinement (feat. Nim) | Lab 12: Pandas and Benford's Law |
 11/15 | Tuples, anagrams, Intro to Project 5 | Project 5 out | 
 11/18 | Machine learning and classification |  |
-11/20 | Language models  | Lab 13: My heart will go on |
-11/22 |  Language models II | |
-11/25 | Language models III | Project 5 due, Project 6 out |
+11/20 |  Decision trees | Lab 13: My heart will go on |
+11/22 |  Neural networks | |
+11/25 | No class | Project 5 due, Project 6 out |
 11/27 | THANKSGIVING BREAK | |
 11/29 | THANKSGIVING BREAK | |
-12/2 | Dr. Myers' choice | |
-12/4 | Dr. Myers' choice | |
-12/6 | Dr. Myers' choice | Project 6 due |
-12/8| Hurricane make-up day | |
+12/2 | Objects and classes | |
+12/4 | `__init__` and `__str__` | |
+12/6 | "Private" data |  |
+12/9| Last class and wrap-up| |
 
 ### Other Important Dates
 
