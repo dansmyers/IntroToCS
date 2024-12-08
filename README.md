@@ -100,7 +100,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 11/27 | THANKSGIVING BREAK | |
 11/29 | THANKSGIVING BREAK | |
 12/2 | Objects and classes | |
-12/4 | `__init__` and `__str__` | |
+12/4 | `__init__` and `__str__` | Lab 14: The Heart of the Cards |
 12/6 | "Private" data |  |
 12/9| Last class and wrap-up| |
 
