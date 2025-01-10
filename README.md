@@ -1,6 +1,6 @@
 # CMS 120 Introduction to Computer Science
 
-## Fall 2024 Syllabus
+## Spring 2025 Syllabus
 
 ## Who? Where?
 
