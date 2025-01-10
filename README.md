@@ -55,12 +55,57 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 
 ### Planned Schedule of Topics
 
-| Day | Topic  |  Notes |
-|------|---------|-------------|
-8/26  | Hello, World! |
-8/28  | Printing and arithmetic | Lab 1: Writing and running programs |
-8/30  | Intro to variables | Chapter 1 reading  |
-9/2 | LABOR DAY |
+| Day | Topic  |  Lab | Assignment |
+|------|---------|-------------|----------------------|
+1/15  | Hello, World! | No lab | |
+1/17  | Printing and arithmetic |  | Chapter 1 reading out |
+1/20 | MLK Day | | |
+1/22 | Variables | Lab 1: Writing and running programs | |
+1/24 | Basic data types, user input | |  Chapter 1 reading due, Chapter 2 reading out|
+1/27 | Practice input, intro to Project 1 | | Project 1 out | 
+1/29 | Relational operators, the `if` statement | Lab 2: Conversions
+1/31 | 
+2/3 |
+2/5 | 
+2/7 |
+2/10 | 
+2/12 |
+2/14 |
+2/17 |
+2/19 |
+2/21 |
+2/24 |
+2/26 |
+2/28 |
+3/3 |
+3/5 |
+3/7 |
+3/10 | SPRING BREAK |
+3/12 |              |
+3/14 |              |
+3/17 |
+3/19 |
+3/21 |
+3/24 |
+3/26 |
+3/28 |
+3/31 |
+4/2 |
+4/4 |
+4/7 |
+4/9 |
+4/11 | 
+4/14 | 
+4/16 |
+4/18 |
+4/21 |
+4/23 |
+4/25 |
+4/28 | Last day of class | 
+
+
+
+
 9/4 | Variables, formatted printing, and input| Lab 2: Conversions |
 9/6 | Practice input, intro Project 1 | Project 1 out, Chapter 2 reading, Chapter 1 reading due |
 9/9 | Relational operators, the `if` statement |  |
