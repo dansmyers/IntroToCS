@@ -60,19 +60,19 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 1/15  | Hello, World! | No lab | |
 1/17  | Printing and arithmetic |  | Chapter 1 reading out |
 1/20 | MLK Day | | |
-1/22 | Variables | Lab 1: Writing and running programs | |
+1/22 | Intro to variables | Lab 1: Writing and running programs | |
 1/24 | Basic data types, user input | |  Chapter 1 reading due, Chapter 2 reading out|
-1/27 | Practice input, intro to Project 1 | | Project 1 out | 
-1/29 | Relational operators, the `if` statement | Lab 2: Conversions
-1/31 | 
-2/3 |
-2/5 | 
-2/7 |
-2/10 | 
-2/12 |
-2/14 |
-2/17 |
-2/19 |
+1/27 | Formatted printing, intro to Project 1 | | Project 1 out | 
+1/29 | Relational operators, the `if` statement | Lab 2: Conversions | |
+1/31 | `if`-`elif`-`else` | | Chapter 2 reading due |
+2/3 |  Making randomized choices | | Project 1 due | 
+2/5 | Logical operators  | Lab 3: Making choices |
+2/7 | RPS | |  Chapter 3 and 4 reading out|
+2/10 | Intro to AI and LLMs | | Project 2 out |
+2/12 | Intro to functions  |  | Lab 4: Fitts' Law |
+2/14 | Functions II: Functions that take parameters | Chpater 3 and 4 due |
+2/17 | Function practice | | Project 2 due |
+2/19 | Functions III: Functions that return values | Lab 5 : Fun | |
 2/21 |
 2/24 |
 2/26 |
