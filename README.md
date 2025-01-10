@@ -77,13 +77,13 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 2/24 | Local variables and scope |
 2/26 | Structured testing  | Lab 6: The Compleat Gamester | |
 2/28 | Structured testing II | | Chapter 5 reading due |                           
-3/3 | The `for` loop |
-3/5 | Intro to lists |
+3/3 | The `for` loop | 
+3/5 | Intro to lists | Lab 7: Strange Loops |
 3/7 | MIDTERM EXAM
 3/10 | SPRING BREAK |
-3/12 |             |
-3/14 |              |
-3/17 | Looping over lists | 
+3/12 | SPRING BREAK |
+3/14 | SPRING BREAK  |
+3/17 | Re-intro to lists, looping over lists | 
 3/19 | Looping by index position     | Lab 8:Euouae |
 3/21 | Choosing random items from a list |              | Project 3 out |
 3/24 |  Files, the `while` loop |
@@ -104,59 +104,14 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 4/28 | Last day of class | 
 
 
-
-
-9/4 | Variables, formatted printing, and input| Lab 2: Conversions |
-9/6 | Practice input, intro Project 1 | Project 1 out, Chapter 2 reading, Chapter 1 reading due |
-9/9 | Relational operators, the `if` statement |  |
-9/11 | `if`-`elif`-`else`  | Lab 3: Making choices |
-9/13 | Making randomized choices| Project 1 due, Chapter 2 reading due  |
-9/16 | Logical operators | Chapter 3 and 4 reading |
-9/18 | RPS | Lab 4: Fitts' Law |
-9/20 | Overview of AI and LLMs  | Project 2 out |
-9/23 | Intro to functions | Chapter 3 and 4 reading due|
-9/25 | Functions II: Functions that take parameters| Lab 5: Fun |
-9/27 | Functions III: Functions that return values | Project 2 due |
-9/30 | Functions IV: Functions + conditionals  | Chapter 5 reading  |
-10/2 | Local variables and scope| Lab 6: The Compleat Gamester |
-10/4 | Structured testing  | |
-10/7 |  ~Finish testing, Intro to lists~ **Hurricane assignment** | Chapter 5 reading due |
-10/9 | ~The `for` loop~ | ~Lab 7: Choose Your Own Adventure~ |
-10/11 | ~Intro to Project 3~ | ~Project 3 out~ |
-10/14 | FALL BREAK  ||
-10/16  | ~Review for midterm~  **Review lists and loops** | Lab 8: Euouae |
-10/18 | ~MIDTERM EXAM (in class)~ **Intro to Project 3** |  **Project 3 out** |
-10/21 | Choosing random items from a list | |
-10/23 | Working with files, the `while` loop| Lab 9:  Wordplay |
-10/25 | Games with the `while` loop, valid input | Project 3 due |
-10/28 | Review `try`-`except`, selection sort | Chapter 6 and 9 reading |
-10/30 | Dictionaries | Lab 10: Jeu Monégasque |
-11/1 | Code cracking, Intro to Project 4 | Project 4 out |
-11/4 | Hashing and passwords | Chapter 6 and 9 reading due |
-11/6 | Binary numbers | Lab 11: Precision  |
-11/8 | Character encodings | Project 4 due |
-11/11 | Stepwise refinement (feat. Tic-Tac-Toe) | |
-11/13 | More refinement (feat. Nim) | Lab 12: Pandas and Benford's Law |
-11/15 | Tuples, anagrams, Intro to Project 5 | Project 5 out | 
-11/18 | Machine learning and classification |  |
-11/20 |  Decision trees | Lab 13: My heart will go on |
-11/22 |  Neural networks | |
-11/25 | No class | Project 5 due, Project 6 out |
-11/27 | THANKSGIVING BREAK | |
-11/29 | THANKSGIVING BREAK | |
-12/2 | Objects and classes | |
-12/4 | `__init__` and `__str__` | Lab 14: The Heart of the Cards |
-12/6 | "Private" data |  |
-12/9| Last class and wrap-up| |
-
 ### Other Important Dates
 
-- First day of class: August 26
-- Last day of class: December 6
-- Labor Day: September 2
-- Fall break: October 12 to October 15
-- Last day to drop the class: September 6
-- Last day to withdraw without penalty: November 8
+- First day of class: January 15
+- Last day of class: April 28
+- Spring break: March 10 to March 14
+- Last day to drop the class: January 28
+- Last day to withdraw without penalty: March 28
+- Midterm exam: March 7
 
 ## The All-Important Grading Section
 
