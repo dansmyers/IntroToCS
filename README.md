@@ -99,7 +99,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 4/16 | Machine learning and classification  | Lab 12: Pandas and Benford's Law |
 4/18 | Decision trees | | 
 4/21 | Objects and classes |  |
-4/23 | `__init__` and `__str__`  | Lab 13: My heart will go on |
+4/23 | `__init__` and `__str__`  | Lab 13: My Heart Will Go On |
 4/25 |  Example: Deck of cards |  | Project 5 due, Project 6 out |
 4/28 | Last day of class | 
 
