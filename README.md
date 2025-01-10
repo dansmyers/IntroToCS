@@ -73,34 +73,34 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 2/14 | Functions II: Functions that take parameters | Chpater 3 and 4 due |
 2/17 | Function practice | | Project 2 due |
 2/19 | Functions III: Functions that return values | Lab 5 : Fun | |
-2/21 |
-2/24 |
-2/26 |
-2/28 |
-3/3 |
-3/5 |
-3/7 |
+2/21 | Functions IV: Functions + Conditionals | | Chapter 5 reading out |
+2/24 | Local variables and scope |
+2/26 | Structured testing  | Lab 6: The Compleat Gamester | |
+2/28 | Structured testing II | | Chapter 5 reading due |                           
+3/3 | The `for` loop |
+3/5 | Intro to lists |
+3/7 | MIDTERM EXAM
 3/10 | SPRING BREAK |
-3/12 |              |
+3/12 |             |
 3/14 |              |
-3/17 |
-3/19 |
-3/21 |
-3/24 |
-3/26 |
-3/28 |
-3/31 |
-4/2 |
-4/4 |
-4/7 |
-4/9 |
-4/11 | 
-4/14 | 
-4/16 |
-4/18 |
-4/21 |
-4/23 |
-4/25 |
+3/17 | Looping over lists | 
+3/19 | Looping by index position     | Lab 8:Euouae |
+3/21 | Choosing random items from a list |              | Project 3 out |
+3/24 |  Files, the `while` loop |
+3/26 | Games with the `while` loop, valid input    | Lab 9: Wordplay |  |
+3/28 | Review `try`-`except`, selection sort   | | Project 3 due |
+3/31 | Dictionaries | | Chapter 6 and 9 reading out |
+4/2 | Code cracking, Intro to Project 4  | Lab 10: Jeu Monégasque |  Project 4 out |
+4/4 | Hashing and passwords | |  |
+4/7 | Binary numbers | | Chapter 6 and 9 reading due |
+4/9 | Character encodings  | Lab 11: Precision  |
+4/11 | Stepwise refinement (feat. Tic-Tac-Toe)  | | Project 4 due |
+4/14 | Tuples, anagrams, Intro to Project 5  |   Project 5 out |
+4/16 | Machine learning and classification  | Lab 12: Pandas and Benford's Law |
+4/18 | Decision trees | | 
+4/21 | Objects and classes |  |
+4/23 | `__init__` and `__str__`  | Lab 13: My heart will go on |
+4/25 |  Example: Deck of cards |  | Project 5 due, Project 6 out |
 4/28 | Last day of class | 
 
 
