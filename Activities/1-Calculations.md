@@ -38,8 +38,11 @@ Don't worry. We'll add those features soon. For now, just focus on printing the 
 
 One kilogram is equal to 2.20462 pounds.
 
-The largest cocaine bust in American history occurred in [2019 at the Philadelphia Packer Marine Terminal](https://en.wikipedia.org/wiki/2019_Philadelphia_Packer_Marine_Terminal_cocaine_seizure). Customs officials seized 39,525 pounds of cocaine with an estimated street value of more than $1.3 billion. How many kilograms of cocaine is that?
+The largest cocaine bust in American history occurred in [2019 at the Philadelphia Packer Marine Terminal](https://en.wikipedia.org/wiki/2019_Philadelphia_Packer_Marine_Terminal_cocaine_seizure). Customs officials seized 39,525 pounds of cocaine with an estimated street value of more than $1.3 billion. How many kilograms is that?
 
 Tip:
 
 - Code the number of pounds as `39525`. Python doesn't want commas in large numbers.
+- You have a number of pounds and want to convert to kilos, so you need to *divide* by 2.20462.
+
+Always sanity-check your output and verify that it seems reasonable. If you convert pounds to kilos, but get a number more than twice as large, you know that you did something wrong.
