@@ -2,9 +2,9 @@
 
 ## Overview
 
-This short activity will give you a few practice problems that you can use to try out calculations and printing in Python.
+This short activity will give you a few practice problems that you can use to try out calculations and printing in Python. Use the basic arithmetic operators, numbers, and `print` to answer each of the following questions.
 
-Use the basic arithmetic operators, numbers, and `print` to answer each of the following questions.
+For each problem below, write a comment and a `print` statement that outputs the result of the required calculation. You can put all your answers in one file, one right after the other.
 
 
 ## McChocolate Potatoes
@@ -42,7 +42,20 @@ The largest cocaine bust in American history occurred in [2019 at the Philadelph
 
 Tip:
 
+- Again, use a `print` statement that calculates and outputs the coversion.
 - Code the number of pounds as `39525`. Python doesn't want commas in large numbers.
 - You have a number of pounds and want to convert to kilos, so you need to *divide* by 2.20462.
 
 Always sanity-check your output and verify that it seems reasonable. If you convert pounds to kilos, but get a number more than twice as large, you know that you did something wrong.
+
+## Light
+
+The speed of light is 186,000 miles per second.
+
+A light year is the distance traveled by light in one year. How many miles are in a light year?
+
+Tips:
+
+- You can calculate the number of seconds in a year, then multiply by 186,000
+- Assume that there are 365.25 days in a year
+- Use one `print` statement that performs the entire multiplication
