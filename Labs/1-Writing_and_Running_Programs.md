@@ -260,7 +260,7 @@ What is the length of the Lake Pontchartrain Causeway in Smoots?
 
 Tips:
 
-- Do the entire calculation in one expression. Use two multiplications.
+- Do the entire calculation in one expression. Use a multiplication to get the number of feet, then divide by 5.5833 to get units of Smoots.
 - One Smoot is about 5.5833 feet and there are 5280 feet in a mile.
 - Put your answer in a file named `smoots.py`. Keep making new files for each of the remaining problems.
 
