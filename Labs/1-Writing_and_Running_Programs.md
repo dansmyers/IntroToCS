@@ -35,10 +35,9 @@ with typed commands than they would be with graphical menus.
 The program that receives your commands, interprets them, and launches new programs is called the *shell*. The default shell program 
 on most Linux systems is called `bash`.
 
-The shell program prints a prompt for your commands, which typically identifies your current working directory. On Replit, my prompt looks like this:
-
+The shell program prints a prompt for your commands, which typically identifies your current working directory. Your prompt should look like this:
 ```
-~/CMS120$
+@dansmyers ➜ /workspaces/codespaces-blank $ 
 ```
 The commands you type will appear to the right of the `$`.
 
