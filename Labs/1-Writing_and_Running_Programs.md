@@ -316,7 +316,7 @@ A second approach is to use a special character sequence, `\"`. When Python enco
 Think of the `\` as being an "escape" character: it indicates that the following quote character should be treated differently from a regular double quote used to mark the end of a string. For example, the print statement
 
 ```
-print("Quoth the Raven \"Nevermore.\"");
+print("Quoth the Raven \"Nevermore.\"")
 ```
 
 will print
@@ -385,7 +385,7 @@ Tip: Write one expression that calculates the number of Warhols in a year times 
 Another useful special character is `\n`, which makes the printed output move to the next line. Use `\t` to insert a tab character into a line. For example, the statement:
 
 ```
-print('This is\n\ta test.');
+print('This is\n\ta test.')
 ```
 
 will print
