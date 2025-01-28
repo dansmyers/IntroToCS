@@ -65,7 +65,7 @@ Convert temperature from degrees Fahrenheit to degrees Celsius
 # Perform the calculation
 
 
-# Print the output using %.1f as the format
+# Print the output using .1f as the format
 ```
 
 
