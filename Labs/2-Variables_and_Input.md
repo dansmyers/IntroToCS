@@ -92,7 +92,7 @@ The current all-time world record for weight lifted overhead in the clean and je
 
 <img src="https://external-preview.redd.it/3_iVT6i7dReTdMXS-bNiIS0U9p2QTsfq6BUDC57b8tc.jpg?auto=webp&s=5943d7cf04be56a4de8cf045667e41631c02a90e" width="35%" />
 
-Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .099 USD per DOGE.
+Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .33 USD per DOGE.
 
 Write a program that reads a number of DOGE as input, then prints the corresponding amount of USD to two decimal places. Think about the conversion and whether you need to multiple or divide.
 
