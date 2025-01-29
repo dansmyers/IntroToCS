@@ -138,9 +138,6 @@ plural_noun1 = input('Enter a plural noun: ')
 
 # Add more cases for the other blanks...
 
-# Print out the story with the user's words mixed in
-# %s is the format specifier for a string variable
-# This is an easy way to mix string variables in with other output
 
 print(f'Today, every student has a computer small enough to fit into his {noun1}.')
 print(f'He can solve any math problem by simply pushing the computer\'s little {plural_noun1}.')
