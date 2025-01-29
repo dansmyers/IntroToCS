@@ -142,18 +142,16 @@ plural_noun1 = input('Enter a plural noun: ')
 # %s is the format specifier for a string variable
 # This is an easy way to mix string variables in with other output
 
-print('Today, every student has a computer small enough to fit into his %s.' % noun1)
-print('He can solve any math problem by simply pushing the computer\'s little %s.' % plural_noun1)
+print(f'Today, every student has a computer small enough to fit into his {noun1}.')
+print(f'He can solve any math problem by simply pushing the computer\'s little {plural_noun1}.')
 
 # Add more print statements for the rest of the story...
 ```
 
-Tip: The last sentence has multiple blanks. You can print multiple variables in a single statement as follows:
+Tip: the last sentence has multiple blanks. You can use a formatted print string with multiple variable names, each enclosed in curly braces:
 ```
-print('Others have a/an %s screen that shows all kinds of %s and %s figures.' % (adj1, plural_noun2, adj2))
+print(f'Others have a/an {adj1} screen that shows all kinds of {plural_noun2} and {adj2} figures.')
 ```
-Python puts the first variable (`adj1`) in place of the first `%s`, the second variable (`plural_noun2`) in place of the second `%s`, and so forth.
-
 
 ### Mystery Operator
 
