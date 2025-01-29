@@ -106,7 +106,7 @@ Convert DOGE to USD
 """
 
 # Define conversion factor as a constant
-USD_PER_DOGE = .099
+USD_PER_DOGE = .33
 
 # Read input number of DOGE
 
