@@ -66,11 +66,11 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 1/29 | Relational operators, the `if` statement | Lab 2: Conversions | |
 1/31 | `if`-`elif`-`else` | | Chapter 2 reading due |
 2/3 |  Making randomized choices | | Project 1 due | 
-2/5 | Logical operators  | Lab 3: Making choices |
+2/5 | Logical operators  | Lab 3: Making choices | |
 2/7 | RPS | |  Chapter 3 and 4 reading out|
 2/10 | Intro to AI and LLMs | | Project 2 out |
 2/12 | Intro to functions  |  | Lab 4: Fitts' Law |
-2/14 | Functions II: Functions that take parameters | Chpater 3 and 4 due |
+2/14 | Functions II: Functions that take parameters | Chapter 3 and 4 due |
 2/17 | Function practice | | Project 2 due |
 2/19 | Functions III: Functions that return values | Lab 5 : Fun | |
 2/21 | Functions IV: Functions + Conditionals | | Chapter 5 reading out |
