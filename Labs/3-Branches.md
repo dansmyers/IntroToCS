@@ -23,38 +23,40 @@ Put each program into its own `.py` file. You can choose the names for each file
 
 ## Problems
 
-### Even-odd
-
-Recall that Python supports a special operator, `%`, which is called the **modulus operator**. The mod operator calculates the remainder after division. For example,
-```
-11 % 3  is  2
-
-13 % 4  is  1
-
-8 % 2  is  0 (because 8 is evenly divisible by 2)
-
-17 % 6  is  5
-```
-The mod operator can be used to check for divisibility. For example, suppose you want to test if an input value `n` is even. A number is even if it's evenly divisible by 2, so
-```
-if n % 2 == 0:
-    # n is even
-else:
-    # n is odd
-```
-Write a program that reads an integer from the terminal and prints `Even` if the number is even or `Odd` if it's odd.
-
 ### Input validation
 
 How many liters are in a gallon? No one knows.
 
-But it turns out it's 3.78541. Write a program that reads in a non-negative number of liters and converts it to the equivalent number of gallons:
+But it turns out it's 3.78541. Write a program that reads in a non-negative number of liters and converts it to the equivalent number of gallons.
+
+For this program, we're going to add the ability to check if the input is valid. If not, we'll print an error message and immediately quit the program.
 
 - Use a constant to define the conversion factor
 - Use an `if` statement to check that the input is non-negative
 - If the input is negative, print an error message and call `quit()` to end the program
 - Use an f-string for formatted printing
+
+Here's some starter code. Fill in the parts for each comment.
 ```
+"""
+Converting liters to gallons with input checking
+"""
+
+# Define a constant in ALL_CAPS for the conversion factor
+
+
+# Read a number of liters from the user
+
+
+# Check if the number of liters is greater than 0
+#
+# If not, print an error message and call quit() to end the program immediately
+
+
+# Do the conversion
+
+
+# Print
 print(f'{liters} liters is equal to {gallons: .2f} gallons.')
 ```
 
