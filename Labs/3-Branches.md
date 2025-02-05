@@ -167,7 +167,6 @@ Here's a starting program that generates a random number and uses it to choose a
 
 - Fill in your own print statements for the three messages.
 - Run the program multiple times and verify that it works. Note that you might get the same result multiple times in a row.
-- Modify the program to use **seven** messages
 
 ```
 """
@@ -190,6 +189,11 @@ elif r == 2:
 else:
   # Print the third option
 ```
+
+### Greater fortunes
+
+Modify the previous program to have **seven options**.
+
 
 ### Menu of options
 
@@ -239,11 +243,6 @@ Roll two six-sided dice
 
 ```
 
-### Doubles
-
-Write a program that rolls two 5-sided dice and tests if are the same or different.
-
-
 ### Shoe sizing
 
 <img src="https://www.putthison.com/wp-content/uploads/2015/03/tumblr_nlbbd72Xuf1qa2j8co1_1280.jpg" width="300px" />
@@ -252,9 +251,7 @@ Write a program that rolls two 5-sided dice and tests if are the same or differe
 
 You'd think that U.S. shoe sizes would be based on the size of the foot in units of patriotic American inches. And you'd be right...sort of.
 
-Standard U.S. shoe sizing is actually based on units of **barleycorns**, where each barleycorn is one-third of an inch. This standard comes from ye medieval dayes, when, in about the year 1300, the English Parliament passed the *Composition of Yards and Perches*, which defined an inch as equal to three grains of dry barley laid end-to-end.
-
-(A **perch** is a unit equal to five and a half yards, sixteen and a half feet.)
+Standard U.S. shoe sizing is actually based on units of **barleycorns**, where each barleycorn is one-third of an inch. This standard comes from ye medieval dayes, when, in about the year 1300, the English Parliament passed the *Composition of Yards and Perches*, which defined an inch as equal to three grains of dry barley laid end-to-end. (A **perch** is a unit equal to five and a half yards, sixteen and a half feet.)
 
 American shoe sizes are determined as follows:
 
@@ -344,3 +341,81 @@ elif r == 2:
 # Print the two dice and their sum
 ```
 
+
+## Passe-Dix
+
+Passe-dix (French for "pass ten") is an ancient dice game. According to some early gambling books, it was allegedly the game played by Roman soldiers to divide the clothes of Jesus at the Crucifixion. The rules are simple: roll three dice and add their sum. The player wins if the sum is strictly greater than 10, loses if the sum is strictly less than 10, and draws ("pushes" in gambling terms) if the sum equals 10.
+
+Write a program that implements passe-dix. Here is example output:
+
+```
+The dice are 2, 5, and 1.
+The sum is 8.
+You lose.
+```
+
+Your program should use `randint` three times to generate the three die rolls. Assign each roll to its own variable. Calculate the sum, then use an `if`-`elif`-`else` block to test for the three conditions.
+
+
+## Cho-Han
+
+Cho-han is a traditional Japanese dice game. The rules are simple:
+
+- The player bets if the sum of two six-sided dice will be odd or even.
+- If the player's guess is correct, he wins. If not, he loses.
+
+The game appears in Japanese movies set in historical periods, where it's played by Yakuza gangsters and wandering samurai.
+
+Write a program for cho-han. Your program should prompt the user to choose an even or odd bet, then simulate the roll of two dice and announce if the player was correct. Here's example output:
+
+```
+Welcome to Cho-Han.
+1. Even
+2. Odd
+Select a bet: 1
+The dice are 1 and 5.
+The sum is 6.
+You win.
+```
+
+Check the user's input to make sure that it's either 1 or 2:
+```
+Welcome to Cho-Han.
+1. Even
+2. Odd
+Select a bet: -1
+You must enter 1 or 2.
+```
+Use `quit()` to end the program immediately if the user gives you bad input.
+
+The code below shows the general flow of the program. Use it to help you get started. Fill in the code associated with each comment.
+```
+"""
+CHO-HAN
+"""
+
+# Import the randint method
+
+
+# Print the welcome message and the two bets
+
+
+# Read the number 1 or 2 from the user
+
+
+# Check if the user's input is 1 or 2; if not, print an error and quit
+
+
+# Roll two six-sided dice and add their sum
+
+
+# Use a conditional block to print the output
+#
+# There are two ways to win:
+#     If the player entered 1 and the sum is even
+#     If the player entered 2 and the sum is odd
+# Every other outcome is a loss
+#
+# Think about how to turn that into an if-elif-else block
+
+```
