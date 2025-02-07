@@ -165,6 +165,37 @@ elif player_move == ROCK and cpu_move == PAPER:
 Continue until you've covered all combinations of `player_move` and `cpu_move`.
 
 
-## Extension
+## Sic Bo
 
-Once you finish the basic game, you can work on extending it to play [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
+When you've finished rock-paper-scissors, here's another dice game.
+
+Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: Players roll three dice and bet on the outcome. There are a variety of possible bets, but the two most common wagers in sic bo are "big" and "little".
+
+- The big bet wins if the sum of the three dice is 11 to 17 (including both), but not three-of-a-kind
+- The little bet wins if the sum of the three dice is 4 to 10 (including both), but not three-of-a-kind
+
+Write a program for sic bo using the big and little bets. For example,
+```
+Welcome to Sic Bo.
+1. Big
+2. Little
+Choose a bet: 2
+The three dice are 3, 5, and 1.
+The sum is 9.
+You win.
+```
+Use the code for cho-han as a guide, but adapt it to roll three dice and use the winning and losing conditions for sic bo.
+
+Tip:
+
+Both bets lose if the result is a triple, so you can check for that condition first. Use logical `and`:
+```
+if die1 == die2 and die2 == die3:
+    print('Triple! You have lost.')
+```
+There are two winning cases:
+
+- The player entered 1 and the result is in the big range
+- The player entered 2 and the result is in the little range
+
+Think about how to write conditions for those cases. Every other outcome is a loss.
