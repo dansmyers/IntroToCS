@@ -35,7 +35,7 @@ MY FAILURE...DOES NOT COMPUTE...
 
 ## Setup
 
-`cd` into your `Conditionals` directory and create a file named `rps.py`:
+`cd` into your `2-Conditionals` directory and create a file named `rps.py`:
 ```
 touch rps.py
 ```
