@@ -39,7 +39,7 @@ All three problems give you opportunities to make some design choices. Make them
 
 ## Don't Use Functions (Yet)
 
-We'll be talking about functions while you're working on this assignment. **Don't** use any functions or `def` statements in this project; I want you to practie using `if` statements and making choices. We'll save those for the next project.
+We'll be talking about functions while you're working on this assignment. **Don't** use any functions or `def` statements in this project; I want you to practice using `if` statements and making choices. We'll save those for the next project.
 
 ## Submission
 
