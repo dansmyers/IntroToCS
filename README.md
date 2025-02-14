@@ -70,8 +70,8 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 2/7 | RPS | |  Chapter 3 and 4 reading out|
 2/10 | Intro to AI and LLMs | | Project 2 out |
 2/12 | Intro to functions  |  | Lab 4: Fitts' Law |
-2/14 | Functions II: Functions that take parameters | Chapter 3 and 4 due |
-2/17 | Function practice | | Project 2 due |
+2/14 | Functions II: Functions that take parameters |  |
+2/17 | Function practice | | Project 2 due, Chapter 3 and 4 due |
 2/19 | Functions III: Functions that return values | Lab 5 : Fun | |
 2/21 | Functions IV: Functions + Conditionals | | Chapter 5 reading out |
 2/24 | Local variables and scope |
