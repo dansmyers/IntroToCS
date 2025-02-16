@@ -100,3 +100,29 @@ value = float(input('Enter a number of grams of protein: '))
 # Call the function to perform the conversion and print the result
 grams_of_protein_to_crickets(value)
 ```
+
+### Max
+
+Write a program with a function named `max` that takes **two** inputs named `a` and `b` and prints the larger value.
+
+Tip: There is a built-in `max` function, but don't use it for this problem. Use an `if`-`else` block that compares the two input arguments.
+
+```
+"""
+Find the max of two inputs
+"""
+
+def max(a, b):
+    # Print the larger of a or b
+
+
+### Main
+
+# Read two inputs
+first_num = int(input('Enter the first number: '))
+second_num = int(input('Enter the second number: '))
+
+# Call the function to compare them
+print('The larger value is:')
+max(first_num, second_num)
+```
