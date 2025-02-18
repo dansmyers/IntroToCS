@@ -79,6 +79,10 @@ Use the previous program as your model.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Stellarparallax_parsec1.svg/1024px-Stellarparallax_parsec1.svg.png" width="300px" />
 
+*Explanatory image from [Wikipedia](https://en.wikipedia.org/wiki/Parsec)*
+
+<br/>
+
 A **parsec** is a unit used to measure large astronomical distances.
 
 The name is short for *distance corresponding to a parallax of one second*. "Parallax" refers to the apparent motion of stars as seen from the Earth. As the Earth rotates around the Sun, the angle at which an observer views a star will change over the course of the year. This results in the star appearing to make a small orbit over the course of the year. The size of this orbit depends on the distance from the Earth to the star: further stars have smaller apparent orbits.
@@ -93,7 +97,7 @@ Tip: You can represent 19.2 trillion in scientific notation using `19.2e12`.
 
 Write a program with a function named `max` that takes **two** inputs named `a` and `b` and **returns** their maximum.
 
-Tip: There is a built-in `max` function, but don't use it for this problem. Use an `if`-`else` block that compares the two input arguments.
+Tip: There is a built-in `max` function, but don't use it for this problem. Use an `if`-`else` block that compares the two input arguments. You can put a return statement in each branch.
 
 ```
 """
@@ -116,6 +120,49 @@ print(f'The larger value is: {maximum}')
 ```
 
 
+## Dice Rolling
+
+### d6
+
+Write a program with a function called `d6` that **returns** the roll of a six-sided die.
+```
+"""
+Die rolling program
+"""
+
+from random import randint
+
+def d6():
+    """
+    Return the roll of a six sided die
+    """
+
+
+### Main
+die1 = d6()
+die2 = d6()
+print(die1, die2)
+```
+
+### 2d6
+
+Add another function called `sum_of_two_dice` that uses `d6` to **return** the sum of two independent die rolls. This is an example of a function that calls another function.
+
+Tip: You could do this by defining intermediate variables
+```
+d1 = d6()
+d2 = d6()
+return d1 + d2
+```
+Or by combining both calls into one expression
+```
+return d6() + d6()
+```
+
+
+## Card Games
+
+
 ### Card printing
 
 Write a function called `print_card` that takes a number 1 to 13 as input and prints the corresponding playing card name.
@@ -124,6 +171,7 @@ Write a function called `print_card` that takes a number 1 to 13 as input and pr
 - if the input is 2 through 10, print the number as a word.
 - if the input is 11, print `Jack`, and likewise for the Queen and King.
 
+The function is going to look like this:
 ```
 def print_card(card):
     """
@@ -142,7 +190,6 @@ def print_card(card):
 ```
 
 Here's a test program:
-
 ```
 """
 Print cards
@@ -225,7 +272,7 @@ You lose.
 ```
 Use an approach similar to our previous chance games:
 
-- Print the two choices, then read the player's number. If the player enters anything other than 1 or 2, print an error and quit immediately.
+- Print the two bets, then read the player's number. If the player enters anything other than 1 or 2, print an error and quit immediately.
 - Roll the two dice, calculate their sum, and print.
 - Deal the card using `randint`, then use `print_card` to output it.
 - Determine whether the dice or the card are greater.
