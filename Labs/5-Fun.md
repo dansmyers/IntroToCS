@@ -16,156 +16,82 @@ Let's practice writing some functions. All of the problems below will let you wr
 
 - Put function definitions at the top of the program, above the "main" section that contains the executable statements
 
-For this lab, all of our functions will **print** their results. Soon we'll extend this to functions that **return** results so they can be used by other parts of the program.
-
 ## Setup
 
 Create a `Lab_5` directory and `cd` into it. Put each question into its own Python file.
 
 ## Programs
 
-### `print_area_of_triangle`
-
-Complete the following program with a function that takes an input base and height, then **prints** the area of the corresponding triangle.
-
-```
-"""
-Write a function that prints the area of a triangle
-"""
-
-def print_area_of_triangle(base, height):
-    """
-    Complete this function docstring
-    """
-    
-    # Calculate the area of the triangle
-    
-    # Print the result
-    
-
-### Main
-
-print_area_of_triangle(10, 5)
-
-print_area_of_triangle(3, 11)
-
-# Add a statement to print the area of a triangle with base 7 and height 17
-
-# Write a statement that calls the function with inputs that will print 99 as the output
-```
-
-
-### Willigrams
-After Scott invented the Scottometer, Will needed his own unit of measurement so he created the **Willigram**. The actual magnitude of the Willigram is a bit uncertain (the definition has varied over time), but is currently set at 10000 pounds per Willigram.
-
-Write a program that reads a number of pounds from the user and prints the corresponding number of Willigrams. Use a function called `pounds_to_willigrams` to perform the conversion and print the result. Your function should take one input called `pounds`. 
-
-Make sure that your function has an appropriate docstring.
-
-Notice that the `input` statement is in the main part of the program and the input value is passed to the function to get the result. Don't use `input` in the function itself.
-
-```
-"""
-Convert pounds to Willigrams
-"""
-
-### Write your function definition here
-#
-# The input argument should be named pounds
-
-
-### Main
-
-# Read a number of pounds
-value = int(input('Enter a number of pounds: '))
-
-# Call the function that performs the conversion and prints the result
-pounds_to_willigrams(value)
-```
-
-
-### Crickets
-
-<img src="https://www.liveabout.com/thmb/VL-U6f9b4pDPuedh1OFORBlM0lo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-84892625-5c76ff65c9e77c0001d19c74.jpg" width="300px" />
-
-*Buddy Holly and the Crickets*
-
-Let's return to the cricket protein powder question. Recall that one cricket contains about .3 grams of protein. Complete the program below by writing a function that takes grams of protein as input and **prints** the number of crickets required for that amount.
-
-Tip: Make sure to include a docstring at the start of your function.
-
-
-```
-"""
-Convert grams of protein into crickets
-"""
-
-### Write your function definition here
-
-
-### Main
-
-# Read input number of grams of protein
-value = float(input('Enter a number of grams of protein: '))
-
-# Call the function to perform the conversion and print the result
-grams_of_protein_to_crickets(value)
-```
-
-
-### Doge II: Return of Doge
-
-<img src="https://i.redd.it/bkhyosuip8g51.jpg" width="300px" />
-
-*The Doge of Venice. You can also read about the complete insanity involved in [selecting a new doge](https://en.wikipedia.org/wiki/Doge_of_Venice#Selection_of_the_doge)*.
-
-
-Complete the program below by writing a function called `usd_to_doge` that takes a number of USD as input and converts to the equivalent number of DOGE. The function should **print** the result.
-
-Notice how the main section uses an input statement to read a value from the user, then passes that input as a parameter to the function. Don't use `input` in the function itself.
-
-1 dollar is currently worth about 9.17 DOGE.
-
-```
-"""
-USD to DOGE converter
-"""
-
-### Write your function definition here
-
-
-### Main
-
-# Read a number of dollars
-value = float(input('Enter a number of dollars: '))
-
-# Call a function that converts to DOGE and prints the result
-usd_to_doge(value)
-```
-
-### Even-odd
-
-Write a program with a function that takes an integer `n` as input and prints `Even` if `n` is even and `Odd` if `n` is odd. Use an `if-else` block inside the function that tests `n` and prints the appropriate output.
-
-Use a main section that reads a number using `input` and then calls `even_odd`.
-
-```
-### Main
-number = int(input('Enter a number: '))
-even_odd(number)
-```
-
-Tip: Recall that you can use the modulus operator to test for evenness: `n % 2 == 0` is `True` if `n` is even.
-
-
 ### Positive-negative-zero
 
-Repeat the previous problem, but write a function called `positive_or_negative` that takes a number `n` as input and prints either `Postive`, `Negative`, or `Zero`, depending on the value of `n`.
+Write a function called `positive_or_negative` that takes a number `n` as input and **prints** either `Postive`, `Negative`, or `Zero`, depending on the value of `n`.
 
+```
+"""
+Print if a number is positive, negative, or zero
+"""
+
+def positive_or_negative(n):
+    """
+    Fill in this docstring
+    """
+
+### Main
+
+positive_or_negative(10)
+positive_or_negative(-7)
+positive_or_negative(0)
+```
+
+### Return of pounds to kilograms
+Write a function called `pounds_to_kilograms` that takes a number of pounds as input and **returns** the corresponding number of kilos. There are about 2.20462 pounds in a kilogram.
+```
+"""
+Pounds to kilograms
+"""
+
+def pounds_to_kilograms(pounds):
+    """
+    Fill in this docstring
+    """
+
+    # Calculate the number of kilos
+
+    # Return that value - don't print anything!
+
+### Main
+num_pounds = 10000
+num_kilos = pounds_to_kilos(num_pounds)
+print(f'{num_pounds} pounds is about {num_kilos} kgs.')
+```
+
+### BTC
+
+Write a program with a function named `btc_to_usd` that takes a number of bitcoins as input and **returns** the corresponding number of patriotic American fiat dollars. There are currently approximately $94167.20 per bitcoin.
+
+- Your function can take one input named `btc`
+- Use one `return` statement at the end of the function
+- Don't use `input` or `print` inside the function
+
+Use the previous program as your model.
+
+### Parsecs
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Stellarparallax_parsec1.svg/1024px-Stellarparallax_parsec1.svg.png" width="300px" />
+
+A **parsec** is a unit used to measure large astronomical distances.
+
+The name is short for *distance corresponding to a parallax of one second*. "Parallax" refers to the apparent motion of stars as seen from the Earth. As the Earth rotates around the Sun, the angle at which an observer views a star will change over the course of the year. This results in the star appearing to make a small orbit over the course of the year. The size of this orbit depends on the distance from the Earth to the star: further stars have smaller apparent orbits.
+
+The parsec is defined to be the distance at which the angle determined by the apparent orbit is one arcsecond (1/3600 of a degree). This turns out to be 3.26 light years, or 19.2 trillion miles.
+
+Write a program with a function called `parsecs_to_miles` that takes a number of parsecs as input and **returns** the corresponding number of miles.
+
+Tip: You can represent 19.2 trillion in scientific notation using `19.2e12`.
 
 ### Max
 
-Write a program with a function named `max` that takes **two** inputs named `a` and `b` and prints the larger value.
+Write a program with a function named `max` that takes **two** inputs named `a` and `b` and **returns** their maximum.
 
 Tip: There is a built-in `max` function, but don't use it for this problem. Use an `if`-`else` block that compares the two input arguments.
 
@@ -175,7 +101,7 @@ Find the max of two inputs
 """
 
 def max(a, b):
-    # Print the larger of a or b
+    # Return the maximum of a or b
 
 
 ### Main
@@ -185,8 +111,8 @@ first_num = int(input('Enter the first number: '))
 second_num = int(input('Enter the second number: '))
 
 # Call the function to compare them
-print('The larger value is:')
-max(first_num, second_num)
+maximum = max(first_num, second_num)
+print(f'The larger value is: {maximum}')
 ```
 
 
