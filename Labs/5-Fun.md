@@ -72,6 +72,7 @@ Write a program with a function named `btc_to_usd` that takes a number of bitcoi
 - Your function can take one input named `btc`
 - Use one `return` statement at the end of the function
 - Don't use `input` or `print` inside the function
+- Use the main section to read input, call the function, and print the result
 
 Use the previous program as your model.
 
@@ -89,9 +90,9 @@ The name is short for *distance corresponding to a parallax of one second*. "Par
 
 The parsec is defined to be the distance at which the angle determined by the apparent orbit is one arcsecond (1/3600 of a degree). This turns out to be 3.26 light years, or 19.2 trillion miles.
 
-Write a program with a function called `parsecs_to_miles` that takes a number of parsecs as input and **returns** the corresponding number of miles.
+Write a program with a function called `parsecs_to_miles` that takes a number of parsecs as input and **returns** the corresponding number of miles. As before, use a main section that reads an input number of parsecs, calls the function, then prints the answer.
 
-Tip: You can represent 19.2 trillion in scientific notation using `19.2e12`.
+Tip: You can represent 19.2 trillion in scientific notation using `19.2e12`. That's short for 19.2 * 10<sup>12</sup>.
 
 ### Max
 
@@ -122,9 +123,9 @@ print(f'The larger value is: {maximum}')
 
 ## Dice Rolling
 
-### d6
+### d20
 
-Write a program with a function called `d6` that **returns** the roll of a six-sided die.
+Write a program with a function called `d6` that **returns** the roll of a twenty-sided die.
 ```
 """
 Die rolling program
@@ -132,32 +133,29 @@ Die rolling program
 
 from random import randint
 
-def d6():
+def d20():
     """
-    Return the roll of a six sided die
+    Return the roll of a twenty sided die
     """
 
 
 ### Main
-die1 = d6()
-die2 = d6()
+die1 = d20()
+die2 = d20()
 print(die1, die2)
 ```
 
-### 2d6
 
-Add another function called `sum_of_two_dice` that uses `d6` to **return** the sum of two independent die rolls. This is an example of a function that calls another function.
+### Ability check
 
-Tip: You could do this by defining intermediate variables
-```
-d1 = d6()
-d2 = d6()
-return d1 + d2
-```
-Or by combining both calls into one expression
-```
-return d6() + d6()
-```
+Write a function called `check_roll` that uses `d20` to perform a Dungeons n' Dragons style ability check. The function takes two inputs called `modifier` and `difficulty`. The modifier input may be positive or negative.
+
+- Roll `d20` and add `modifier`
+- Compare the result to `difficulty`
+- If the result is *greater than or equal to* `difficulty`, the player passes the check. Return `True`.
+- Otherwise, return False. The player has failed the ability check.
+
+For example, a call to `check_roll(3, 12)` would roll a twenty-sided die, add 3, then check if the sum is at least 12.
 
 
 ## Card Games
