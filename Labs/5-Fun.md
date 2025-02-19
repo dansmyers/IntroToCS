@@ -136,7 +136,7 @@ Find the max of three inputs
 """
 
 def max(a, b, c):
-    # Print the largest of a, b, or c
+    # Return the largest of a, b, or c
 
 
 ### Main
