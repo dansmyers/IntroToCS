@@ -85,7 +85,7 @@ Use the previous program as your model.
 
 A **parsec** is a unit used to measure large astronomical distances.
 
-The name is short for *distance corresponding to a parallax of one second*. "Parallax" refers to the apparent motion of stars as seen from the Earth. As the Earth rotates around the Sun, the angle at which an observer views a star will change over the course of the year. This results in the star appearing to make a small orbit over the course of the year. The size of this orbit depends on the distance from the Earth to the star: further stars have smaller apparent orbits.
+The name is short for *distance corresponding to a parallax of one second*. "Parallax" refers to the apparent motion of stars as seen from the Earth. As the Earth rotates around the Sun, the angle at which an observer views a star will change over the course of the year. This results in nearer stars appearing to make small orbits relative to the more distant background stars.
 
 The parsec is defined to be the distance at which the angle determined by the apparent orbit is one arcsecond (1/3600 of a degree). This turns out to be 3.26 light years, or 19.2 trillion miles.
 
