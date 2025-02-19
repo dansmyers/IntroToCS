@@ -121,6 +121,37 @@ print(f'The larger value is: {maximum}')
 ```
 
 
+### Triple Max
+
+Modify your `max` function to take **three** inputs named `a`, `b`, and `c` and return the largest value. Again, don't use the built-in `max` function.
+
+Tip: Use an `if`-`else` with a second `if`-`else` inside each branch.
+
+- If `a` is greater than `b`, then you can compare `a` and `c` to identify the largest value
+- Else, `b` is larger, so you can then compare `b` and `c`
+
+```
+"""
+Find the max of three inputs
+"""
+
+def max(a, b, c):
+    # Print the largest of a, b, or c
+
+
+### Main
+
+# Read three inputs
+first_num = int(input('Enter the first number: '))
+second_num = int(input('Enter the second number: '))
+third_num = int(input('Enter the third number: '))
+
+
+# Call the function to compare them
+maximum = max(first_num, second_num, third_num)
+print(f'The largest value is {maximum}.')
+```
+
 ## Dice Rolling
 
 ### d20
@@ -277,33 +308,4 @@ Use an approach similar to our previous chance games:
 - Compare the result against the player's bet and announce the result.
 
 
-### Triple Max
 
-Modify your `max` function to take **three** inputs named `a`, `b`, and `c` and print the largest value. Again, don't use the built-in `max` function.
-
-Tip: Use an `if`-`else` with a second `if`-`else` inside each branch.
-
-- If `a` is greater than `b`, then you can compare `a` and `c` to identify the largest value
-- Else, `b` is larger, so you can then compare `b` and `c`
-
-```
-"""
-Find the max of two inputs
-"""
-
-def max(a, b, c):
-    # Print the largest of a, b, or c
-
-
-### Main
-
-# Read three inputs
-first_num = int(input('Enter the first number: '))
-second_num = int(input('Enter the second number: '))
-third_num = int(input('Enter the third number: '))
-
-
-# Call the function to compare them
-print('The largest value is:')
-max(first_num, second_num, third_num)
-```
