@@ -70,7 +70,18 @@ That's an instant win!
 
 Make sure your functions allow for the dice to be in any order.
 
+Here's an example section that might be part of your program:
+```
+# Check winning and losing combinations using functions for each one
+if triple(die1, die2, die3):
+    # Print winning message
+elif four_five_six(die1, die2, die3):
+    # Print winning message
+elif pair_and_six(die1, die2, die):
+    # Print winning message
 
+# Continue for other cases
+```
 
 
 ## Two-Card Blackjack
