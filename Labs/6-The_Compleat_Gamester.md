@@ -35,28 +35,41 @@ Form a team of **three**. You will all work together, at the same time, on the s
 At the end of the lab, download and e-mail the finished solutions to all of the team members.
 
 
-## Dice Baccarat
-
-<img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyOGRok9ziCM/v1/1000x-1.jpg" width="50%" />
+## Cee-lo
 
 ### Overview
 
-> “The two cards slithered towards him across the green sea. Like an octopus under a rock, Le Chiffre watched him from the other side of the table. Bond reached out a steady right hand and drew the cards towards him. Would it be the lift of the heart which a nine brings, or an eight brings? He fanned the two cards under the curtain of his hand. The muscles of his jaw rippled as he clenched his teeth. His whole body stiffened in a reflex of self-defence. He had two queens, two red queens. They looked roguishly back at him from the shadows. They were the worst. They were nothing. Zero. Baccarat. ‘A card,’ said Bond fighting to keep hopelessness out of his voice. He felt Le Chiffre’s eyes boring into his brain.”
->
-> Ian Fleming - *Casino Royale*
+Another dice game, originally of Chinese origin. Often just called "dice" or "street dice" in American cities.
 
-*Casino Royale* is the first James Bond novel, published in 1953. In it, Bond travels to a French casino with the goal of challenging and bankrupting Le Chiffre ("The Number"), 
-an agent of the Soviets. Bond's game of choice, which occurs repeatedly throughout the early Ian Fleming novels, is **baccarat**.
+The basic goal of Cee-lo is to roll three dice and achieve a winning combination. We're going to implement a simple version for one player that focuses on checking for immediate wins and losses. The full version would use loops to allow for re-rolls.
 
-In real-world casinos, baccarat carries an image of exclusion and luxury. It's traditionally played in special roped off areas with very 
-high bets, although many casinos now offer "Mini-Bac", which uses the same rules as the high-end game, but at smaller tables on the main casino floor and with more 
-reasonable bets.
+The player rolls three dice. If one of the winning combinations is achieved, the player wins immediately. If one of the losing combinations occurs, the player loses immediately.
 
-This game is a [dice-based variant](https://wizardofodds.com/games/3-dice-baccarat/) of the real baccarat card game.
+Standard winning combinations are:
 
-### Rules
+- A triple of the same value
+- 4-5-6, in any order
+- Any two dice a pair with the third a six
 
-The round begins with the gambler placing bets. The fundamental bet in baccarat is to choose which of two hands will win: the "Player" hand or the "Banker" hand. The names are traditional
+Standard losing combinations are:
+
+- 1-2-3, in any order
+- Any two dice a pair with the third a one
+
+### Code
+
+Write a program that allows the player to do this version of cee lo. **Write a function to test for each outcome**. Each function should take the three dice as input and return `True` if the condition is satisfied and `False` otherwise.
+
+Here's example output:
+```
+Welcome to Cee-lo dice.
+They see me rolling (the dice)...
+The dice are 5, 6, and 4.
+That's an instant win!
+```
+
+Make sure your functions allow for the dice to be in any order.
+
 
 
 
