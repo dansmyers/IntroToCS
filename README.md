@@ -75,10 +75,10 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 2/19 | Functions III: Functions that return values | Lab 5 : Fun | |
 2/21 | Functions IV: Functions + Conditionals | | Chapter 5 reading out |
 2/24 | Local variables and scope |
-2/26 | Structured testing  | Lab 6: The Compleat Gamester | |
-2/28 | Structured testing II | | Chapter 5 reading due |                           
-3/3 | The `for` loop | 
-3/5 | Intro to lists | Lab 7: Strange Loops |
+2/26 | The `for` loop | Lab 6: The Compleat Gamester | |
+2/28 | `for` loop examples | | Chapter 5 reading due |                           
+3/3 | Intro to lists | 
+3/5 | Midterm review | Lab 7: Strange Loops |
 3/7 | MIDTERM EXAM
 3/10 | SPRING BREAK |
 3/12 | SPRING BREAK |
