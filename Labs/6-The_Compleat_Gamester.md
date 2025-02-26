@@ -195,7 +195,7 @@ Write the first function, `deal`, which returns the result of calling `randint(1
 
 ### The `card_name` function
 
-Copy your `card_name` function from the Hi-Lo program.
+Copy your `card_name` function from the Hi-Lo program. Change the function to **return** the name of the card instead of printing it.
 
 
 ### The `value` function
