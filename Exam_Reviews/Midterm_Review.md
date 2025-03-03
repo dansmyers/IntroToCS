@@ -1,4 +1,4 @@
-# Final Exam Review
+# Midterm Exam Review
 
 <img src="https://images.squarespace-cdn.com/content/v1/5f4a21f48109a775b6cc05e2/d4735fcd-608f-45b8-b976-e585e8f62864/ADXY4868.JPEG?format=2500w" width="400px" />
 
