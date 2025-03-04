@@ -24,6 +24,30 @@ The questions will tell you how to create and name your Python scripts.
 
 ## Loop practice
 
+### Classical Fibonacci
+
+We've previously used Binet's formula to calculate terms in the Fibonacci sequence. Write a program that uses a loop to calculate and print the first 50 Fibonacci numbers. Put your code in a file named `fib.py`.
+
+Tip: Use two variables `fib_1` and `fib_2` to keep track of the two previous numbers in the sequence. On each loop iteration, calculate the next Fibonacci number, then update the values of `fib_1` and `fib_2`.
+
+```
+# First two numbers
+fib_1 = 0
+fib_2 = 1
+
+print(fib_1)
+print(fib_2)
+
+# Calculate 48 more numbers
+for i in range(48):
+    # Use fib_1 and fib_2 to calculate the next number
+
+    # Print the next number
+
+    # Update fib_1 and fib_2 for the next iteration
+```
+
+
 ### Sum of a list
 
 Suppose you have a list of numbers and want to calculate their sum. One way to do this is with the built-in `sum` function:
@@ -69,35 +93,6 @@ print(removed)
 
 ```
 
-### Fibonacci
-
-Recall the famous Fibonacci sequence, where each number is the sum of the two previous numbers: 0, 1, 1, 2, 3, 5, 8, 13, etc.
-
-Write a program that can read an input integer `n` > 1 from the user and print out the first `n` terms of the Fibonacci sequence.
-
-Tip: Use two variables called `current` and `previous` to keep track of the most recent two numbers. On each iteration of the loop, calculate `next`, the next number in the sequence. Print it, then update `current` and `previous`.
-```
-"""
-Fibonacci sequence
-"""
-
-# Read input n (greater than 1)
-n = int(input('Enter n > 1: '))
-
-# First two terms, f_0 and f_1
-prev = 0
-current = 1
-
-# Print the first two terms
-print(prev)
-print(current)
-
-# Loop from 2 UP TO AND INCLUDING n
-#
-# Fill in the appropriate range function inputs
-for i in range():
-    # Fill in the body of the loop
-```
 
 
 ## Drawing with Pillow
