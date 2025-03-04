@@ -25,12 +25,39 @@ The questions will tell you how to create and name your Python scripts.
 
 ## Drawing with Pillow
 
+<img src="https://www.cooperhewitt.org/wp-content/uploads/2013/06/46575_b57abb49b0eea16e_b.jpg" width="400px" />
+
+Anni Albers, *Éclat* (1975), via [Cooper Hewitt](https://www.cooperhewitt.org/2013/06/12/a-puzzling-order/) 
+
+
 ### Starter code
 
 Start by putting the following program into a file named `basic_drawing.py` and then running it. It will produce a file named `drawing.png` that you can click on to open and examine.
 
 ```
+"""
+Rectangle drawing with Pillow
+"""
 
+from PIL import Image, ImageDraw
+
+# Create a blank canvas with white background
+width, height = 800, 600
+image = Image.new('RGB', (width, height), 'white')
+
+# Create a drawing object
+draw = ImageDraw.Draw(image)
+
+# Draw a red rectangle
+#
+# The first argument is a list of point pairs defining the upper-left and lower-right corners
+# of the rectangle
+#
+# fill is the color
+draw.rectangle([(50, 50), (300, 200)], fill='red', outline='black', width=2)
+
+# Save the image
+image.save('rect.png')
 ```
 
 
@@ -73,10 +100,29 @@ y   |                                          |
 
 ### Drawing rectangles
 
-The basic command for drawing rectangles is 
+Look at the example drawing command:
+```
+draw.rectangle([(50, 50), (300, 200)], fill='red', outline='black', width=2)
+```
+First, notice that this call uses dot notation. The `draw` object supports a number of methods that can be used to implemented drawing behaviors. We're telling that `draw` object to create a rectangle with the given properties.
 
+There function has four arguments:
+
+- A list of point pairs that define the upper-left and lower-right corners of the rectangle. Here, the upper-left point is (50, 50) and the lower-right point is (300, 200)
+
+- `fill`, which is fill color. This can be a string, like `'red'` or `'blue'`, or a specific red-green-blue color. More on that later.
+
+- `outline` is the border color and `width` is the thickness of the border.
+
+This introduces a new feature: **named input parameters**. This style of function calling allows you to specify inputs by name. If you don't want to specify a particular input, you can leave it out and the function will use a default value. For example, to make a blue rectangle with no border:
+```
+# Draw a rectangle with the outline and width parameters omitted
+draw.rectangle([(50, 50), (300, 200)], fill='red')
+```
 
 ### Jam
+
+Modify the example program to add more rectangles to the image. Experiment with changing the positions, sizes, colors, and outlines.
 
 
 ## Homage to *Homage to the Square*
