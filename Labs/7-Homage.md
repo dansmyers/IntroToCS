@@ -99,8 +99,38 @@ numbers = [i for i in range(1, 101)]
 ```
 This statement use the `for` loop to iterate through the given range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
 
-You can use this technique to generate different kinds of lists. For example, to generate list of 100 
+You can use this technique to generate different kinds of lists. For example, to generate list of 0/1 coin flips you could write
+```
+flips = [round(random()) for i in range(100)]
+```
+The loop runs 100 times and for each iteration, generates a random value from 0.0 to 1.0 and then rounds it to either 0 or 1. The result is a list of 100 values that are either 0 or 1. For example, `[0, 0, 1, 0, 1, 1, 1, 0, ...]`.
 
+
+
+### Simulating passe-dix
+
+Recall the passe-dix dice game: the gambler wins if the sum of three six-sided dice is greater than ten.
+
+What is the probability of winning at passe-dix? We could calculate it by considering the combinatorics of rollins three dice, but that would be complex. In many cases, you can use **simulation** to estimate quantities that would be hard to determine analytically.
+
+The basic strategy is to use a loop to play a large number of games of passe-dix. Count the number that win, then report the winning percentage.
+```
+"""
+Simulating passe-dix
+"""
+
+from random import randint
+
+num_wins = 0
+
+for trial in range(10000):
+    # Get the sum of three six-sided dice
+
+    # Count a win if the sum is greater than ten
+
+# Calculate and print the winning percentage
+```
+Complete the program. Put your solution into a file named `passe_dix.py`.
 
 
 ## Drawing with Pillow
