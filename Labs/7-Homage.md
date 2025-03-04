@@ -77,7 +77,7 @@ Find the missing numbers
 
 from random import shuffle
 
-# Create a list of 100 numbers
+# Create a list of the numbers 1 to 100
 numbers = [i for i in range(1, 101)]
 
 # Randomly order, then remove the first item
@@ -99,11 +99,28 @@ numbers = [i for i in range(1, 101)]
 ```
 This statement use the `for` loop to iterate through the given range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
 
-You can use this technique to generate different kinds of lists. For example, to generate list of 0/1 coin flips you could write
+This technique is called a **list comprehension**. It's a preferred Python technique for initializing lists.
+
+You can use comprehensions to generate different kinds of lists. For example, to generate list of 0/1 coin flips you could write
 ```
 flips = [round(random()) for i in range(100)]
 ```
-The loop runs 100 times and for each iteration, generates a random value from 0.0 to 1.0 and then rounds it to either 0 or 1. The result is a list of 100 values that are either 0 or 1. For example, `[0, 0, 1, 0, 1, 1, 1, 0, ...]`.
+The loop runs 100 times. Each iteration generates a random value from 0.0 to 1.0 and then rounds it to either 0 or 1. The result is a list of 100 values that are either 0 or 1. For example, `[0, 0, 1, 0, 1, 1, 1, 0, ...]`.
+
+Use the interactive Python terminal to write list comprehensions to generate the following. Enter each command in the terminal and check the output. You don't need to write a script for this problem.
+
+- A list of the numbers  1 to 25
+
+- A list of the numbers -10 to 10
+
+- A list of the even numbers 2, 4, 6, 8, ... 100
+
+- A list of the values .01, .02, .03, .04, ..., .98, .99. Tip: think about looping from 1 to 100 and then dividing each value of `i` by 100.
+
+- A list of 10 boolean values that are all `False`
+
+End the interactive terminal by pressing CTRL + d.
+
 
 
 
