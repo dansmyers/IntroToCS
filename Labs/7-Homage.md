@@ -62,11 +62,9 @@ Write another implementation that uses a `for` loop to manually calculate the li
 
 
 ### I've got 99 numbers, but I don't which ones
-Here's a popular interview question with a "clever" solution.
+Here's a popular interview question with a "clever" solution: You're given a list that contains 99 of the numbers 1 to 100 in an unknown order. Determine the one value that's missing.
 
-You're given a list that contains 99 of the numbers 1 to 100 in an unknown order. Determine the one value that's missing.
-
-The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The sum of the first `n` integers is
+The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The sum of the integers 1 to `n` is
 ```
 sum_1_to_n = n * (n + 1) / 1
 ```
@@ -79,7 +77,7 @@ Find the missing numbers
 
 from random import shuffle
 
-# Create a list fo 100 numbers
+# Create a list of 100 numbers
 numbers = [i for i in range(1, 101)]
 
 # Randomly order, then remove the first item
@@ -92,6 +90,16 @@ removed = numbers.pop(0)
 print(removed)
 
 ```
+
+### List comprehensions
+
+The previous problem showed an example of initializing a large list in a single line.
+```
+numbers = [i for i in range(1, 101)]
+```
+This statement use the `for` loop to iterate through the given range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
+
+You can use this technique to generate different kinds of lists. For example, to generate list of 100 
 
 
 
