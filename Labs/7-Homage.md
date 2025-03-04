@@ -66,7 +66,7 @@ Here's a popular interview question with a "clever" solution: You're given a lis
 
 The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The sum of the integers 1 to `n` is
 ```
-sum_1_to_n = n * (n + 1) / 1
+sum_1_to_n = n * (n + 1) / 2
 ```
 
 Write a program that implements this solution to the problem.
