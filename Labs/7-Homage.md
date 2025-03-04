@@ -22,6 +22,83 @@ cd Lab_7
 ```
 The questions will tell you how to create and name your Python scripts.
 
+## Loop practice
+
+### Sum of a list
+
+Suppose you have a list of numbers and want to calculate their sum. One way to do this is with the built-in `sum` function:
+```
+# Example list
+a = [2, 3, 5, 7, 11, 13, 17]
+
+# Built-in sum
+total = sum(a)
+```
+Write another implementation that uses a `for` loop to manually calculate the list sum.
+
+
+### I've got 99 numbers, but I don't which ones
+Here's a popular interview question with a "clever" solution.
+
+You're given a list that contains 99 of the numbers 1 to 100 in an unknown order. Determine the one value that's missing.
+
+The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The sum of the first `n` integers is
+```
+sum_1_to_n = n * (n + 1) / 1
+```
+
+Write a program that implements this solution to the problem.
+```
+"""
+Find the missing numbers
+"""
+
+from random import shuffle
+
+# Create a list fo 100 numbers
+numbers = [i for i in range(1, 101)]
+
+# Randomly order, then remove the first item
+shuffle(numbers)
+removed = numbers.pop(0)
+
+### Add your code here to find the removed number
+
+# Print the answer
+print(removed)
+
+```
+
+### Fibonacci
+
+Recall the famous Fibonacci sequence, where each number is the sum of the two previous numbers: 0, 1, 1, 2, 3, 5, 8, 13, etc.
+
+Write a program that can read an input integer `n` > 1 from the user and print out the first `n` terms of the Fibonacci sequence.
+
+Tip: Use two variables called `current` and `previous` to keep track of the most recent two numbers. On each iteration of the loop, calculate `next`, the next number in the sequence. Print it, then update `current` and `previous`.
+```
+"""
+Fibonacci sequence
+"""
+
+# Read input n (greater than 1)
+n = int(input('Enter n > 1: '))
+
+# First two terms, f_0 and f_1
+prev = 0
+current = 1
+
+# Print the first two terms
+print(prev)
+print(current)
+
+# Loop from 2 UP TO AND INCLUDING n
+#
+# Fill in the appropriate range function inputs
+for i in range():
+    # Fill in the body of the loop
+```
+
 
 ## Drawing with Pillow
 
@@ -127,7 +204,7 @@ Modify the example program to add more rectangles to the image. Experiment with 
 
 ## Homage to *Homage to the Square*
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Grafik_nach_Josef_Albers.jpg" width="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Grafik_nach_Josef_Albers.jpg" width="300px" />
 
 *via [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/a/ab/Grafik_nach_Josef_Albers.jpg)*
 
