@@ -39,7 +39,7 @@ print(fib_1)
 print(fib_2)
 
 # Calculate 48 more numbers
-for i in range(48):
+for i in range(49):
     # Use fib_1 and fib_2 to calculate the next number
 
     # Print the next number
@@ -159,7 +159,7 @@ Anni Albers, *Éclat* (1975), via [Cooper Hewitt](https://www.cooperhewitt.org/2
 
 ### Starter code
 
-Start by putting the following program into a file named `basic_drawing.py` and then running it. It will produce a file named `drawing.png` that you can click on to open and examine.
+Start by putting the following program into a file named `basic_drawing.py` and then running it. It will produce a file named `rect.png` that you can click on to open and examine.
 
 ```
 """
