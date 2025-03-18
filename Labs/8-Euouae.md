@@ -6,10 +6,6 @@
 
 <br/>
 
-## Schedule
-
-This is the lab for week 8. Lab 7 was replaced by the hurricane assignment.
-
 
 ## Overview
 
@@ -32,6 +28,38 @@ cd Lab_8
 
 
 ## List and Loop Practice
+
+
+### Beep Boop
+
+Write a program that loops through the numbers 7 to 77 and prints each number, except:
+
+- For numbers divisible by 7 print `Beep`
+- For numbers divisible by 4 print `Boop`
+- For numbers divisible by 7 and 4 print `BeepBoop`
+
+
+### Max of a list
+
+Complete the prgram below by writing a function named `max_of_list` that takes a list and loops through it to identify and return its maximum element. Don't use the built-in `max` function.
+```
+"""
+Max of a list
+"""
+
+def max_of_list(a):
+    """
+    Return max item of input list a
+    """
+
+
+### Main
+test_list = [7, 3, 2, 11, 13, 5]
+max_value = max_of_list(test_list)
+print(max_value)
+```
+
+Tip: Use a variable to keep track of the largest item in the list. As you loop, check if the current item is larger than then current max. If so, update the max.
 
 
 ### Range of a list
@@ -62,29 +90,21 @@ print(list_range([-1, -2, -3, -4, -5, -6, -7, -8]))
 print(list_range([-1, 2, -3, 4, -5, 6, -7, 8]))
 ```
 
-### Classical Fibonacci
+### Project Euler #6
 
-We've previously used Binet's formula to calculate terms in the Fibonacci sequence. Write a program that uses a loop to calculate and print the first 50 Fibonacci numbers. Put your code in a file named `fib.py`.
+The sum of the squares of the first ten natural numbers is,
 
-Tip: Use two variables `fib_1` and `fib_2` to keep track of the two previous numbers in the sequence. On each loop iteration, calculate the next Fibonacci number, then update the values of `fib_1` and `fib_2`.
+1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> + ... + 10<sup>2</sup> = 385
 
-```
-# First two numbers
-fib_1 = 0
-fib_2 = 1
+The square of the sum of the first ten natural numbers is,
 
-print(fib_1)
-print(fib_2)
+(1 + 2 + 3 + ... + 10)<sup>2</sup> = 3025
 
-# Calculate 48 more numbers
-for i in range(48):
-    # Use fib_1 and fib_2 to calculate the next number
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is
 
-    # Print the next number
+3025 - 385 = 2640.
 
-    # Update fib_1 and fib_2 for the next iteration
-```
-
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 ### Reverse
 
@@ -118,20 +138,6 @@ print(primes[5])
 Then think about how to construct a loop that visits those indices in that order. You could also experiment with negative indexing.
 
 
-### Counting vowels
-
-The `for` loop iterates over sequences. Strings are a type of sequence in Python, so you can step through the characters of a string named `s` using:
-```
-for c in s:
-    # Do something with character c
-```
-Write a program named `vowels.py` that prompts the user to enter a word, then counts and prints the number of vowels in the word.
-
-Tip: You can test if the character `c` is a vowel using
-```
-if c in 'aeiou':
-    # c is a vowel
-```
 
 
 ### All vowels
