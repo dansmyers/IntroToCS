@@ -4,9 +4,7 @@
 
 *Ancient storyteller in a fantasy game*, made with DALL-E 3
 
-<br/>
-
-## Due Friday, 10/25
+## Due Friday, 3/28
 
 ## Overview
 
@@ -35,6 +33,13 @@ Along the way, you'll get to practice using loops, lists, functions, and the oth
 
 Beyond using the API, you can use AI tools to help you develop your ideas and code. As before, keep a log of your AI interactions and your reactions to the AI's responses, so you have a record of how your project developed.
 
+### Warning
+
+You can use AI in any way you want, but be careful about AI generated code for the OpenAI API. The format of the API functions has changed a few times, and some models may write code for you that uses the *older* versions. These won't work and your program will crash.
+
+Make sure to thoroughly test your code before submitting it!
+
+
 ## Setup
 
 Make a `Project_3` directory and create a file named `game.py` inside it.
@@ -42,6 +47,67 @@ Make a `Project_3` directory and create a file named `game.py` inside it.
 ## Review the basic chatbot
 
 The starting point for this project is the basic chatbot from Lab 8. Review that code and make sure you understand how it's implemented and how to use the OpenAI API before continuing with this project.
+
+### API key management
+
+In the previous lab, you entered the API key into your terminal manually using the `export` command. This works, but it's annoying because you'd have to reenter the key every time you start a new terminal session.
+
+Here's another approach to secret management. Create a file in your `Project_3` directory named `.env`
+```
+touch .env
+```
+This is the "environment" file for your project. Put the folowing inside it, then add the real API key in between the quotes:
+```
+# Google Search API Credentials
+OPENAI_API_KEY="COPY THE REAL API KEY IN BETWEEN THESE QUOTES"
+```
+
+Filenames that start with `.` are considered **hidden files** by the shell. They aren't really invisible, but they don't show up in the output of a normal `ls` file listing command. Hidden files like `.env` are typically used for configuration.
+
+### Updated chat code
+
+Here's a version of the starting chat program that uses the `.env` file. It uses a Python library called `dotenv` to read the key from the file. The actual chat interaction code is the same as the version in the lab:
+```
+"""
+Calling the GPT API using a .env file to load the API key
+"""
+
+from openai import OpenAI
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API credentials from environment variables loaded from .env file
+OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+
+client = OpenAI()
+
+# client.chat.completions.create is the basic function to submit a request
+completion = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {
+            "role": "user",
+            "content": "Write a haiku about AI."
+        }
+    ]
+)
+
+# Print the response
+print(completion.choices[0].message.content)
+```
+
+### Picky detail: Don't upload `.env` to GitHub
+
+At some point, you might want to upload your project to a GitHub profile as a demonstration of your work. That's fine, but **make sure you don't upload the `.env` file with the key inside it**.
+
+OpenAI will detect if a key shows up in a public repo and, if so, disable the key so it can't be used illicitly. I'd then have to make another key, distribute it, etc.
+
+GitHub allows to make a special `.gitingore` file that can list files you don't want to commit to your repo. You can read more about that strategy if you're interested in posting your project code.
+
 
 ## Guidelines
 
