@@ -130,6 +130,7 @@ I want you to add **at least one original feature** to your program that goes be
 - Maintaining a list of items that you can find and then use
 - Stats, levels, skills, etc.
 - Changing the prompt that goes to the AI over time to change the tone/theme/setting of the game as the player advances
+- Modeling a decay of the player's sanity by raising the model temperature
 
 These are just suggestions and you can choose whatever you want, but I want you to be **ambitious** and creative.
 
