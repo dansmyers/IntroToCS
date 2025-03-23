@@ -66,7 +66,11 @@ Filenames that start with `.` are considered **hidden files** by the shell. They
 
 ### Updated chat code
 
-Here's a version of the starting chat program that uses the `.env` file. It uses a Python library called `dotenv` to read the key from the file. The actual chat interaction code is the same as the version in the lab:
+Here's a version of the starting chat program that uses the `.env` file. It uses a Python library called `dotenv` to read the key from the file. You can install `dotenv` using the `pip` command in the terminal:
+```
+pip install dotenv
+```
+The actual chat interaction code is the same as the version in the lab:
 ```
 """
 Calling the GPT API using a .env file to load the API key
