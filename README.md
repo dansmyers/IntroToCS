@@ -90,14 +90,14 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 3/26 | Games with the `while` loop, valid input    | Lab 9: Wordplay |  |
 3/28 | Review `try`-`except`, selection sort   | | Project 3 due |
 3/31 | Dictionaries | | Chapter 6 and 9 reading out |
-4/2 | Code cracking, Intro to Project 4  | Lab 10: Jeu Monégasque |  Project 4 out |
-4/4 | Hashing and passwords | |  |
-4/7 | Binary numbers | | Chapter 6 and 9 reading due |
-4/9 | Character encodings  | Lab 11: Precision  |
-4/11 | Stepwise refinement (feat. Tic-Tac-Toe)  | | Project 4 due |
-4/14 | Tuples, anagrams, Intro to Project 5  |   Project 5 out |
+4/2 | Code cracking  | Lab 10: Jeu Monégasque |  |
+4/4 | No class (Dr. Myers out of town) | |  |
+4/7 | FOX DAY | | |
+4/9 | Binary numbers | Lab 11: Precision  | Chapter 6 and 9 reading due |
+4/11 | Hashing and passwords | | Project 4 out |
+4/14 | Character encodings  |    |
 4/16 | Machine learning and classification  | Lab 12: Pandas and Benford's Law |
-4/18 | Decision trees | | 
+4/18 | Decision trees | Project 4 due, Project 5 out| 
 4/21 | Objects and classes |  |
 4/23 | `__init__` and `__str__`  | Lab 13: My Heart Will Go On |
 4/25 |  Example: Deck of cards |  | Project 5 due, Project 6 out |
