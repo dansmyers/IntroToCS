@@ -48,6 +48,12 @@ To implement `decode.py` you'll need to determine the mappings to reverse the su
 
 ## Tips
 
+### The cipher
+
+The cipher is a one-to-one substitution cipher that maps each letter of the alphabet to another letter. Both uppercase and lowercase letters use the same mappings.
+
+It is ***not*** any version of the rotational Caesar cipher, nor is it another standard letter-swapping method like the Atbash cipher, which reverses the alphabet (A becomes Z, B becomes Y, etc.).
+
 ### Uppercase and lowercase letters
 The ciphertext contains both uppercase and lowercase letters. I recommend converting each line of text to lowercase before you perform frequency analysis, so that you obtain complete counts for every letter. You can use the string's `.lower()` method to convert a line to all lowercase letters:
 
