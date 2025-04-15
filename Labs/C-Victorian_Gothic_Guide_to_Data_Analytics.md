@@ -529,7 +529,7 @@ pop2023 = df['POPESTIMATE2023'].astype(str).str[0].astype(int)
 # Print for checking
 print(pop2023[:10])
 ```
-The command is a little wonky: it converts to a string, extracts the first digit, the converts it back to an int.
+The command is a little wonky: it converts the population value to a string, extracts the first digit, then converts the digit back to an int.
 
 The next set of lines calculate the counts of each digit
 ```
