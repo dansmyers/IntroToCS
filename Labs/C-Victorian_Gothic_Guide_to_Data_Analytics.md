@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg/2560px-Caspar_David_Friedrich_-_Abtei_im_Eichwald_-_Google_Art_Project.jpg" width="400px" />
 
->*The Abby in the Oakwood*, Caspar David Friedrich (1809-10)
+*The Abby in the Oakwood*, Caspar David Friedrich (1809-10)
 
 ## Description
 
