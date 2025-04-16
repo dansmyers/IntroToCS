@@ -442,6 +442,10 @@ plt.savefig('mortality.jpg', bbox_inches='tight')
 plt.close()
 ```
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/300px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg" width="400px" />
+
+*Wanderer above the Sea of Fog*, Caspar David Friedrich (1818)
+
 ## Benford's Law
 
 ### Description
