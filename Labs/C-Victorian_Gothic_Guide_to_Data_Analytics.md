@@ -413,7 +413,7 @@ We see in Table 3 of the paper that nearly all of the records for "number of sol
 
 Re-run your program and create the corrected plot.
 
-## Calculate and describe the percent mortality in the 45 Ohio companies.
+### Calculate and describe the percent mortality in the 45 Ohio companies.
 
 Although our original question wasn’t phrased this way, we are beginning to see what we are really trying to answer isn’t, "How many casualties were there in these Ohio companies?". Because there was quite a bit of variation in company size, we need to answer the question "What percent of the soldiers in each company died during the war?" This is often true in statistical analyses. The relative frequency (or percent) of an occurrence often tells us more than the raw frequency (or count).
 
