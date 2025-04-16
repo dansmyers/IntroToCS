@@ -124,7 +124,7 @@ The syntax for the multi-column operations is a little tricky. The outer pair of
 
 ### Selecting a subset
 
-The basic column operations retrieve **all row** of the requested fields. Sometimes you want to select a **subset** of the rows. For example, suppose we wanted to select only
+The basic column operations retrieve **all rows** of the requested fields. Sometimes you want to select a **subset** of the rows. For example, suppose we wanted to select only
 the subset of children from the *Titanic* dataset.
 
 ```
