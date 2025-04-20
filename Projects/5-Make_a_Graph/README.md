@@ -6,7 +6,7 @@
 
 *Napoleon entered Russia with an army of more than 650,000 men, the largest assembled in Europe up to that point. The survivors of the main invasion force numbered only 27,000*.
 
-## Due Tuesday, 11/25 (right before Thanksgiving break)
+## Due Monday, 4/28 (last day of class)
 
 ## Overview
 
