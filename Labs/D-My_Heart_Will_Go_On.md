@@ -2,7 +2,7 @@
 
 <img src="https://i.ytimg.com/vi/kEPfM3jSoBw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASDLwZJ2zstmie_gzbcUGl5-jXmQ" width="400px" />
 
-*[Titanic with a Cat](https://www.youtube.com/watch?v=kEPfM3jSoBw)* by OwlKitty
+*[Titanic with a Cat](https://www.youtube.com/watch?v=kEPfM3jSoBw) by OwlKitty*
 
 ## Description
 
