@@ -1,6 +1,8 @@
 # My Heart Will Go On
 
-<img src="https://img.cinemablend.com/filter:scale/quill/7/f/f/2/d/c/7ff2dca8b628deb838445a3dc2561d9889047620.jpg?mw=600" width="50%" />
+<img src="https://i.ytimg.com/vi/kEPfM3jSoBw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLASDLwZJ2zstmie_gzbcUGl5-jXmQ" width="400px" />
+
+*[Titanic with a Cat](https://www.youtube.com/watch?v=kEPfM3jSoBw)* by OwlKitty
 
 ## Description
 
