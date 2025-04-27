@@ -21,7 +21,7 @@ This is it, the final project.
 
 **If you choose**, you may work with one other person to complete this project.
 
-- You may write code collaboratively with other members of your partner, but remember to pay attention to the guidelines below on acceptable use of resources.
+- You may write code collaboratively with your partner, but remember to pay attention to the guidelines below on acceptable use of resources.
 
 - If you work with someone it would be cool to undertake a more ambitious project worthy of your combined efforts.
 
@@ -29,11 +29,11 @@ This is it, the final project.
 
 1. Awesomeness.
 
-2. Uses basic features of Python: variables, loops, conditional statements, and functions. Almost any reasonably complex program is going to satisfy these requirements. If your program doesn't include most of these features then it might be too simple. **You must include at least one instance of each of these features**.
+2. Uses basic features of Python: variables, loops, conditional statements, and functions. Almost any reasonably complex program is going to satisfy these requirements. If your program doesn't include these features then it might be too simple. **You must include at least one instance of each of these features**.
    
 3. Uses at least one advanced data organization feature: a list, a class, or a dictionary. I'm not requiring any particular number of these, because the best choice depends on the nature of your program.
    
-4. Demonstrates good programming style (indentation, variable names) and includes descriptive comments explaining what's happening in the program.
+4. Demonstrates good programming style (indentation, variable names, etc.) and includes descriptive comments explaining what's happening in the program.
 
 5. You may use AI as much as you want. As in the previous projects, keep a log of your interactions. What I want to see, more than anything, is **iteration** and evidence that you're using AI as a tool to execute your own vision.
    
@@ -61,7 +61,7 @@ Please don't choose any of the following ideas. They're either too easy, too gen
 
 - Hangman, or any similar word guessing game. Wordle, however, is more interesting and acceptable.
 - Other simple pen and paper games are acceptable a long as they require some real effort and thinking on your part. Rule of thumb: If an AI can one-shot it, I don't want to grade it.
-- Text-based quizzes in Python like Challenge Project 1.
+- Text-based quizzes in Python like Project 2.
 
 ## Tips
 
