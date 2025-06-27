@@ -61,7 +61,7 @@ total = sum(a)
 Write another implementation that uses a `for` loop to manually calculate the list sum.
 
 
-### I've got 99 numbers, but I don't which ones
+### I've got 99 numbers, but I don't know which ones
 Here's a popular interview question with a "clever" solution: You're given a list that contains 99 of the numbers 1 to 100 in an unknown order. Determine the one value that's missing.
 
 The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The sum of the integers 1 to `n` is
