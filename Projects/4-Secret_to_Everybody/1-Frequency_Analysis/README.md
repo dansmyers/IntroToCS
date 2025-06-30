@@ -40,7 +40,7 @@ The enciphered message is in the file `cipher.txt`. It contains the opening text
 
 Write two programs:
 
-- `frequency_analysis.py` to scan the ciphered text file and count the number of occurrences of each character. Use a dictionary to store the counts and our previous letter-counting example as a starting point. Print out the frequency of occurrence of each character. **We already did this in class**.
+- `frequency_analysis.py` to scan the ciphered text file and count the number of occurrences of each character. Use a dictionary to store the counts and our previous letter-counting example as a starting point. Print out the frequency of occurrence of each character. **We already started this in class**.
 
 - `decode.py` to translate the ciphered text file and print the deciphered version. Use a dictionary to store the mapping for each ciphertext letter to its plaintext counterpart (you'll need to code the mappings in this dictionary **by hand** as part of the program).
 
