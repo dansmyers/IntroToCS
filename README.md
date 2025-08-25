@@ -53,7 +53,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 
 ### Planned Schedule of Topics
 
-| Day   | Topic                                                       | Notes                                                   |
+| Day   | Topic                                                       | Assignments                                                   |
 | ----- | ----------------------------------------------------------- | ------------------------------------------------------- |
 | 8/25  | Hello, World!                                               |                                                         |
 | 8/27  | Printing and arithmetic                                     | Lab 1: Writing and running programs                     |
