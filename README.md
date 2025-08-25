@@ -78,7 +78,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 10/10 | MIDTERM EXAM (IN CLASS)                                     |                                                         |
 | 10/13 | FALL BREAK                                                  |                                                         |
 | 10/15 | Re-intro to lists, looping over lists                       | Lab 8: Euouae                                           |
-| 10/17 | Looping by index position                                   | **Project 3 out**                                       |
+| 10/17 | Looping by index position                                   | Project 3 out                                           |
 | 10/20 | Choosing random items from a list                           |                                                         |
 | 10/22 | Working with files, the `while` loop                        | Lab 9:  Wordplay                                        |
 | 10/24 | Games with the `while` loop, valid input                    | Project 3 due                                           |
@@ -105,12 +105,13 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 
 ### Other Important Dates
 
-- First day of class: January 15
-- Last day of class: April 28
-- Spring break: March 10 to March 14
-- Last day to drop the class: January 28
-- Last day to withdraw without penalty: March 28
-- Midterm exam: March 7
+- First day of class: August 25
+- Last day of class: December 5
+- Fall break: October 11 to October 14
+- Last day to drop the class ('W' deadline): November 7
+- Last day to withdraw without transcript notation: September 8
+- Credit/no credit deadline: December 5
+- Midterm exam: October 10
 
 ## The All-Important Grading Section
 
