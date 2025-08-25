@@ -2,7 +2,7 @@
 
 ## Writing a program that prints
 
-Go to [](trinket.io/python3) to access the interactive environment we used in class. Highlight and then delete any pre-existing code in the left pane.
+Go to [trinket.io/python3]() to access the interactive environment we used in class. Highlight and then delete any pre-existing code in the left pane.
 
 Click in the left pane, then type
 ```
