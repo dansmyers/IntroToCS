@@ -185,9 +185,9 @@ at the shell prompt and pressing ENTER.
 
 ### Our Princess is in Another Castle
 
-<img src="https://cdn.mobilesyrup.com/wp-content/uploads/2020/11/super-nintendo-world-scaled.jpg" width="300px" />
+<img src="https://github.com/user-attachments/assets/06cf92ee-3a8b-4407-bc00-785340a34ae6" width="300px" />
 
-*Super Nintendo World Japan. Coming to Universal Orlando in a few years.*
+*Super Nintendo World at Epic Universe*
 
 At the end of each level of the original *Super Mario Bros.*, Mario jumps up a staircase like the following:
 
