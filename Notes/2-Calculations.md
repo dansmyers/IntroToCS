@@ -46,6 +46,15 @@ Python respects the standard order of operations. You can use parentheses to ind
 print((2 + 3) * 4)
 ```
 
+Don't overly parenthesize expressions! Avoid cluttering expressions with parentheses that simply copy the already-existing order of operations. It's okay to chain multiple operations together sequentially.
+```
+# Inner parentheses are unnecessary
+print(((3 * 4) * 5) * 6)
+
+# This is equivalent and cleaner
+print(3 * 4 * 5 * 6)
+```
+
 ## Style
 
 Place a single space between each operator and its operands to make your expressions easy to read.
@@ -57,15 +66,6 @@ print((2+3)*4)
 print((2 + 3) * 4)
 ```
 This style is preferred by most professional coding guides.
-
-Don't overly parenthesize expressions! Avoid cluttering expressions with parentheses that simply copy the already-existing order of operations. It's okay to chain multiple operations together sequentially.
-```
-# Inner parentheses are unnecessary
-print(((3 * 4) * 5) * 6)
-
-# This is cleaner
-print(3 * 4 * 5 * 6)
-```
 
 ## Exponents
 Python uses `**` for exponentiation. Don't use `^`, which you may have seen on calculators.
