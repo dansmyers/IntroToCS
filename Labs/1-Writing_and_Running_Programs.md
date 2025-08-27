@@ -6,7 +6,7 @@
 
 ## Overview
 
-This lab will let you practice using the Replit environment.
+This lab will let you practice using the Codespaces environment.
 
 The lab has two parts:
 
