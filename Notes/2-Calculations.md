@@ -68,7 +68,7 @@ print(3 * 4 * 5 * 6)
 ```
 
 ## Exponents
-Python use `**` for exponentiation. Don't use `^`, which you may have seen on calculators.
+Python uses `**` for exponentiation. Don't use `^`, which you may have seen on calculators.
 ```
 # Square root of 25 = 5
 print(25 ** .5)
