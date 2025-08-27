@@ -29,7 +29,7 @@ print('2 * 3 + 4')
 ```
 
 ## Numerical precision
-Sometimes, you need to do a calculation that prdoduces a repeating decimal answer
+Sometimes, you need to do a calculation that produces a repeating decimal answer
 ```
 # 8.666666...
 print(20 / 3 + 2)
