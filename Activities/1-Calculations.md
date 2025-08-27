@@ -1,6 +1,6 @@
 # Calculation Practice
 
-<img src="https://uploads5.wikiart.org/00341/images/ferdinand-knab/ferdinand-knab-am-schlosstor.jpg!Large.jpg" width=400px" />
+<img src="https://uploads5.wikiart.org/00341/images/ferdinand-knab/ferdinand-knab-am-schlosstor.jpg!Large.jpg" width="400px" />
 
 *Am Schlosstor*, Ferdinand Knab (1900)
 
