@@ -1,8 +1,8 @@
 # Calculation Practice
 
-<img src="https://uploads5.wikiart.org/00341/images/ferdinand-knab/ferdinand-knab-am-schlosstor.jpg!Large.jpg" width="400px" />
+<img src="https://uploads7.wikiart.org/00341/images/ferdinand-knab/ferdinand-knab-das-schlossportal-1881-1.jpg!Large.jpg" width="300px" />
 
-*Am Schlosstor*, Ferdinand Knab (1900)
+*Das Schlossportal*, Ferdinand Knab (1881)
 
 ## Overview
 
