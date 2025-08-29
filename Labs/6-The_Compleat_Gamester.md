@@ -77,7 +77,7 @@ if triple(die1, die2, die3):
     # Print winning message
 elif four_five_six(die1, die2, die3):
     # Print winning message
-elif pair_and_six(die1, die2, die):
+elif pair_and_six(die1, die2, die3):
     # Print winning message
 
 # Continue for other cases
