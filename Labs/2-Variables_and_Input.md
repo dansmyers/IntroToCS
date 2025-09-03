@@ -94,7 +94,7 @@ The current all-time world record for weight lifted overhead in the clean and je
 
 Dogecoins, the favored cryptocurrency of shiba inus everywhere, currently trades for about .22 USD per DOGE.
 
-Write a program that reads a number of DOGE as input, then prints the corresponding amount of USD to two decimal places. Think about the conversion and whether you need to multiple or divide.
+Write a program that reads a number of DOGE as input, then prints the corresponding amount of USD to two decimal places. Think about the conversion and whether you need to multiply or divide.
 
 Tip:
 
