@@ -359,7 +359,7 @@ Your program should use `randint` three times to generate the three die rolls. A
 
 ### Cho-Han
 
-<img src="https://www.bmimages.com/pr/353337195/BMImages_00286082001_preview.jpg" width="400px" />
+<img src="https://www.bmimages.com/pr/353337195/BMImages_00286082001_preview.jpg" width="300px" />
 
 Matsumoto Hoji, *Frog* (1814)
 
