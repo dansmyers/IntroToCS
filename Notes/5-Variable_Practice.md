@@ -31,7 +31,7 @@ print(f'The area is {area:.2f}.')
 
 If you run the program, you'll see that the second statement prints **70**. Changing the values of `length` and `width` **does not** automatically update the value of `area`.
 
-Remember that `=` is an assignment operation: it's not the same as mathematical equality! Therefore, a line like
+Remember that `=` is an *assignment* operation. It's not the same as mathematical equality! Therefore, a line like
 ```
 area = length * width
 ```
