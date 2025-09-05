@@ -42,6 +42,12 @@ If you want to change the value of a variable, you can only do that by making an
 ## Constants
 
 Programs often contain fixed values that do not change, like special math constants or conversion factors. It's conventional to indicate that a variable is a constant by naming it in `ALL_CAPS`. That style indicates to any future readers that the variable should not be arbitrarily modified.
+```
+# 1 Smoot = 5.5833 feet
+FEET_PER_SMOOT = 5.5833
+```
+
+## Converter
 
 Here's another version of the Smoots converter program that combines all of the features we've talked about so far:
 
