@@ -1,6 +1,6 @@
 # Branches
 
-<img src="https://shop.anseladams.com/cdn/shop/files/1701138108_Web_1080x.jpg?v=1718068936" width="400px" />
+<img src="https://substackcdn.com/image/fetch/$s_!7WRb!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5dd8cca-0a85-4c52-bae8-b21d58e7e245_1616x3715.png" width="400px" />
 
 Ansel Adams, *Oak Tree, Snow Storm* (1948)
 
