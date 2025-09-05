@@ -24,7 +24,7 @@ At the end of this project, you should feel more comfortable using AI to get sug
 
 There are currently four high-end foundation models:
 
-- ChatGPT-4o
+- ChatGPT-5
 - Anthropic's Claude
 - Google's Gemini
 - Microsoft's Copilot
@@ -32,11 +32,11 @@ There are currently four high-end foundation models:
 You can use any of these to complete this assignment. They all offer reasonable free plans.
 
 - Claude is generally the best for programming and writing, but it has relatively tight limits on the free plan. This may not be a problem if you don't need to use it continuously.
-- ChatGPT is strong all around and has supports more features for images and voice. Old versions of the free plan limited you to the GPT-3.5 model, but that has now been upgraded to the GPT-4o model. ChatGPT is a good option if you find Claude too restrictive.
+- ChatGPT is strong all around and has supports more features for images and voice. Old versions of the free plan limited you to the GPT-3.5 model, but that has now been upgraded to the GPT-5 model. ChatGPT is a good option if you find Claude too restrictive.
 - You can use Copilot through your Rollins login as part of our Office 365 subscription.
 - Gemini currently has less mindshare than the other major models, but that might change as Google rolls our more features.
 
-I recommend starting with Claude and then switching to ChatGPT-4o if you need to.
+I recommend starting with Claude and then switching to ChatGPT if you need to.
 
 
 ## Warm-up Questions
