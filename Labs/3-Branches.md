@@ -359,6 +359,12 @@ Your program should use `randint` three times to generate the three die rolls. A
 
 ### Cho-Han
 
+<img src="https://www.bmimages.com/pr/353337195/BMImages_00286082001_preview.jpg" width="400px" />
+
+Matsumoto Hoji, *Frog* (1814)
+
+<br/>
+
 Cho-han is a traditional Japanese dice game. The rules are simple:
 
 - The player bets if the sum of two six-sided dice will be odd or even.
