@@ -1,6 +1,6 @@
 # Branches
 
-<img src="https://kirby.jamesfuentes.com/media/pages/artists/9-john-mcallister/4eb585e4ae-1715368643/jmca-11375-image-2048x-q95.jpg" width="400px" />
+<img src="https://kirby.jamesfuentes.com/media/pages/artists/9-john-mcallister/4eb585e4ae-1715368643/jmca-11375-image-2048x-q95.jpg" width="500px" />
 
 John McAllister, *serenest rave ring out* (2024)
 
