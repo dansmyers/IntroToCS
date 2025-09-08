@@ -5,6 +5,7 @@
 - The six relational operators
 - Testing for divisibility using the modulus operator
 - Introduction to the `if` statement
+- Indentation and logical structure
 
 ## Relational operators
 
