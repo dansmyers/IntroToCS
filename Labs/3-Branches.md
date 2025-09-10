@@ -48,9 +48,9 @@ Converting liters to gallons with input checking
 # Read a number of liters from the user
 
 
-# Check if the number of liters is greater than 0
+# Check if the number of liters is less than 0
 #
-# If not, print an error message and call quit() to end the program immediately
+# If it is, print an error message and call quit() to end the program immediately
 
 
 # Do the conversion
