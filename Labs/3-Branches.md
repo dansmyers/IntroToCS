@@ -410,6 +410,9 @@ CHO-HAN
 
 
 # Check if the user's input is 1 or 2; if not, print an error and quit
+if choice < 1 or choice > 2:
+    print('You must enter 1 or 2.')
+    quit()
 
 
 # Roll two six-sided dice and add their sum
@@ -423,5 +426,9 @@ CHO-HAN
 # Every other outcome is a loss
 #
 # Think about how to turn that into an if-elif-else block
+
+# First option: guess even and the result is even
+if choice == 1 and total % 2 == 0:
+    print('You win!')
 
 ```
