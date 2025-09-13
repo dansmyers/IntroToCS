@@ -83,7 +83,7 @@ not (a and b) == (not) or (not b)
 You can show this equivalence by constructing the relevant truth table columns
 ```
  a  b  |  not (a and b)  |  (not a) or (not b)
--------------------------|----------------------
+-------------------------|---------------------
  F  F  |       T         |          T
  F  T  |       T         |          T
  T  F  |       T         |          T
