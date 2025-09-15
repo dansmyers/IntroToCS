@@ -47,6 +47,5 @@ else:
     output_value = value * FEET_PER_SMOOT
 
     
-# 7. Example of printing multiple variables with multiple format specifiers
-# List of variables must be enclosed in ( )
-print('That is %.2f %s.' % (output_value, output_unit))
+# 7. Print multiple variables
+print(f'That is {output_value:%.2f} {output_unit}.')
