@@ -7,6 +7,17 @@
 - Making choices with unequal probabilities
 - Example
 
+## `randint`
+
+`randint` takes two inputs and returns an integer from the given range, including both. For example, `randint(1, 6)` generates a value from the range 1 to 6, including both. Therefore, the result is one of the values 1, 2, 3, 4, 5 or 6, as in the roll of a six-sided die. All values have an equal probability of being chosen.
+```
+# Sum of two six-sided dice 
+die1 = randint(1, 6)
+die2 = randint(1, 6)
+total = die1 + die2
+printf('The dice are {die1} and {die2}. The sum is {total}.'
+```
+Check Lab 3 for more examples of using `randint` to generate random choices with equal probabilities.
 
 
 ## `random`
@@ -14,6 +25,15 @@
 The `random` function takes no inputs and returns a random float value in the range [0.0, 1.0) - 0.0 is included in the possible outputs, but 1.0 is not.
 
 `random` is useful when you want to make choices with unequal probabilities. The program below implements a Magic Eight Ball program with probabilities of 40%, 30%, 20% and 10% for the four answers.
+
+The conditional block selects which region of the number line the random `r` falls into. If the first option has 40% probability, then it corresponds to the range of values from 0.0 to .40. The second option corresponds to the next 30% of the distribution, from .40 to .70, and so forth.
+```
+                                              Opt. 4
+                                                | 
+      Option 1          Option 2      Opt. 3    v
+|-------------------|--------------|---------|-----|
+0.0                .40            .70       .90    1.0 
+```
 
 ```
 """
@@ -40,9 +60,6 @@ elif r <= .90:
 else:
     print('Reply hazy.')
 ```
-
-
-
 
 ## Example: roulette
 The American roulette wheel has 38 pockets, of which 18 are colored red, 18 are black, and two (0 and 00) are colored green. The program below prompts the user to bet on red or black, then uses `random` to simulate the color of the spin.
