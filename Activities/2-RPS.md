@@ -80,7 +80,7 @@ from random import randint
 ## Step 1: Declare constants
 We have to decide how to represent the player's and computer's moves. There are many different ways to do this. We could, for example, 
 have the player type in a string for the chosen move, like "Rock". This approach could work, but we'd have to deal with the complexity 
-of raw text input.
+of raw text input and capitalization.
 
 A more structured approach is to assign each move a number. Now, we can read the user's move by prompting him or her to type 1, 2, or 3 and generate the computer's move by picking a random value 1, 2, or 3.
 
@@ -92,7 +92,7 @@ PAPER = 2
 SCISSORS = 3
 ```
 
-Now you can use the name ROCK in your program instead of always remembering "1 stands for rock."
+Now you can use the name ROCK in your program instead of always remembering that 1 stands for rock.
 
 ### Aside: Constants
 
@@ -169,7 +169,7 @@ Continue until you've covered all combinations of `player_move` and `cpu_move`.
 
 When you've finished rock-paper-scissors, here's another dice game.
 
-Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: Players roll three dice and bet on the outcome. There are a variety of possible bets, but the two most common wagers in sic bo are "big" and "little".
+Sic bo ("precious dice") is a dice game of Chinese origin, now available in many American casinos that cater to Asian gamers. The game is similar to craps: players roll three dice and bet on the outcome. There are a variety of possible bets, but the two most common wagers in sic bo are "big" and "little".
 
 - The big bet wins if the sum of the three dice is 11 to 17 (including both), but not three-of-a-kind
 - The little bet wins if the sum of the three dice is 4 to 10 (including both), but not three-of-a-kind
