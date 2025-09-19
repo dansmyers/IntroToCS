@@ -1,6 +1,6 @@
 # Project 2: Vignettes
 
-## Due Monday, 2/17
+## Due Friday, 9/26
 
 ## Overview
 
