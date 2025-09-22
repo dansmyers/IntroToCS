@@ -156,7 +156,7 @@ print(f'The largest value is {maximum}.')
 
 ### d20
 
-Write a program with a function called `d6` that **returns** the roll of a twenty-sided die.
+Write a program with a function called `d20` that **returns** the roll of a twenty-sided die.
 ```
 """
 Die rolling program
