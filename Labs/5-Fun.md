@@ -67,7 +67,7 @@ print(f'{num_pounds} pounds is about {num_kilos} kgs.')
 
 ### BTC
 
-Write a program with a function named `btc_to_usd` that takes a number of bitcoins as input and **returns** the corresponding number of patriotic American fiat dollars. There are currently approximately $94167.20 per bitcoin.
+Write a program with a function named `btc_to_usd` that takes a number of bitcoins as input and **returns** the corresponding number of patriotic American fiat dollars. There are currently approximately $113,792.10 per bitcoin.
 
 - Your function can take one input named `btc`
 - Use one `return` statement at the end of the function
