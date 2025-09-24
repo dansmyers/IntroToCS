@@ -188,7 +188,7 @@ Add another function called `check_roll` that uses `d20` to perform a Dungeons n
 - If the result is *greater than or equal to* `difficulty`, the player passes the check. Return `True`.
 - Otherwise, return False. The player has failed the ability check.
 
-For example, a call to `check_roll(3, 12)` would roll a twenty-sided die, add 3, then check if the sum is at least 12.
+For example, a call to `check_roll(3, 12)` would roll a twenty-sided die, add 3, then check if the sum is at least 12. Add *at least three* test cases to the main section of the program.
 
 
 ## Card Games
