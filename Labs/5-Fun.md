@@ -179,6 +179,8 @@ print(die1, die2)
 
 ### Ability check
 
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1728780730i/1060727.jpg" width="300px"/>
+
 Add another function called `check_roll` that uses `d20` to perform a Dungeons n' Dragons style ability check. The function takes two inputs called `modifier` and `difficulty`. The modifier input may be positive or negative.
 
 - Roll `d20` and add `modifier`
