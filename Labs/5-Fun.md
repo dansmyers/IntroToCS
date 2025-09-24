@@ -156,10 +156,10 @@ print(f'The largest value is {maximum}.')
 
 ### d20
 
-Write a program with a function called `d20` that **returns** the roll of a twenty-sided die.
+Create a file named `dice_rolling.pr`. Write a function called `d20` that **returns** the roll of a twenty-sided die.
 ```
 """
-Die rolling program
+Dice rolling program
 """
 
 from random import randint
@@ -194,7 +194,7 @@ For example, a call to `check_roll(3, 12)` would roll a twenty-sided die, add 3,
 
 ### Card printing
 
-Write a function called `print_card` that takes a number 1 to 13 as input and prints the corresponding playing card name.
+Create a file named `cards.py`. Write a function called `print_card` that takes a number 1 to 13 as input and prints the corresponding playing card name.
 
 - if the input is 1, print `Ace`
 - if the input is 2 through 10, print the number as a word.
@@ -233,9 +233,11 @@ from random import randint
 
 # Deal some random cards and print them
 c1 = randint(1, 13)
+print(c1)
 print_card(c1)
 
 c2 = randint(1, 13)
+print(c2)
 print_card(c2)
 ```
 
