@@ -61,7 +61,7 @@ def pounds_to_kilograms(pounds):
 
 ### Main
 num_pounds = 10000
-num_kilos = pounds_to_kilos(num_pounds)
+num_kilos = pounds_to_kilograms(num_pounds)
 print(f'{num_pounds} pounds is about {num_kilos} kgs.')
 ```
 
