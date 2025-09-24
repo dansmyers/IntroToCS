@@ -156,7 +156,7 @@ print(f'The largest value is {maximum}.')
 
 ### d20
 
-Create a file named `dice_rolling.pr`. Write a function called `d20` that **returns** the roll of a twenty-sided die.
+Create a file named `dice_rolling.py`. Write a function called `d20` that **returns** the roll of a twenty-sided die.
 ```
 """
 Dice rolling program
@@ -179,7 +179,7 @@ print(die1, die2)
 
 ### Ability check
 
-Write a function called `check_roll` that uses `d20` to perform a Dungeons n' Dragons style ability check. The function takes two inputs called `modifier` and `difficulty`. The modifier input may be positive or negative.
+Add another function called `check_roll` that uses `d20` to perform a Dungeons n' Dragons style ability check. The function takes two inputs called `modifier` and `difficulty`. The modifier input may be positive or negative.
 
 - Roll `d20` and add `modifier`
 - Compare the result to `difficulty`
