@@ -74,7 +74,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 10/1  | Local variables and scope                                   | Lab 6: The Compleat Gamester                            |
 | 10/3  | The `for` loop                                              |                                                         |
 | 10/6  | `for` loop examples                                         | Chapter 5 reading due                                   |
-| 10/8  |  Intro to lists                                             | Lab 7: Choose Your Own Adventure                        |
+| 10/8  |  Intro to lists                                             | Lab 7: Homage                       |
 | 10/10 | MIDTERM EXAM (IN CLASS)                                     |                                                         |
 | 10/13 | FALL BREAK                                                  |                                                         |
 | 10/15 | Re-intro to lists, looping over lists                       | Lab 8: Euouae                                           |
