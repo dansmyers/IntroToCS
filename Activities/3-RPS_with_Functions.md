@@ -71,6 +71,10 @@ elif player_move == ROCK and cpu_move == SCISSORS:
     print('FAREWELL, MY MECHANICAL BROTHER.')
 ```
 
+## Setup
+
+`cd` to your `3-Functions` directory and make a file named `rps_functions.py`.
+
 ## Starting code
 Use the code below as your starting point. You can see that it follows the same approach as the version above, but calls functions to perform several of the steps. You're going to write the functions using the instructions below.
 ```
