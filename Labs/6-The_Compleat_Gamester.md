@@ -63,7 +63,6 @@ Write a program that allows the player to do this version of cee lo. **Write a f
 Here's example output:
 ```
 Welcome to Cee-lo dice.
-They see me rolling (the dice)...
 The dice are 5, 6, and 4.
 That's an instant win!
 ```
