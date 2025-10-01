@@ -197,7 +197,7 @@ for num in range(15, 30, 3):
 ```
 
 
-### Lists and dictionaries
+### Lists
 
 1. What is the output of the following code fragment?
 ```
