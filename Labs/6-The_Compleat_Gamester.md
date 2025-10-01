@@ -43,7 +43,7 @@ Another dice game, originally of Chinese origin. Often just called "dice" or "st
 
 The basic goal of Cee-lo is to roll three dice and achieve a winning combination. We're going to implement a simple version for one player that focuses on checking for immediate wins and losses. The full version would use loops to allow for re-rolls.
 
-The player rolls three dice. If one of the winning combinations is achieved, the player wins immediately. If one of the losing combinations occurs, the player loses immediately.
+The player rolls three dice. If one of the winning combinations is achieved, the player wins immediately. If one of the losing combinations occurs, the player loses immediately. Any other outcome is a push.
 
 Standard winning combinations are:
 
