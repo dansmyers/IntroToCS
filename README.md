@@ -70,11 +70,11 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 9/22  | Intro to functions                                          | Chapter 3 and 4 reading due                             |
 | 9/24  | Functions II: Functions that take parameters                | Lab 5: Fun                                              |
 | 9/26  | Functions III: Functions that return values                 | Project 2 due                                           |
-| 9/29  | Functions IV: Functions + conditionals                      | Chapter 5 reading                                       |
-| 10/1  | Local variables and scope                                   | Lab 6: The Compleat Gamester                            |
+| 9/29  | Functions IV: Functions + conditionals                      |                                       |
+| 10/1  | Local variables and scope                                   | Lab 6: The Compleat Gamester , Chapter 5 reading                            |
 | 10/3  | The `for` loop                                              |                                                         |
-| 10/6  | `for` loop examples                                         | Chapter 5 reading due                                   |
-| 10/8  |  Intro to lists                                             | Lab 7: Homage                       |
+| 10/6  | `for` loop examples                                         |                                  |
+| 10/8  |  Intro to lists                                             | Lab 7: Homage,  Chapter 5 reading due                        |
 | 10/10 | MIDTERM EXAM (IN CLASS)                                     |                                                         |
 | 10/13 | FALL BREAK                                                  |                                                         |
 | 10/15 | Re-intro to lists, looping over lists                       | Lab 8: Euouae                                           |
