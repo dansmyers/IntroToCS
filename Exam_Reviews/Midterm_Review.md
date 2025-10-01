@@ -29,7 +29,7 @@ I will grade the exam by assessing the fraction of questions you answered correc
 
 - Make notes to yourself. Trace the execution of the program step-by-step and keep track of the values of each variable.
 
-- The examples below are not 100% exhaustive of every type of question that might be on the exam.
+- **Don't try to memorize the answers**. Focus on understanding how each program executes so you'll be prepared for new questions or similar questions with changed values.
   
 
 ## Practice Questions
