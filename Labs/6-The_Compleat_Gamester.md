@@ -308,4 +308,6 @@ And test if the third card is in between:
 ```
 if third_card >= first_card and third_card <= second_card:
     # The bet wins
+else:
+    # The bet loses
 ```
