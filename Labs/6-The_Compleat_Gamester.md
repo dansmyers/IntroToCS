@@ -204,7 +204,7 @@ This function takes a card number 1 to 13 as input and returns its blackjack val
 - Number cards 2-10 count for their face value
 - Jack, Queen, and King count for **10**
 - Aces, in this version, count for **1**
-- If the card anything else, return a value of 0
+- If the card is anything else, return a value of 0
 
 ```
 def value(card):
