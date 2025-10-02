@@ -73,5 +73,69 @@ def rect_area(length, width):
     return area
 
 ### Main
-
+length = float(input('Enter a length: '))
+width = float(input('Enter a width: '))
+area = rect_area(length, width)
+print(area)
 ```
+
+At the beginning of the program, Python allocates a stack frame for the main region, which holds the storage space for all variables declared outside of any function. That includes the `length` and `width` variables on the first two lines of the main section. Suppose the user enters 7 for the length and 5 for the width, then the stack frame after reading those two inputs will look like the following:
+```
+  -----------
+ | length: 7 |
+ | width: 5  |  main
+ |           |
+---------------
+    stack
+```
+The next line allocates a new variable named `area`. To find its value on the right-hand side of the assignment, call `rect_area`, passing in `length` and `width` as arguments. Calling the function allocates a **new stack frame** to hold *its* local variables.
+```
+  -----------
+ |           |
+ |           |  rect_area
+ |           |
+  -----------
+ | length: 7 |
+ | width: 5  |  main
+ | area: ?   |
+---------------
+    stack
+```
+The input parameters of `rect_area` are named `length` and `width`, but there **are not the same** as the length and width defined in the main section. Instead, these new local variables are allocated inside the stack frame for `rect_area`.
+```
+  -----------
+ | length: 7 |
+ | width: 5  |  rect_area
+ |           |
+  -----------
+ | length: 7 |
+ | width: 5  |  main
+ | area: ?   |
+---------------
+    stack
+```
+The stack explains how local variables in different parts of the program can have the same name, but map to different underlying values: the different `length` and `width` variables are literally stored at differeing underlying locations in the computer's memory.
+
+The next line calculates `area`, which is also a local variable inside the `rect_area` frame.
+```
+  -----------
+ | length: 7 |
+ | width: 5  |  rect_area
+ | area: 35  |
+  -----------
+ | length: 7 |
+ | width: 5  |  main
+ | area: ?   |
+---------------
+    stack
+```
+Returning from a function "pops" its frame from the top of the stack and deallocates all of its associated memory. Any variables defined in the frame go out of scope and the function returns the specified value, which is assigned to `area` in the main stack frame.
+```
+  -----------
+ | length: 7 |
+ | width: 5  |  main
+ | area: 35   |
+---------------
+    stack
+```
+Look at the `tricky.py` example in the `Examples/3-Functions` directory for a more complex problem that uses a function calling a function.
