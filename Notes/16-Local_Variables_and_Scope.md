@@ -88,7 +88,7 @@ At the beginning of the program, Python allocates a stack frame for the main reg
 ---------------
     stack
 ```
-The next line allocates a new variable named `area`. To find its value on the right-hand side of the assignment, call `rect_area`, passing in `length` and `width` as arguments. Calling the function allocates a **new stack frame** to hold *its* local variables.
+The next line allocates a new variable named `area`. To find its value on the right-hand side of the assignment, call `rect_area`, passing in `length` and `width` as arguments. Calling the function allocates a **new stack frame** to hold *its* local variables. Each new frame is allocated on top of the previous frames, like a stack of pancakes, so the stack is also keeping the history of the sequence of function calls the program has made up to this point.
 ```
   -----------
  |           |
