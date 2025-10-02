@@ -134,7 +134,7 @@ Returning from a function "pops" its frame from the top of the stack and dealloc
   -----------
  | length: 7 |
  | width: 5  |  main
- | area: 35   |
+ | area: 35  |
 ---------------
     stack
 ```
