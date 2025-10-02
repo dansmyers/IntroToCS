@@ -168,6 +168,7 @@ choice = int(input('Do you want to hit or stand? '))
 # If the player chose to hit, deal one more card
 if choice == 1:
     second_card = deal()
+    print(f'Your second card is {card_name(second_card)}')
 else:
     second_card = 0
 
