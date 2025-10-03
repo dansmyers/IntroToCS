@@ -117,7 +117,7 @@ for ch in s:
 print(count)
 ```
 
-The letter of `s` is `'q'`, which is not a vowel, so `count` remains 0 during the first iteration. The second iteration sets `ch` to `'u'`, which is a vowel, so count is incremented to 1. The third iteration, `ch = 'e'` is also a vowel, so count is increased to 2, and so forth. The final output is 5.
+The first letter of `s` is `'q'`, which is not a vowel, so `count` remains 0 during the first iteration. The second iteration sets `ch` to `'u'`, which is a vowel, so count is incremented to 1. The third iteration, `ch = 'e'` is also a vowel, so count is increased to 2, and so forth. The final output is 5.
 
 Recall that `count += 1` is short for
 ```
