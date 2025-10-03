@@ -73,7 +73,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 9/29  | Functions IV: Functions + conditionals                      |                                       |
 | 10/1  | Local variables and scope                                   | Lab 6: The Compleat Gamester , Chapter 5 reading                            |
 | 10/3  | The `for` loop                                              |                                                         |
-| 10/6  | `for` loop examples                                         |                                  |
+| 10/6  | `for` loops with `range`                                        |                                  |
 | 10/8  |  Intro to lists                                             | Lab 7: Homage,  Chapter 5 reading due                        |
 | 10/10 | MIDTERM EXAM (IN CLASS)                                     |                                                         |
 | 10/13 | FALL BREAK                                                  |                                                         |
