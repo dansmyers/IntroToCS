@@ -12,7 +12,7 @@ Show how to use the range function
 # You must remember this
 
 # In older versions of Python, range generated a list of values that
-# you would then iterate through -- that tooka lot of memory
+# you would then iterate through -- that could use a lot of memory
 
 # Generates an object that can return numbers in the range on demand
 
