@@ -4,7 +4,7 @@
 
 *Kitchen*, Liza Lou (1991-1996), via the [Whitney Museum](https://whitney.org/collection/works/34855)
 
-> A full-scale and exactingly detailed kitchen encrusted in a rainbow of glistening beads, Liza Lou’s monumental installation took five years to make. "
+> A full-scale and exactingly detailed kitchen encrusted in a rainbow of glistening beads, Liza Lou’s monumental installation took five years to make. After researching kitchen design manuals as well as historical tracts about the lives of nineteenth-century women, Lou made drawings and three-dimensional models to achieve a loose outline of Kitchen’s floor plan. She then fashioned the objects out of paper mâché, painted them, and applied the beads in a mosaic of surface pattern.
 
 ## Setup
 
