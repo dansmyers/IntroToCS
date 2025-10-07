@@ -1,6 +1,22 @@
 # Euouae
 
-## List and Loop Practice
+<img src="https://whitneymedia.org/assets/artwork/34855/2008_339a-x_vw1_cropped.jpeg" width="400px" />
+
+*Kitchen*, Liza Lou (1991-1996), via the [Whitney Museum](https://whitney.org/collection/works/34855)
+
+> A full-scale and exactingly detailed kitchen encrusted in a rainbow of glistening beads, Liza Lou’s monumental installation took five years to make. "
+
+## Setup
+
+Create a `Lab_7` directory and `cd` into it:
+```
+mkdir Lab_7
+```
+```
+cd Lab_7
+```
+
+## Loop Practice
 
 
 
@@ -10,7 +26,8 @@ Write a program that loops through the numbers 7 to 77 and prints each number, e
 
 - For numbers divisible by 7 print `Beep`
 - For numbers divisible by 4 print `Boop`
-- For numbers divisible by 7 and 4 print `BeepBoop`
+- For numbers divisible by both 7 and 4 print `BeepBoop`
+
 
 ### Multiplication tables
 
@@ -25,8 +42,53 @@ for a in range(1, 6):
 
     print() # Go to the next line
 ```
+Run this program and observe what it prints out. The statement
+```
+print(a + b, end='\t')
+```
+Prints `a + b`, but ends the print statement with a tab character instead of the normal newline.
 
-When working with a pair of `for` loops, remember that the inner loop runs through all of its values for each value of the outer loop. In this case, the outer loop sets `a = 1`, then runs through all values of b
+When working with a pair of `for` loops, remember that the inner loop runs through all of its values for each value of the outer loop. In this case, the outer loop sets `a = 1`, then runs through the entire inner loop for `b`, then sets `a = 2` and runs the entire inner loop a second time, and so forth.
+
+Modify the program to print a 12x12 multiplication table.
+
+### Project Euler #6
+
+The sum of the squares of the first ten natural numbers is,
+
+1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> + ... + 10<sup>2</sup> = 385
+
+The square of the sum of the first ten natural numbers is,
+
+(1 + 2 + 3 + ... + 10)<sup>2</sup> = 3025
+
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is
+
+3025 - 385 = 2640.
+
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+
+
+### All vowels
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/LiberUsualisEuouae.jpg" width="300px" />
+
+*Example of medieval plainchant music showing the euouae mnemonic, from Wikipedia*
+
+<br/>
+
+[The longest all-vowel word](https://www.grammarly.com/blog/14-of-the-longest-words-in-english) in English is *euouae*: a mnemonic which was used in medieval music to denote the sequence of tones in the ending of the Gloria Patri, which ends with the phrase *In saecula saeculorum, Amen*. In Latin psalters and plainchant books, the melodic formula to be sung at the end of every chanted line (called the *differentia*), would be written over the letters EUOUAE, representing the vowels of *saeculorum Amen*.
+
+Write a function called `has_only_vowels` that takes a string named `s` as input and returns `True` if the string contains only vowels letters and `False` if it contains any non-vowel letters. You can assume that `s` contains only lowercase letters.
+
+Tip: you can check if a letter `c` is not in the set of vowels using
+
+```
+if c not in 'aeiou':
+    # Do something if c is not a vowel
+```
+
 
 ## Edifice Complex
 
