@@ -83,8 +83,31 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 Write a function called `has_only_vowels` that takes a string named `s` as input and returns `True` if the string contains only vowels letters and `False` if it contains any non-vowel letters. You can assume that `s` contains only lowercase letters.
 
-Tip: you can check if a letter `c` is not in the set of vowels using
+Here is a starting program:
+```
+"""
+Test if a string has only vowels
+"""
 
+def has_only_vowels(word):
+    # Loop through the letters of word
+
+        # Test if the letter is NOT a vowel
+        #
+        # If you find a non-vowel, return False immediately
+
+    # If you finish the loop, return True
+
+### Main
+test_word = 'euouae'
+
+if has_only_vowels(test_word):
+    print(f'%s has only vowels.', test_word)
+else:
+    print(f'%s has non-vowels.', test_word)
+```
+
+Tip: you can check if a letter `c` is not in the set of vowels using
 ```
 if c not in 'aeiou':
     # Do something if c is not a vowel
