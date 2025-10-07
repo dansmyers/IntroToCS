@@ -69,6 +69,30 @@ Hence the difference between the sum of the squares of the first ten natural num
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
+### Simulating passe-dix
+
+Recall the passe-dix dice game: the gambler wins if the sum of three six-sided dice is greater than ten.
+
+What is the probability of winning at passe-dix? We could calculate it by considering the combinatorics of rollins three dice, but that would be complex. In many cases, you can use **simulation** to estimate quantities that would be hard to determine analytically.
+
+The basic strategy is to use a loop to play a large number of games of passe-dix. Count the number that win, then report the winning percentage.
+```
+"""
+Simulating passe-dix
+"""
+
+from random import randint
+
+num_wins = 0
+
+for trial in range(10000):
+    # Get the sum of three six-sided dice
+
+    # Count a win if the sum is greater than ten
+
+# Calculate and print the winning percentage
+```
+Complete the program. Put your solution into a file named `passe_dix.py`.
 
 
 ### All vowels
@@ -112,6 +136,63 @@ Tip: you can check if a letter `c` is not in the set of vowels using
 if c not in 'aeiou':
     # Do something if c is not a vowel
 ```
+
+
+## List practice
+
+### Average
+Write a program that calculates the average of the values in a numeric list. Remember that you can use `len` to get the number of items in a list.
+
+Tip: there is a built-in `sum` function, but for this problem use a `for` loop with a `total` variable to iterate over the items in the list and add them.
+
+```
+"""
+Average of a list
+"""
+
+data = [2, 3, 5, 7, 11, 13, 17]
+
+# Sum up the items in data
+
+# Divide by len(data)
+
+# Print the average
+
+```
+
+### Reverse
+
+Remember that you can use `range` with a third input to count backwards
+```
+for i in range(8, 0, -1):
+    # i counts from 8 down to 1
+```
+
+Complete the program below to print the list in reverse order. Think about how to start at the last index and work your way toward the front. You can do this with the normal indices or with negative indexing.
+
+```
+"""
+Print a list in reverse order
+"""
+
+primes = [2, 3, 5, 7, 11, 13, 17, 19]
+
+# Write a loop to print primes in reverse: 19, 17, 13, ...
+
+```
+
+Tip: Think about how you would do this if you just manually printed the list elements.
+```
+print(primes[7])
+print(primes[6])
+print(primes[5])
+
+# and so forth
+```
+Then think about how to construct a loop that visits those indices in that order. You could also experiment with negative indexing.
+
+
+
 
 
 ## Edifice Complex
