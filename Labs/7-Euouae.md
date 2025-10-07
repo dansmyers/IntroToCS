@@ -43,7 +43,7 @@ for a in range(1, 6):
 
     print() # Go to the next line
 ```
-Run this program and observe what it prints out. The statement
+Run the program and observe what it prints out. The statement
 ```
 print(a + b, end='\t')
 ```
