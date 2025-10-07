@@ -18,6 +18,7 @@ cd Lab_7
 
 ## Loop Practice
 
+<img src="https://whitneymedia.org/assets/artwork/34855/LMA_LizaLou_0205.jpeg" width="400px" />
 
 
 ### Beep Boop
