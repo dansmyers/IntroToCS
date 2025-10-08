@@ -205,7 +205,7 @@ Then think about how to construct a loop that visits those indices in that order
 
 ### Tape
 
-The program below illustrates a few major list methods. Modify it to create your own mixtape. Add additional calls to `remove`. `insert`, and `pop` to practice manipulating the list.
+The program below illustrates a few major list methods. Modify it to create your own mixtape. Add additional calls to `remove`, `insert`, and `pop` to practice manipulating the list.
 ```
 """
 Make a mixtape - inspired by a Codecademy's taylor.swift project
