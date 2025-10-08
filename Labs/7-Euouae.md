@@ -365,6 +365,12 @@ Think: Think about how many spaces you need to print on each line. You may want 
 
 ### I'm so fancy
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bass_Pro_Shop%2C_Memphis%2C_TN_%2833126417384%29.jpg/1920px-Bass_Pro_Shop%2C_Memphis%2C_TN_%2833126417384%29.jpg" width="400px" />
+
+*The world's tenth largest pyramid is located in Memphis, TN and contains a Bass Pro Shops. It used to have [crystal skull](https://www.forbes.com/sites/joesills/2020/08/26/the-unbelievable-true-story-of-how-the-memphis-pyramid-became-a-bass-pro-shops/) at the top. During the time the University of Memphis used it as a basketball arena it was nicknamed the "Tomb of Doom".*
+
+<br/>
+
 Make one more fancy pyramid that alternates spaces and stars.
 ```
     *
