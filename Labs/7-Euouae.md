@@ -141,9 +141,7 @@ if c not in 'aeiou':
 ## List practice
 
 ### Average
-Write a program that calculates the average of the values in a numeric list. Remember that you can use `len` to get the number of items in a list.
-
-Tip: there is a built-in `sum` function, but for this problem use a `for` loop with a `total` variable to iterate over the items in the list and add them.
+Write a program that calculates the average of the values in a numeric list. Remember that you can use `len` to get the number of items in a list. Tip: there is a built-in `sum` function, but for this problem use a `for` loop with a `total` variable to iterate over the items in the list and add them.
 
 ```
 """
@@ -152,11 +150,24 @@ Average of a list
 
 data = [2, 3, 5, 7, 11, 13, 17]
 
-# Sum up the items in data
+# Use a for loop to add up the items in data
 
 # Divide by len(data)
 
 # Print the average
+
+```
+
+### Max
+Use a loop to find the maximum item in a list.
+```
+"""
+Maximum of a list
+"""
+
+data = [-5, -7, -2, -3, -1, -9, -10]
+
+# Use a loop to find and print the maximum of data
 
 ```
 
@@ -192,7 +203,60 @@ print(primes[5])
 Then think about how to construct a loop that visits those indices in that order. You could also experiment with negative indexing.
 
 
+### Tape
 
+The program below illustrates a few major list methods. Modify it to create your own mixtape. Add additional calls to `remove`. `insert`, and `pop` to practice manipulating the list.
+```
+"""
+Make a mixtape - inspired by a Codecademy's taylor.swift project
+"""
+
+def tape():
+    print(".------------------------.   ")
+    print("|     YACHT ROCK MIX     |   ")
+    print("|     __  ______  __     |   ")
+    print("|    /  \\|\\.....|/  \\    |")
+    print("|    \\__/|/_____|\\__/    | ")
+    print("|    ________________    |   ")
+    print("|___/_._o________o_._\\___|  ")
+
+    print()
+    
+
+### Main
+
+# Totally gratuitous ASCII art
+tape()
+
+# Create an empty list to hold the songs
+songs = []
+
+# Use the .append method to add an element to the end of the list
+#
+# Key idea: think of the dot as representing a message or a command
+# given to the list of songs
+# 
+# "songs, I need you to append this new value to yourself!"
+songs.append('Toto - Africa')
+songs.append('Steely Dan - Peg')
+songs.append('Christopher Cross - Sailing')
+songs.append('Hall and Oates - I Can\'t Go For That (No Can Do)')
+songs.append('Michael McDonald - What a Fool Believes')
+
+# Use the remove method to remove the first item with the given value
+songs.remove('Michael McDonald - What a Fool Believes')
+
+# Use insert to put a new item at a given index
+#
+# Remember: the first position is index 0, the second is index 1, etc.
+songs.insert(2, 'Donald Fagen - I.G.Y.')
+
+# Use pop to remove and return the item at a given position
+africa = songs.pop(0)
+
+# Final list
+print(songs)
+```
 
 
 ## Edifice Complex
@@ -246,7 +310,7 @@ print(' ' * 5, end='')
 print('#' * 3)
 ```
 
-### Look On my works, ye mighty, and despair!
+### Look on my works, ye mighty, and despair!
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bent_Pyramid_%E6%9B%B2%E6%8A%98%E9%87%91%E5%AD%97%E5%A1%94_-_panoramio.jpg/1920px-Bent_Pyramid_%E6%9B%B2%E6%8A%98%E9%87%91%E5%AD%97%E5%A1%94_-_panoramio.jpg" width="300px" />
 
