@@ -360,7 +360,7 @@ Of course, my pyramid must be hollow inside to hold all of the precious objects 
 ```
 Modify your previous program to print hollow pyramids. Put your solution in a file named `hollow.py`.
 
-Think: Think about how many spaces you need to print on each line. You may want to treat the last line as a special case with an `if` statement.
+Tip: Think about how many spaces you need to print on each line. You may want to treat the last line as a special case with an `if` statement.
 
 
 ### I'm so fancy
