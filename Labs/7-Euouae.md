@@ -331,7 +331,7 @@ Prompt the user to enter the height of the pyramid.
 
 Tip: Use variables to keep track of the number of spaces and number of stars you need to print on each line. After you print, decrease spaces by one and increase stars by two.
 ```
-n = input('How high shall the pyramid be, my pharoah?')
+n = int(input('How high shall the pyramid be, my pharoah?'))
 
 # TODO: determine the number of stars and spaces on the first level as a function of n
 spaces =
