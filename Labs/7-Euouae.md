@@ -126,9 +126,9 @@ def has_only_vowels(word):
 test_word = 'euouae'
 
 if has_only_vowels(test_word):
-    print(f'%s has only vowels.', test_word)
+    print(f'{test_word} has only vowels.')
 else:
-    print(f'%s has non-vowels.', test_word)
+    print(f'{test_word} has non-vowels.')
 ```
 
 Tip: you can check if a letter `c` is not in the set of vowels using
