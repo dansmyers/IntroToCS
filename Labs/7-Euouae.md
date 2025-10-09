@@ -353,7 +353,7 @@ Tips: Think about three cases for the first line, the last line, and the middle 
 
 <img src="https://wreg.com/wp-content/uploads/sites/18/2023/08/Skyline-Sunset.jpg?w=900" width="400px" />
 
-*The world's tenth largest pyramid is located in Memphis, TN and contains a Bass Pro Shops. It used to have [crystal skull](https://www.forbes.com/sites/joesills/2020/08/26/the-unbelievable-true-story-of-how-the-memphis-pyramid-became-a-bass-pro-shops/) at the top. During the time the University of Memphis used it as a basketball arena it was nicknamed the "Tomb of Doom".*
+*The world's tenth largest pyramid is located in Memphis, TN and contains a Bass Pro Shops. It used to have [crystal skull](https://www.forbes.com/sites/joesills/2020/08/26/the-unbelievable-true-story-of-how-the-memphis-pyramid-became-a-bass-pro-shops/) at the top. During the time the University of Memphis used it as a basketball arena it was nicknamed the "Tomb of Doom". Image from WREG*.
 
 <br/>
 
