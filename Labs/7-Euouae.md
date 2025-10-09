@@ -69,6 +69,14 @@ Hence the difference between the sum of the squares of the first ten natural num
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
+Tips: Use a loop with an accumulator variable to add up the sum of the squares for the values 1 to 100.
+```
+sum_of_squares = 0
+for i in range(?, ?):  # Fill in the right entries for range
+    sum_of_squares += i ** 2
+```
+Add a second variable that adds up the values of `i`, then square that variable after the loop and take the difference.
+
 ### Simulating passe-dix
 
 Recall the passe-dix dice game: the gambler wins if the sum of three six-sided dice is greater than ten.
@@ -171,38 +179,6 @@ data = [-5, -7, -2, -3, -1, -9, -10]
 
 ```
 
-### Reverse
-
-Remember that you can use `range` with a third input to count backwards
-```
-for i in range(8, 0, -1):
-    # i counts from 8 down to 1
-```
-
-Complete the program below to print the list in reverse order. Think about how to start at the last index and work your way toward the front. You can do this with the normal indices or with negative indexing.
-
-```
-"""
-Print a list in reverse order
-"""
-
-primes = [2, 3, 5, 7, 11, 13, 17, 19]
-
-# Write a loop to print primes in reverse: 19, 17, 13, ...
-
-```
-
-Tip: Think about how you would do this if you just manually printed the list elements.
-```
-print(primes[7])
-print(primes[6])
-print(primes[5])
-
-# and so forth
-```
-Then think about how to construct a loop that visits those indices in that order. You could also experiment with negative indexing.
-
-
 ### Tape
 
 The program below illustrates a few major list methods. Modify it to create your own mixtape. Add additional calls to `remove`, `insert`, and `pop` to practice manipulating the list.
@@ -276,7 +252,7 @@ Write a program named `stairs.py` with a method that prints a descending stairca
 ####
 #####
 ```
-Tip: Let the entered height be `n`. Use a loop with `range(n)` to run for `n` total iterations. Print one block on the first line, two blocks on the second, and so forth.
+Tip: Let the entered height be `n`. Use a loop with `range(n)` to run for `n` total iterations. Print one block on the first line, two blocks on the second, and so forth. Think about how to calculate the number of blocks on each line using the loop counting variable `i`.
 
 You can use string multiplication to copy a string multiple times. If `i` is the loop counting variable, you could use:
 ```
@@ -301,7 +277,18 @@ Tip: Print a number of spaces, then a number of blocks. Think about how many spa
 - Line 2 has three spaces and two blocks
 - Line 3 has two spaces and three blocks
 
-and so forth.
+and so forth. Here is a sketch of the program.
+```
+"""
+Reverse staircase
+"""
+n = int(input('Enter the height: '))
+
+for i in range(n):
+    # TODO: calculate number of spaces and number of blocks on line i using n and i
+
+    # TODO: print spaces and blocks
+```
 
 Tip-tip: `print` can take a special parameter called `end` that specifies what to put at the end of its output. Normally this is a newline, but you can avoid moving to the next line automatically if you set `end=''`.
 ```
@@ -360,8 +347,7 @@ Of course, my pyramid must be hollow inside to hold all of the precious objects 
 ```
 Modify your previous program to print hollow pyramids. Put your solution in a file named `hollow.py`.
 
-Tip: Think about how many spaces you need to print on each line. You may want to treat the last line as a special case with an `if` statement.
-
+Tips: Think about three cases for the first line, the last line, and the middle lines. Use an `if`-`elif`-`else` structure inside your loop and think about how to keep track of the number of interior spaces on the middle lines.
 
 ### I'm so fancy
 
