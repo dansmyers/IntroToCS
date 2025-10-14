@@ -4,8 +4,6 @@
 
 *Detail of Halley's Coment in the [Bayeux Tapestry](https://en.wikipedia.org/wiki/Bayeux_Tapestry) (late-11th Century)*
 
-<br/>
-
 
 ## Overview
 
