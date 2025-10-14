@@ -60,13 +60,13 @@ Write another implementation that uses a `for` loop to manually calculate the li
 
 
 ### I've got 99 numbers, but I don't know which ones
-Here's a popular interview question with a "clever" solution: You're given a list that contains 99 of the numbers 1 to 100 in an unknown order. Determine the one value that's missing.
+Here's a popular interview question with a "clever" solution.
+>You're given a list that contains 99 of the numbers 1 to 100 in an unknown order. Determine the one value that's missing.
 
-The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The sum of the integers 1 to `n` is
+The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The sum of the integers 1 to 100 is
 ```
-sum_1_to_n = n * (n + 1) / 2
+sum_1_to_100 = 100 * (100 + 1) / 2
 ```
-
 Write a program that implements this solution to the problem.
 ```
 """
@@ -75,10 +75,10 @@ Find the missing numbers
 
 from random import shuffle
 
-# Create a list of the numbers 1 to 100
+# Create a list of the numbers 1 to 100 - don't modify this line
 numbers = [i for i in range(1, 101)]
 
-# Randomly order, then remove the first item
+# Randomly order, then remove the first item - don't modify these lines
 shuffle(numbers)
 removed = numbers.pop(0)
 
@@ -95,9 +95,9 @@ The previous problem showed an example of initializing a large list in a single 
 ```
 numbers = [i for i in range(1, 101)]
 ```
-This statement use the `for` loop to iterate through the given range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
+This statement use the `for` loop to iterate through the range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
 
-This technique is called a **list comprehension**. It's a preferred Python technique for initializing lists.
+This technique is called a **list comprehension**. It's a preferred Python technique for initializing lists. 
 
 You can use comprehensions to generate different kinds of lists. For example, to generate list of 0/1 coin flips you could write
 ```
@@ -132,9 +132,7 @@ GPT is too computationally intensive to run on your local computer, so when you 
 
 OpenAI has [a published specification](https://platform.openai.com/docs/api-reference/introduction) for how developers can submit requests to their services and receive the responses. The specs define what kinds of services OpenAI makes available, how requests to those services should be formatted, and so forth. This set of specs is called an **Application Programming Interface** (API). 
 
-APIs are a key element of modern programming, because they allow application developers to access specialized services provided by remote companies. 
-
-Other major cloud-based companies also provide APIs to allow programmers to interact with their services. For example, if you were developing a program that needed to interact with Instagram data you would use the [Instagram API](https://developers.facebook.com/products/instagram/apis/).
+APIs are a key element of modern programming, because they allow application developers to access specialized services provided by remote companies. Other major cloud-based companies also provide APIs to allow programmers to interact with their services. For example, if you were developing a program that needed to interact with Instagram data you would use the [Instagram API](https://developers.facebook.com/products/instagram/apis/).
 
 
 ### Secret API key
