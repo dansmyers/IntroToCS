@@ -11,12 +11,12 @@ This lab will help you get back into practice with lists and loops. The second p
 
 ## Setup
 
-Create a `Lab_7` directory in your workspace and `cd` into it.
+Create a `Lab_8` directory in your workspace and `cd` into it.
 ```
-mkdir Lab_7
+mkdir Lab_8
 ```
 ```
-cd Lab_7
+cd Lab_8
 ```
 The questions will tell you how to create and name your Python scripts.
 
@@ -44,19 +44,6 @@ for i in range(49):
 
     # Update fib_1 and fib_2 for the next iteration
 ```
-
-
-### Sum of a list
-
-Suppose you have a list of numbers and want to calculate their sum. One way to do this is with the built-in `sum` function:
-```
-# Example list
-a = [2, 3, 5, 7, 11, 13, 17]
-
-# Built-in sum
-total = sum(a)
-```
-Write another implementation that uses a `for` loop to manually calculate the list sum.
 
 
 ### I've got 99 numbers, but I don't know which ones
