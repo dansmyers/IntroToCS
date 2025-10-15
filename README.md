@@ -74,10 +74,10 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 10/1  | Local variables and scope                                   | Lab 6: The Compleat Gamester , Chapter 5 reading                            |
 | 10/3  | The `for` loop                                              |                                                         |
 | 10/6  | `for` loops with `range`                                        |                                  |
-| 10/8  |  Intro to lists                                             | Lab 7: Homage,  Chapter 5 reading due                        |
+| 10/8  |  Intro to lists                                             | Lab 7: Euouae,  Chapter 5 reading due                        |
 | 10/10 | MIDTERM EXAM (IN CLASS)                                     |                                                         |
 | 10/13 | FALL BREAK                                                  |                                                         |
-| 10/15 | Re-intro to lists, looping over lists                       | Lab 8: Euouae                                           |
+| 10/15 | Re-intro to lists, looping over lists                       | Lab 8: How to Chat                                           |
 | 10/17 | Looping by index position                                   | Project 3 out                                           |
 | 10/20 | Choosing random items from a list                           |                                                         |
 | 10/22 | Working with files, the `while` loop                        | Lab 9:  Wordplay                                        |
