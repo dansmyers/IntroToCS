@@ -24,7 +24,7 @@ Start by making three lists of strings named `descriptions`, `ingredients`, and 
 ```
 descriptions = ['non-euclidean', 'carbonized', 'impossible']
 ingredients = ['aubergine', 'bonemeal', 'cuttlefish', 'durian']
-preparation = ['crunchwrap', 'foam', 'confetti']
+preparations = ['crunchwrap', 'foam', 'confetti']
 ```
 Pick your own choices for each list and put at least five options in each one.
 
@@ -36,7 +36,7 @@ from random import choice
 # Define menu options -- modify these to use your own choices
 descriptions = ['non-euclidean', 'carbonized', 'impossible']
 ingredients = ['aubergine', 'bonemeal', 'cuttlefish', 'durian']
-preparation = ['crunchwrap', 'foam', 'confetti']
+preparations = ['crunchwrap', 'foam', 'confetti']
 
 # Choose random selections from each list
 desc = choice(descriptions)
