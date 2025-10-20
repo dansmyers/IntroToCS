@@ -124,3 +124,4 @@ print()  # Blank line
 
 # Add a closing
 ```
+Consider how you could make more complex texts. There could be a few different sentence patterns. Select one at random, then fill in its structure with randomly chosen words from the lists.
