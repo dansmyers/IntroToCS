@@ -124,4 +124,4 @@ print()  # Blank line
 
 # Add a closing
 ```
-Consider how you could make more complex texts. There could be a few different sentence patterns. Select one at random, then fill in its structure with randomly chosen words from the lists.
+Consider how you could make more complex texts. You could, for example, define a few different sentence patterns. Select one at random, then fill in its structure with randomly chosen words from the lists. Then repeat a few times to get a paragraph that's slightly different every time you run the generator.
