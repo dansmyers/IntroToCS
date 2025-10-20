@@ -24,7 +24,7 @@ Start by making three lists of strings named `descriptions`, `ingredients`, and 
 ```
 descriptions = ['non-euclidean', 'carbonized', 'impossible', 'doritos loco']
 ingredients = ['aubergine', 'bonemeal', 'cuttlefish', 'durian']
-preparations = ['crunchwrap', 'foam', 'confetti']
+preparations = ['crunchwrap', 'foam', 'confetti', 'aspic']
 ```
 Pick your own choices for each list and put at least five options in each one.
 
