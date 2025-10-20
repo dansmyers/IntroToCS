@@ -22,7 +22,7 @@ Let's play around with a few ways of combining lists with random choices.
 
 Start by making three lists of strings named `descriptions`, `ingredients`, and `preparations`. For example,
 ```
-descriptions = ['non-euclidean', 'carbonized', 'impossible']
+descriptions = ['non-euclidean', 'carbonized', 'impossible', 'doritos loco']
 ingredients = ['aubergine', 'bonemeal', 'cuttlefish', 'durian']
 preparations = ['crunchwrap', 'foam', 'confetti']
 ```
