@@ -92,3 +92,35 @@ desc = descriptions.pop(desc_index)
 # Repeat two more times for the ingredients and preparations
 ```
 Reduce the number of loop iterations to five.
+
+
+## Love letters, revisited
+
+Recall Strachey's love letter algorithm, wbere we generated random messages using `if`-`else` statements. We can now simplify that program by using lists of random words.
+
+Write a short updated letter program that uses lists and either `choice` or `randrange` to pick items. Here's a starting point.
+
+```
+"""
+Letters with lists and random choices
+"""
+
+from random import choice
+
+salutation_adjectives = ['mellifluous', 'whimsical', 'vampiric', 'gothic']
+salutation_nouns = ['dragonfly', 'floret', 'moonbeam']
+
+# Salutation
+adj = choice(salutation_adjectives)
+noun = choice(salutation_nouns)
+print(f'{adj} {noun}')
+print()  # Blank line
+
+# Define lists of words for the main part of the letter
+
+
+# Generate at least one sentence for the body of the letter
+
+
+# Add a closing
+```
