@@ -231,11 +231,11 @@ Look at the example drawing command:
 ```
 draw.rectangle([(50, 50), (300, 200)], fill='red', outline='black', width=2)
 ```
-First, notice that this call uses dot notation. The `draw` object supports a number of methods that can be used to implemented drawing behaviors. We're telling that `draw` object to create a rectangle with the given properties.
+First, notice that this call uses dot notation. The `draw` object supports a number of methods that can be used to implement drawing behaviors. We're telling that `draw` object to create a rectangle with the given properties.
 
-There function has four arguments:
+The function has four arguments:
 
-- A list of point pairs that define the upper-left and lower-right corners of the rectangle. Here, the upper-left point is (50, 50) and the lower-right point is (300, 200)
+- A **list** of point pairs that define the upper-left and lower-right corners of the rectangle. Here, the upper-left point is (50, 50) and the lower-right point is (300, 200)
 
 - `fill`, which is fill color. This can be a string, like `'red'` or `'blue'`, or a specific red-green-blue color. More on that later.
 
@@ -244,7 +244,7 @@ There function has four arguments:
 This introduces a new feature: **named input parameters**. This style of function calling allows you to specify inputs by name. If you don't want to specify a particular input, you can leave it out and the function will use a default value. For example, to make a blue rectangle with no border:
 ```
 # Draw a rectangle with the outline and width parameters omitted
-draw.rectangle([(50, 50), (300, 200)], fill='red')
+draw.rectangle([(50, 50), (300, 200)], fill='blue')
 ```
 
 ### Jam
