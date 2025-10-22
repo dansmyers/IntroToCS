@@ -191,7 +191,8 @@ The tricky part: How can you determine the index of the letter that is opposite 
 
 ### Triple double letters
 
-The word `balloon` has two consecutive pairs of double letters.
+The word `balloon` has two consecutive pairs of double letters. I'm thinking of a word that has *three* **consecutive** pairs of double letters. What could it be?
+
 
 
 
@@ -397,6 +398,3 @@ The `fill` parameter has been changed to use the random color.
 ### Jam
 
 Once you have the basic version working, play around with the number of squares and the positioning. Experiment with changing the part of the loop that moves and resizes the square for the next iteration and observe how those changes affect the result.
-
-
-I'm thinking of a word that has *three* **consecutive** pairs of double letters. What could it be?
