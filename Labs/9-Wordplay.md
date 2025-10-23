@@ -90,6 +90,12 @@ with open('words.txt', 'r') as f:
 
 Print the words that start with `q` but not `qu`.
 
+Tip: You might be tempted to try something like the following in your function.
+```
+return word[0] == 'qu'
+```
+**This won't work** because `word[0]` is a single character, so it can never be equal to two characters. Therefore, the statement will always return `False`. Think about how to test the first and second characters and combine the two tests with `and`.
+
 ### Long words
 
 Recall that you can use `len` to get the number of characters in a string, like so
