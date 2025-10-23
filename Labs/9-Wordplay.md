@@ -200,8 +200,6 @@ The tricky part: How can you determine the index of the letter that is opposite 
 The word `balloon` has two consecutive pairs of double letters. I'm thinking of a word that has *three* **consecutive** pairs of double letters. What could it be?
 
 
-
-
 # Drawing with Pillow
 
 <img src="https://www.cooperhewitt.org/wp-content/uploads/2013/06/46575_b57abb49b0eea16e_b.jpg" width="300px" />
