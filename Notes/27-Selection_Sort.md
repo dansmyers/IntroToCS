@@ -20,6 +20,10 @@ This process continues until the list is completely sorted.
 
 ## Implementation
 
+Look at the implementation below. Notice that it uses two loops. The outer `for` loop iterates through the swap destinations--the first position, second position, third position, and so forth--the inner loop finds the smallest remaining item.
+
+Also observe that the method doesn't return anyhing. The list is sorted *in-place* by exchanging its elements, not by making a copy.
+
 ```
 """
 Selection sort
@@ -40,12 +44,11 @@ def sort(a):
 
     # Outer loop keeps track of the swap destination position on each iteration
     #
-    # on the first iteration, i = 0 and we swap the smallest item into position 0
-    # on the second iteration, i = 1 and we swap the second smallest item to position 1
+    # Iteration 1: i = 0 and the smallest item swaps into position 0
+    # Iteration 2: i = 1 and the second smallest item swaps into position 1
     # etc.
     #
-    # When there is one item remaining, it must be the maximum and there's nothing to do
-    # so the loop can stop one iteration before the end of the list
+    # The loop ends when there is only one item remaining; it must be the max
     for i in range(0, len(a) - 1):
 
         # Use an inner loop to find the minimum among the remaining items
@@ -67,3 +70,33 @@ example = [5, 1, 3, 2, 7, 9, 4]
 sort(example)
 print(example)
 ```
+
+## Passing lists are arguments
+
+The main section of the program makes a list variable named `example`. You can think of the name as a reference to the underlying object in memory.
+```
+example ---> [5, 1, 3, 2, 7, 9, 4]
+```
+When you pass `example` into the `sort` function, the input parameter `a` become an *alias* to the same underlying list in memory. That is, passing the list doesn't create a *copy* of its data for the function. Instead, we just pass a *reference* to the underlying list in memory.
+```
+example -----
+            |
+            v
+            [5, 1, 3, 2, 7, 9, 4]
+            ^
+            |
+a -----------
+```
+Therefore, changes made through `a` in the function are persisted outside of it. Printing `example` at the end of the program prints the sorted list.
+
+## Calculating the amount of work
+
+Consider the amount of work required by selection sort. If the list has length `n`, then the first iteration requires examining `n` elements to find the minimum. The second iteration examines `n - 1` elements to find the second smallest item and so forth. Therefore, the total number of item examinations is
+```
+T = n + (n - 1) + (n - 2) + ... + 3 + 2 + 1
+```
+This is a well-known summation:
+```
+T = (n / 2)(n + 1)
+```
+This style of **algorithm analysis** considers how the performance of selection sort changes as its input becomes bigger and bigger, in a way that depends only on the algorithm itself and not on the actual timing of a particular implementation running on a given system.
