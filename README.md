@@ -124,7 +124,7 @@ Rather than calculating your score as number of points on a 0-100 scale, your gr
 You must be registered for a section of CMS 120L. You'll receive the **same grade** for both CMS 120 and CMS 120L.
 
 ### Assignments
-We'll have five kinds of assignments in this class:
+We'll have four kinds of assignments in this class:
 
 1. **Autograded reading questions** from the Runestone text. These are easy to answer if you complete the required reading.
 
