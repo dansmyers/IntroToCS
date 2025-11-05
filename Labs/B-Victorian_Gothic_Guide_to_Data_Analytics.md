@@ -149,14 +149,14 @@ Use the example of the previous section to create a subset containing only the f
 
 ### Creating a new column
 
-Sometimes you need to create a new column based on the value of existing columns. For example, many datasets use the 0//1 convention to encode binary attributes because it isn't platform specific. However, it might be helpful to create a new boolean column that expresses whether the passenger survived as `False` or `True` in order to simplify future comparisons. Here is one way to do that.
+Sometimes you need to create a new column based on the value of existing columns. For example, many datasets use the 0/1 convention to encode binary attributes because it isn't platform specific. However, it might be helpful to create a new boolean column that expresses whether the passenger survived as `False` or `True` in order to simplify future comparisons. Here is one way to do that.
 
 ```
 df['Survived_boolean'] = np.where(df['Survived'] == 1, True, False)
 print(df.head())
 ```
 
-The left-hand side creates a new column in the dataframe named `Survived_boolean` by assigning to it. The right-hand side uses `np.where` to quickly convert the 0/1 values in the `Survived` column into booleand. `np.where` takes three arguments:
+The left-hand side creates a new column in the dataframe named `Survived_boolean` by assigning to it. The right-hand side uses `np.where` to quickly convert the 0/1 values in the `Survived` column into booleans. `np.where` takes three arguments:
 
 - A logical test
 - A value to output if the test returns `True`
