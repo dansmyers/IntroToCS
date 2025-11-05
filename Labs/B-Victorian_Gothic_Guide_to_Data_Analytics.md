@@ -24,7 +24,7 @@ The three labs we're going to complete were originally designed by my wife Chels
 
 ## Setup
 
-Create a `Lab_12` directory and `cd` into it. Create a new file for each of the parts below.
+Create a `Lab_11` directory and `cd` into it. Create a new file for each of the parts below.
 
 
 
