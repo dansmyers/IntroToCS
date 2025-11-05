@@ -136,7 +136,7 @@ There are several things happening here. The inner part of the selection identif
 
 Add these lines to your script and run it to verify that the `children` subset contains only passengers with an age less than 18.
 
-How many children are in the dataset? Pandas can automatically count the number of rows in a frame.
+How many children are in the dataset? Pandas can automatically count the number of rows in a frame. This operation is convenient when you're first investigating a data set, since it will immediately show if any rows have missing data.
 
 ```
 print(children.count())
