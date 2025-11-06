@@ -525,20 +525,20 @@ df = pd.read_csv('co-est2024-alldata.csv', encoding='iso-8859-1')
 You should now be able to open the CSV and print its starting lines.
 
 ### Get the first letter of each entry
-Take a look at the fields defined at the top of the CSV file. The one we want is `POPESTIMATE2023`. The lines below will extract the first digit from each entry in that column:
+Take a look at the fields defined at the top of the CSV file. The one we want is `POPESTIMATE2024`. The lines below will extract the first digit from each entry in that column:
 ```
-# Extract first digit from 2023 population counts
-pop2023 = df['POPESTIMATE2023'].astype(str).str[0].astype(int)
+# Extract first digit from 2024 population counts
+pop2024 = df['POPESTIMATE2024'].astype(str).str[0].astype(int)
 
 # Print for checking
-print(pop2023[:10])
+print(pop2024[:10])
 ```
 The command is a little wonky: it converts the population value to a string, extracts the first digit, then converts the digit back to an int.
 
 The next set of lines calculate the counts of each digit
 ```
 # Counts of each first digit
-digit_counts = pop2023.value_counts().sort_index()
+digit_counts = pop2024.value_counts().sort_index()
 total_count = digit_counts.sum()
 digit_percentages = (digit_counts / total_count * 100).sort_index()
 print(digit_percentages)
