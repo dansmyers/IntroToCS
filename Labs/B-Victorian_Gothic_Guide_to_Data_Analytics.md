@@ -268,7 +268,7 @@ Yes                    8.000000  45.333333
 
 The results tell us that, out of the entire data set, 8% of patients fall into the category of `Yes - Did Not Survive`. About 21% fall into `No - Did Not Survive`.
 
-Make one more modification. Setting `normalize='index'` will calculation fractions across the rows rather than over the entire data set.
+Make one more modification. Setting `normalize='index'` will calculate fractions across the rows rather than over the entire data set.
 
 ```
 tab = pd.crosstab(index=df['Antiseptic_use'], columns=df['Outcome_str'], normalize='index') * 100
