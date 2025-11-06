@@ -520,7 +520,7 @@ Take this error and paste into your favorite chat program and ask for an explana
 
 It turns out that the data in the CSV file is encoded using a different standard called ISO-8859-1. Change the `read_csv` line to the following:
 ```
-df = pd.read_csv('co-est2023-alldata.csv', encoding='iso-8859-1')
+df = pd.read_csv('co-est2024-alldata.csv', encoding='iso-8859-1')
 ```
 You should now be able to open the CSV and print its starting lines.
 
