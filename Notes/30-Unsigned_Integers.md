@@ -14,34 +14,23 @@ Each digit of the number corresponds to a multiple of a power of 10:
 4326 = 4 * 10^3 + 3 * 10^2 + 2 * 10^1 + 6 * 10^0
 ```
 
-Our traditional decimal number system, where each digit corresponds to a power of 10, is called the **base-10 number system**. We could also call it a "positional number system with radix 10." Ten is a good base for a number system, because humans (with the exception of my high school shop teacher, Mr. Ledford) have ten fingers.
+Our traditional decimal number system, where each digit corresponds to a power of 10, is called the **base-10 number system**. We could also call it a *positional number system with radix 10*.
 
-Actually, lest I besmirch his memory, I should point out that Mr. Ledford was a great teacher, that I loved shop class, and that he lost his finger in an accident that had nothing to do with woodworking.
-
-There's no reason, however, to restrict ourselves to a base-10 number system. Computers use a **base-2 number system**, also called the **binary number system**. Each position in a binary number corresponds to a power of 2, and each digit can take one of two values, 0 or 1.
-
-For example, the unsigned binary number 10111 can be converted into a decimal number by adding up the appropriate powers of 2:
-
+There's no reason, however, to restrict ourselves to a base-10 number system. Computers use a **base-2 number system**, also called the **binary number system**. Each position in a binary number corresponds to a power of 2, and each digit can take one of two values, 0 or 1. For example, the unsigned binary number 10111 can be converted into a decimal number by adding up the appropriate powers of 2:
 ```
 10111 = 1 * 2^4 + 0 * 2^3 + 1 * 2^2 + 1 * 2^1 + 1 * 2^0
       = 16 + 4 + 2 + 1
       = 23
 ```
-
 Try writing down a few strings of zeros and ones and converting them from binary to decimal, like in the example above.
 
-Suppose you have an N digit unsigned binary number. What values can it represent?
-
-Answer: 0 to 2^N - 1, because an N-bit sequence can represent 2^N distinct values.
+Suppose you have an N digit unsigned binary number. What values can it represent? Answer: 0 to 2^N - 1, because an N-bit sequence can represent 2^N distinct values.
 
 **Distinguishing Between Decimal and Binary**
 
 Consider the number 1011. Is it decimal one-thousand-and-eleven, or binary eleven? The correct value will often be clear from the context, but if it isn't, it's conventional to append a little subscript to identify the base of the number.
 
-```
-1011_2 --> binary number with a 2 subscript
-1011_10 --> decimal number with a 10 subscript
-```
+For example, 1011<sub>2</sub> is a binary number. 1011<sub>10</sub> would be the decimal number one thousand and eleven.
 
 ### The Four-Digit Unsigned Binary Numbers
 
@@ -63,7 +52,7 @@ The rest of the table is left as an exercise...
 
 ## Binary Arithmetic
 
-Add binary numbers the same way you add decimal numbers, with the slight complication that sums bigger than 1 require the carry of a 1 to the next column:
+Add binary numbers the same way you add decimal numbers, with the complication that sums bigger than 1 require the carry of a 1 to the next column:
 
 ```
           1 <---- carrry
