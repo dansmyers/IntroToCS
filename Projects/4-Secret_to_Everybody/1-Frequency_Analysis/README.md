@@ -82,14 +82,18 @@ decodings['A'] =      # Capital letters have the same mappings as lowercase
 Write a loop that reads each line of the cipher file, then loops through the letters on each line. As you read each letter, look it up in the `decodings` dictionary and output its corresponding unencrypted letter.
 ```
 for line in f:
-    line = line.strip()
     for ch in line:
 
         # If the character is a letter with a decoding, print its decoded counterpart
         if ch in decodings:
             print(decodings[ch], end='')
 
+        # If the character is a letter but not decoded yet, print a ?
+        # This helps you identify known words in the output
+        elif 'a' <= ch <= 'z' or 'A' <= ch <= 'Z':
+            print('?', end='')
+
         # Other characters (spaces, puncutation, etc.) are printed as-is
         else:
-            print(ch)
+            print(ch, end='')
 ```
