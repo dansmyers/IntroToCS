@@ -1,4 +1,4 @@
-## Encryption
+# Encryption
 
 This activity will allow you to practice writing a Caesar-style cipher using the concept of character encodings. You're going to implement the **ROT13** cipher, which uses a 13-position rotation through the alphabet. Along the way, we'll practice using the `ord` and `chr` functions to interact with the underlying numeric codes of text characters.
 
