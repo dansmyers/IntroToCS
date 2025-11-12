@@ -1,5 +1,7 @@
 ## Encryption
 
+This activity will allow you to practice writing a Caesar-style cipher using the concept of character encodings. You're going to implement the **ROT13** cipher, which uses a 13-position rotation through the alphabet. Along the way, we'll practice using the `ord` and `chr` functions to interact with the underlying numeric codes of text characters.
+
 ## Character encodings with `ord` and `chr`
 
 Here's an interesting fact about characters in Python: **Every character is really a number**. That is, every character has an underlying numeric code, and we can treat operations on characters as being equivalent to operations on their underlying numeric codes.
@@ -27,7 +29,36 @@ Press `CTRL + d` to leave the Python shell when you're done.
 ### Rotating letters
 The **ROT13** cipher is a Caesar-style rotational cipher that rotates *13 positions* in the alphabet. This choice allows the same operation to be used for both encryption and decryption: rotating forward 13 positions and then forward another 13 positions recovers the original message. It has frequently been used as a way to obscure jokes and spoilers on messageboards and in e-mail.
 
+Make a file called `rot13.py` in your `5-Dictionaries` directory.
+
 Let's implement the ROT13 cipher. Start by writing a function called `rot13_letter` that takes a *single capital letter* `A`-`Z` as input and returns its ROT13 encoded equivalent.
+```
+def rot13_letter(letter):
+    """
+    Perform 13-position rotation on the given capital letter 'A'-'Z'
+    """
+
+    # Use ord to turn the letter into its numeric code
+    #
+    # Subtract ord('A') to get the letter's position in the alphabet
+
+
+    # Add 13, wrapping around the alphabet if necessary
+
+    # Use ord to turn rotated code into a letter
+
+    # Return the rotated letter
+
+
+### Main
+print(rot13_letter('A'))
+print(rot13_letter('B'))
+print(rot13_letter('C'))
+
+print(rot13_letter('X'))
+print(rot13_letter('Y'))
+print(rot13_letter('Z'))
+```
 
 Tip:
 
@@ -35,41 +66,21 @@ Let the input parameter be named `letter`. You can convert it to its position in
 ```
 position = ord(letter) - ord('A')
 ```
-This change maps `A` to 0, `B` to 1 and so forth.
+This change maps `A` to 0, `B` to 1 and so forth. You can then add 13 to `position` to perform the rotation. Think about how to wrap around the alphabet if necessary.
 
-Perform the 13-position rotation, then shift back using
+After you've calculated the `rotated_position`, you can shift back using:
 ```
 rotated_letter = chr(rotated_position + ord('A'))
 ```
-Think about how to perform the rotation. You'll need to deal with wrapping around the alphabet.
 
 ### Rotating an entire message
 
-Now add a `rot13` function that takes a string `message` as input and returns its ROT13 encoded counterpart. You can assume that `message` contains only capital letters `A` to `Z`. Use a loop with `rot13_letter`.
+Now add a `rot13` function that takes a string `message` as input and returns its ROT13 encoded counterpart. You can assume that `message` contains only capital letters `A` to `Z`. Use a loop over the characters of `message` and use `rot13_letter` to rotate each one.
 
 Write some test code to verify that you can use your function to both encrypt and decrypt messages.
 
 
-### `__name__`
-
-Let's add one more feature using something that you may have seen in AI-generated code.
-
-Python maintains a special internal variable called `__name__` (two underscores on each side) that keeps track of how the current script was entered. If the program was executed from the terminal command line, then the value of `__name__` is `"__main__"`. This leads to a standard formulation for what we've been calling the "Main" section of the program:
-```
-# Main
-
-if __name__ == '__main__':
-    # Main code goes in this block
-```
-The statement checks if the program was run from the command line using `python3` and, if so, executes the main body of code inside the `if` block.
-
-Why would you do this? Sometimes you want to load a script as a library rather than running it from the command line. If so, then you don't need to run the main part of the script. This setup allows you to verify that the script is actually being run as the main entry point of the program. If you `import` a script, then `__name__` will be the name of the script that did the `import` statement.
-
-One common setup is to put test code inside the main block. Then, running the script from the command line executes its internal test code; if the script is imported from somewhere else, then there's no need to run the tests.
-
-Modify your program to add an `if` block like the one above. Inside it, prompt the user to enter a string (in all caps, no spaces), call `rot13` on it, then print out the result.
-
-### Command-line arguments
+## Command-line arguments
 
 Let's add one more piece: reading arguments from the command line. We've already used this several times when working with the standard terminal commands. For example,
 ```
@@ -77,11 +88,17 @@ ls -l
 ```
 prints the files in the directory using the "long" format that gives more information.
 
+Python program can also take arguments from the command line. We're going to update the `rot13 program so that you can call it with a word you want to encrypt given when you run the program:
+```
+python3 rot13.py HELLO
+```
+
+### `sys` and `argv`
+
 Items typed on the command line after the program name are available through the `sys` module.
 ```
 import sys
 ```
-
 `sys` is initialized with a list called `argv` that contains the command line arguments. The program below uses a loop to print the arguments. Put in a file named `print_args.py`.
 ```
 """
@@ -89,9 +106,8 @@ Print command line arguments using sys.argv
 """
 import sys
 
-if __name__ == '__main__':
-    for arg in sys.argv:
-        print(arg)
+for arg in sys.argv:
+    print(arg)
 ```
 
 If you run the program with the input
@@ -105,7 +121,9 @@ one
 two
 three
 ```
-By convention, the program name is always the first item in the `argv` list.
+The `sys.argv` list collects all of the words typed on the command line after `python3`. Each word becomes an entry in the list. The name of the program - `print_args.py` in this case - is the first item in the list, followed by any other words typed after the program name.
+
+### 
 
 Modify `rot13.py` to take the input string from the command line as an argument, then print the rotated string. For example, if you type
 ```
