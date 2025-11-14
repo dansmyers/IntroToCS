@@ -4,6 +4,8 @@
 
 **Stepwise refinement** is a programming strategy that empahsizes breaking a complex problem down into discrete substeps, then implementing a function to perform each substep. Those functions might themselves consist of multiple steps, which can be broken down and implemented as their own functions. This process continues until you reach a level of complexity that can be implemented as a simple block of code with no major substeps.
 
+Other names for the basic idea are *top-down design* and *functional decomposition*. Both capture the idea of starting with a general high-level program goal and then breaking it down into progressively more detailed functions.
+
 This activity will lead you through writing a tic-tac-toe game using the refinement appproach. It will also show off using a dictionary to manage the state of the game.
 
 ## Starter Code
