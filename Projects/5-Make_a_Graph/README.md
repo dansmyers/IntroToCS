@@ -70,7 +70,7 @@ Think about formulating a question with the following qualities:
 
 ### Find the Data Set
 
-Once you have a research question, you need to find a publically available data set that will allow you to answer it. Here's the only guideline for this step:: **Your data set must be publically available on the Internet or in a publication**. **Don't collect your own data**.
+Once you have a research question, you need to find a publically available data set that will allow you to answer it. Here's the only guideline for this step: **Your data set must be publically available on the Internet or in a publication**. **Don't collect your own data**.
 
 There are lots of potential sources:
 
