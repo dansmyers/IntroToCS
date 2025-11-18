@@ -94,7 +94,7 @@ Remember some key rules of good graphing:
 - Choose the appropriate graph style. For example, don't use a line plot for discrete data: a bar chart or scatter plot usually makes more sense.
 - Label your axes and include units.
 - Begin the vertical axis at zero unless you have a very good reason not to.
-- Use colors or line styles to distinguish between categories, if necessary.
+- Use colors or line styles to distinguish between categories, if necessary. Be aware of colorblindness.
 
 
 ### Slides
