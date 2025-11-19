@@ -194,7 +194,7 @@ print(accuracy)
 
 Intuitively, increasing the tree's depth should make classification accuracy go up: You have more rule and can slice the data into finer and finer subsets. However, there's likely to be a point of diminishing returns, beyond which adding more nodes doesn't substantially increase the performance of the tree.
 
-**Question**: Evaluate your model for settings of `max_depth` from 1 to 20. Record the accuracy generated in each case. Does your data suggest a good tradeoff points between the size of the tree and classification accuracy?
+**Question**: Evaluate your model for settings of `max_depth` from 1 to 15. Record the accuracy generated in each case. Does your data suggest a good tradeoff points between the size of the tree and classification accuracy?
 
 ## MNIST
 
