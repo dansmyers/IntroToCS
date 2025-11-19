@@ -6,7 +6,7 @@
 
 ## Description
 
-The first in-class part of today's lab focused on understanding the basics of machine learning. Now, we're going to dig into some code and write machine learning classifiers using a Python framework called scikit-learn, one of the most popular libraries for predictive analytic models in Python.
+A previous lab focused on understanding the basics of machine learning. Now, we're going to dig into some code and write machine learning classifiers using a Python framework called scikit-learn, one of the most popular libraries for predictive analytic models in Python.
 
 Our data set will be `Titanic.csv` file we worked with last time. We're going to create a model that will allow us to understand the characteristics that contributed to passengers suriving the sinking of the *Titanic*. Along the way, we'll learn some more about building and evaluating predictive models.
 
