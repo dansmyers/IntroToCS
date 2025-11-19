@@ -249,7 +249,7 @@ MNIST is built into scikit-learn. The first lines load the data set, then reshap
 
 **Question**: What is the accuracy of this MNIST classification model?
 
-**Question**: Experiment with changing the `max_depth` of the tree. What effects does changing depth have on the output?
+**Question**: Experiment with changing the `max_depth` of the tree by adding it as a parameter to `DecisionTreeClassifier` (look at the relevant line in `model.py`). What effects does changing depth have on the output?
 
 ## Land of Confusion
 
