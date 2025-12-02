@@ -1,6 +1,6 @@
 # Final Project
 
-## Due Friday, 12/12 (last day of finals)
+### Due Friday, 12/12 (last day of finals)
 
 
 <img src="https://ids.si.edu/ids/deliveryService?id=NMAAHC-2014_185_10_005&max_w=700" width="400px" />
