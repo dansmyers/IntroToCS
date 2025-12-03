@@ -8,9 +8,9 @@ This short lab will let you practice jamming on simple HTML and CSS, two of the 
 
 Create a `Lab_14` directory and `cd` into it.
 
-## Write and Serve a Basic Web Page
+## Write and serve a basic web page
 
-### Creating the Page
+### Creating the page
 
 Let's make a basic web page. Put the following text in `index.html`. I'll tell you more about how this file is put together in the next section, after you've had the
 chance to run and display it.
@@ -57,7 +57,7 @@ The port number could be any integer from 0 to 65535, but most common web applic
 **Stop the server**. After you've viewed the page, use CTRL + c in the terminal to stop the server.
 
 
-### Page Contents
+### Page contents
 
 Web pages are written in **HTML**, the *Hypertext Markup Language*. An HTML file is a mixture of regular text and special **tags** that tell your web browser how to format the page.
 
@@ -97,7 +97,7 @@ You can create a link using the `<a>` tag (for "anchor"). The tag contains a par
 <a href="https://squishmallows.com">Will loves these and calls them "Blobbers".</a>
 ```
 
-### Interior Decoration
+### Interior decoration
 
 Let's add an image to the page. The easiest way to add an image is to directly to it from your page. Add the following tag within the `<body>` region:
 ```
@@ -133,7 +133,7 @@ You will see a broken image placeholder appear on the page. For accessiblity rea
 ```
 
 
-## A Little CSS
+## A little CSS
 
 Styling elements using individual tags was common in the old-school web, but modern practice favors separating page content from styling. Let's add a `<style>` section to the `<head>` block that will hold rules for styling page elements. The language used for styling web pages is called **CSS**, which originally stood for *Cascading Style Sheets*, but that name is mostly a historical artifact at this point.
 
@@ -154,7 +154,7 @@ Styling elements using individual tags was common in the old-school web, but mod
 
 The style rule specifies that the contents of all `<img>` tags should have their width set to 50% of the page size. Remove the `width:` attribute from the `img` tag in the body of the page, then reload the page and verify that the CSS rule causes the image to be displayed at 50% width.
 
-### More Style Rules
+### More style rules
 
 You can add elements to the style block to control the presentation of other parts of the page. For example, to style the contents of  the entire body:
 
