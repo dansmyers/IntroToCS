@@ -395,3 +395,13 @@ responseRegion.innerHTML = "Hello, " + name + "!";
 ### Experiment
 
 Modify the code to make the output print something else.
+
+# Questions
+
+Do a little research and answer the following questions:
+
+- What's the difference between the Internet and the Web?
+- What is meant by the term *hypertext*?
+- Who is the creator of the World-Wide Web (WWW) and when and where was it created?
+- What was the motivation for creating the WWW?
+- Find the oldest existing web page.
