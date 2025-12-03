@@ -218,3 +218,180 @@ Here's one last style block that makes things a little more readable by bringing
 `margin` sets a padding of 40px around all sides of the page content; `auto` centers the display region inside the browser frame, pulling everything to the middle. Note that this is centering the display region, not the content itself.
 
 The background and text are softened a little away from strict white and black.
+
+# Interactive Pages
+
+The second part of the lab will demonstrate how to add *interactivity* to a page.
+
+It's common to have applications accessed through a browser. The web page becomes the graphical front-end of the program and the user interacts with page elements to do things. Some actions may trigger requests that go to the application's back-end server to fetch more data. Think about a social media feed, for example. As you scroll, the application is updating with more related content and maybe placing ads into your feed that it generates based on its profile of your use.
+
+**JavaScript** is the language used to program interactive web pages. JS code is embedded into pages, which can then be interpreted by an engine that's built into your web browser. JS makes it possible to write functions that trigger as the user interacts with page elements.
+
+## Button
+
+Here's a simple page with a new element: a button.
+```
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>An interactive page with a button</title>
+    </head>
+    <body>
+        <h1>Click the button.</h1>
+        
+        <!--Create a button element-->
+        <button>This is the button</button>
+
+        <!-- The script block contains JavaScript code -->
+        <script>
+            // Empty for now: we'll fill this in later
+        </script>
+    </body>
+</html>
+```
+
+Put the code into a new file named `button.html`. When you run the server, change the URL to go to the `button.html` page, like the following:
+```
+https://probable-xylophone-x5qq9496j64fpvw6-8080.app.github.dev/button.html
+```
+
+## Alert
+Experiment with clicking on the button. You'll see that it doesn't do anything. Elements like buttons don't have any default behavior. Instead, we have to connect the button to a function, then write code that performs the action we want the button to trigger.
+
+First, update the `<button>` tag to the following:
+```
+<button onclick="hello()">This is the button</button>
+```
+The structure is important:
+
+- The `onclick` statement is inside the angle bracket with `button`
+- `"hello()"` must be enclosed in quotes and have the parentheses
+
+`onclick` is a built-in property that the browse allows you to add to page elements. If `onclick` is set, then the browser will trigger the specified JS function whenever you click on the element. In this case, clicking on the button calls a JS function named `hello`, which we need to add to the `<script>` block.
+
+Update the script block to the following:
+```
+<script>
+    // Pop up an alert box that says 'Hello!'
+    function hello() {
+        alert('Hello!');
+    }
+</script>
+```
+Reload the page, then click on the button. You should see a box pop up with the message inside it. Each time you click will produce an alert.
+
+JS code looks different than Python, but you should be able to follow what's going on:
+
+- Comments are denoted with slashes, `//`
+- The `function` keyword declares a new function, like `def` in Python
+- Blocks of code are delimited by curly braces, like in Java and C
+- Each line of code ends with a semicolon
+
+### Experiment
+Try modifying the message to say some different things. Then add a second button to the page with its own function.
+
+## A more complex page
+
+Here's a final example, which extends the basic button clicking idea to read from a text box and produce an output message.
+```
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Hello!</title>
+    </head>
+    
+    <body>
+        <h1>Hello!</h1>
+        <p>Type your name and press the button.</p>    
+        
+        <!-- Declare a text input box -->
+        <input type="text" id="text-input"/>
+        
+        <!-- Declare a button that runs the hello() function when it's clicked -->
+        <button onclick="hello()">Click Here</button>
+        
+        <!-- The hello() function will put text inside this div region -->
+        <div id="response-region"></div>
+        
+        <script>
+            function hello() {
+                let textBox = document.getElementById("text-input");
+                let name = textBox.value;
+                
+                let responseRegion = document.getElementById("response-region");
+                responseRegion.innerHTML = "Hello, " + name + "!";
+            }
+        </script>
+    </body>
+
+</html>
+```
+
+Here's a summary of the page elements:
+
+- The third line of the body creates an input text box. The `<input>` tag can take many different `type` values, each one of which corresponds to a different
+kind of input interaction. You can create, for example, radio buttons, checkboxes, password inputs, and date selectors just by changing `type`.
+
+- The `input` tag has an `id` property, which assigns a unique name to this page element. **This is a key concept**: once we've assigned a name to an element,
+we can interact it with it via JavaScript. Note that you don't have to give an element an `id` if you don't need
+to interact with it.
+
+- The fourth line creates a button. The button has an `onclick` property that runs the `hello` function when it's clicked.
+
+- The last element is a `div` that's empty when the page first loads. The `div` tag is short for "division" and is used to mark out a region of the page for some specific purpose. The `hello()` function will use DOM actions to put a string into the `div` when the user clicks the
+button. Notice that the `div` element has its `id` property set to `response-region`.
+
+### The Document-Object Model (DOM)
+
+The DOM is a **tree representation of all the elements on the page**. For our example page, a (slightly simplified) view of the DOM would be like this:
+
+```
+       html
+        |
+  -------------------
+  |                 |
+ head             body
+  |                 |
+ title              |
+                    |
+      --------------------------------
+      |      |     |        |        |
+      h1     p    input   button    div
+```
+
+The structure of the tree matches the structure of the page:
+
+- `<html>`, the outermost tag, corresponds to the root of the tree.
+- `<head>` and `<body>` are the direct children of `<html>`.
+- The `<title>` tag, which is nested within `<head>` on the page, is its child in the DOM.
+- The other page elements are all children of `<body>`; notice that those elements are siblings in the tree.
+
+**Every element on the page corresponds to a DOM node, and nesting in HTML corresponds to hierarchy in the DOM tree**.
+
+
+### Manipulating Elements
+
+Recall, from above, that the `<button>` has its `onclick` property set to `hello()`. Whenever the user clicks the button, the browser will generate an event that
+will run the code in the `hello()` JavaScript function.
+
+The basic JavaScript function for interacting with page elements is `document.getElementById()`, which takes an element's `id` name as input and **returns a reference
+to the element's DOM node**. Here are the first two lines of `hello():
+```
+let textBox = document.getElementById("text-input");
+let name = textBox.value;
+```
+The first line uses `document.getElementById()` to get a reference to the `text-input` box. The second line accesses the `value` property of the input box, which returns
+the text it contains. The `let` keyword is used to declare variables in JavaScript.
+
+The second pair of lines makes a similar move: get a reference to the response `div` element, then set its `innerHTML` property to make text appear on the page:
+
+```
+let responseRegion = document.getElementById("response-region");
+responseRegion.innerHTML = "Hello, " + name + "!";
+```
+
+### Experiment
+
+Modify the code to make the output print something else.
