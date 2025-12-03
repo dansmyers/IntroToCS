@@ -1,5 +1,9 @@
 # Intro to Web Pages
 
+<img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22421821/NbKPigG.png" width="400px" />
+
+The original website for *Space Jam* from 1996 still exists. You may not like it, [but this is what peak performance looks like](https://www.spacejam.com/1996/).
+
 ## Overview
 
 This short lab will let you practice jamming on simple HTML and CSS, two of the core technologies of front-end web programming. By the end of it, you should feel comfortable with the idea of representing web page content using tagged text and simple styling.
