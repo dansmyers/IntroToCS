@@ -1,7 +1,8 @@
 # Final Exam Review
 
-<img src="https://images.squarespace-cdn.com/content/v1/5f4a21f48109a775b6cc05e2/d4735fcd-608f-45b8-b976-e585e8f62864/ADXY4868.JPEG?format=2500w" width="400px" />
+<img src="https://billiemag.ca/wp-content/uploads/2020/07/Colville_Dog-and-bridge.jpg" width="400px" />
 
+Alex Colville, Dog and Bridge (1976). Colville painted in the mid-20th Century, but his works are best known today for looking they came out of PS2 games in the early 2000s.
 
 ## Exam Details
 
