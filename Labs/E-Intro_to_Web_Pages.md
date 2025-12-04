@@ -255,7 +255,11 @@ Here's a simple page with a new element: a button.
 </html>
 ```
 
-Put the code into a new file named `button.html`. When you run the server, change the URL to go to the `button.html` page, like the following:
+Put the code into a new file named `button.html`. When you run the server, click on the URL bar at the top of your browser to append `/button.html` to go to the new page. For example, if your starting URL was
+```
+https://probable-xylophone-x5qq9496j64fpvw6-8080.app.github.dev
+```
+You would go to the address:
 ```
 https://probable-xylophone-x5qq9496j64fpvw6-8080.app.github.dev/button.html
 ```
@@ -408,4 +412,5 @@ Do a little research and answer the following questions:
 - What is meant by the term *hypertext*?
 - Who is the creator of the World-Wide Web (WWW) and when and where was it created?
 - What was the motivation for creating the WWW?
+- What are URLs?
 - Find the oldest existing web page.
