@@ -84,6 +84,8 @@ Your example page uses two other tags
 
 Before going further, experiment with making some changes to your page and visualizing the results. Re-run the serber using the command above, reload the page, then stop the server using CTRL + c when you need to make changes.
 
+**Put all of your page content into the current `<body>` tag**. The browser will try to make sense of anything you give it, but a page should have *one* `head` block and *one* `body` block enclosed in the `html` tags. Don't paste additional content below the current `</html>` tag.
+
 
 Try creating an unordered list of items using the `<ul>` and `<li>` tags:
 ```
