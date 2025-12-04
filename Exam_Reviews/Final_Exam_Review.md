@@ -2,7 +2,7 @@
 
 <img src="https://billiemag.ca/wp-content/uploads/2020/07/Colville_Dog-and-bridge.jpg" width="400px" />
 
-*Alex Colville, Dog and Bridge (1976). Colville painted in the mid-20th Century, but his works look weirdly like low-res polygonal graphics from early 2000s PS2 games.*
+*Alex Colville, Dog and Bridge (1976). Colville painted in the mid-20th Century, but his works look weirdly like low-res polygonal graphics from 2000s PS2 games.*
 
 ## Exam Details
 
