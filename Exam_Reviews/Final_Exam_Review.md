@@ -45,7 +45,7 @@ print(area_of_circle(10))
 ```
 def triple_min(a, b, c):
     """
-    Return the maximum of the three inputs
+    Return the minimum of the three inputs
     """
     if a < b:
         if a < c:
