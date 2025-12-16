@@ -1,4 +1,4 @@
-# Constructor and String Methods
+# Custom Constructors and Printing
 
 ## Topics
 
