@@ -78,7 +78,7 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 2/27 | `for` loops with `range`                           | Chapter 3 and 4 reading due                |
 | 3/2  | Intro to lists                                     | Chapter 5 reading                          |
 | 3/4  | Practice with loops and lists                      | Lab 7: Euouae                              |
-| 3/6  | More practice                                      |                                            |
+| 3/6  | More practice                                      | Midterm study guide out                                           |
 | 3/9  | Looping over strings                               |                                            |
 | 3/11 | Review for midterm                                 | Chapter 5 reading due                      |
 | 3/13 | MIDTERM EXAM (IN CLASS)                            |                                            |
