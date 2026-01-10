@@ -54,53 +54,53 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 ### Planned Schedule of Topics
 
 
-| Day   | Topic | Assignments |
-| ----- | ----- | ----------- |
-| 1/14  | Hello, World! |             |
-| 1/16  | Printing and arithmetic | Chapter 1 reading |
-| 1/19  | MLK Day (no class) |             |
-| 1/21  | Dr. Myers out of town | Lab 1 meets in the afternoon |
-| 1/23  | Dr. Myers out of town | Chapter 1 reading due |
-| 1/26  | Intro to variables |             |
-| 1/28  | Variables, formatted printing, and input | Lab 2: Conversions |
-| 1/30  | Relational operators, the `if` statement | Project 1 out, Chapter 2 reading |
-| 2/2   | `if`-`elif`-`else` |             |
-| 2/4   | Logical operators | Lab 3: Making choices  |
-| 2/6   | Making randomized choices | Assignment 1 due, Chapter 2 reading due |
-| 2/9   | RPS |             |
-| 2/11  | AI and LLMs |  Lab 4: Fitts' Law, Assignment 2 out           |
-| 2/13  | Intro to functions |  Chapter 3 and 4 reading     |
-| 2/16  | Functions II: Functions that take parameters |             |
-| 2/18  | Functions III: Functions that return values |  Lab 5: Fun            |
-| 2/20  | Functions IV: Functions + conditionals |             |
-| 2/23  | Local variables and scope |  |
-| 2/25  | The `for` loop | Lab 6: The Compleat Gamester |
-| 2/27  | `for` loops with `range` | Chapter 3 and 4 reading due |
-| 3/2   | Intro to lists | Chapter 5 reading |
-| 3/4   | Practice with loops and lists | Lab 7: Euouae |
-| 3/6   | More practice |  |
-| 3/9   | Looping over strings  |             |
-| 3/11  | Review for midterm | Chapter 5 reading due  |
-| 3/13  | MIDTERM EXAM (IN CLASS) |             |
-| 3/16  | SPRING BREAK |             |
-| 3/18  | SPRING BREAK |             |
-| 3/20  | SPRING BREAK |             |
-| 3/23  | Re-intro to lists, looping over lists |             |
-| 3/25  | Looping by index position | Assignment 3 out |
-| 3/27  | Choosing random items from a list |             |
-| 3/30  | Working with files, the `while` loop |             |
-| 4/1   | Games with the `while` loop, valid input | Lab 9: Wordplay, Assignment 3 due |
-| 4/3   | Review `try`-`except`, selection sort | Chapter 6 and 9 reading |
-| 4/6   | Dictionaries | Assignment 4 out |
-| 4/8   | Code cracking | Lab 10: Jeu Monégasque |
-| 4/10  | Hashing and passwords | Chapter 6 and 9 reading due |
-| 4/13  | Binary numbers | Assignment 4 due |
-| 4/15  | Character encodings | Lab 11: Precision, Assignment 5 out |
-| 4/17  | Stepwise refinement (feat. Tic-Tac-Toe) |             |
-| 4/20  | More refinement (feat. Nim), Tuples and anagrams |             |
-| 4/22  | Machine learning and classification | Lab 12 |
-| 4/24  | Decision trees, Neural networks | Assignment 5 due |
-| 4/27  | Objects and classes, `__init__` and `__str__`, wrap-up | Assignment 6            |
+| Day  | Topic                                              | Assignments                                |
+| ---- | -------------------------------------------------- | ------------------------------------------ |
+| 1/14 | Hello, World!                                      |                                            |
+| 1/16 | Printing and arithmetic                            | Chapter 1 reading                          |
+| 1/19 | MLK Day (no class)                                 |                                            |
+| 1/21 | Dr. Myers out of town                              | Lab 1 meets in the afternoon               |
+| 1/23 | Dr. Myers out of town                              | Chapter 1 reading due                      |
+| 1/26 | Intro to variables                                 |                                            |
+| 1/28 | Variables, formatted printing, and input           | Lab 2: Conversions                         |
+| 1/30 | Relational operators, the `if` statement           | Project 1 out, Chapter 2 reading           |
+| 2/2  | `if`-`elif`-`else`                                 |                                            |
+| 2/4  | Logical operators                                  | Lab 3: Making choices                      |
+| 2/6  | Making randomized choices                          | Project 1 due, Chapter 2 reading due    |
+| 2/9  | RPS                                                |                                            |
+| 2/11 | AI and LLMs                                        | Lab 4: Fitts' Law, Project 2 out        |
+| 2/13 | Intro to functions                                 | Chapter 3 and 4 reading                    |
+| 2/16 | Functions II: Functions that take parameters       |                                            |
+| 2/18 | Functions III: Functions that return values        | Lab 5: Fun                                 |
+| 2/20 | Functions IV: Functions + conditionals             |                                            |
+| 2/23 | Local variables and scope                          |                                            |
+| 2/25 | The `for` loop                                     | Lab 6: The Compleat Gamester               |
+| 2/27 | `for` loops with `range`                           | Chapter 3 and 4 reading due                |
+| 3/2  | Intro to lists                                     | Chapter 5 reading                          |
+| 3/4  | Practice with loops and lists                      | Lab 7: Euouae                              |
+| 3/6  | More practice                                      |                                            |
+| 3/9  | Looping over strings                               |                                            |
+| 3/11 | Review for midterm                                 | Chapter 5 reading due                      |
+| 3/13 | MIDTERM EXAM (IN CLASS)                            |                                            |
+| 3/16 | SPRING BREAK                                       |                                            |
+| 3/18 | SPRING BREAK                                       |                                            |
+| 3/20 | SPRING BREAK                                       |                                            |
+| 3/23 | Re-intro to lists, looping over lists              |                                            |
+| 3/25 | Looping by index position                          | Lab 9: Wordplay, Project 3 out                           |
+| 3/27 | Choosing random items from a list                  |                                            |
+| 3/30 | Working with files, the `while` loop               |                                            |
+| 4/1  | Games with the `while` loop, valid input           | Lab 10: Jeu Monégasque, Project 3 due          |
+| 4/3  | Review `try`-`except`, selection sort              | Chapter 6 and 9 reading                    |
+| 4/6  | Dictionaries                                       | Project 4 out                           |
+| 4/8  | Code cracking                                      | Lab 11: Victorian Gothic Guide to Data Analytics                |
+| 4/10 | Hashing and passwords                              | Chapter 6 and 9 reading due                |
+| 4/13 | Binary numbers                                     | Project 4 due                           |
+| 4/15 | Character encodings                                | Lab 12: Precision, Project 5 out        |
+| 4/17 | Stepwise refinement (feat. Tic-Tac-Toe)            |                                            |
+| 4/20 | More refinement (feat. Nim), Tuples and anagrams   |                                            |
+| 4/22 | Machine learning and classification                | Lab 13: My Heart Will Go On                                    |
+| 4/24 | Decision trees, Neural networks                    | Project 5 due                           |
+| 4/27 | Objects and classes, `__init__` and `__str__`, wrap-up | Project 6  out                         |
 
 ### Other Important Dates
 
