@@ -111,7 +111,6 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 - Last day to drop the class: January 27
 - Last day to withdraw without penalty: March 27
 - Dr. Myers out of town (no class meeting): January 21 and 23
-
 - Midterm exam: March 13 in class
 - Final exam: April 30, 2-4 PM (time from the official final exam schedule)
 
