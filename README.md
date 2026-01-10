@@ -104,13 +104,19 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 
 ### Other Important Dates
 
-- First day of class: August 25
-- Last day of class: December 5
-- Fall break: October 11 to October 14
-- Last day to drop the class ('W' deadline): November 7
-- Last day to withdraw without transcript notation: September 8
-- Credit/no credit deadline: December 5
-- Midterm exam: October 10
+- First day of class: January 14
+- MLK day (no class): January 19
+- Last day of class: April 28
+- Spring break: March 16 to March 22
+- Last day to drop the class: January 27
+- Last day to withdraw without penalty: March 27
+- Dr. Myers out of town (no class meeting): January 21 and 23
+
+- Midterm exam: March 13 in class
+- Final exam: April 30, 2-4 PM (time from the official final exam schedule)
+
+I'm not able to accommodate alternate times for the exams outside of the official testing center. Please plan your travel for spring break and the end of the semester with the expectation that you'll be present at the scheduled exam times.
+
 
 ## The All-Important Grading Section
 
