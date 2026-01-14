@@ -128,7 +128,7 @@ Rather than calculating your score as number of points on a 0-100 scale, your gr
 You must be registered for a section of CMS 120L. You'll receive the **same grade** for both CMS 120 and CMS 120L.
 
 ### Assignments
-We'll have four kinds of assignments in this class:
+We'll have five kinds of assignments in this class:
 
 1. **Autograded reading questions** from the Runestone text. These are easy to answer if you complete the required reading.
 
@@ -137,6 +137,8 @@ We'll have four kinds of assignments in this class:
 3. The **CMS120L lab meetings**. Each lab consists of practice programs or activities to reinforce the topics we're covering that week. Six of the labs also incorporate hypothesis-based data collection that allows this course to account for the RFLA Science requirement. The labs will be graded on **completion** and I'll be there with you during each session to help you and check your work-in-progress.
 
 4. Written midterm and final exams. The midterm will be given in-class on the day specified on the calendar and the final will be given at the time scheduled by the college. The final is not cumulative, but unavoidably builds upon the techniques that we cover in the first part of the class. The focus of both exams will be **reading and understanding program code**.
+
+5. **Challenge projects**. These are more expansive projects that will allow you to stretch a little bit beyond the regular assignments.
 
 ### Satisfactory Credit
 
@@ -150,10 +152,10 @@ For programming assignments, you must make a fair attempt on every problem. For 
 
 ### Letter Grades
 
-**To earn an A**, you must meet the following criteria:
+**To earn an *B***, you must meet the following criteria:
 
 1. Satisfactory completion of the six major programming assignments.
-2. Satisfactory completion of 12 of the 13 labs. You can miss one lab without it affecting your grade.
+2. Satisfactory completion of 11 of the 12 labs. You can miss one lab without it affecting your grade.
 3. Earn a score of at least 80% on both the midterm and final exams.
 4. Complete the autograded questions in the assigned reading. To allow some flexibility, the threshold for receiving credit is 90% of the assigned questions.
 
@@ -169,6 +171,8 @@ For programming assignments, you must make a fair attempt on every problem. For 
 | Score of less than 60% on an exam       | One full letter grade  |
 
 These penalties are cumulative. For example, if you failed to satisfactorily complete two major projects, your base grade would be lowered by 2 letters, from A to C.
+
+**To earn a higher grade**, complete the Challenge Projects. There will at least 3 and each one will raise your grade by a fraction of a letter, e.g. B to B+. Completing the basic course work and three challenge projects will earn an A.
 
 ### Why Are You Doing This To Us?
 
