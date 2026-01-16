@@ -246,7 +246,7 @@ Tips:
 
 ### Smoots
 
-<img src="https://alum.mit.edu/sites/default/files/styles/article_desktop/public/images/SMOOT.jpg?itok=jMC7rC_T" width="300px" />
+<img src="https://alum.mit.edu/sites/default/files/images/SMOOT.jpg" width="300px" />
 
 Use all of your powers to answer the following question.
 
