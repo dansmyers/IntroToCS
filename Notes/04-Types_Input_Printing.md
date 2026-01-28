@@ -19,6 +19,8 @@ Every data value in a Python program has a *type*. There are four basic Python d
 
 4. `bool` is the *Boolean* data type, used to represent logical true and false values. There are two special Boolean values, `True` and `False`, and these are the only values that have the `bool` type. Notice that `True` and `False` don't have quotes and aren't the same as the strings `'True'` and `'False'`.
 
+Values that are mathematically equivalent may correspond to different types. For example, `5` and `5.0` are mathematically equal to each other, but have different types: one is an `int` and the other is a `float`.
+
 ## `input`
 
 Use the built-in `input` command to read user input from the terminal. It takes a string that it prints as a prompt, then waits for the user to respond. The value the user types is assigned to the given variable.
