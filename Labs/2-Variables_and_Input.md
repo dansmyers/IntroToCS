@@ -80,8 +80,6 @@ Tip: Use the same basic approach as the previous problem.
 
 ### The Weight
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Weightlifting_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_%2B109_kg_%2810%29.jpg/620px-Weightlifting_at_the_2020_Summer_Olympics_%E2%80%93_Men%27s_%2B109_kg_%2810%29.jpg" width="300px" />
-
 Write a program to read in a weight in kilograms and convert it to pounds. There are about 2.20462 pounds in one kilogram.
 Display the result to one decimal place.
 
