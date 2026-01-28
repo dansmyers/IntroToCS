@@ -207,9 +207,13 @@ Use your program to calculate the length of the Comrades marathon in miles.
 
 **Heron's formula** (named after the Greek mathematician and inventor Hero of Alexandria) is a method of calculating the area of a triangle given the lengths of its three sides. If the three side lengths are *a*, *b*, and *c*, the formula is:
 
+$$ A = \sqrt{s(s - a)(s - b)(s - c)} $$
+
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d138044bb9ed870dd9dc5c7c8a3c07ab1db1705d" width="20%" />
 
 where *s* is the "semi-perimeter":
+
+$$ s = \frac{a + b+ c}{2}
 
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/08ed8a6e351198e0c4ca8d71fa2e2bc4171e9439" width="10%" />
 
