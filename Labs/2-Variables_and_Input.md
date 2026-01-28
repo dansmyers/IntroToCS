@@ -214,7 +214,7 @@ where *s* is the "semi-perimeter":
 
 $$ s = \frac{a + b+ c}{2} $$
 
-Write a program named `heron.py` that prompts for three float inputs. Save the three inputs to variables named `a`, `b`, and `c`, then calculate and print the area determined by Heron's formula. Simple math formulas are one case where single-letter variable names are appropriate.
+Write a program named `heron.py` that prompts for three float inputs, using three separate calls to the `input` function. Save the three inputs to variables named `a`, `b`, and `c`, then calculate and print the area determined by Heron's formula. Simple math formulas are one case where single-letter variable names are appropriate.
 
 The `math` package has a `sqrt` function. Import it at the top of your program (right after the initial docstring comment) using
 ```
