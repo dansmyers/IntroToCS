@@ -236,7 +236,7 @@ Suppose you would like to calculate the Nth Fibonacci number. How could you do t
 
 It turns out there is a single formula that will calculate the terms of the Fibonacci sequence. This is weird and suprising, because it seems unlikely that such a highly structured sequence, where each term depends on all the previous terms, could be represented in closed form. The result is known as Binet's formula and it says that the Nth Fibonacci number `F_n` is
 
-$$\frac{1}{\sqrt{5}} \left(\left(\frac{1 + \sqrt{5}}{2}\right)^n + \left(\frac{1 - \sqrt{5}}{2}\right)^n \right)
+$$\frac{1}{\sqrt{5}} \left(\left(\frac{1 + \sqrt{5}}{2}\right)^n - \left(\frac{1 - \sqrt{5}}{2}\right)^n \right) $$
 
 <img src="https://latex.artofproblemsolving.com/8/6/d/86d486c560727727342090b432e23ba85ac098b1.png" width="30%"/>
 
