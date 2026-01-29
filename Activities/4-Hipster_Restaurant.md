@@ -34,9 +34,9 @@ We're going to create menu items by assembling random options from each list. Th
 from random import choice
 
 # Define menu options -- modify these to use your own choices
-descriptions = ['non-euclidean', 'carbonized', 'impossible']
+descriptions = ['non-euclidean', 'carbonized', 'impossible', 'doritos loco']
 ingredients = ['aubergine', 'bonemeal', 'cuttlefish', 'durian']
-preparations = ['crunchwrap', 'foam', 'confetti']
+preparations = ['crunchwrap', 'foam', 'confetti', 'aspic']
 
 # Choose random selections from each list
 desc = choice(descriptions)
