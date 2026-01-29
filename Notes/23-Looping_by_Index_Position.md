@@ -13,7 +13,7 @@ Lecture 19 was the last regular class before the midterm. This note picks up aft
 
 ## Using `range` and `len`
 
-So far, we've seen several examples of looping through the data items in a list; for exampple, summing the values to calculate an average or finding the maximum item.
+So far, we've seen several examples of looping through the data items in a list; for example, summing the values to calculate an average or finding the maximum item.
 
 Sometimes, it's useful to iterate through a list by **index position** rather than through the items directly. The following code declares a list and then steps through its items one at a time using the index values 0 to 7.
 ```
