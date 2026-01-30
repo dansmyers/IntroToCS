@@ -63,7 +63,7 @@ Put all of your code for the project into this directory. At the end, I'll ask y
 
 ### Improving an Existing Program
 
-Start with the file `smoots.py` in this directory. It uses all of the techniques we've discussed in the first two weeks of class (input, variables, formatted printing) to implement the Smoots converter that we've seen before, but the style is poor.
+Start with the file `smoots.py` in this repository. It uses all of the techniques we've discussed in the first two weeks of class (input, variables, formatted printing) to implement the Smoots converter that we've seen before, but the style is poor.
 
 In your document, analyze this program. Explain what style elements in should have, but doesn't. How would you improve it? You don't need to rewrite the entire program, but provide an overview of the corrections that should be made.
 
