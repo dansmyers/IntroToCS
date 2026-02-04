@@ -391,6 +391,9 @@ if choice < 1 or choice > 2:
 # Roll two six-sided dice and add their sum
 
 
+# Print the dice and the total
+
+
 # Use a conditional block to print the output
 #
 # There are two ways to win:
