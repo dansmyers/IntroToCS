@@ -60,36 +60,9 @@ Converting liters to gallons with input checking
 print(f'{liters} liters is equal to {gallons: .2f} gallons.')
 ```
 
-
-### Guessing game
-
-Write a number guessing game. This version will have one **pre-set** number that the user is trying to guess. When the program runs, prompt the user to enter a guess.
-
-- If the guess is correct, print `Correct!`
-- If the guess is too high, print `Too high...`
-- If the guess is too low, print `Too low...`
-
-The user can run the program multiple times and adjust the guess each time. Later, we'll see how to do a program like this with a loop.
-
-```
-"""
-Guessing a pre-set number
-"""
-
-# The target number
-TARGET = 777
-
-
-# Prompt the user for a guess in the range 1 to 1000
-
-
-# Use an if-elif-else statement to compare the user's input against TARGET
-#
-# There are three branches, corresponding to equal to, greater than, and less than
-
-```
-
 ### `fortune`
+
+***Do this question and the next one in the terminal, not in a Python script***.
 
 There's a classic UNIX program called `fortune` that prints random messages when you run it. Let's use it as an example for installing new packages in Linux.
 
