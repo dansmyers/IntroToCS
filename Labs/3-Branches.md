@@ -1,6 +1,8 @@
 # Branches
 
-<img src="https://kirby.jamesfuentes.com/media/pages/artists/9-john-mcallister/4eb585e4ae-1715368643/jmca-11375-image-2048x-q95.jpg" width="500px" />
+<img src="https://cdn.jamesfuentes.com/media/pages/exhibitions/sun-sundry-beguiles-wild/8d1e8c575c-1764629351/jmca-11386_hued-haughty-rapt-bawdy_2025.png?width=1440&quality=95" width="400px" />
+
+*John McAllister
 
 John McAllister, *serenest rave ring out* (2024)
 
