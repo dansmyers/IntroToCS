@@ -1,10 +1,8 @@
 # Branches
 
-<img src="https://cdn.jamesfuentes.com/media/pages/exhibitions/sun-sundry-beguiles-wild/8d1e8c575c-1764629351/jmca-11386_hued-haughty-rapt-bawdy_2025.png?width=1440&quality=95" width="400px" />
+<img src="https://cdn.jamesfuentes.com/media/pages/exhibitions/sun-sundry-beguiles-wild/25f3020ed0-1764629351/jmca-11388.png?width=1440&quality=95" width="400px" />
 
-*John McAllister
-
-John McAllister, *serenest rave ring out* (2024)
+John McAllister, *ablaze rapt chorus beaming* (2025), via [James Fuentes Gallery](https://jamesfuentes.com/exhibitions/sun-sundry-beguiles-wild)
 
 ## Overview
 
