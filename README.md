@@ -66,8 +66,8 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 1/30 | Relational operators, the `if` statement           | Project 1 out, Chapter 2 reading           |
 | 2/2  | `if`-`elif`-`else`                                 |                                            |
 | 2/4  | Logical operators                                  | Lab 3: Making choices                      |
-| 2/6  | Making randomized choices                          | Project 1 due, Chapter 2 reading due    |
-| 2/9  | RPS                                                |                                            |
+| 2/6  | Making randomized choices                          | Project 1 due    |
+| 2/9  | RPS                                                | Chapter 2 reading due                                           |
 | 2/11 | AI and LLMs                                        | Lab 4: Fitts' Law, Project 2 out        |
 | 2/13 | Intro to functions                                 | Chapter 3 and 4 reading                    |
 | 2/16 | Functions II: Functions that take parameters       |                                            |
