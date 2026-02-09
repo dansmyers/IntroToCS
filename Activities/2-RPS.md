@@ -116,7 +116,7 @@ Welcome to Rock, Paper, Scissors.
 Prompt the player to select one of the moves and read the numeric response using `input` and `int`. Assign it to a variable named `player_move`.
 
 
-### Step 4: Check for Valid Input
+## Step 4: Check for Valid Input
 The only legal moves are 1, 2 or 3. Add some code to check if the user enters a value outside that range, and if so exit the program.
 
 Tip: Use the `or` operator to test for a value outside the range of 1 to 3. If the player's input is assigned to a variable named `player_move`, you could use
@@ -126,7 +126,7 @@ if player_move < 1 or player_move > 3:
 ```
 
 
-### Step 5: Print the player's move
+## Step 5: Print the player's move
 Add an `if-elif-else` block that tests the player's input and prints a little text response.
 ```
 if player_move == ROCK:
@@ -136,11 +136,11 @@ if player_move == ROCK:
 ```
 Notice how the example code tests against the constant `ROCK` rather than the literal number `1`. This makes it easier to understand what the program is checking.
 
-### Step 6: Randomly generate the CPU's move
+## Step 6: Randomly generate the CPU's move
 Write a line that uses `randint` to generate a 1, 2, or 3 and save it into a variable named `cpu_move`.
 
 
-### Step 7: Print the CPU's move
+## Step 7: Print the CPU's move
 Add another `if-elif-else` block to print a message for each possible computer move.
 ```
 if cpu_move == ROCK:
@@ -148,7 +148,7 @@ if cpu_move == ROCK:
 ```
 Add two more cases for PAPER and SCISSORS.
 
-### Step 8: Determine the Outcome
+## Step 8: Determine the Outcome
 This is the most complex part. You need to write a set of conditional statements that will compare the player and CPU moves and print the appropriate outcome message.
 
 One case is easy: if the moves are the same, it's a draw.
