@@ -68,11 +68,11 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 2/4  | Logical operators                                  | Lab 3: Making choices                      |
 | 2/6  | Making randomized choices                          | Project 1 due    |
 | 2/9  | RPS                                                | Chapter 2 reading due                                           |
-| 2/11 | AI and LLMs                                        | Lab 4: Fitts' Law, Project 2 out        |
-| 2/13 | Intro to functions                                 | Chapter 3 and 4 reading                    |
-| 2/16 | Functions II: Functions that take parameters       |                                            |
+| 2/11 | AI and LLMs                                        | Lab 4: Fitts' Law        |
+| 2/13 | Intro to functions                                 | Project 2 out                    |
+| 2/16 | Functions II: Functions that take parameters       |   Chapter 3 and 4 reading                                         |
 | 2/18 | Functions III: Functions that return values        | Lab 5: Fun                                 |
-| 2/20 | Functions IV: Functions + conditionals             |                                            |
+| 2/20 | Functions IV: Functions + conditionals             |  Project 2 due                                          |
 | 2/23 | Local variables and scope                          |                                            |
 | 2/25 | The `for` loop                                     | Lab 6: The Compleat Gamester               |
 | 2/27 | `for` loops with `range`                           | Chapter 3 and 4 reading due                |
