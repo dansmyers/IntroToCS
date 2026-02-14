@@ -1,6 +1,6 @@
 # Strachey's Love Letter Algorithm
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/The_Love_Letter_E10722.jpg/1090px-The_Love_Letter_E10722.jpg" width="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/The_Love_Letter_E10722.jpg/1280px-The_Love_Letter_E10722.jpg?20160713161332"  width="400px" />
 
 *The Love Letter*, François Boucher (1750)
 
