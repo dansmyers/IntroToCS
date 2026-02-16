@@ -85,7 +85,7 @@ The `return` statement ends the function. The given value (`die`, in thise case)
 ```
 die_roll = roll()
 ```
-cals the `roll` function, which generates a random integer using `randint`, then returns that value so it can be assigned to `die_roll`.
+calls the `roll` function, which generates a random integer using `randint`, then returns that value so it can be assigned to `die_roll`.
 
 **Returning is not the same as printing**!
 
