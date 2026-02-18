@@ -67,7 +67,7 @@ print(f'{num_pounds} pounds is about {num_kilos} kgs.')
 
 ### BTC
 
-Write a program with a function named `btc_to_usd` that takes a number of bitcoins as input and **returns** the corresponding number of patriotic American fiat dollars. There are currently approximately $113,792.10 per bitcoin.
+Write a program with a function named `btc_to_usd` that takes a number of bitcoins as input and **returns** the corresponding number of patriotic American fiat dollars. There are currently approximately $66,830.36 per bitcoin.
 
 - Your function can take one input named `btc`
 - Use one `return` statement at the end of the function
@@ -176,48 +176,33 @@ die2 = d20()
 print(die1, die2)
 ```
 
-
-### Ability check
-
-<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1728780730i/1060727.jpg" width="200px"/>
-
-Add another function called `check_roll` that uses `d20` to perform a Dungeons n' Dragons style ability check. The function takes two inputs called `modifier` and `difficulty`. The modifier input may be positive or negative.
-
-- Roll `d20` and add `modifier`
-- Compare the result to `difficulty`
-- If the result is *greater than or equal to* `difficulty`, the player passes the check. Return `True`.
-- Otherwise, return False. The player has failed the ability check.
-
-For example, a call to `check_roll(3, 12)` would roll a twenty-sided die, add 3, then check if the sum is at least 12. Add *at least three* test cases to the main section of the program.
-
-
 ## Card Games
 
 
 ### Card printing
 
-Create a file named `cards.py`. Write a function called `print_card` that takes a number 1 to 13 as input and prints the corresponding playing card name.
+Create a file named `cards.py`. Write a function called `card_name` that takes a number 1 to 13 as input and **returns** the corresponding playing card name as a string.
 
-- if the input is 1, print `Ace`
-- if the input is 2 through 10, print the number as a word.
-- if the input is 11, print `Jack`, and likewise for the Queen and King.
+- if the input is 1, return `'Ace'`
+- if the input is 2 through 10, return the number as a word, like `'Two'`
+- if the input is 11, return `'Jack'`, and so forth for 12 and 13
 
 The function is going to look like this:
 ```
-def print_card(card):
+def card_name(card):
     """
     Fill in this docstring
     """
 
     if card == 1:
-        print('Ace')
+        return 'Ace'
     elif card == 2:
-        print('Two')
+        return 'Two'
     
     # Add other cases to finish the method
 
     elif card == 13:
-        print('King')
+        return 'King'
 ```
 
 Here's a test program:
@@ -236,11 +221,13 @@ from random import randint
 # Deal some random cards and print them
 c1 = randint(1, 13)
 print(c1)
-print_card(c1)
+name = card_name(c1)
+print(name)
 
 c2 = randint(1, 13)
 print(c2)
-print_card(c2)
+name = card_name(c)
+print(name)
 ```
 
 ### Hi-Lo
@@ -251,7 +238,7 @@ A simple card game.
 - The player guesses whether the next card will be **higher** in rank or **lower** in rank.
 - The computer generates a second card, shows it to the player, and announces whether the guess was correct.
 
-Use `randint(1, 13)` to generate a random card and `print_card` from the previous problem to print card names.
+Use `randint(1, 13)` to generate a random card and `card_name` from the previous problem to turn the numbers into printable names.
 
 ```
 """
@@ -260,7 +247,7 @@ Hi-Lo card game
 
 from random import randint
 
-### Put your print_card function here
+### Put your card_name function here
 
 
 ### Main
@@ -268,9 +255,8 @@ from random import randint
 # Generate the first card
 first_card = randint(1, 13)
 
-# Print the first card
-print('The first card is: ')
-print_card(first_card)
+# Print the first card - you can call card_name inside a formatted string
+print(f'The first card is: {card_name(first_card)}.')
 
 # Print the menu of choices for the user
 # 1. Higher
@@ -307,6 +293,6 @@ Use an approach similar to our previous chance games:
 
 - Print the two bets, then read the player's number. If the player enters anything other than 1 or 2, print an error and quit immediately.
 - Roll the two dice, calculate their sum, and print.
-- Deal the card using `randint`, then use `print_card` to output it.
+- Deal the card using `randint`, then print its name using `card_name`
 - Determine whether the dice or the card are greater.
 - Compare the result against the player's bet and announce the result.
