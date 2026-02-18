@@ -94,7 +94,7 @@ Write a program with a function called `parsecs_to_miles` that takes a number of
 
 Tip: You can represent 19.2 trillion in scientific notation using `19.2e12`. That's short for 19.2 * 10<sup>12</sup>.
 
-### Max
+### maxxing
 
 Write a program with a function named `max` that takes **two** inputs named `a` and `b` and **returns** their maximum.
 
