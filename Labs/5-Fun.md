@@ -78,7 +78,7 @@ Use the previous program as your model.
 
 ### Parsecs
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Stellarparallax_parsec1.svg/1024px-Stellarparallax_parsec1.svg.png" width="300px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Stellarparallax_parsec1.svg/960px-Stellarparallax_parsec1.svg.png" width="300px" />
 
 *Explanatory image from [Wikipedia](https://en.wikipedia.org/wiki/Parsec)*
 
