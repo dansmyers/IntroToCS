@@ -146,6 +146,8 @@ def read_player_move():
 
     # Check the player's move - if it's bad, print an error and quit
 
+    # Else, the move was good, so return it
+
 ```
 
 ### `get_player_move_message`
