@@ -195,7 +195,7 @@ Write the first function, `deal`, which returns the result of calling `randint(1
 
 ### The `card_name` function
 
-Copy your `card_name` function from the Hi-Lo program. Change the function to **return** the name of the card instead of printing it.
+Copy your `card_name` function from the Hi-Lo program in the last lab. The function takes a number 1 to 13 as input and **returns** the name of its associated card.
 
 
 ### The `value` function
@@ -205,7 +205,7 @@ This function takes a card number 1 to 13 as input and returns its blackjack val
 - Number cards 2-10 count for their face value
 - Jack, Queen, and King count for **10**
 - Aces, in this version, count for **1**
-- If the card is anything else, return a value of 0
+- If the input is anything else, return a value of 0
 
 ```
 def value(card):
