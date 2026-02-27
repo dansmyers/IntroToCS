@@ -1,23 +1,31 @@
-# Homage
+# Challenge Project: Homage
 
 <img src="https://www.guggenheim.org/wp-content/uploads/1959/01/61.1590_ph_web-1.jpg" width="400px" />
 
 Josef Albers, *Homage to the Square: Apparition* (1959), via the [Guggenheim](https://www.guggenheim.org/artwork/173)
 
+## Due 3/13 (the day before Spring Break, after the midterm)
+
 ## Overview
 
+This project will allow you to practice drawing and graphics in Python. There are three parts:
+
+1. Basic drawing, demonstrating how to use coordinates, shapes, and colors
+2. Implementing a program that generates randomized art in the style of Josef Albers' *Homage to the Square*, as seen above
+3. Making your own generative art program
+
+Remember that this project is **optional**, but completing it will raise your final course grade by one part of a letter (e.g., B to B+).
 
 ## Setup
 
-Create a `Lab_7` directory in your workspace and `cd` into it.
+Create a `Challenge-1-Homage` directory:
 ```
-mkdir Lab_7
+mkdir Challenge-1-Homage
 ```
+Then `cd` into it:
 ```
-cd Lab_7
+cd Challenge-1-Homage
 ```
-The questions will tell you how to create and name your Python scripts.
-
 
 ## Drawing with Pillow
 
@@ -27,6 +35,8 @@ Anni Albers, *Éclat* (1975), via [Cooper Hewitt](https://www.cooperhewitt.org/2
 
 
 ### Starter code
+
+This first section will allow you to practice basic drawing using Pillow, the same image library we used in Project 1. Work through the steps below and experiment with the different features.
 
 Start by putting the following program into a file named `basic_drawing.py` and then running it. It will produce a file named `rect.png` that you can click on to open and examine.
 
@@ -94,6 +104,8 @@ y   |                                          |
     +------------------------------------------+
 ```
 
+You can only draw in units of whole-numbered pixels. Fractional placements aren't allowed.
+
 ### Drawing rectangles
 
 Look at the example drawing command:
@@ -104,7 +116,7 @@ First, notice that this call uses dot notation. The `draw` object supports a num
 
 The function has four arguments:
 
-- A **list** of point pairs that define the upper-left and lower-right corners of the rectangle. Here, the upper-left point is (50, 50) and the lower-right point is (300, 200)
+- A **list** of point pairs that define the upper-left and lower-right corners of the rectangle. Here, the upper-left point is (50, 50) and the lower-right point is (300, 200). The placement of the commas is a bit tricky: there is a comma between the coordinates of each point and one in between the points to order them in the list.
 
 - `fill`, which is fill color. This can be a string, like `'red'` or `'blue'`, or a specific red-green-blue color. More on that later.
 
@@ -218,6 +230,26 @@ draw.rectangle([ul, lr], fill=color, outline="black", width=2)
 ```
 The `fill` parameter has been changed to use the random color.
 
-### Jam
+## Masterpiece
 
-Once you have the basic version working, play around with the number of squares and the positioning. Experiment with changing the part of the loop that moves and resizes the square for the next iteration and observe how those changes affect the result.
+Now use these techniques to create *your own generative art program*. Your program shoud have some strategy that it implements to create an artistic composition that incorporates randomness in at least one of its elements.
+
+You have broad freedom to create what you want, with a few guidelines:
+
+- There must be some strategy or planned approach used to structure the output.
+
+- You have to create something with enough complexity to be interesting. You can't just put a few random rectangles on the screen.
+
+- You must incorporate some randomness to determine the output, so that you get a different output every time you run the program. This can include random colors but needs to be more than that.
+
+- You're free to use an AI to help you design the program. Keep a log if you choose to.
+
+Referencing the work of another artist isn't required, but is a good way to get inspiration.
+
+## Submission
+
+Submit to Canvas:
+
+- Your `homage.py` program and one of its output images
+- Your original program and *three* of its output images
+- Your AI log if you used one
