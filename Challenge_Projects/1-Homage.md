@@ -232,6 +232,10 @@ The `fill` parameter has been changed to use the random color.
 
 ## Masterpiece
 
+<img src="https://www.maxkohler.com/assets/notes/schlitzgobelin_gunta_stoelzl.jpg_1728511801.jpg" width="300px" />
+
+Gunta Stölz, *Slit Tapestry Red-Green* (1927-28). Via [Bauhaus Archive](https://open-archive.bauhaus.de/eMP/eMuseumPlus?service=direct/1/ResultDetailView/result.inline.list.t1.collection_list.$TspTitleImageLink.link&sp=13&sp=Sartist&sp=SfilterDefinition&sp=0&sp=1&sp=1&sp=SdetailView&sp=131&sp=Sdetail&sp=0&sp=T&sp=0&sp=SdetailList&sp=0&sp=F&sp=Scollection&sp=l60412).
+
 Now use these techniques to create *your own generative art program*. Your program shoud have some strategy that it implements to create an artistic composition that incorporates randomness in at least one of its elements.
 
 You have broad freedom to create what you want, with a few guidelines:
