@@ -1,6 +1,6 @@
 # Euouae
 
-<img src="https://whitney.org/collection/works/34855" width="500px" />
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*NlSMDSt5QOaGblOH7zU4BA.png" width="500px" />
 
 *Kitchen*, Liza Lou (1991-1996), via the [Whitney Museum](https://whitney.org/collection/works/34855)
 
