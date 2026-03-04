@@ -1,6 +1,6 @@
 # Euouae
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*NlSMDSt5QOaGblOH7zU4BA.png" width="500px" />
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*NlSMDSt5QOaGblOH7zU4BA.png" width="750px" />
 
 *Kitchen*, Liza Lou (1991-1996), via the [Whitney Museum](https://whitney.org/collection/works/34855) and [this review article](https://rachelletaj.medium.com/reviewing-liza-lou-the-kitchen-1991-a9b541d18c2f)
 
