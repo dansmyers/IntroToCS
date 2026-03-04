@@ -2,7 +2,7 @@
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*NlSMDSt5QOaGblOH7zU4BA.png" width="500px" />
 
-*Kitchen*, Liza Lou (1991-1996), via the [Whitney Museum](https://whitney.org/collection/works/34855)
+*Kitchen*, Liza Lou (1991-1996), via the [Whitney Museum](https://whitney.org/collection/works/34855) and [this review article](https://rachelletaj.medium.com/reviewing-liza-lou-the-kitchen-1991-a9b541d18c2f)
 
 > A full-scale and exactingly detailed kitchen encrusted in a rainbow of glistening beads, Liza Lou’s monumental installation took five years to make. After researching kitchen design manuals as well as historical tracts about the lives of nineteenth-century women, Lou made drawings and three-dimensional models to achieve a loose outline of Kitchen’s floor plan. She then fashioned the objects out of paper mâché, painted them, and applied the beads in a mosaic of surface pattern.
 
@@ -17,8 +17,6 @@ cd Lab_7
 ```
 
 ## Loop Practice
-
-<img src="https://whitneymedia.org/assets/artwork/34855/LMA_LizaLou_0205.jpeg" width="400px" />
 
 
 ### Beep Boop
