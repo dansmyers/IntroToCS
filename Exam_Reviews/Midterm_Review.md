@@ -27,7 +27,7 @@ I will grade the exam by assessing the fraction of questions you answered correc
 
 - Remember that you can always write a short program and run it to see what it does if you're unsure.
 
-- Study actuively; don't just read your class notes. This is not a vocabulary test! You need to examine each one of the programs below, predict what it does, then check if your answer is correct. Repeat with similar examples until you're comfortable handling programs of each type.
+- Study actively; don't just read your class notes. This is not a vocabulary test! You need to examine each one of the programs below, predict what it does, then check if your answer is correct. Repeat with similar examples until you're comfortable handling programs of each type.
 
 - Make notes to yourself. Trace the execution of the program step-by-step and keep track of the values of each variable.
 
