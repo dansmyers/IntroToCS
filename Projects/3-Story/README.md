@@ -58,7 +58,7 @@ touch .env
 ```
 This is the "environment" file for your project. Put the folowing inside it, then add the real API key in between the quotes:
 ```
-# Google Search API Credentials
+# OpenAI API Credentials
 OPENAI_API_KEY="COPY THE REAL API KEY IN BETWEEN THESE QUOTES"
 ```
 
