@@ -86,11 +86,11 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 3/18 | SPRING BREAK                                       |                                            |
 | 3/20 | SPRING BREAK                                       |                                            |
 | 3/23 | Re-intro to lists, looping over lists              |                                            |
-| 3/25 | Looping by index position                          | Lab 9: Wordplay, Project 3 out                           |
-| 3/27 | Choosing random items from a list                  |                                            |
+| 3/25 | Looping by index position                          | Lab 9: Wordplay                         |
+| 3/27 | Choosing random items from a list                  |  Project 3 out                                          |
 | 3/30 | Working with files, the `while` loop               |                                            |
-| 4/1  | Games with the `while` loop, valid input           | Lab 10: Jeu Monégasque, Project 3 due          |
-| 4/3  | Review `try`-`except`, selection sort              | Chapter 6 and 9 reading                    |
+| 4/1  | Games with the `while` loop, valid input           | Lab 10: Jeu Monégasque         |
+| 4/3  | Review `try`-`except`, selection sort              | Chapter 6 and 9 reading, Project 3 due                    |
 | 4/6  | Dictionaries                                       | Project 4 out                           |
 | 4/8  | Code cracking                                      | Lab 11: Victorian Gothic Guide to Data Analytics                |
 | 4/10 | Hashing and passwords                              | Chapter 6 and 9 reading due                |
