@@ -8,7 +8,7 @@
 
 ## Counting
 
-The `for` loop with `range` is the preferred way to iterate through a sequence of numbers, bu sometimes you need to do so with a `while` loop. The loop below counts from 0 to 13 and prints each number.
+The `for` loop with `range` is the preferred way to iterate through a sequence of numbers, but sometimes you need to do so with a `while` loop. The loop below counts from 0 to 13 and prints each number.
 ```
 i = 0
 while i <= 13:
