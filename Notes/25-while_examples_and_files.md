@@ -45,7 +45,7 @@ Babylonian square roots
 x = 100
 
 # Initial guess
- guess = 1
+guess = 1
 
 # Iteratively calculate improved roots
 looping = True
