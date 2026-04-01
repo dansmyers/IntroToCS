@@ -62,7 +62,7 @@ num_wins = 0
 
 # Loop that calls the simulation method and counts the number of trials that win
 for trial in range(10000):
-    if sum_passe_dix():
+    if sim_passe_dix():
         num_wins += 1
 
 # Calculate and print the fraction of wins
