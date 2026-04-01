@@ -1,6 +1,6 @@
 # Jeu Monégasque
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Monaco_Monte_Carlo_1.jpg/2560px-Monaco_Monte_Carlo_1.jpg" width="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Monte_Carlo_Casino_at_Dusk.JPG/1920px-Monte_Carlo_Casino_at_Dusk.JPG" width="400px" />
 
 *Monte Carlo is a district of the small European principality of Monaco. It's the home of a famous casino and entertainment complex that has been in operation since the 1800s.*
 
