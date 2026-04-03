@@ -118,6 +118,6 @@ o 54542
 
 # etc.
 ```
-Observe that the ordering doesn't follow any obvious ordering. The keys aren't sorted, nor are the entries sorted by value.
+Observe that the output doesn't follow any obvious ordering. The keys aren't sorted, nor are the entries sorted by value.
 
 It turns out that, in Python, dictionary keys are returned in the order they were inserted. However, in other languages, like Java, there is no guarantee on the ordering of keys in a dictionary. Therefore, a good rule of thumb is never assume any particular ordering on dictionary keys.
