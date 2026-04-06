@@ -90,12 +90,12 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 3/27 | Choosing random items from a list                  |  Project 3 out                                          |
 | 3/30 | Working with files, the `while` loop               |                                            |
 | 4/1  | Games with the `while` loop, valid input           | Lab 10: Jeu Monégasque         |
-| 4/3  | Review `try`-`except`, selection sort              | Chapter 6 and 9 reading, Project 3 due                    |
-| 4/6  | Dictionaries                                       | Project 4 out                           |
+| 4/3  | Review `try`-`except`, selection sort              | Project 3 due                    |
+| 4/6  | Dictionaries                                       | Project 4 out, Chapter 6 + 9 reading                           |
 | 4/8  | Code cracking                                      | Lab 11: Victorian Gothic Guide to Data Analytics                |
-| 4/10 | Hashing and passwords                              | Chapter 6 and 9 reading due                |
+| 4/10 | Hashing and passwords                              |                |
 | 4/13 | Binary numbers                                     | Project 4 due                           |
-| 4/15 | Character encodings                                | Lab 12: Precision, Project 5 out        |
+| 4/15 | Character encodings                                | Lab 12: Precision, Project 4 due, Chapter 6 + 9 reading due, Project 5 out        |
 | 4/17 | Stepwise refinement (feat. Tic-Tac-Toe)            |                                            |
 | 4/20 | More refinement (feat. Nim), Tuples and anagrams   |                                            |
 | 4/22 | Machine learning and classification                | Lab 13: My Heart Will Go On                                    |
