@@ -26,7 +26,14 @@ The three labs we're going to complete were originally designed by my wife Chels
 
 Create a `Lab_10` directory and `cd` into it. Create a new file for each of the parts below.
 
-
+Install Pandas by running the following command *in the terminal*:
+```
+pip install pandas
+```
+then
+```
+pip install matplotlib
+```
 
 ## Get the Data
 
