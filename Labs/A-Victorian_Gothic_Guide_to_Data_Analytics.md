@@ -73,7 +73,7 @@ Here is a breakdown of each step:
 
 - The last line uses `df.head()` to print the beginning of the dataframe.
 
-Run the program and you will see output like this:
+Run the program and you will see output like this. Yours may display only a subset of the columns; that's fine.
 
 ```
    Survived  Pclass                                               Name     Sex   Age  Siblings/Spouses_Aboard  Parents/Children_Aboard     Fare
