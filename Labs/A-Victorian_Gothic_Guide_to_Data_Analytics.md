@@ -556,7 +556,7 @@ plt.figure()
 sns.barplot(x=digit_percentages.index, y=digit_percentages.values)
 
 # Customize the plot
-plt.title('Distribuion of First Digits in County Population Data (2023)')
+plt.title('Distribution of First Digits in County Population Data (2023)')
 plt.xlabel('First Digit')
 plt.ylabel('Fraction of occurrence')
 plt.savefig('benford.jpg', bbox_inches='tight')
