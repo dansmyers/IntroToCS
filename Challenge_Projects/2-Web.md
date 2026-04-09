@@ -4,6 +4,8 @@
 
 The original website for *Space Jam* from 1996 still exists. You may not like it, [but this is what peak performance looks like](https://www.spacejam.com/1996/).
 
+## Due Friday, 4/24
+
 ## Overview
 
 This project will let you practice jamming on simple HTML and CSS, two of the core technologies of front-end web programming. By the end of it, you should feel comfortable with the idea of representing web page content using tagged text and simple styling.
