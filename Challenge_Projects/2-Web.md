@@ -418,3 +418,7 @@ Do a little research and answer the following questions:
 - What was the motivation for creating the WWW?
 - What are URLs?
 - Find the oldest existing web page.
+
+# Submission
+
+Submit your final pages for the two sections and the answers to the questions.
