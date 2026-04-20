@@ -8,7 +8,7 @@
 
 Newton was one of the "[Florida Highwaymen](https://nmaahc.si.edu/object/nmaahc_2014.185.10ab?destination=/explore/collection/search%3Fedan_q%3D%252A%253A%252A%26edan_fq%255B0%255D%3Dplace%253A%2522Fort%252BPierce%2522%26op%3DSearch)", a group of mostly self-taught African-American artists active in the area around Fort Pierce beginning in the mid-20th Century. The Highwaymen primarily painted Florida landscapes, often with unrealistically vibrant colors. Their paintings were made quickly with non-standard materials and sold by the side of the road.
 
-## Due Friday, 12/12 (last day of finals)
+## Due Tuesday, 5/5 (last day of finals)
 
 
 ## Description
