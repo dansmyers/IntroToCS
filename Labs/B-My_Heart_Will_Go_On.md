@@ -14,6 +14,14 @@ Our data set will be `Titanic.csv` file we worked with last time. We're going to
 
 This lab contains questions that you'll need to answer as you go. Create a Word document and put your answers to each question in it. 
 
+## Install scikit-learn
+
+scikit-learn is a Python library that includes machine learning models. Install it using
+```
+pip install scikit-learn
+```
+in the terminal.
+
 ## Get the Data
 Create new `Lab_11` directory and `cd` into it. You can then copy the `Titanic.csv` file from the previous lab:
 ```
