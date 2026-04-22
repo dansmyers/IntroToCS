@@ -48,3 +48,8 @@ Identify a few changes you want to make. Even if you like the app as it is, thin
 You can do the update by prompting Claude to change the spec, or by editing it yourself.
 
 Then, prompt Claude to rebuild the app using the updated specification document. This step illustrates a key idea for working with agents: **code is cheap**. The overhead of generating something multiple times is low, so it's often more efficient to update the spec and rebuild the project, rather than trying to make changes to the already-existing code.
+
+
+## Submission
+
+Submit your `index.html` page and your specs document to Canvas.
