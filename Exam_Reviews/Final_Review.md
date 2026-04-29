@@ -261,7 +261,7 @@ print(chr(code))
 
 2. I wrote the following code but got an error when I tried to run it. What's the problem?
 ```
-# Declare a point in 3-d space
+# Declare a string
 word = 'hello'
 
 # Update one letter
