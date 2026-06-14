@@ -1,6 +1,6 @@
 # It's a Secret to Everybody
 
-<img src="https://objects-us-east-1.dream.io/secrettoeverybody/images/secret.png" width="400px" />
+<img src="https://s3.us-east-005.dream.io/secrettoeverybody/images/secret.png" width="400px" />
 
 
 ## Due Wednesday, 4/15
