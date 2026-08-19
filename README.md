@@ -1,6 +1,6 @@
 # CMS 120 Introduction to Computer Science
 
-## Spring 2026 Syllabus
+## Fall 2026 Syllabus
 
 ## Who? Where?
 
@@ -46,7 +46,7 @@ CMS 120 and the lab are listed as separate sections but you'll receive the **sam
 
 We'll be using the free interactive online text called *Python for Everybody* published by Runestone. The book has chapters with interactive questions that you'll complete as part of each reading assignment.
 
-Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", then click the "Sign Up" button at the top of the page to create an account. During the account creation process, one of the fields will ask for the class you want to join. Enter `rollins_cms120_sp26`, which is the code for our class, then finish creating your account.
+Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", then click the "Sign Up" button at the top of the page to create an account. During the account creation process, one of the fields will ask for the class you want to join. Enter `rollins_cms120_fa26`, which is the code for our class, then finish creating your account.
 
 
 ## Schedule
@@ -54,67 +54,65 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 ### Planned Schedule of Topics
 
 
-| Day  | Topic                                              | Assignments                                |
-| ---- | -------------------------------------------------- | ------------------------------------------ |
-| 1/14 | Hello, World!                                      |                                            |
-| 1/16 | Printing and arithmetic                            | Chapter 1 reading                          |
-| 1/19 | MLK Day (no class)                                 |                                            |
-| 1/21 | Dr. Myers out of town                              | Lab 1 meets in the afternoon               |
-| 1/23 | Dr. Myers out of town                              | Chapter 1 reading due                      |
-| 1/26 | Intro to variables                                 |                                            |
-| 1/28 | Variables, formatted printing, and input           | Lab 2: Conversions                         |
-| 1/30 | Relational operators, the `if` statement           | Project 1 out, Chapter 2 reading           |
-| 2/2  | `if`-`elif`-`else`                                 |                                            |
-| 2/4  | Logical operators                                  | Lab 3: Making choices                      |
-| 2/6  | Making randomized choices                          | Project 1 due    |
-| 2/9  | RPS                                                | Chapter 2 reading due                                           |
-| 2/11 | AI and LLMs                                        | Lab 4: Fitts' Law        |
-| 2/13 | Intro to functions                                 | Project 2 out                    |
-| 2/16 | Functions II: Functions that take parameters       |   Chapter 3 and 4 reading                                         |
-| 2/18 | Functions III: Functions that return values        | Lab 5: Fun                                 |
-| 2/20 | Functions IV: Functions + conditionals             |  Project 2 due                                          |
-| 2/23 | Local variables and scope                          |                                            |
-| 2/25 | The `for` loop                                     | Lab 6: The Compleat Gamester               |
-| 2/27 | `for` loops with `range`                           | Chapter 3 and 4 reading due                |
-| 3/2  | Intro to lists                                     | Chapter 5 reading                          |
-| 3/4  | Practice with loops and lists                      | Lab 7: Euouae                              |
-| 3/6  | More practice                                      | Midterm study guide out                                           |
-| 3/9  | Looping over strings                               |                                            |
-| 3/11 | Review for midterm                                 | Chapter 5 reading due                      |
-| 3/13 | MIDTERM EXAM (IN CLASS)                            |                                            |
-| 3/16 | SPRING BREAK                                       |                                            |
-| 3/18 | SPRING BREAK                                       |                                            |
-| 3/20 | SPRING BREAK                                       |                                            |
-| 3/23 | Re-intro to lists, looping over lists              |                                            |
-| 3/25 | Looping by index position                          | Lab 9: Wordplay                         |
-| 3/27 | Choosing random items from a list                  |  Project 3 out                                          |
-| 3/30 | Working with files, the `while` loop               |                                            |
-| 4/1  | Games with the `while` loop, valid input           | Lab 10: Jeu Monégasque         |
-| 4/3  | Review `try`-`except`, selection sort              | Project 3 due                    |
-| 4/6  | Dictionaries                                       | Project 4 out, Chapter 6 + 9 reading                           |
-| 4/8  | Code cracking                                      | Lab 11: Victorian Gothic Guide to Data Analytics                |
-| 4/10 | Hashing and passwords                              |                |
-| 4/13 | Binary numbers                                     | Project 4 due                           |
-| 4/15 | Character encodings                                | Lab 12: Precision, Project 4 due, Chapter 6 + 9 reading due, Project 5 out        |
-| 4/17 | Stepwise refinement (feat. Tic-Tac-Toe)            |                                            |
-| 4/20 | More refinement (feat. Nim), Tuples and anagrams   |                                            |
-| 4/22 | Machine learning and classification                | Lab 13: My Heart Will Go On                                    |
-| 4/24 | Decision trees, Neural networks                    | Project 5 due                           |
-| 4/27 | Objects and classes, `__init__` and `__str__`, wrap-up | Project 6  out                         |
+| Day   | Topic                                                       | Assignments                                                   |
+| ----- | ----------------------------------------------------------- | ------------------------------------------------------- |
+| 8/24  | Hello, World!                                               |                                                         |
+| 8/26  | Printing and arithmetic                                     | Lab 1: Writing and running programs                     |
+| 8/27  | Intro to variables                                          | Chapter 1 reading                                       |
+| 8/31   | Variables, formatted printing, and input                                                    |                                                         |
+| 9/2   | Practice input, intro Project 1                      | Lab 2: Conversions                                      |
+| 9/4   | Relational operators, the `if` statement                             | Project 1 out, Chapter 2 reading, Chapter 1 reading due |
+| 9/7   |  LABOR DAY                |                                                         |
+| 9/9  | `if`-`elif`-`else`                                          | Lab 3: Making choices                                   |
+| 9/11  | Logical operators                                           | Project 1 due, Chapter 2 reading due                    |
+| 9/14  | Making randomized choices                                   | Chapter 3 and 4 reading                                 |
+| 9/16  | RPS                                                         | Lab 4: Fitts' Law                                       |
+| 9/18  | Overview of AI and LLMs                                     | Project 2 out                                           |
+| 9/21  | Intro to functions                                          | Chapter 3 and 4 reading due                             |
+| 9/23  | Functions II: Functions that take parameters                | Lab 5: Fun                                              |
+| 9/25  | Functions III: Functions that return values                 | Project 2 due                                           |
+| 9/28  | Functions IV: Functions + conditionals                      |                                       |
+| 9/30  | Local variables and scope                                   | Lab 6: The Compleat Gamester , Chapter 5 reading                            |
+| 10/2  | The `for` loop                                              |                                                         |
+| 10/5  | `for` loops with `range`                                        |                                  |
+| 10/7  |  Intro to lists                                             | Lab 7: Euouae,  Chapter 5 reading due                        |
+| 10/9 | MIDTERM EXAM (IN CLASS)                                     |                                                         |
+| 10/12 | FALL BREAK                                                  |                                                         |
+| 10/14 | Re-intro to lists, looping over lists                       | Lab 8: How to Chat                                           |
+| 10/16 | Looping by index position                                   | Project 3 out                                           |
+| 10/19 | Choosing random items from a list                           |                                                         |
+| 10/21 | Working with files, the `while` loop                        | Lab 9:  Wordplay                                        |
+| 10/23 | Games with the `while` loop, valid input                    | Project 3 due                                           |
+| 10/26 | Review `try`-`except`, selection sort                       | Chapter 6 and 9 reading                                 |
+| 10/28 | Dictionaries                                                | Lab 10: Jeu Monégasque                                  |
+| 10/30 | Code cracking, Intro to Project 4                           | Project 4 out                                           |
+| 11/2  | Hashing and passwords                                       | Chapter 6 and 9 reading due                             |
+| 11/4  | Binary numbers                                              | Lab 11: Precision                                       |
+| 11/6  | Character encodings                                         | Project 4 due                                           |
+| 11/9 | Stepwise refinement (feat. Tic-Tac-Toe)                     |                                                         |
+| 11/11 | More refinement (feat. Nim)                                 | Lab 12: Pandas and Benford's Law                        |
+| 11/13 | Tuples, anagrams, Intro to Project 5                        | Project 5 out                                           |
+| 11/16 | Machine learning and classification                         |                                                         |
+| 11/18 | Decision trees                                              | Lab 13: My heart will go on                             |
+| 11/20 | Neural networks                                             |                                                         |
+| 11/24 | No class                                                    | Project 5 due, Project 6 out                            |
+| 11/26 | THANKSGIVING BREAK                                          |                                                         |
+| 11/28 | THANKSGIVING BREAK                                          |                                                         |
+| 11/30  | Objects and classes                                         |                                                         |
+| 12/2  | `__init__` and `__str__`                                    | Lab 14: The Heart of the Cards                          |
+| 12/4  | Last class and wrap-up                                      |                                                         |
+
 
 ### Other Important Dates
 
-- First day of class: January 14
-- MLK day (no class): January 19
-- Last day of class: April 28
-- Spring break: March 16 to March 22
-- Last day to drop the class: January 27
-- Last day to withdraw without penalty: March 27
-- Dr. Myers out of town (no class meeting): January 21 and 23
-- Midterm exam: March 13 in class
-- Final exam: April 30, 2-4 PM (time from the official final exam schedule)
+- First day of class: August 24
+- Last day of class: December 4
+- Last day to drop the class: September 7
+- Last day to withdraw: November 13
+- Midterm exam: October 9 *in class*
+- Final exams: December 8 from 2-4 (10 AM section), December 7 from 11-1 (11 AM section)
 
-I'm not able to accommodate alternate times for the exams outside of the official testing center. Please plan your travel for spring break and the end of the semester with the expectation that you'll be present at the scheduled exam times.
+I'm not able to accommodate alternate times for the exams outside of the official testing center. Please plan your travel for fall break and the end of the semester with the expectation that you'll be present at the scheduled exam times.
 
 
 ## The All-Important Grading Section
