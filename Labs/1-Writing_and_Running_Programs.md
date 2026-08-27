@@ -316,8 +316,6 @@ print('hello' * 5)
 
 ### More Smoots
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Burj_Khalifa.jpg/800px-Burj_Khalifa.jpg" width="300px" />
-
 Recall the story of Oliver R. Smoot. The Harvard Bridge (2035 feet in length) was measured to be 364.4 Smoots, "plus or minus one ear". One Smoot is about 5.5833 feet.
 
 The Burj Khalifa in Dubai is the tallest tower in the world, measuring 2722 feet to its top spire. What is the height of the Burj Khalifa in Smoots? Add the string "plus or minus one ear" to your output, so that it looks like this:
