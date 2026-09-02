@@ -15,14 +15,12 @@ bitcoins = float(user_input)
 # Convert bitcoins to dollars using the conversion factor
 usd = bitcoins * 8934.61
 
-# Print to two decimal places
-# %.2f is what Python calls a "format specifier"
-
-# When you print a string that contains a format specifier, Python looks for a variable
-# that comes after the string
+# Print to two decimal places using a formatted string - "f-string"
+# Notice the f in front of the opening quote
 #
-# Python substitutes the variable's value into the string and formats it according
-# to the format specifier
-
-# In this case, %.2f tells Python to print only two digits after the decimal place
-print('That is %.2f U.S. dollars.' % usd)
+# When Python sees a name in curly braces, it treats that as a variable
+# name and substitutes the value into that place in the output
+#
+# .2f is a format specifier that indicates printing the value to
+# two decimal places
+print(f'That is {usd: .2f} U.S. dollars.')
