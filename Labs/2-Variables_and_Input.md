@@ -83,7 +83,7 @@ Tip: Use the same basic approach as the previous problem.
 Write a program to read in a weight in kilograms and convert it to pounds. There are about 2.20462 pounds in one kilogram.
 Display the result to one decimal place.
 
-The current all-time world record for weight lifted overhead in the clean and jerk is 267 kg, held by the vending-machine-sized (6' 6" and 403 pounds) Georgian superheavy weightlifter Lasha Talakhadze. Test your program by calculating the weight of Talakhadze's record lift in pounds.
+The current all-time world record for weight lifted overhead in the clean and jerk is 267 kg, held by the vending-machine-sized (6' 6" and 403 pounds) Georgian superheavy weightlifter Lasha Talakhadze. Test your program on inputs of 2.20462 and 0.0, then test it by converting Talakhadze's record 267 kg lift into pounds.
 
 
 ### Fake Internet Meme Money
