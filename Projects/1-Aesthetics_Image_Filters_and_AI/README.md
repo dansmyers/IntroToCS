@@ -4,7 +4,7 @@
 
 *Solarpunk city by the Japanese anime artist Imperial Boy. One of the best aesthetics. [More images here](https://www.iamag.co/the-art-of-imperial-boy/).*
 
-## Due Friday, 2/6
+## Due Friday, 9/11
 
 ## Overview
 
@@ -22,21 +22,19 @@ At the end of this project, you should feel more comfortable using AI to get sug
 
 ## AI Options
 
-There are currently four high-end foundation models:
+There are currently four readily available high-end model options:
 
 - ChatGPT
 - Anthropic's Claude
 - Google's Gemini
 - Microsoft's Copilot
 
-You can use any of these to complete this assignment. They all offer reasonable free plans.
+You can use any model to complete this assignment. They are all capable of writing good code.
 
-- Claude is generally the best for programming and writing, but it has relatively tight limits on the free plan. This may not be a problem if you don't need to use it continuously.
-- ChatGPT is strong all around and has supports more features for images and voice. ChatGPT is a good option if you find Claude too restrictive.
-- You can use Copilot through your Rollins login as part of our Office 365 subscription. It's really a Microsoft-branded wrapper around ChatGPT.
-- Gemini has strong integration into the entire Google suite of products and does pretty much everything reasonably well, although it's usually less intuitive and more literal than Claude.
+- Copilot is available to us through the Rollin's Microsoft license
+- Claude and ChatGPT are both strong across the board. Which one you like is a matter of personal preference.
 
-I recommend starting with Claude and then switching to one of the other models if you need to.
+Free plans should be fine for our work, but note that upgrading to a $20 per month plan will get you more control over data privacy and the ability to restrict your inputs from being used for future training. If that's a concern, use a paid plan or use Copilot.
 
 
 ## Warm-up Questions
