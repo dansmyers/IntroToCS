@@ -284,7 +284,7 @@ else:
 
 **Sicherman dice** are a pair of dice that have six sides, but non-standard numbers on the faces. One die has faces 1, 2, 2, 3, 3, 4 and the other has faces 1, 3, 4, 5, 6, 8. The dice are interesting because sum obtained by rolling the pair has the same distribution as a normal pair of six-sided dice.
 
-Write a program to simulate rolling the two Sicherman dice.
+Write a program to simulate rolling the two Sicherman dice. You can do this by generating a random number 1 to 6 to pick one of the faces, then printing the value of that face.
 
 - Generate a number 1 to 6, then use an `if`-`elif`-`else` block to choose the value of the first die
 - Repeat with a second random number 1 to 6, then a second block to choose the value of the second die
