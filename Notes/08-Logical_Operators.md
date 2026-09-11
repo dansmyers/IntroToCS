@@ -78,7 +78,7 @@ You can use a truth table to test if two expressions are logically equivalent. I
 
 One of the most useful results in logic is **De Morgen's Law**, which states that
 ```
-not (a and b) == (not) or (not b)
+not (a and b) == (not a) or (not b)
 ```
 You can show this equivalence by constructing the relevant truth table columns
 ```
