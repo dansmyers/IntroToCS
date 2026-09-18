@@ -68,8 +68,8 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 9/14  | Making randomized choices                                   | Chapter 3 and 4 reading                                 |
 | 9/16  | RPS                                                         | Lab 4: Fitts' Law                                       |
 | 9/18  | Overview of AI and LLMs                                     | Project 2 out                                           |
-| 9/21  | Intro to functions                                          | Chapter 3 and 4 reading due                             |
-| 9/23  | Functions II: Functions that take parameters                | Lab 5: Fun                                              |
+| 9/21  | Intro to functions                                          |                             |
+| 9/23  | Functions II: Functions that take parameters                | Lab 5: Fun, Chapter 3 and 4 reading due                                             |
 | 9/25  | Functions III: Functions that return values                 | Project 2 due                                           |
 | 9/28  | Functions IV: Functions + conditionals                      |                                       |
 | 9/30  | Local variables and scope                                   | Lab 6: The Compleat Gamester , Chapter 5 reading                            |
