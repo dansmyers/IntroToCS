@@ -40,7 +40,7 @@ def pounds_to_kilograms(pounds):
     # Return that value - don't print anything!
 
 ### Main
-num_pounds = 10000
+num_pounds = float(input('Enter a number of pounds: '))
 num_kilos = pounds_to_kilograms(num_pounds)
 print(f'{num_pounds} pounds is about {num_kilos} kgs.')
 ```
