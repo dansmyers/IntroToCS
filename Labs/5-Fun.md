@@ -134,6 +134,10 @@ print(f'The largest value is {maximum}.')
 
 ## Dice Rolling
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Fallingwater3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" width="400px" />
+
+*Fallingwater house in Stewart Township, PA, designed by Frank Lloyd Wright*
+
 ### d20
 
 Create a file named `dice_rolling.py`. Write a function called `d20` that **returns** the roll of a twenty-sided die.
