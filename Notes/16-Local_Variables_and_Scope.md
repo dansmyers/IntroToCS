@@ -53,7 +53,7 @@ print(area)
 
 In general, ***global variables are a bad idea***. Recall that one benefit of functions is *hiding complexity*, so we like for our functions to be nice, self-contained units that take input parameters and return results using the `return` keyword. Making a function that depends on reading global variables is a bad way to share information between parts of the program because it's hard to reason about and tends to lead to conflicts where changes in one part of the code cause unpredictable problems elsewhere.
 
-It is technically possible to change the value of a global variable within a function. You can read about the `global` keyword if you want to, but I'm not going to teach it because writing to a global variable is even worse than just reading one. Functions should, in general, take inputs through their paramters and return results using `return`, not through unpredictable global interactions.
+It is technically possible to change the value of a global variable within a function. You can read about the `global` keyword if you want to, but I'm not going to teach it because writing to a global variable is even worse than just reading one. Functions should, in general, take inputs through their parameters and return results using `return`, not through unpredictable global interactions.
 
 The one reasonable exception to this guideline is a constant that's set one time at the beginning of the program and doesn't change. It's okay to have a program that uses constants, like `pi`, inside of functions.
 
