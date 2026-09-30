@@ -88,6 +88,7 @@ from random import randint
 die1 = randint(1, 6)
 die2 = randint(1, 6)
 die3 = randint(1, 6)
+print(f'The dice are {die1}, {die2}, and {die3}.')
 
 # Check winning and losing combinations using functions for each one
 if triple(die1, die2, die3):
