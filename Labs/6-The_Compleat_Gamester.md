@@ -278,11 +278,11 @@ Note that the player **wins** if the third card **equals** either of the first t
 Here's example output:
 ```
 Welcome to Red Dog.
-The cards are Jack and Seven.
-The spread is 4.
+The cards are Jack and Eight.
+The spread is 3.
 Enter your bet: 50
 You bet $50.
-The third card is Eight.
+The third card is Nine.
 You win $100.
 ```
 
