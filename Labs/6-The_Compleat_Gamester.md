@@ -60,6 +60,8 @@ Standard losing combinations are:
 
 Write a program that allows the player to do this version of cee lo. **Write a function to test for each outcome**. Each function should take the three dice as input and return `True` if the condition is satisfied and `False` otherwise.
 
+The goal of this program is to practice writing functions that implement complex tests. **Each function should only return True or False**. Don't print anything inside the test functions.
+
 Here's example output:
 ```
 Welcome to Cee-lo dice.
@@ -69,8 +71,24 @@ That's an instant win!
 
 Make sure your functions allow for the dice to be in any order.
 
-Here's an example section that might be part of your program:
+Use the following code as a starting point:
 ```
+"""
+Cee-lo dice
+"""
+
+from random import randint
+
+### Put your test functions in this section
+
+
+### Main
+
+# Generate three die rolls
+die1 = randint(1, 6)
+die2 = randint(1, 6)
+die3 = randint(1, 6)
+
 # Check winning and losing combinations using functions for each one
 if triple(die1, die2, die3):
     # Print winning message
@@ -79,7 +97,7 @@ elif four_five_six(die1, die2, die3):
 elif pair_and_six(die1, die2, die3):
     # Print winning message
 
-# Continue for other cases
+# Add more elif statements for the other cases
 ```
 
 
