@@ -113,7 +113,7 @@ The values of this sequence are:
 12
 16
 ```
-The next value would be 20, which is given stopping value, so the loop ends with 16 as the last value.
+The next value would be 20, which is the given stopping value, so the loop ends with 16 as the last value.
 
 ## Looping backwards
 
