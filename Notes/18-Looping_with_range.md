@@ -56,7 +56,7 @@ for n in range(1, 31):
 ```
 
 ## Project Euler #1
-A second common loop pattern is the *accumulator pattern*, which uses a variable declared before the loop to sum up values of interest.
+The last class also introduced the *accumulator pattern*, which uses a variable declared before the loop to sum up values of interest.
 
 [Project Euler](https://projecteuler.net/) is a site with fun mathematical problems. Problem #1 says,
 >If we list all the natural numbers below that are multiples of 3 or 5, we get 3, 5, 6, and 9. The sum of these multiples is 23.
