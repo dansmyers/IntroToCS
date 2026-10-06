@@ -236,6 +236,8 @@ The `fill` parameter has been changed to use the random color.
 
 Gunta Stölz, *Slit Tapestry Red-Green* (1927-28). Via [Bauhaus Archive](https://open-archive.bauhaus.de/eMP/eMuseumPlus?service=direct/1/ResultDetailView/result.inline.list.t1.collection_list.$TspTitleImageLink.link&sp=13&sp=Sartist&sp=SfilterDefinition&sp=0&sp=1&sp=1&sp=SdetailView&sp=131&sp=Sdetail&sp=0&sp=T&sp=0&sp=SdetailList&sp=0&sp=F&sp=Scollection&sp=l60412). Stölz was the "master of form" who supervised the technical aspects of the weaving workshop at the Bauhaus.
 
+<br/>
+
 Now use these techniques to create *your own generative art program*. Your program shoud have some strategy that it implements to create an artistic composition that incorporates randomness in at least one of its elements.
 
 You have broad freedom to create what you want, with a few guidelines:
