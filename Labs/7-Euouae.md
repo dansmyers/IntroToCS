@@ -43,9 +43,9 @@ for a in range(1, 6):
 ```
 Run the program and observe what it prints out. The statement
 ```
-print(a + b, end='\t')
+print(a * b, end='\t')
 ```
-Prints `a + b`, but ends the output with a tab character, rather than the normal behavior of moving to the next line.
+Prints `a * b`, but ends the output with a tab character, rather than the normal behavior of moving to the next line.
 
 When working with a pair of `for` loops, remember that the inner loop runs through all of its values for each value of the outer loop. In this case, the outer loop sets `a = 1`, then runs through the entire inner loop for `b`, then sets `a = 2` and runs the entire inner loop a second time, and so forth.
 
