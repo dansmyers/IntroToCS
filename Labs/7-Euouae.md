@@ -122,7 +122,16 @@ numbers = [i for i in range(1, 101)]
 ```
 This statement use the `for` loop to iterate through the range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
 
-You can use comprehensions to generate different kinds of lists. For example, to generate list of 0/1 coin flips you could write
+You can use comprehensions to generate different kinds of lists. It's often helpful to use some calculation based on the loop variable `i`. For example, to generate the first few powers of 2, you could use:
+```
+# Powers of 2: [2, 4, 8, 16, ..., 1024]
+powers = [2 ** i for i in range(1, 11)]
+```
+You can also use an expression that doesn't depend on `i`. To create a list of 50 zeros:
+```
+zeros = [0 for i in range(50]
+```
+This loop runs for 50 iterations and each iteration adds another 0 to the list. To generate list of 0/1 coin flips you could write
 ```
 flips = [round(random()) for i in range(100)]
 ```
