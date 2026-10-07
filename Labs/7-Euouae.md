@@ -52,32 +52,6 @@ When working with a pair of `for` loops, remember that the inner loop runs throu
 Modify the program to print a 12x12 multiplication table.
 
 
-### Simulating passe-dix
-
-Recall the passe-dix dice game: the gambler wins if the sum of three six-sided dice is greater than ten.
-
-What is the probability of winning at passe-dix? We could calculate it by considering the combinatorics of rolling three dice, but that would be complex. In many cases, you can use **simulation** to estimate quantities that would be hard to determine analytically.
-
-The basic strategy is to use a loop to play a large number of games of passe-dix. Count the number that win, then report the winning percentage.
-```
-"""
-Simulating passe-dix
-"""
-
-from random import randint
-
-num_wins = 0
-
-for trial in range(10000):
-    # Get the sum of three six-sided dice
-
-    # Count a win if the sum is greater than ten
-
-# Calculate and print the winning percentage
-```
-Complete the program. Put your solution into a file named `passe_dix.py`.
-
-
 ### All vowels
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/LiberUsualisEuouae.jpg" width="300px" />
@@ -123,36 +97,44 @@ if c not in 'aeiou':
 
 ## List practice
 
-### Average
-Write a program that calculates the average of the values in a numeric list. Remember that you can use `len` to get the number of items in a list. Tip: there is a built-in `sum` function, but for this problem use a `for` loop with a `total` variable to iterate over the items in the list and add them.
 
+### Filling a list
+Write a program that creates an empty list, then uses a loop to fill it with the values from 1 to 100.
 ```
 """
-Average of a list
+Filling a list with a loop
 """
 
-data = [2, 3, 5, 7, 11, 13, 17]
+# Empty starting list
+numbers = []
 
-# Use a for loop to add up the items in data
+# Loop through the values 1 to 100 and append each value to numbers
 
-# Divide by len(data)
 
-# Print the average
-
+# Print the result
 ```
 
-### Max
-Use a loop to find the minimum item in a list.
+### List comprehensions
+
+A *list comprehension* is a convenient way to generate a list in a single line using a loop. The previous question could be answered in a single line using:
 ```
-"""
-Minimum of a list
-"""
-
-data = [-5, -7, -2, -3, -1, -9, -10]
-
-# Use a loop to find and print the minimum of data
-
+numbers = [i for i in range(1, 101)]
 ```
+This statement use the `for` loop to iterate through the range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
+
+You can use comprehensions to generate different kinds of lists. For example, to generate list of 0/1 coin flips you could write
+```
+flips = [round(random()) for i in range(100)]
+```
+The loop runs 100 times. Each iteration generates a random value from 0.0 to 1.0 and then rounds it to either 0 or 1. The result is a list of 100 values that are either 0 or 1. For example, `[0, 0, 1, 0, 1, 1, 1, 0, ...]`.
+
+Write a script that uses list comprehensions to initialize each of the following. Print each list to check your results.
+
+- A list of the numbers  1 to 25
+- A list of the numbers -10 to 10
+- A list of the even numbers 2, 4, 6, 8, ... 100
+- A list of the values .01, .02, .03, .04, ..., .98, .99. Tip: think about looping from 1 to 100 and then dividing each value of `i` by 100.
+- A list of 10 boolean values that are all `False`
 
 ### Tape
 
@@ -229,7 +211,22 @@ Write a program named `stairs.py` with a method that prints a descending stairca
 ```
 Tip: Let the entered height be `n`. Use a loop with `range(1, n + 1)` to run for `n` total iterations. Print one block on the first line, two blocks on the second, and so forth. Think about how to calculate the number of blocks on each line using the loop counting variable `i`.
 
-You can use string multiplication to copy a string multiple times. If `i` is the loop counting variable, you could use:
+Here's some starting code:
+```
+"""
+Staircase
+"""
+
+# Prompt the user to enter the height
+n = int(input('Enter the height of the staircase: '))
+
+# Loop from 1 to n
+for i in range(1, n + 1):
+
+    # Print n total blocks
+```
+
+Tip: You can use string multiplication to copy a string multiple times. If `i` is the loop counting variable, you could use:
 ```
 print('#' * i)
 ```
