@@ -141,7 +141,7 @@ Write a script that uses list comprehensions to initialize each of the following
 
 - A list of the numbers  1 to 25
 - A list of the numbers -10 to 10
-- A list of the even numbers 2, 4, 6, 8, ... 100
+- A list of the even numbers 2, 4, 6, 8, ... 100. Tip: use the three-input version of `range`.
 - A list of the values .01, .02, .03, .04, ..., .98, .99. Tip: think about looping from 1 to 100 and then dividing each value of `i` by 100.
 - A list of 10 boolean values that are all `False`
 
