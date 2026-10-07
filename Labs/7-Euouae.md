@@ -129,9 +129,11 @@ powers = [2 ** i for i in range(1, 11)]
 ```
 You can also use an expression that doesn't depend on `i`. To create a list of 50 zeros:
 ```
-zeros = [0 for i in range(50]
+zeros = [0 for i in range(50)]
 ```
-This loop runs for 50 iterations and each iteration adds another 0 to the list. To generate list of 0/1 coin flips you could write
+This loop runs for 50 iterations and each iteration adds another 0 to the list. 
+
+To generate a list of 0/1 coin flips, you could write
 ```
 flips = [round(random()) for i in range(100)]
 ```
