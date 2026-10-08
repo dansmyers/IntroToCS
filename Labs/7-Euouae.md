@@ -86,6 +86,14 @@ if has_only_vowels(test_word):
     print(f'{test_word} has only vowels.')
 else:
     print(f'{test_word} has non-vowels.')
+
+# Second test: make sure your method works when the first letter is a vowel
+test_word = 'apple'
+
+if has_only_vowels(test_word):
+    print(f'{test_word} has only vowels.')
+else:
+    print(f'{test_word} has non-vowels.')
 ```
 
 Tip: you can check if a letter `c` is not in the set of vowels using
