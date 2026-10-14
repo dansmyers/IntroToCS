@@ -52,8 +52,8 @@ Here's a popular interview question with a "clever" solution.
 
 The "clever" solution is to calculate the sum and then subtract from the expected sum of all numbers 1 to 100. The difference is the missing value.
 
-The sum of the integers 1 to 100 is a standard formula. In general, the sum of the numbers 1 to *n* is given by,
-\[ \frac{n}{(n + 1)}{/2} \]
+The sum of consecutive integers is a standard formula that it's nice to know. In general, the sum of the numbers 1 to *n* is given by,
+$$ \sum_{i = 1}^n \, i = \frac{n}{(n + 1)}{/2} $$
 
 ```
 sum_1_to_100 = 100 * (100 + 1) / 2
