@@ -26,23 +26,34 @@ The questions will tell you how to create and name your Python scripts.
 
 We've previously used Binet's formula to calculate terms in the Fibonacci sequence. Write a program that uses a loop to calculate and print the first 50 Fibonacci numbers. Put your code in a file named `fib.py`.
 
-Tip: Use two variables `fib_1` and `fib_2` to keep track of the two previous numbers in the sequence. On each loop iteration, calculate the next Fibonacci number, then update the values of `fib_1` and `fib_2`.
+Tip: Use two variables `current` and `previous` to keep track of the two most recent numbers in the sequence. On each loop iteration, calculate the next Fibonacci number (call it `next`) then update the values of `current` and `previous`.
 
 ```
 # First two numbers
-fib_1 = 0
-fib_2 = 1
+previous = 0
+current = 1
 
 print(fib_1)
 print(fib_2)
 
-# Calculate 48 more numbers
-for i in range(49):
-    # Use fib_1 and fib_2 to calculate the next number
+# Calculate 10 more numbers
+for i in range(10):
+    # Use previous and current to calculate the next number
 
     # Print the next number
 
-    # Update fib_1 and fib_2 for the next iteration
+    # Update previous and current for the next iteration
+```
+
+### Project Euler #25
+
+If you evaluate the Fibonacci numbers starting at 0, as in the previous problem, you'll find that the 13th number is 144, and this is the first term to have three digits. What is the first term in the sequence to have 100 or more digits? How about 1000 or more?
+
+Tip: Do this by checking the number of digits and breaking when you find a number that's long enough. You can check the number of digits by turning the number into a string and then getting its length:
+```
+num_digits = len(str(next))
+if num_digits >= 100:
+    break
 ```
 
 
