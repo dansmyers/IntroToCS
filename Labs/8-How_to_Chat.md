@@ -56,9 +56,11 @@ The sum of consecutive integers is a standard formula that it's nice to know. In
 
 $$\sum_{i = 1}^n i = \frac{n(n + 1)}{2}$$
 
+As a Python statement, you could write
 ```
 sum_1_to_100 = 100 * (100 + 1) / 2
 ```
+
 Write a program that implements this solution to the problem.
 ```
 """
@@ -80,39 +82,37 @@ removed = numbers.pop(0)
 
 # Print the true removed number to verify they're the same
 print(removed)
-
 ```
 
-### List comprehensions
+### Sorted
+Recall the program from class that checked if a list is in sorted order. Modify it to use a function that returns `True` if the input list is sorted and `False` otherwise.
 
-The previous problem showed an example of initializing a large list in a single line.
+Tips:
+
+- Use a variable set to `True` before the loop
+- Use a loop over `range(len(a))` to loop through the index positions
+- Think about when it's okay to return the answers
+
 ```
-numbers = [i for i in range(1, 101)]
+"""
+Testing is a list is sorted
+"""
+
+def is_sorted(a):
+    """
+    Return True if the input list a is sorted and False otherwise
+    """
+
+    # Fill in the rest of this function
+
+
+### Main
+out_of_order = [1, 2, 5, 7, 9, 3, 11, 12]
+print(is_sorted(out_of_order))
+
+in_order = [1, 2, 3, 5, 7, 9, 11, 12]
+print(is_sorted(in_order))
 ```
-This statement use the `for` loop to iterate through the range of numbers 1 to 100, and collects each value of `i` into a list. The result is a list containing the values `[1, 2, 3, 4, ... , 100]`.
-
-This technique is called a **list comprehension**. It's a preferred Python technique for initializing lists. 
-
-You can use comprehensions to generate different kinds of lists. For example, to generate list of 0/1 coin flips you could write
-```
-flips = [round(random()) for i in range(100)]
-```
-The loop runs 100 times. Each iteration generates a random value from 0.0 to 1.0 and then rounds it to either 0 or 1. The result is a list of 100 values that are either 0 or 1. For example, `[0, 0, 1, 0, 1, 1, 1, 0, ...]`.
-
-Use the interactive Python terminal to write list comprehensions to generate the following. Enter each command in the terminal and check the output. You don't need to write a script for this problem.
-
-- A list of the numbers  1 to 25
-
-- A list of the numbers -10 to 10
-
-- A list of the even numbers 2, 4, 6, 8, ... 100
-
-- A list of the values .01, .02, .03, .04, ..., .98, .99. Tip: think about looping from 1 to 100 and then dividing each value of `i` by 100.
-
-- A list of 10 boolean values that are all `False`
-
-End the interactive terminal by pressing CTRL + d.
-
 
 ## Using the OpenAI API
 
