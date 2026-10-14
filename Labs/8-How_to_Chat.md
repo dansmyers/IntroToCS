@@ -33,8 +33,8 @@ Tip: Use two variables `current` and `previous` to keep track of the two most re
 previous = 0
 current = 1
 
-print(fib_1)
-print(fib_2)
+print(previous)
+print(current)
 
 # Calculate 10 more numbers
 for i in range(10):
