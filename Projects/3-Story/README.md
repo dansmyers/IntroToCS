@@ -4,7 +4,7 @@
 
 *Ancient storyteller in a fantasy game*, made with DALL-E 3
 
-## Due Friday, 4/3 (unless that's Fox Day)
+## Due Monday, 10/26
 
 ## Overview
 
