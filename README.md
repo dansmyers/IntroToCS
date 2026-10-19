@@ -82,8 +82,8 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 10/16 | Looping by index position                                   | Project 3 out                                           |
 | 10/19 | Choosing random items from a list                           |                                                         |
 | 10/21 | Working with files, the `while` loop                        | Lab 9:  Wordplay                                        |
-| 10/23 | Games with the `while` loop, valid input                    | Project 3 due                                           |
-| 10/26 | Review `try`-`except`, selection sort                       | Chapter 6 and 9 reading                                 |
+| 10/23 | Games with the `while` loop, valid input                    |                                                         |
+| 10/26 | Review `try`-`except`, selection sort                       | Chapter 6 and 9 reading, Project 3 due                  |
 | 10/28 | Dictionaries                                                | Lab 10: Jeu Monégasque                                  |
 | 10/30 | Code cracking, Intro to Project 4                           | Project 4 out                                           |
 | 11/2  | Hashing and passwords                                       | Chapter 6 and 9 reading due                             |
