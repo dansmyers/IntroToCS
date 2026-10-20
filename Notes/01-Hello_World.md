@@ -10,7 +10,7 @@
 
 ## Writing a program that prints
 
-Go to [trinket.io/python3](https://trinket.io/python3) to access the interactive environment we used in class. Highlight and then delete any pre-existing code in the left pane.
+Go to [coddy.tech/playground/python](https://coddy.tech/playground/python) to access an interactive Python environment in your browser. Highlight and then delete any pre-existing code in the left pane.
 
 Click in the left pane, then type
 ```
