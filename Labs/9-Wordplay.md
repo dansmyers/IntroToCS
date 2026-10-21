@@ -96,7 +96,7 @@ with open('words.txt', 'r') as f:
 
 ### Starts with `q` but not `qu`
 
-<img src="https://en.numista.com/catalogue/photos/albanie/5eb334f6befca9.58828003-360.jpg" width="100px" />
+<img src="https://en.numista.com/catalogue/photos/albanie/67af7d5220b8a2.57762739-original.jpg" width="100px" />
 
 *A qindar is a subunit of the lek, Albania's unit of currency*.
 
