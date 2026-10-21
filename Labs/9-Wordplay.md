@@ -25,7 +25,7 @@ Start by `cd`-ing into `Lab_9`. The `cp` command copies a file:
 cp ../4-Loops/words.txt .
 ```
 
-The command tells the shell to copy the file `../4-Loops/words.txt` to the destination location, which is `.` - these are two special shell shortcuts:
+The command tells the shell to copy source file at `../4-Loops/words.txt` to the destination location, which is `.` - these are two special shell shortcuts:
 
 - `..` always refers to the parent directory one level up in the hierarchy. Here, the file path indicates that the file we want is found by going up one level, then to `4-Loops`
 
