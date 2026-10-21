@@ -2,7 +2,7 @@
 
 <img src="https://preview.redd.it/starry-night-and-the-astronauts-alma-thomas-1972-v0-i4fp8bhidnac1.jpeg?auto=webp&s=d292011acd9374fab943df808ccc13b4d4a95f7e" width="400px" />
 
-*Starry Night and the Astronauts*, Alma Thomas (1972), via the [Art Institute of Chicago](https://www.artic.edu/artworks/129884/starry-night-and-the-astronauts)
+*Starry Night and the Astronauts*, Alma Thomas (1972). Page at the [Art Institute of Chicago](https://www.artic.edu/artworks/129884/starry-night-and-the-astronauts)
 
 <br/>
 
