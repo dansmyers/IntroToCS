@@ -206,6 +206,8 @@ for i in range(middle):
     
     # If not, return False immediately
 
+# If you finish the loop then return True
+
 ```
 The tricky part: How can you determine the index of the letter that is opposite letter `i`? Think about subtracting from `len(word)` or by using negative indexing.
 
