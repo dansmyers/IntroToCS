@@ -1,6 +1,6 @@
 # Tales from the Crypt
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Tales_from_the_Crypt_24.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" width="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Tales_from_the_Crypt_24.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" width="300px" />
 
 
 ## Description
