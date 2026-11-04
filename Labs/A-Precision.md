@@ -8,7 +8,7 @@
 
 This lab will allow you to practice working with binary numbers. We'll also investigate the idea of *precision* in computer calculations.
 
-The second part will allow you work with character encodings and implement a variation on the Caesar cipher called **ROT13**.
+The second part will allow you practice writing programs that use the technique of *Monte Carlo simulation*, where randomness is used to evaluate complex calculations that would be difficult to solve exactly.
 
 ## Setup
 
@@ -20,8 +20,11 @@ Make a `Lab_10` directory and `cd` into it.
 Complete the written lab document posted on Canvas. Do this first before working on the problems below.
 
 
-## Problems
+## Monte Carlo
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Monte_Carlo_Casino_at_Dusk.JPG/1920px-Monte_Carlo_Casino_at_Dusk.JPG" width="400px" />
+
+*Monte Carlo is a district of the small European principality of Monaco. It's the home of a famous casino and entertainment complex that has been in operation since the 1800s.*
 
 ### Passe-Dix
 
