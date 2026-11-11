@@ -115,7 +115,5 @@ def play_tic_tac_toe():
             player = 'O' if player == 'X' else 'X'
 
 
-
-
 ### Main
 play_tic_tac_toe()
