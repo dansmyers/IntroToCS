@@ -90,8 +90,8 @@ Go to [runestone.academy](https://landing.runestone.academy/), choose "Log In", 
 | 11/4  | Binary numbers                                              | Lab 11: Precision                                       |
 | 11/6  | Character encodings                                         | Chapter 6 and 9 reading due                                         |
 | 11/9 | Stepwise refinement (feat. Tic-Tac-Toe)                     |                                                         |
-| 11/11 | More refinement (feat. Nim)                                 | Project 4 due, Lab 12: Pandas and Benford's Law                        |
-| 11/13 | Tuples, anagrams, Intro to Project 5                        | Project 5 out                                           |
+| 11/11 | Encryption, tuples, anagrams                                | Project 4 due, Lab 12: Pandas and Benford's Law                        |
+| 11/13 | Data analysis with AI chat, Intro to Project 5                        | Project 5 out                                           |
 | 11/16 | Machine learning and classification                         |                                                         |
 | 11/18 | Decision trees                                              | Lab 13: My heart will go on                             |
 | 11/20 | Neural networks                                             |                                                         |
