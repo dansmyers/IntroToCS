@@ -205,7 +205,7 @@ Intuitively, increasing the tree's depth should make classification accuracy go 
 
 ## MNIST
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png" width="50%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/MNIST_dataset_example.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled" width="300px" />
 
 The MNIST database is a set of handwritten digit images, widely used as an example data set in computer vision and classification research.
 
